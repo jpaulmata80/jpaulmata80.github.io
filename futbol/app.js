@@ -2,7 +2,7 @@ import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 const SUPABASE_URL="https://kjlocnicimhgjfhznvmn.supabase.co";
 const SUPABASE_KEY="sb_publishable_5nRdHITW2R3cZaYW_lo1Bg_H1TRhsKo";
-const supabase=createClient(SUPABASE_URL,SUPABASE_KEY,{auth:{persistSession:true,autoRefreshToken:true}});
+const supabase=createClient(SUPABASE_URL,SUPABASE_KEY,{auth:{persistSession:false,autoRefreshToken:false}});
 
 let state=null,serverAnchor=null,localAnchor=null,adminPin=sessionStorage.getItem("futbol_admin_pin")||"";
 const $=id=>document.getElementById(id);
@@ -10,17 +10,6 @@ const modeName=m=>({fcfs:"1 · Primero en llegar",lottery:"2 · Ventana + sorteo
 const fmt=d=>new Intl.DateTimeFormat("es-EC",{dateStyle:"medium",timeStyle:"short",timeZone:"America/Guayaquil"}).format(new Date(d));
 const fmtTime=d=>new Intl.DateTimeFormat("es-EC",{hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false,timeZone:"America/Guayaquil"}).format(new Date(d));
 
-async function ensureSession(){
-  const {data}=await supabase.auth.getSession();
-  if(data.session) return true;
-  const {error}=await supabase.auth.signInAnonymously();
-  if(error){
-    $("sessionNotice").textContent="No se pudo crear la sesión anónima. El administrador debe habilitar Anonymous Sign-Ins en Supabase Auth.";
-    $("sessionNotice").classList.add("error");
-    throw error;
-  }
-  return true;
-}
 async function api(action,payload={}){
   const {data,error}=await supabase.rpc("api_dispatch",{p_action:action,p_payload:payload});
   if(error) throw new Error(error.message);
@@ -168,4 +157,4 @@ $("setupAdminBtn").addEventListener("click",setupAdmin);$("adminLoginBtn").addEv
 $("createMatchBtn").addEventListener("click",createMatch);$("addPlayersBtn").addEventListener("click",addPlayers);$("changeAdminPinBtn").addEventListener("click",changeAdminPin);
 
 setInterval(tickClock,1000);setInterval(()=>loadState().catch(()=>{}),10000);
-(async()=>{try{await ensureSession();await loadState()}catch(e){console.error(e)}})();
+(async()=>{try{await loadState()}catch(e){$("sessionNotice").textContent=e.message;$("sessionNotice").classList.add("error");console.error(e)}})();
