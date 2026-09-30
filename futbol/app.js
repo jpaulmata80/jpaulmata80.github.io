@@ -1,3 +1,4 @@
+const extra=document.createElement('link');extra.rel='stylesheet';extra.href='./enhancements.css';document.head.appendChild(extra);
 import{$,loadState,refreshIdentity,forgetDevice,join,cancel,loadHistory,tick,result}from'./core.js';
 import{loadTeams,resetPairs,distributePairs,saveTeam}from'./teams.js';
 import{login,loadAdmin,saveConfig,createMatch,addPlayers,regen,changePin,copyPins,downloadPins,handle}from'./admin.js';
