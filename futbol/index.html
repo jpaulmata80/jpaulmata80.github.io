@@ -8,188 +8,88 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="hero">
-    <div>
-      <p class="eyebrow">Inscripción semanal</p>
-      <h1 id="groupTitle">Fútbol Sintética</h1>
-      <p class="muted-light">Orden oficial determinado por el servidor</p>
+<header class="hero">
+  <div><p class="eyebrow">Inscripción semanal</p><h1>Fútbol Sintética</h1><p class="muted-light">Orden oficial determinado por el servidor</p></div>
+  <div class="clock-card"><span>Hora oficial</span><strong id="serverClock">--:--:--</strong><small id="serverDate">Sincronizando…</small></div>
+</header>
+<nav class="tabs">
+  <button class="tab active" data-tab="partido">Partido</button>
+  <button class="tab" data-tab="equipos">Equipos</button>
+  <button class="tab" data-tab="historial">Historial</button>
+  <button class="tab" data-tab="admin">Administración</button>
+</nav>
+<main>
+<section id="partido" class="panel tab-panel active">
+  <div id="sessionNotice" class="notice">Conectando con el servidor…</div>
+  <div id="noMatch" class="empty hidden"><h2>No hay un partido programado</h2><p>Cuando se cree el próximo partido aparecerá aquí.</p></div>
+  <div id="matchArea" class="hidden">
+    <div class="match-head"><div><span id="modeBadge" class="badge">Modo</span><h2 id="matchDate">Próximo partido</h2><p id="windowInfo"></p></div><div class="count-box"><strong id="confirmedCount">0/14</strong><span>titulares</span></div></div>
+    <div class="countdown-box"><span id="countdownLabel">La inscripción abre en</span><strong id="countdown">--:--</strong></div>
+    <div id="knownPlayer" class="join-card hidden">
+      <div class="identity-line"><div><span class="hint">Identificado como</span><strong id="knownPlayerName"></strong></div><button id="forgetDeviceBtn" class="secondary">Cambiar jugador</button></div>
+      <div class="actions"><button id="joinKnownBtn" class="primary" disabled>INSCRIBIRME</button><button id="cancelKnownBtn" class="danger-soft">Cancelar mi cupo</button></div>
+      <div id="knownResult" class="result hidden"></div>
     </div>
-    <div class="clock-card">
-      <span>Hora oficial</span>
-      <strong id="serverClock">--:--:--</strong>
-      <small id="serverDate">Sincronizando…</small>
+    <div id="newPlayer" class="join-card">
+      <label>Jugador<select id="playerSelect"><option value="">Selecciona tu nombre</option></select></label>
+      <label>PIN personal<input id="playerPin" type="password" inputmode="numeric" autocomplete="one-time-code" placeholder="4 dígitos"></label>
+      <label class="check-row"><input id="rememberDevice" type="checkbox" checked> Recordar este dispositivo</label>
+      <div class="actions"><button id="joinBtn" class="primary" disabled>INSCRIBIRME</button><button id="cancelBtn" class="danger-soft">Cancelar mi cupo</button></div>
+      <div id="actionResult" class="result hidden"></div>
     </div>
-  </header>
-
-  <nav class="tabs">
-    <button class="tab active" data-tab="partido">Partido</button>
-    <button class="tab" data-tab="historial">Historial</button>
-    <button class="tab" data-tab="admin">Administración</button>
-  </nav>
-
-  <main>
-    <section id="partido" class="panel tab-panel active">
-      <div id="sessionNotice" class="notice">Conectando con el servidor…</div>
-
-      <div id="noMatch" class="empty hidden">
-        <h2>No hay un partido programado</h2>
-        <p>Cuando el administrador cree el próximo partido aparecerá aquí.</p>
-      </div>
-
-      <div id="matchArea" class="hidden">
-        <div class="match-head">
-          <div>
-            <span id="modeBadge" class="badge">Modo</span>
-            <h2 id="matchDate">Próximo partido</h2>
-            <p id="windowInfo"></p>
-          </div>
-          <div class="count-box">
-            <strong id="confirmedCount">0/14</strong>
-            <span>titulares</span>
-          </div>
-        </div>
-
-        <div class="countdown-box">
-          <span id="countdownLabel">La inscripción abre en</span>
-          <strong id="countdown">--:--</strong>
-        </div>
-
-        <div class="join-card">
-          <label for="playerSelect">Jugador</label>
-          <select id="playerSelect"><option value="">Selecciona tu nombre</option></select>
-
-          <label for="playerPin">PIN personal</label>
-          <input id="playerPin" type="password" inputmode="numeric" autocomplete="one-time-code" placeholder="6 dígitos">
-
-          <div class="actions">
-            <button id="joinBtn" class="primary" disabled>INSCRIBIRME</button>
-            <button id="cancelBtn" class="danger-soft">Cancelar mi cupo</button>
-          </div>
-          <div id="actionResult" class="result hidden"></div>
-        </div>
-
-        <div id="pendingBox" class="list-card hidden">
-          <h3>Pendientes de asignación</h3>
-          <p class="hint">En esta modalidad los cupos se asignan al cerrar la ventana de inscripción.</p>
-          <ol id="pendingList"></ol>
-        </div>
-
-        <div class="grid-lists">
-          <div class="list-card">
-            <div class="list-title">
-              <h3>Titulares</h3>
-              <span id="titularBadge">0</span>
-            </div>
-            <ol id="confirmedList"></ol>
-          </div>
-          <div class="list-card">
-            <div class="list-title">
-              <h3>Lista de espera</h3>
-              <span id="waitingBadge">0</span>
-            </div>
-            <ol id="waitingList"></ol>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="historial" class="panel tab-panel">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow dark">Registro</p>
-          <h2>Historial semanal</h2>
-        </div>
-        <button id="refreshHistory" class="secondary">Actualizar</button>
-      </div>
-      <div id="historyList" class="history-list"></div>
-    </section>
-
-    <section id="admin" class="panel tab-panel">
-      <div id="adminSetup" class="admin-card hidden">
-        <h2>Configuración inicial</h2>
-        <p>Define un PIN de administrador de al menos 6 caracteres. No se guardará en GitHub.</p>
-        <input id="setupPin" type="password" placeholder="Nuevo PIN administrador">
-        <button id="setupAdminBtn" class="primary">Crear administrador</button>
-      </div>
-
-      <div id="adminLogin" class="admin-card hidden">
-        <h2>Administración</h2>
-        <input id="adminPin" type="password" placeholder="PIN administrador">
-        <button id="adminLoginBtn" class="primary">Entrar</button>
-      </div>
-
-      <div id="adminDashboard" class="hidden">
-        <div class="admin-grid">
-          <div class="admin-card">
-            <h3>Configuración general</h3>
-            <label>Nombre del grupo</label>
-            <input id="cfgGroup" type="text">
-            <label>Modalidad predeterminada</label>
-            <select id="cfgMode">
-              <option value="fcfs">1 · Primero en llegar</option>
-              <option value="lottery">2 · Ventana + sorteo</option>
-              <option value="rotation">3 · Rotación justa</option>
-            </select>
-            <label>Cupos titulares</label>
-            <input id="cfgCapacity" type="number" min="2" max="50">
-            <label>Duración de inscripción (minutos)</label>
-            <input id="cfgMinutes" type="number" min="1" max="1440">
-            <label>Puntos por inasistencia</label>
-            <input id="cfgNoShow" type="number" min="0" max="100">
-            <button id="saveConfigBtn" class="primary">Guardar configuración</button>
-          </div>
-
-          <div class="admin-card">
-            <h3>Crear próximo partido</h3>
-            <label>Fecha y hora del partido</label>
-            <input id="matchPlayAt" type="datetime-local">
-            <label>Apertura de inscripción</label>
-            <input id="matchOpenAt" type="datetime-local">
-            <label>Modalidad</label>
-            <select id="matchMode">
-              <option value="fcfs">1 · Primero en llegar</option>
-              <option value="lottery">2 · Ventana + sorteo</option>
-              <option value="rotation">3 · Rotación justa</option>
-            </select>
-            <label>Cupos</label>
-            <input id="matchCapacity" type="number" min="2" max="50">
-            <label>Ventana (minutos)</label>
-            <input id="matchMinutes" type="number" min="1">
-            <button id="createMatchBtn" class="primary">Crear partido</button>
-          </div>
-        </div>
-
-        <div class="admin-card">
-          <h3>Jugadores</h3>
-          <p class="hint">Pega un nombre por línea. El sistema genera automáticamente un PIN de 6 dígitos para cada nuevo jugador.</p>
-          <textarea id="bulkNames" rows="6" placeholder="Carlos Pérez&#10;Juan Andrade&#10;Pedro..."></textarea>
-          <button id="addPlayersBtn" class="secondary">Agregar jugadores</button>
-          <div id="generatedPins" class="generated hidden"></div>
-          <div id="playersAdminList" class="table-wrap"></div>
-        </div>
-
-        <div class="admin-card">
-          <h3>Partidos creados</h3>
-          <div id="matchesAdminList" class="table-wrap"></div>
-        </div>
-
-        <div class="admin-card">
-          <h3>Cambiar PIN administrador</h3>
-          <input id="newAdminPin" type="password" placeholder="Nuevo PIN (mínimo 6)">
-          <button id="changeAdminPinBtn" class="secondary">Cambiar PIN</button>
-        </div>
-      </div>
-
-      <div id="adminMessage" class="result hidden"></div>
-    </section>
-  </main>
-
-  <footer>
-    <span>Fútbol Sintética</span>
-    <span>•</span>
-    <span>Timestamp y orden gestionados por servidor</span>
-  </footer>
-
-  <script type="module" src="./app.js"></script>
+    <div id="pendingBox" class="list-card hidden"><h3>Pendientes de asignación</h3><p class="hint">Los cupos se asignan al cerrar la ventana.</p><ol id="pendingList"></ol></div>
+    <div class="grid-lists">
+      <div class="list-card"><div class="list-title"><h3>Titulares</h3><span id="titularBadge">0</span></div><ol id="confirmedList"></ol></div>
+      <div class="list-card"><div class="list-title"><h3>Lista de espera</h3><span id="waitingBadge">0</span></div><ol id="waitingList"></ol></div>
+    </div>
+  </div>
+</section>
+<section id="equipos" class="panel tab-panel">
+  <div class="section-head"><div><p class="eyebrow dark">Organización opcional</p><h2>Equipos 7 vs. 7</h2></div><button id="refreshTeamsBtn" class="secondary">Actualizar</button></div>
+  <div id="teamsDisabled" class="empty"><h3>Equipos no habilitados</h3><p>El administrador puede activar esta función para cada partido.</p></div>
+  <div id="teamsArea" class="hidden">
+    <div id="officialTeams" class="hidden"></div>
+    <div id="teamsReview" class="notice hidden"></div>
+    <div id="teamBuilder" class="admin-card hidden">
+      <h3>Formar parejas de equilibrio</h3>
+      <p class="hint">Arrastra dos jugadores de nivel similar a cada pareja. En móvil también puedes tocar una ficha y luego una pareja.</p>
+      <div id="playerPool" class="player-pool"></div>
+      <div id="pairGrid" class="pair-grid"></div>
+      <div class="builder-actions"><button id="resetPairsBtn" class="secondary">Reiniciar parejas</button><button id="distributeBtn" class="primary" disabled>Distribuir uno por equipo</button></div>
+      <div id="draftTeams" class="grid-lists hidden"><div class="team-card team-a"><h3>Equipo A</h3><div id="teamADraft"></div></div><div class="team-card team-b"><h3>Equipo B</h3><div id="teamBDraft"></div></div></div>
+      <div id="teamActions" class="builder-actions hidden"><button id="publishOfficialBtn" class="primary hidden">Publicar equipos oficiales</button><button id="submitProposalBtn" class="secondary hidden">Enviar mi propuesta</button></div>
+      <div id="teamMessage" class="result hidden"></div>
+    </div>
+    <div id="proposalsBox" class="admin-card hidden"><h3>Propuestas de jugadores</h3><div id="proposalsList"></div></div>
+  </div>
+</section>
+<section id="historial" class="panel tab-panel">
+  <div class="section-head"><div><p class="eyebrow dark">Registro</p><h2>Historial semanal</h2></div><button id="refreshHistory" class="secondary">Actualizar</button></div>
+  <div id="historyList" class="history-list"></div>
+</section>
+<section id="admin" class="panel tab-panel">
+  <div id="adminLogin" class="admin-card"><h2>Administración</h2><input id="adminPin" type="password" placeholder="PIN administrador"><button id="adminLoginBtn" class="primary">Entrar</button></div>
+  <div id="adminDashboard" class="hidden">
+    <div class="admin-grid">
+      <div class="admin-card"><h3>Configuración general</h3><label>Nombre del grupo<input id="cfgGroup" type="text"></label><label>Modalidad predeterminada<select id="cfgMode"><option value="fcfs">1 · Primero en llegar</option><option value="lottery">2 · Ventana + sorteo</option><option value="rotation">3 · Rotación justa</option></select></label><label>Cupos titulares<input id="cfgCapacity" type="number" min="2" max="50"></label><label>Duración de inscripción (minutos)<input id="cfgMinutes" type="number" min="1" max="1440"></label><label>Puntos por inasistencia<input id="cfgNoShow" type="number" min="0" max="100"></label><button id="saveConfigBtn" class="primary">Guardar configuración</button></div>
+      <div class="admin-card"><h3>Crear próximo partido</h3><label>Fecha y hora del partido<input id="matchPlayAt" type="datetime-local"></label><label>Apertura de inscripción<input id="matchOpenAt" type="datetime-local"></label><label>Modalidad<select id="matchMode"><option value="fcfs">1 · Primero en llegar</option><option value="lottery">2 · Ventana + sorteo</option><option value="rotation">3 · Rotación justa</option></select></label><label>Cupos<input id="matchCapacity" type="number" min="2" max="50"></label><label>Ventana (minutos)<input id="matchMinutes" type="number" min="1"></label><button id="createMatchBtn" class="primary">Crear partido</button></div>
+    </div>
+    <div class="admin-card">
+      <h3>Jugadores</h3>
+      <p class="hint">Los nuevos PIN son de 4 dígitos. Los jugadores existentes conservan su PIN hasta que lo regeneres.</p>
+      <textarea id="bulkNames" rows="5" placeholder="Carlos Pérez&#10;Juan Andrade&#10;Pedro..."></textarea>
+      <div class="builder-actions"><button id="addPlayersBtn" class="secondary">Agregar jugadores</button><button id="regenerateAllPinsBtn" class="danger-soft">Migrar activos a PIN de 4 dígitos</button></div>
+      <div id="generatedPins" class="generated hidden"></div>
+      <div id="pinTools" class="builder-actions hidden"><button id="copyPinsBtn" class="secondary">Copiar lista</button><button id="downloadPinsBtn" class="secondary">Descargar CSV</button></div>
+      <div id="playersAdminList" class="table-wrap"></div>
+    </div>
+    <div class="admin-card"><h3>Partidos creados</h3><div id="matchesAdminList" class="table-wrap"></div></div>
+    <div class="admin-card"><h3>Cambiar PIN administrador</h3><input id="newAdminPin" type="password" placeholder="Nuevo PIN (mínimo 6)"><button id="changeAdminPinBtn" class="secondary">Cambiar PIN</button></div>
+  </div>
+  <div id="adminMessage" class="result hidden"></div>
+</section>
+</main>
+<footer><span>Fútbol Sintética</span><span>•</span><span>Timestamp y orden gestionados por servidor</span></footer>
+<script type="module" src="./app.js"></script>
 </body>
 </html>
