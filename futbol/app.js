@@ -1,7 +1,7 @@
 const extra=document.createElement('link');extra.rel='stylesheet';extra.href='./enhancements.css';document.head.appendChild(extra);
 import{$,api,loadState,refreshIdentity,forgetDevice,join,cancel,loadHistory,tick,result}from'./core.js';
 import{loadTeams,resetPairs,distributePairs,saveTeam}from'./teams-v2.js';
-import{login,loadAdmin,saveConfig,createMatch,addPlayers,regen,changePin,copyPins,downloadPins,handle}from'./admin-v2.js';
+import{login,loadAdmin,saveConfig,createMatch,addPlayers,regen,changePin,copyPins,downloadPins,handle}from'./admin-v4.js';
 document.querySelectorAll('.tab').forEach(b=>b.onclick=async()=>{document.querySelectorAll('.tab,.tab-panel').forEach(x=>x.classList.remove('active'));b.classList.add('active');$(b.dataset.tab).classList.add('active');if(b.dataset.tab==='historial')await loadHistory();if(b.dataset.tab==='equipos')await loadTeams();if(b.dataset.tab==='admin'&&sessionStorage.getItem('futbol_admin_pin'))try{await loadAdmin();$('adminLogin').classList.add('hidden')}catch{sessionStorage.removeItem('futbol_admin_pin')}});
 $('joinBtn').onclick=()=>join(false);$('joinKnownBtn').onclick=()=>join(true);$('cancelBtn').onclick=()=>cancel(false);$('cancelKnownBtn').onclick=()=>cancel(true);$('forgetDeviceBtn').onclick=forgetDevice;
 $('refreshHistory').onclick=loadHistory;$('refreshTeamsBtn').onclick=loadTeams;$('resetPairsBtn').onclick=resetPairs;$('distributeBtn').onclick=distributePairs;$('publishOfficialBtn').onclick=()=>saveTeam('official');$('submitProposalBtn').onclick=()=>saveTeam('proposal');
