@@ -1,0 +1,13 @@
+import{prepareUI}from'./ui-v2.js';
+const extra=document.createElement('link');extra.rel='stylesheet';extra.href='./enhancements.css';const visual=document.createElement('link');visual.rel='stylesheet';visual.href='./visual-v2.css';document.head.appendChild(visual);document.head.appendChild(extra);
+import{$,api,loadState,refreshIdentity,forgetDevice,join,cancel,loadHistory,tick,result}from'./core-v2.js';
+import{loadTeams,resetPairs,distributePairs,saveTeam}from'./teams-v3.js';
+import{login,loadAdmin,saveConfig,createMatch,addPlayers,regen,changePin,copyPins,downloadPins,handle}from'./admin-v6.js';
+document.querySelectorAll('.tab').forEach(b=>b.onclick=async()=>{document.querySelectorAll('.tab,.tab-panel').forEach(x=>x.classList.remove('active'));b.classList.add('active');$(b.dataset.tab).classList.add('active');if(b.dataset.tab==='historial')await loadHistory();if(b.dataset.tab==='equipos')await loadTeams();if(b.dataset.tab==='admin'&&sessionStorage.getItem('futbol_admin_pin'))try{await loadAdmin();$('adminLogin').classList.add('hidden')}catch{sessionStorage.removeItem('futbol_admin_pin')}});
+$('joinBtn').onclick=()=>join(false);$('joinKnownBtn').onclick=()=>join(true);$('cancelBtn').onclick=()=>cancel(false);$('cancelKnownBtn').onclick=()=>cancel(true);$('forgetDeviceBtn').onclick=forgetDevice;
+$('refreshHistory').onclick=loadHistory;$('refreshTeamsBtn').onclick=loadTeams;$('resetPairsBtn').onclick=resetPairs;$('distributeBtn').onclick=distributePairs;$('publishOfficialBtn').onclick=()=>saveTeam('official');$('submitProposalBtn').onclick=()=>saveTeam('proposal');
+$('adminLoginBtn').onclick=login;$('saveConfigBtn').onclick=saveConfig;$('createMatchBtn').onclick=createMatch;$('addPlayersBtn').onclick=addPlayers;$('regenerateAllPinsBtn').onclick=regen;$('changeAdminPinBtn').onclick=changePin;$('copyPinsBtn').onclick=copyPins;$('downloadPinsBtn').onclick=downloadPins;
+document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;if(b.classList.contains('publish-proposal')){try{await api('admin_publish_proposal',{pin:sessionStorage.getItem('futbol_admin_pin')||'',plan_id:b.dataset.id});await loadTeams()}catch(err){result('adminMessage',err.message,true)}return}handle(b)});document.addEventListener('futbol:statechanged',()=>loadTeams().catch(()=>{}));
+prepareUI();
+setInterval(tick,1000);setInterval(()=>loadState().catch(()=>{}),10000);
+(async()=>{try{await refreshIdentity();await loadState()}catch(e){$('sessionNotice').textContent=e.message;$('sessionNotice').classList.add('error');result('sessionNotice',e.message,true)}})();
