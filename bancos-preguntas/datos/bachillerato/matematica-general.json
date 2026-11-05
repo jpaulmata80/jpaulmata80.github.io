@@ -1,0 +1,1341 @@
+{
+  "version": 1,
+  "asignatura": "matematica-general",
+  "descripcion": "Preguntas de demostración pedagógica. Revisar antes de utilizar para evaluación formal.",
+  "preguntas": [
+    {
+      "id": "MATG-RAD-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "basico",
+      "enunciado": "Simplifica √(8).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2√2"
+        },
+        {
+          "id": "B",
+          "texto": "4√2"
+        },
+        {
+          "id": "C",
+          "texto": "2√4"
+        },
+        {
+          "id": "D",
+          "texto": "4"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Porque 8 = 2² × 2, se obtiene 2√2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "basico",
+      "enunciado": "Simplifica √(18).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6"
+        },
+        {
+          "id": "B",
+          "texto": "3√2"
+        },
+        {
+          "id": "C",
+          "texto": "6√2"
+        },
+        {
+          "id": "D",
+          "texto": "3√6"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Porque 18 = 3² × 2, se obtiene 3√2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "basico",
+      "enunciado": "Simplifica √(48).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4√12"
+        },
+        {
+          "id": "B",
+          "texto": "12"
+        },
+        {
+          "id": "C",
+          "texto": "4√3"
+        },
+        {
+          "id": "D",
+          "texto": "12√3"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Porque 48 = 4² × 3, se obtiene 4√3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "basico",
+      "enunciado": "Simplifica √(50).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "10√2"
+        },
+        {
+          "id": "B",
+          "texto": "5√10"
+        },
+        {
+          "id": "C",
+          "texto": "10"
+        },
+        {
+          "id": "D",
+          "texto": "5√2"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Porque 50 = 5² × 2, se obtiene 5√2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "intermedio",
+      "enunciado": "Simplifica √(20).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2√5"
+        },
+        {
+          "id": "B",
+          "texto": "10√5"
+        },
+        {
+          "id": "C",
+          "texto": "2√10"
+        },
+        {
+          "id": "D",
+          "texto": "10"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Porque 20 = 2² × 5, se obtiene 2√5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "intermedio",
+      "enunciado": "Simplifica √(63).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "21"
+        },
+        {
+          "id": "B",
+          "texto": "3√7"
+        },
+        {
+          "id": "C",
+          "texto": "21√7"
+        },
+        {
+          "id": "D",
+          "texto": "3√21"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Porque 63 = 3² × 7, se obtiene 3√7.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "intermedio",
+      "enunciado": "Simplifica √(80).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4√20"
+        },
+        {
+          "id": "B",
+          "texto": "20"
+        },
+        {
+          "id": "C",
+          "texto": "4√5"
+        },
+        {
+          "id": "D",
+          "texto": "20√5"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Porque 80 = 4² × 5, se obtiene 4√5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "intermedio",
+      "enunciado": "Simplifica √(75).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "15√3"
+        },
+        {
+          "id": "B",
+          "texto": "5√15"
+        },
+        {
+          "id": "C",
+          "texto": "15"
+        },
+        {
+          "id": "D",
+          "texto": "5√3"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Porque 75 = 5² × 3, se obtiene 5√3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "intermedio",
+      "enunciado": "Simplifica √(72).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6√2"
+        },
+        {
+          "id": "B",
+          "texto": "12√2"
+        },
+        {
+          "id": "C",
+          "texto": "6√12"
+        },
+        {
+          "id": "D",
+          "texto": "12"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Porque 72 = 6² × 2, se obtiene 6√2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "avanzado",
+      "enunciado": "Simplifica √(147).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "21"
+        },
+        {
+          "id": "B",
+          "texto": "7√3"
+        },
+        {
+          "id": "C",
+          "texto": "21√3"
+        },
+        {
+          "id": "D",
+          "texto": "7√21"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Porque 147 = 7² × 3, se obtiene 7√3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "avanzado",
+      "enunciado": "Simplifica √(128).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8√16"
+        },
+        {
+          "id": "B",
+          "texto": "16"
+        },
+        {
+          "id": "C",
+          "texto": "8√2"
+        },
+        {
+          "id": "D",
+          "texto": "16√2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Porque 128 = 8² × 2, se obtiene 8√2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Simplificación",
+      "dificultad": "avanzado",
+      "enunciado": "Simplifica √(405).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "45√5"
+        },
+        {
+          "id": "B",
+          "texto": "9√45"
+        },
+        {
+          "id": "C",
+          "texto": "45"
+        },
+        {
+          "id": "D",
+          "texto": "9√5"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Porque 405 = 9² × 5, se obtiene 9√5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Suma de radicales",
+      "dificultad": "basico",
+      "enunciado": "Calcula 2√3 + 5√3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "10√3"
+        },
+        {
+          "id": "B",
+          "texto": "7√6"
+        },
+        {
+          "id": "C",
+          "texto": "3√3"
+        },
+        {
+          "id": "D",
+          "texto": "7√3"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Al tener el mismo radicando, se suman los coeficientes: (2 + 5)√3 = 7√3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Suma de radicales",
+      "dificultad": "basico",
+      "enunciado": "Calcula 3√2 + 4√2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "7√4"
+        },
+        {
+          "id": "B",
+          "texto": "1√2"
+        },
+        {
+          "id": "C",
+          "texto": "7√2"
+        },
+        {
+          "id": "D",
+          "texto": "12√2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Al tener el mismo radicando, se suman los coeficientes: (3 + 4)√2 = 7√2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Suma de radicales",
+      "dificultad": "basico",
+      "enunciado": "Calcula 4√5 + 7√5.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3√5"
+        },
+        {
+          "id": "B",
+          "texto": "11√5"
+        },
+        {
+          "id": "C",
+          "texto": "28√5"
+        },
+        {
+          "id": "D",
+          "texto": "11√10"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al tener el mismo radicando, se suman los coeficientes: (4 + 7)√5 = 11√5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-016",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Suma de radicales",
+      "dificultad": "intermedio",
+      "enunciado": "Calcula 6√7 + 2√7.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8√7"
+        },
+        {
+          "id": "B",
+          "texto": "12√7"
+        },
+        {
+          "id": "C",
+          "texto": "8√14"
+        },
+        {
+          "id": "D",
+          "texto": "4√7"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al tener el mismo radicando, se suman los coeficientes: (6 + 2)√7 = 8√7.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-017",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Suma de radicales",
+      "dificultad": "intermedio",
+      "enunciado": "Calcula 5√2 + 8√2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "40√2"
+        },
+        {
+          "id": "B",
+          "texto": "13√4"
+        },
+        {
+          "id": "C",
+          "texto": "3√2"
+        },
+        {
+          "id": "D",
+          "texto": "13√2"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Al tener el mismo radicando, se suman los coeficientes: (5 + 8)√2 = 13√2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-018",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Suma de radicales",
+      "dificultad": "intermedio",
+      "enunciado": "Calcula 7√6 + 3√6.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "10√12"
+        },
+        {
+          "id": "B",
+          "texto": "4√6"
+        },
+        {
+          "id": "C",
+          "texto": "10√6"
+        },
+        {
+          "id": "D",
+          "texto": "21√6"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Al tener el mismo radicando, se suman los coeficientes: (7 + 3)√6 = 10√6.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-019",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Suma de radicales",
+      "dificultad": "avanzado",
+      "enunciado": "Calcula 9√3 + 4√3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5√3"
+        },
+        {
+          "id": "B",
+          "texto": "13√3"
+        },
+        {
+          "id": "C",
+          "texto": "36√3"
+        },
+        {
+          "id": "D",
+          "texto": "13√6"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al tener el mismo radicando, se suman los coeficientes: (9 + 4)√3 = 13√3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-020",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Suma de radicales",
+      "dificultad": "avanzado",
+      "enunciado": "Calcula 8√5 + 6√5.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "14√5"
+        },
+        {
+          "id": "B",
+          "texto": "48√5"
+        },
+        {
+          "id": "C",
+          "texto": "14√10"
+        },
+        {
+          "id": "D",
+          "texto": "2√5"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al tener el mismo radicando, se suman los coeficientes: (8 + 6)√5 = 14√5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-021",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Producto de radicales",
+      "dificultad": "basico",
+      "enunciado": "Calcula √2 × √8.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3"
+        },
+        {
+          "id": "B",
+          "texto": "8"
+        },
+        {
+          "id": "C",
+          "texto": "4"
+        },
+        {
+          "id": "D",
+          "texto": "6"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "√2 × √8 = √(2 × 8) = √16 = 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-022",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Producto de radicales",
+      "dificultad": "basico",
+      "enunciado": "Calcula √3 × √12.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "12"
+        },
+        {
+          "id": "B",
+          "texto": "6"
+        },
+        {
+          "id": "C",
+          "texto": "8"
+        },
+        {
+          "id": "D",
+          "texto": "5"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "√3 × √12 = √(3 × 12) = √36 = 6.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-023",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Producto de radicales",
+      "dificultad": "basico",
+      "enunciado": "Calcula √5 × √20.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "10"
+        },
+        {
+          "id": "B",
+          "texto": "12"
+        },
+        {
+          "id": "C",
+          "texto": "9"
+        },
+        {
+          "id": "D",
+          "texto": "20"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "√5 × √20 = √(5 × 20) = √100 = 10.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-024",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Producto de radicales",
+      "dificultad": "intermedio",
+      "enunciado": "Calcula √6 × √24.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "14"
+        },
+        {
+          "id": "B",
+          "texto": "11"
+        },
+        {
+          "id": "C",
+          "texto": "24"
+        },
+        {
+          "id": "D",
+          "texto": "12"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "√6 × √24 = √(6 × 24) = √144 = 12.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-025",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Producto de radicales",
+      "dificultad": "intermedio",
+      "enunciado": "Calcula √7 × √28.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "13"
+        },
+        {
+          "id": "B",
+          "texto": "28"
+        },
+        {
+          "id": "C",
+          "texto": "14"
+        },
+        {
+          "id": "D",
+          "texto": "16"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "√7 × √28 = √(7 × 28) = √196 = 14.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-026",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Producto de radicales",
+      "dificultad": "intermedio",
+      "enunciado": "Calcula √2 × √18.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "12"
+        },
+        {
+          "id": "B",
+          "texto": "6"
+        },
+        {
+          "id": "C",
+          "texto": "8"
+        },
+        {
+          "id": "D",
+          "texto": "5"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "√2 × √18 = √(2 × 18) = √36 = 6.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-027",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Producto de radicales",
+      "dificultad": "avanzado",
+      "enunciado": "Calcula √3 × √27.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "9"
+        },
+        {
+          "id": "B",
+          "texto": "11"
+        },
+        {
+          "id": "C",
+          "texto": "8"
+        },
+        {
+          "id": "D",
+          "texto": "18"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "√3 × √27 = √(3 × 27) = √81 = 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-028",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Producto de radicales",
+      "dificultad": "avanzado",
+      "enunciado": "Calcula √5 × √45.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "17"
+        },
+        {
+          "id": "B",
+          "texto": "14"
+        },
+        {
+          "id": "C",
+          "texto": "30"
+        },
+        {
+          "id": "D",
+          "texto": "15"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "√5 × √45 = √(5 × 45) = √225 = 15.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-029",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Racionalización",
+      "dificultad": "intermedio",
+      "enunciado": "Racionaliza 1/√2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "√2/3"
+        },
+        {
+          "id": "B",
+          "texto": "√2/2"
+        },
+        {
+          "id": "C",
+          "texto": "1/2"
+        },
+        {
+          "id": "D",
+          "texto": "√2"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Multiplicando numerador y denominador por √2: (1/√2) × (√2/√2) = √2/2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-030",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Racionalización",
+      "dificultad": "intermedio",
+      "enunciado": "Racionaliza 1/√3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "√3/3"
+        },
+        {
+          "id": "B",
+          "texto": "1/3"
+        },
+        {
+          "id": "C",
+          "texto": "√3"
+        },
+        {
+          "id": "D",
+          "texto": "√3/4"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Multiplicando numerador y denominador por √3: (1/√3) × (√3/√3) = √3/3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-031",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Racionalización",
+      "dificultad": "avanzado",
+      "enunciado": "Racionaliza 1/√5.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "1/5"
+        },
+        {
+          "id": "B",
+          "texto": "√5"
+        },
+        {
+          "id": "C",
+          "texto": "√5/6"
+        },
+        {
+          "id": "D",
+          "texto": "√5/5"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Multiplicando numerador y denominador por √5: (1/√5) × (√5/√5) = √5/5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-032",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Racionalización",
+      "dificultad": "avanzado",
+      "enunciado": "Racionaliza 1/√7.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "√7"
+        },
+        {
+          "id": "B",
+          "texto": "√7/8"
+        },
+        {
+          "id": "C",
+          "texto": "√7/7"
+        },
+        {
+          "id": "D",
+          "texto": "1/7"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Multiplicando numerador y denominador por √7: (1/√7) × (√7/√7) = √7/7.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-033",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Racionalización",
+      "dificultad": "avanzado",
+      "enunciado": "Racionaliza 1/√11.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "√11/12"
+        },
+        {
+          "id": "B",
+          "texto": "√11/11"
+        },
+        {
+          "id": "C",
+          "texto": "1/11"
+        },
+        {
+          "id": "D",
+          "texto": "√11"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Multiplicando numerador y denominador por √11: (1/√11) × (√11/√11) = √11/11.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-034",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Racionalización",
+      "dificultad": "avanzado",
+      "enunciado": "Racionaliza 1/√13.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "√13/13"
+        },
+        {
+          "id": "B",
+          "texto": "1/13"
+        },
+        {
+          "id": "C",
+          "texto": "√13"
+        },
+        {
+          "id": "D",
+          "texto": "√13/14"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Multiplicando numerador y denominador por √13: (1/√13) × (√13/√13) = √13/13.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-035",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Dominio de radicales",
+      "dificultad": "intermedio",
+      "enunciado": "Para f(x) = √(x − 1), ¿cuál es su dominio en ℝ?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x ≥ 1"
+        },
+        {
+          "id": "B",
+          "texto": "x > 1"
+        },
+        {
+          "id": "C",
+          "texto": "x ≤ 1"
+        },
+        {
+          "id": "D",
+          "texto": "x ≠ 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se exige x − 1 ≥ 0; por tanto, x ≥ 1. El extremo se incluye porque √0 existe.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-036",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Dominio de radicales",
+      "dificultad": "intermedio",
+      "enunciado": "Para f(x) = √(x − 3), ¿cuál es su dominio en ℝ?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x > 3"
+        },
+        {
+          "id": "B",
+          "texto": "x ≤ 3"
+        },
+        {
+          "id": "C",
+          "texto": "x ≠ 3"
+        },
+        {
+          "id": "D",
+          "texto": "x ≥ 3"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se exige x − 3 ≥ 0; por tanto, x ≥ 3. El extremo se incluye porque √0 existe.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-037",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Dominio de radicales",
+      "dificultad": "avanzado",
+      "enunciado": "Para f(x) = √(x − 5), ¿cuál es su dominio en ℝ?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x ≤ 5"
+        },
+        {
+          "id": "B",
+          "texto": "x ≠ 5"
+        },
+        {
+          "id": "C",
+          "texto": "x ≥ 5"
+        },
+        {
+          "id": "D",
+          "texto": "x > 5"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se exige x − 5 ≥ 0; por tanto, x ≥ 5. El extremo se incluye porque √0 existe.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-038",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Dominio de radicales",
+      "dificultad": "avanzado",
+      "enunciado": "Para f(x) = √(x − 8), ¿cuál es su dominio en ℝ?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x ≠ 8"
+        },
+        {
+          "id": "B",
+          "texto": "x ≥ 8"
+        },
+        {
+          "id": "C",
+          "texto": "x > 8"
+        },
+        {
+          "id": "D",
+          "texto": "x ≤ 8"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se exige x − 8 ≥ 0; por tanto, x ≥ 8. El extremo se incluye porque √0 existe.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-039",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Índice impar",
+      "dificultad": "basico",
+      "enunciado": "Calcula ∛(-8).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-1"
+        },
+        {
+          "id": "B",
+          "texto": "-3"
+        },
+        {
+          "id": "C",
+          "texto": "-2"
+        },
+        {
+          "id": "D",
+          "texto": "2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "La raíz cúbica es el número cuyo cubo da -8; -2³ = -8.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-040",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Índice impar",
+      "dificultad": "intermedio",
+      "enunciado": "Calcula ∛(-27).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-4"
+        },
+        {
+          "id": "B",
+          "texto": "-3"
+        },
+        {
+          "id": "C",
+          "texto": "3"
+        },
+        {
+          "id": "D",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "La raíz cúbica es el número cuyo cubo da -27; -3³ = -27.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-RAD-041",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Radicales",
+      "subtema": "Índice impar",
+      "dificultad": "intermedio",
+      "enunciado": "Calcula ∛(64).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4"
+        },
+        {
+          "id": "B",
+          "texto": "-4"
+        },
+        {
+          "id": "C",
+          "texto": "5"
+        },
+        {
+          "id": "D",
+          "texto": "3"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La raíz cúbica es el número cuyo cubo da 64; 4³ = 64.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-EXP-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Potencias",
+      "subtema": "Propiedades de exponentes",
+      "dificultad": "basico",
+      "enunciado": "Calcula 2^3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8"
+        },
+        {
+          "id": "B",
+          "texto": "10"
+        },
+        {
+          "id": "C",
+          "texto": "5"
+        },
+        {
+          "id": "D",
+          "texto": "16"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Una potencia es un producto repetido: 2 elevado a 3 es 8.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-EXP-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Potencias",
+      "subtema": "Propiedades de exponentes",
+      "dificultad": "basico",
+      "enunciado": "Calcula 3^2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "12"
+        },
+        {
+          "id": "B",
+          "texto": "7"
+        },
+        {
+          "id": "C",
+          "texto": "18"
+        },
+        {
+          "id": "D",
+          "texto": "9"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Una potencia es un producto repetido: 3 elevado a 2 es 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-EXP-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Potencias",
+      "subtema": "Propiedades de exponentes",
+      "dificultad": "intermedio",
+      "enunciado": "Calcula 5^2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "23"
+        },
+        {
+          "id": "B",
+          "texto": "50"
+        },
+        {
+          "id": "C",
+          "texto": "25"
+        },
+        {
+          "id": "D",
+          "texto": "30"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Una potencia es un producto repetido: 5 elevado a 2 es 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-EXP-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Potencias",
+      "subtema": "Propiedades de exponentes",
+      "dificultad": "intermedio",
+      "enunciado": "Calcula 2^5.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "64"
+        },
+        {
+          "id": "B",
+          "texto": "32"
+        },
+        {
+          "id": "C",
+          "texto": "34"
+        },
+        {
+          "id": "D",
+          "texto": "27"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Una potencia es un producto repetido: 2 elevado a 5 es 32.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-EXP-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Potencias",
+      "subtema": "Propiedades de exponentes",
+      "dificultad": "avanzado",
+      "enunciado": "Calcula 4^3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "64"
+        },
+        {
+          "id": "B",
+          "texto": "68"
+        },
+        {
+          "id": "C",
+          "texto": "61"
+        },
+        {
+          "id": "D",
+          "texto": "128"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Una potencia es un producto repetido: 4 elevado a 3 es 64.",
+      "puntaje": 1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "instituciones": [
+    {
+      "id": "universidad",
+      "nombre": "Universidad",
+      "institucion": "Universidad Católica de Cuenca",
+      "asignaturas": [
+        {
+          "id": "sistemas-digitales",
+          "nombre": "Sistemas Digitales: Lógica y Sistemas",
+          "archivo": "datos/universidad/sistemas-digitales.json"
+        },
+        {
+          "id": "programacion-redes",
+          "nombre": "Programación de Redes: Protocolos y APIs",
+          "archivo": "datos/universidad/programacion-redes.json"
+        },
+        {
+          "id": "domotica-inmotica",
+          "nombre": "Domótica e Inmótica",
+          "archivo": "datos/universidad/domotica-inmotica.json"
+        }
+      ]
+    },
+    {
+      "id": "bachillerato",
+      "nombre": "Bachillerato",
+      "institucion": "Unidad Educativa Particular La Providencia",
+      "asignaturas": [
+        {
+          "id": "matematica-general",
+          "nombre": "Matemática General — Tercero BGU",
+          "archivo": "datos/bachillerato/matematica-general.json"
+        },
+        {
+          "id": "matematica-superior",
+          "nombre": "Matemática Superior",
+          "archivo": "datos/bachillerato/matematica-superior.json"
+        }
+      ]
+    }
+  ]
+}
