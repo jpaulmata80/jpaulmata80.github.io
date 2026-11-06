@@ -11,6 +11,12 @@ Ejemplo en Matemática Superior:
 - Tema: Ecuación de la Recta
 - Subtemas: Pendiente de una recta; Forma explícita e interpretación; Recta por un punto y pendiente; Recta por dos puntos; Paralelas y perpendiculares; Forma general e intersecciones.
 
+## Procedimiento maestro de incorporación
+
+Usa el [prompt maestro de carga](PROMPT_MAESTRO_CARGA.md) para enviar archivos de preguntas existentes o pedir generación de nuevos lotes. La regla principal es **identificar equivalencias semánticas antes de crear temas**. Por ejemplo, «Ecuación de la línea recta» se normaliza a «Ecuación de la Recta» en Matemática Superior; «Forma general de la recta» se clasifica dentro de su subtema cuando corresponda.
+
+Se verifica cada clave, se detectan duplicados en el lote y en GitHub, y se publican únicamente los ítems compatibles con el motor actual (selección única con cuatro alternativas). Los ítems ambiguos o incompatibles se reportan para revisión, sin descartarlos silenciosamente.
+
 ## Cómo proporcionar preguntas nuevas
 
 Puedes facilitar a ChatGPT las preguntas en Word, PDF, Excel, texto o como listado en el chat. Para cada lote informa:
@@ -58,7 +64,7 @@ Se añadirán al archivo JSON de la asignatura; el configurador detectará autom
 
 ## Uso de la plataforma
 
-1. Abrir https://jpaulmata80.github.io/bancos-preguntas/#docente
+1. Abrir https://jpaulmata80.github.io/bancos-preguntas/app.html#docente
 2. Seleccionar Bachillerato > Matemática Superior.
 3. Marcar uno o varios subtemas de Ecuación de la Recta.
 4. Configurar 10 preguntas y, por ejemplo, 180 segundos por pregunta; indicar fechas y copiar el enlace generado.
