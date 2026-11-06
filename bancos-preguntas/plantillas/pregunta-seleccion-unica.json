@@ -1,0 +1,30 @@
+{
+  "id": "MATS-RECT-061",
+  "unidad": "Geometría analítica",
+  "tema": "Ecuación de la Recta",
+  "subtema": "Pendiente de una recta",
+  "dificultad": "basico",
+  "tipo": "seleccion_unica",
+  "enunciado": "¿Cuál es la pendiente de la recta y = 2x + 3?",
+  "opciones": [
+    {
+      "id": "A",
+      "texto": "2"
+    },
+    {
+      "id": "B",
+      "texto": "3"
+    },
+    {
+      "id": "C",
+      "texto": "−2"
+    },
+    {
+      "id": "D",
+      "texto": "−3"
+    }
+  ],
+  "respuesta": "A",
+  "explicacion": "En la expresión y = mx + b, la pendiente corresponde al coeficiente de x; por tanto, m = 2.",
+  "puntaje": 1
+}
