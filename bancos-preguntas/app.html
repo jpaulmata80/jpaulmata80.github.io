@@ -9,6 +9,22 @@ body{margin:0}header{background:#fff;border-bottom:1px solid #dbe2eb;position:st
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:15px}.choice-card{border:1px solid #dce4ed;padding:22px;border-radius:14px;background:#fafcff}.choice-card h3{margin-top:0}
 label{display:block;font-size:14px;font-weight:650;margin:0 0 7px}input,select{width:100%;border:1px solid #b7c5d5;border-radius:10px;padding:12px 11px;font:inherit;color:#1d2a40;background:white}input[type=checkbox],input[type=radio]{width:auto;accent-color:#1b638d}button,.btn{border:0;border-radius:11px;padding:12px 17px;background:#1d5a80;color:white;font:inherit;font-weight:650;cursor:pointer;text-decoration:none;display:inline-block}button:hover,.btn:hover{background:#124567}button:disabled{background:#91a2b4;cursor:not-allowed}.muted{color:#56677d}.small{font-size:13px}.flex{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.field{margin-bottom:17px}.pill{display:inline-block;background:#e4f0f6;color:#214e6b;padding:6px 10px;border-radius:100px;font-size:12px;font-weight:650}.warn{background:#fff5dc;border:1px solid #edce77;border-radius:12px;padding:14px;margin:14px 0}.success{background:#e5f5eb;border:1px solid #b1dec4;border-radius:12px;padding:14px}.error{background:#fff0ee;border:1px solid #f1b7af;border-radius:12px;padding:14px}.hidden{display:none!important}
 .checkline{display:flex;gap:8px;align-items:center;border:1px solid #e2e8ef;padding:10px;border-radius:9px;margin-bottom:7px;font-size:14px}
+.topic-panel{border:1px solid #dce4ed;background:#fff;border-radius:13px;margin:10px 0;overflow:hidden}
+.topic-panel summary{list-style:none;cursor:pointer;padding:16px 18px;background:#f5f8fb;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.topic-panel summary::-webkit-details-marker{display:none}
+.topic-panel summary:focus-visible{outline:3px solid #397da2;outline-offset:-3px}
+.topic-panel summary::after{content:"▾";font-weight:800;color:#426381}
+.topic-panel[open] summary::after{content:"▴"}
+.topic-panel-content{padding:15px 18px}
+.topic-controls{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:11px}
+.topic-controls button{padding:8px 12px;font-size:13px}
+.topic-status{font-size:12px;color:#536a80}
+.topic-name{font-size:15px;font-weight:700}
+.topic-header{display:flex;flex-direction:column;gap:5px;flex:1}
+.topic-total{font-size:12px;color:#556b7f}
+.topic-content-label{margin:12px 0 9px;font-weight:650;font-size:14px}
+.topic-preview{font-size:12px;color:#526b82;font-weight:500}
+
 .option{display:flex;gap:12px;align-items:flex-start;padding:14px;border:1px solid #d6e0eb;border-radius:10px;margin:10px 0;cursor:pointer}.option:has(input:checked){border-color:#246c97;background:#edf6fc}
 .progress{height:8px;border-radius:8px;background:#e4eaf1;overflow:hidden;margin:18px 0}.progress>div{height:100%;width:0;background:#2e799b;transition:width .2s}.metric{display:inline-block;padding:10px 15px;border-radius:10px;background:#edf4fa;margin:4px 7px 8px 0}.correct{border-left:4px solid #288b53}.wrong{border-left:4px solid #d05a49}.neutral{border-left:4px solid #9babbc}.review{padding:16px 18px;margin:10px 0;background:#fbfcfe;border-radius:10px;border-top:1px solid #e0e7ef;border-right:1px solid #e0e7ef;border-bottom:1px solid #e0e7ef}
 footer{text-align:center;padding:28px;color:#5d6c7e;font-size:13px}.stat{font-variant-numeric:tabular-nums}
@@ -26,7 +42,7 @@ footer{text-align:center;padding:28px;color:#5d6c7e;font-size:13px}.stat{font-va
 <form id="formConfig">
 <div class="grid"><div class="field"><label for="institucion">Nivel educativo</label><select id="institucion" required></select></div><div class="field"><label for="asignatura">Asignatura</label><select id="asignatura" required></select></div></div>
 <div class="field"><label for="titulo">Nombre de la práctica</label><input id="titulo" maxlength="90" value="Práctica de Ecuación de la Recta" required></div>
-<div class="field"><label>Selecciona uno o varios temas/subtemas</label><div id="temas"><span class="muted">Selecciona la asignatura.</span></div></div>
+<div class="field"><label>Selecciona uno o varios temas/subtemas</label><p class="small muted">Abre un tema para elegir sus subtemas. Puedes combinar contenidos de distintos temas sin perder las selecciones al cerrar un panel.</p><div id="temas"><span class="muted">Selecciona la asignatura.</span></div></div>
 <div class="grid"><div class="field"><label for="cantidad">Número de preguntas aleatorias</label><input id="cantidad" type="number" min="1" max="100" value="10" required></div><div class="field"><label for="segundos">Tiempo por pregunta (segundos)</label><input id="segundos" type="number" min="15" max="1800" value="180" required></div></div>
 <div class="grid"><div class="field"><label for="inicioFecha">Inicio disponible (hora de Ecuador)</label><input id="inicioFecha" type="datetime-local"></div><div class="field"><label for="finFecha">Fin disponible (hora de Ecuador)</label><input id="finFecha" type="datetime-local"></div></div>
 <div class="grid"><div class="field"><label for="intentos">Intentos</label><select id="intentos"><option value="0">Ilimitados</option><option value="1">1 intento por navegador</option><option value="2">2 intentos por navegador</option><option value="3">3 intentos por navegador</option></select></div><div class="field"><label for="feedback">Retroalimentación</label><select id="feedback"><option value="final">Al finalizar</option></select></div></div>
@@ -99,13 +115,18 @@ async function refreshTemas(){
    $("estadoBanco").textContent="Banco de "+subject.nombre+": 0 preguntas.";
    return;
   }
-  $("temas").innerHTML=group.map((t,i)=>{
+  $("temas").innerHTML='<div class="topic-controls"><button type="button" id="clearTopics">Limpiar selección</button><span class="topic-status" id="topicSummary">0 subtemas seleccionados</span></div>'+
+   group.map((t,i)=>{
     const qs=list.filter(q=>q.tema===t);
     const subs=[...new Set(qs.map(q=>q.subtema||"General"))].sort((a,b)=>a.localeCompare(b,"es"));
-    return '<div class="choice-card" style="margin-bottom:12px"><h3>'+esc(t)+' <span class="pill">'+qs.length+' preguntas</span></h3>'+
-      '<label class="checkline"><input type="checkbox" class="topic-all" data-parent="'+esc(t)+'" checked> <strong>Seleccionar todo el tema</strong></label>'+
-      '<div style="padding-left:14px">'+subs.map(sub=>'<label class="checkline"><input type="checkbox" name="tema" data-parent="'+esc(t)+'" value="'+esc(t+"::"+sub)+'" checked> '+esc(sub)+' ('+qs.filter(q=>(q.subtema||"General")===sub).length+' preguntas)</label>').join("")+'</div></div>';
+    return '<details class="topic-panel" '+(group.length===1?'open':'')+'><summary><span class="topic-header"><span class="topic-name">'+esc(t)+'</span><span class="topic-total">'+qs.length+' preguntas disponibles</span><span class="topic-preview" data-topic-summary="'+esc(t)+'">0 de '+subs.length+' subtemas seleccionados</span></span></summary>'+
+     '<div class="topic-panel-content"><label class="checkline"><input type="checkbox" class="topic-all" data-parent="'+esc(t)+'"> <strong>Seleccionar todo este tema</strong></label>'+
+     '<div>'+subs.map(sub=>'<label class="checkline"><input type="checkbox" name="tema" data-parent="'+esc(t)+'" value="'+esc(t+"::"+sub)+'"> '+esc(sub)+' ('+qs.filter(q=>(q.subtema||"General")===sub).length+' preguntas)</label>').join("")+'</div></div></details>';
    }).join("");
+  $("clearTopics").addEventListener("click",()=>{
+   document.querySelectorAll('input[name="tema"],.topic-all').forEach(c=>{c.checked=false;c.indeterminate=false});
+   updateSelectedCount();
+  });
   updateSelectedCount();
  }catch(e){
    if(loadNumber!==currentLoad)return;
@@ -115,20 +136,27 @@ async function refreshTemas(){
  }
 }
 function updateSelectedCount(){
- const selected=[...document.querySelectorAll('input[name="tema"]:checked')].map(x=>x.value);
+ const checks=[...document.querySelectorAll('input[name="tema"]')];
+ const selected=checks.filter(x=>x.checked).map(x=>x.value);
  const count=banco.filter(q=>matchContent(q,selected)).length;
  const a=getSubject($("asignatura").value);
  $("estadoBanco").textContent="Asignatura: "+(a?.nombre||"—")+" · "+banco.length+" preguntas en el banco · "+count+" preguntas seleccionadas.";
+ const summary=$("topicSummary");
+ if(summary)summary.textContent=selected.length+" subtemas seleccionados · "+count+" preguntas disponibles";
+ document.querySelectorAll(".topic-all").forEach(parent=>{
+  const related=checks.filter(c=>c.dataset.parent===parent.dataset.parent);
+  const marked=related.filter(c=>c.checked).length;
+  parent.checked=related.length>0&&marked===related.length;
+  parent.indeterminate=marked>0&&marked<related.length;
+  const line=[...document.querySelectorAll("[data-topic-summary]")].find(el=>el.dataset.topicSummary===parent.dataset.parent);
+  if(line)line.textContent=marked+" de "+related.length+" subtemas seleccionados";
+ });
 }
 function onTopicsChange(event){
  const el=event.target;
  if(el.classList.contains("topic-all")){
   document.querySelectorAll('input[name="tema"]').forEach(c=>{if(c.dataset.parent===el.dataset.parent)c.checked=el.checked});
- }else if(el.name==="tema"){
-  const related=[...document.querySelectorAll('input[name="tema"]')].filter(c=>c.dataset.parent===el.dataset.parent);
-  const parent=[...document.querySelectorAll(".topic-all")].find(c=>c.dataset.parent===el.dataset.parent);
-  if(parent){parent.checked=related.every(c=>c.checked);parent.indeterminate=related.some(c=>c.checked)&&!parent.checked}
- }else return;
+ }else if(el.name!=="tema")return;
  updateSelectedCount();
 }
 function renderCatalog(){
