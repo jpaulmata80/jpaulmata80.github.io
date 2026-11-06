@@ -3522,6 +3522,1146 @@
       "puntaje": 1,
       "titulo_origen": "Punto medio - 10 - Aplicación",
       "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-RECT-SIM-001",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál de las siguientes es la forma simétrica o segmentaria de una recta que corta ambos ejes fuera del origen?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/a + y/b = 1; a ≠ 0 y b ≠ 0"
+        },
+        {
+          "id": "B",
+          "texto": "(x - a)(y - b) = 0"
+        },
+        {
+          "id": "C",
+          "texto": "xy = ab"
+        },
+        {
+          "id": "D",
+          "texto": "ax + by = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x/a + y/b = 0"
+        },
+        {
+          "id": "F",
+          "texto": "y = mx + b"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En la forma simétrica x/a + y/b = 1, a y b son los interceptos no nulos con los ejes X e Y. Al fijar y = 0 se obtiene x = a; al fijar x = 0 se obtiene y = b.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-002",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Para la recta x/4 + y/7 = 1, ¿cuál es su intersección con el eje X (abscisa en el origen)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "7"
+        },
+        {
+          "id": "B",
+          "texto": "-4"
+        },
+        {
+          "id": "C",
+          "texto": "-7"
+        },
+        {
+          "id": "D",
+          "texto": "4"
+        },
+        {
+          "id": "E",
+          "texto": "28"
+        },
+        {
+          "id": "F",
+          "texto": "11"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Cuando y = 0 queda x/4 = 1; por tanto, el intercepto con X es a = 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-003",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Para la recta -x/5 + y/3 = 1, ¿cuál es la ordenada al origen?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3"
+        },
+        {
+          "id": "B",
+          "texto": "-8"
+        },
+        {
+          "id": "C",
+          "texto": "5"
+        },
+        {
+          "id": "D",
+          "texto": "-3"
+        },
+        {
+          "id": "E",
+          "texto": "-5"
+        },
+        {
+          "id": "F",
+          "texto": "15"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al sustituir x = 0, se obtiene y/3 = 1 y, por lo tanto, y = 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-004",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la forma simétrica de la recta que corta los ejes en A(6, 0) y B(0, 2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-x/6 + y/2 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/2 + y/6 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/6 + y/3 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/7 + y/2 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/6 - y/2 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/6 + y/2 = 1"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "El intercepto con X es a = 6 y con Y es b = 2; entonces x/6 + y/2 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-005",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta x/3 - y/6 = 1?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2"
+        },
+        {
+          "id": "B",
+          "texto": "-1/2"
+        },
+        {
+          "id": "C",
+          "texto": "1/2"
+        },
+        {
+          "id": "D",
+          "texto": "-3"
+        },
+        {
+          "id": "E",
+          "texto": "3"
+        },
+        {
+          "id": "F",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "De x/3 - y/6 = 1 resulta y = 2x - 6, por tanto la pendiente es m = 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-006",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una recta pasa por los puntos (5, 0) y (0, -4). ¿Cuál es su ecuación simétrica?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/5 - y/3 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "-x/4 + y/5 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/6 - y/4 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/5 - y/4 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "-x/5 - y/4 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/5 + y/4 = 1"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Los interceptos son a = 5 y b = -4. La ecuación es x/5 - y/4 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-007",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halle la ecuación simétrica de la recta que corta el eje X en (-3, 0) y el eje Y en (0, 7).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-x/2 + y/7 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/3 + y/7 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "-x/3 + y/7 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "-x/3 + y/8 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "-x/3 - y/7 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/7 - y/3 = 1"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Con a = -3 y b = 7, la ecuación es -x/3 + y/7 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-008",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la forma simétrica de la recta cuyos interceptos son (8, 0) y (0, -2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-x/8 - y/2 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/8 - y/2 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "-x/2 + y/8 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/8 + y/2 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/8 - y/1 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/9 - y/2 = 1"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se sustituyen los interceptos a = 8 y b = -2 en x/a + y/b = 1: x/8 - y/2 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-009",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Convierta 3x + 2y = 12 a la forma simétrica de la recta.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/4 + y/6 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/4 - y/6 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/6 + y/4 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/5 + y/6 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "-x/4 + y/6 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/4 + y/7 = 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al dividir por 12: 3x/12 + 2y/12 = 1, que equivale a x/4 + y/6 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-010",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Convierta 5x - 4y = 20 a la ecuación simétrica.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-x/4 - y/5 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/4 + y/5 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/5 - y/5 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/4 - y/4 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "-x/5 + y/4 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/4 - y/5 = 1"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Dividiendo por 20 se obtiene x/4 - y/5 = 1; los interceptos son (4, 0) y (0, -5).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-011",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Exprese 2x + 7y = -14 en forma simétrica.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-x/7 - y/2 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/7 - y/2 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "-x/7 + y/2 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "-x/7 - y/1 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "-x/6 - y/2 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "-x/2 - y/7 = 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al dividir toda la ecuación entre -14 se obtiene -x/7 - y/2 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-012",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Transforme y = -3x + 9 a forma simétrica.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/3 + y/10 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/9 + y/3 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/3 + y/9 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/3 - y/9 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "-x/3 + y/9 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/4 + y/9 = 1"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "En y = -3x + 9, b = 9; al imponer y = 0 resulta x = 3. Por ello x/3 + y/9 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-013",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La recta está dada por y = (2/3)x + 4. ¿Cuál es su forma simétrica?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-x/6 + y/4 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "-x/5 + y/4 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "-x/6 - y/4 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/6 + y/4 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/4 - y/6 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "-x/6 + y/5 = 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En el eje Y, b = 4. Si y = 0, (2/3)x = -4, luego a = -6. Así, -x/6 + y/4 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-014",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Exprese la recta y - 6 = -2(x - 1) en forma simétrica.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/4 - y/8 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/8 + y/4 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "-x/4 + y/8 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/4 + y/9 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/5 + y/8 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/4 + y/8 = 1"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Al desarrollar: y = -2x + 8. Los interceptos son a = 4 y b = 8; por tanto x/4 + y/8 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-015",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Calcule la pendiente de la recta -x/4 + y/6 = 1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2/3"
+        },
+        {
+          "id": "B",
+          "texto": "6"
+        },
+        {
+          "id": "C",
+          "texto": "3/2"
+        },
+        {
+          "id": "D",
+          "texto": "-2/3"
+        },
+        {
+          "id": "E",
+          "texto": "-4"
+        },
+        {
+          "id": "F",
+          "texto": "-3/2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "En una recta x/a + y/b = 1 la pendiente es m = -b/a. Con a = -4 y b = 6, m = -6/(-4) = 3/2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-016",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál de los siguientes puntos pertenece a la recta x/8 - y/4 = 1?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(8, 4)"
+        },
+        {
+          "id": "B",
+          "texto": "(4, -2)"
+        },
+        {
+          "id": "C",
+          "texto": "(0, 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(6, -2)"
+        },
+        {
+          "id": "E",
+          "texto": "(-4, -2)"
+        },
+        {
+          "id": "F",
+          "texto": "(4, 2)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al sustituir (4, -2), se obtiene 4/8 - (-2)/4 = 1/2 + 1/2 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-017",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una recta tiene pendiente -5/2 y corta el eje X en (4, 0). Determine su forma simétrica.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/5 + y/10 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/4 - y/10 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/4 + y/11 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "-x/4 + y/10 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/4 + y/10 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/10 + y/4 = 1"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Como m = -b/a, entonces -5/2 = -b/4 y b = 10. La ecuación buscada es x/4 + y/10 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-018",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "En la recta x/6 + y/3 = 1, ¿cuál es el valor de y cuando x = 2?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6"
+        },
+        {
+          "id": "B",
+          "texto": "3"
+        },
+        {
+          "id": "C",
+          "texto": "4"
+        },
+        {
+          "id": "D",
+          "texto": "2"
+        },
+        {
+          "id": "E",
+          "texto": "1"
+        },
+        {
+          "id": "F",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Sustituyendo x = 2: 2/6 + y/3 = 1. Entonces y/3 = 2/3 y y = 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-019",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Para la recta -x/2 + y/5 = 1, determine y si x = 4.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "15"
+        },
+        {
+          "id": "B",
+          "texto": "-5"
+        },
+        {
+          "id": "C",
+          "texto": "5"
+        },
+        {
+          "id": "D",
+          "texto": "20"
+        },
+        {
+          "id": "E",
+          "texto": "10"
+        },
+        {
+          "id": "F",
+          "texto": "-15"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al sustituir x = 4: -4/2 + y/5 = 1, luego y/5 = 3 y por tanto y = 15.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-020",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una recta intercepta el eje X en (-3, 0) y el eje Y en (0, -6). ¿Cuál es su ecuación simétrica?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/3 - y/6 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "-x/6 - y/3 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "-x/2 - y/6 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "-x/3 + y/6 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "-x/3 - y/5 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "-x/3 - y/6 = 1"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Ambos interceptos son negativos: a = -3 y b = -6. La forma simétrica es -x/3 - y/6 = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-021",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine la forma simétrica de la recta que pasa por P(1, 5) y Q(5, -1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/(13/3) + y/(13/2) = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/(13/2) + y/(13/3) = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/(13/3) - y/(13/2) = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/(16/3) + y/(13/2) = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/(13/3) + y/(15/2) = 1"
+        },
+        {
+          "id": "F",
+          "texto": "-x/(13/3) + y/(13/2) = 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La pendiente es (-1 - 5)/(5 - 1) = -3/2. En y = (-3/2)x + b, usando (1, 5) se obtiene b = 13/2. Al hacer y = 0 resulta a = 13/3. Así, x/(13/3) + y/(13/2) = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-022",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halle la forma simétrica de la recta paralela a 3x - 2y + 6 = 0 que pasa por P(2, 5).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-x/(4/3) + y/3 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "-x/(1/3) + y/2 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/(4/3) + y/2 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "-x/(4/3) + y/2 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/2 - y/(4/3) = 1"
+        },
+        {
+          "id": "F",
+          "texto": "-x/(4/3) - y/2 = 1"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "La recta de referencia tiene pendiente 3/2. La paralela por (2, 5) cumple y - 5 = (3/2)(x - 2), es decir, 3x - 2y = -4. Sus interceptos son a = -4/3 y b = 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-023",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Encuentre la forma simétrica de una recta perpendicular a x/6 - y/4 = 1 que pasa por (2, 7).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/(20/3) - y/10 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "-x/(20/3) + y/10 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/(23/3) + y/10 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/(20/3) + y/11 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/(20/3) + y/10 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/10 + y/(20/3) = 1"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "La recta dada tiene pendiente 2/3; la perpendicular tiene m = -3/2. Por (2, 7): y - 7 = (-3/2)(x - 2), luego y = (-3/2)x + 10. Los interceptos son a = 20/3 y b = 10.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-024",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Escriba 4x - 6y = 9 en forma simétrica, expresando correctamente los interceptos fraccionarios.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-x/(9/4) - y/(3/2) = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/(9/4) - y/(3/2) = 1"
+        },
+        {
+          "id": "C",
+          "texto": "-x/(3/2) + y/(9/4) = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/(9/4) - y/(1/2) = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/(9/4) + y/(3/2) = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/(13/4) - y/(3/2) = 1"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Dividiendo entre 9: (4/9)x - (2/3)y = 1. Los interceptos son a = 9/4 y b = -3/2; por ello x/(9/4) - y/(3/2) = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-025",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "La recta x/(k - 1) + y/4 = 1 pasa por el punto (3, 2). ¿Cuál es el valor de k?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "7"
+        },
+        {
+          "id": "B",
+          "texto": "3"
+        },
+        {
+          "id": "C",
+          "texto": "-5"
+        },
+        {
+          "id": "D",
+          "texto": "9"
+        },
+        {
+          "id": "E",
+          "texto": "5"
+        },
+        {
+          "id": "F",
+          "texto": "1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Sustituyendo (3, 2): 3/(k - 1) + 1/2 = 1. De aquí 3/(k - 1) = 1/2, k - 1 = 6 y k = 7 (con k ≠ 1).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-026",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el punto de intersección de las rectas x/3 + y/6 = 1 y x/6 + y/3 = 1?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(3, 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(4, 1)"
+        },
+        {
+          "id": "C",
+          "texto": "(6, 0)"
+        },
+        {
+          "id": "D",
+          "texto": "(1, 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(2, 2)"
+        },
+        {
+          "id": "F",
+          "texto": "(0, 6)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Multiplicando ambas ecuaciones por 6 se obtiene 2x + y = 6 y x + 2y = 6. Restándolas se deduce x = y; por lo tanto x = y = 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-027",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "La recta -x/5 - y/8 = 1 forma con los ejes coordenados un triángulo. ¿Cuál es su área en unidades cuadradas?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "20"
+        },
+        {
+          "id": "B",
+          "texto": "80"
+        },
+        {
+          "id": "C",
+          "texto": "10"
+        },
+        {
+          "id": "D",
+          "texto": "-20"
+        },
+        {
+          "id": "E",
+          "texto": "13"
+        },
+        {
+          "id": "F",
+          "texto": "40"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Los interceptos son (-5, 0) y (0, -8). El área del triángulo con el origen es |a·b|/2 = |(-5)(-8)|/2 = 20 unidades cuadradas.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-028",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una recta pasa por P(6, 2). Su intercepto con el eje Y es el doble de su intercepto con el eje X. ¿Cuál es la ecuación simétrica?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-x/7 + y/14 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/14 + y/7 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/7 + y/14 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/7 - y/14 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/7 + y/15 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/8 + y/14 = 1"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Sea b = 2a. Al sustituir P(6,2) en x/a + y/b = 1 resulta 6/a + 2/(2a) = 1, de donde 7/a = 1. Luego a = 7 y b = 14.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-029",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una recta pasa por P(2, 3), corta ambos ejes positivos y forma con ellos un triángulo de área 12. Determine su forma simétrica.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/5 + y/6 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x/6 + y/4 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x/4 - y/6 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "-x/4 + y/6 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/4 + y/6 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/4 + y/7 = 1"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Los interceptos a,b > 0 cumplen ab/2 = 12 y 2/a + 3/b = 1. Multiplicando por ab: 2b + 3a = 24. Con b = 24/a se obtiene 3a² - 24a + 48 = 0, es decir 3(a - 4)² = 0. Entonces a = 4 y b = 6.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-SIM-030",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma simétrica de la recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El punto M(3, -2) es el punto medio del segmento cuyos extremos son las intersecciones de una recta con los ejes X e Y. Halle su forma simétrica.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x/7 - y/4 = 1"
+        },
+        {
+          "id": "B",
+          "texto": "-x/4 + y/6 = 1"
+        },
+        {
+          "id": "C",
+          "texto": "-x/6 - y/4 = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x/6 - y/3 = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x/6 + y/4 = 1"
+        },
+        {
+          "id": "F",
+          "texto": "x/6 - y/4 = 1"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Los interceptos son A(a,0) y B(0,b), y su punto medio es (a/2, b/2). De (a/2,b/2) = (3,-2) se obtiene a = 6 y b = -4. Por ello x/6 - y/4 = 1.",
+      "puntaje": 1
     }
   ]
 }
