@@ -15,7 +15,7 @@ Ejemplo en Matemática Superior:
 
 Usa el [prompt maestro de carga](PROMPT_MAESTRO_CARGA.md) para enviar archivos de preguntas existentes o pedir generación de nuevos lotes. La regla principal es **identificar equivalencias semánticas antes de crear temas**. Por ejemplo, «Ecuación de la línea recta» se normaliza a «Ecuación de la Recta» en Matemática Superior; «Forma general de la recta» se clasifica dentro de su subtema cuando corresponda.
 
-Se verifica cada clave, se detectan duplicados en el lote y en GitHub, y se publican únicamente los ítems compatibles con el motor actual (selección única con cuatro alternativas). Los ítems ambiguos o incompatibles se reportan para revisión, sin descartarlos silenciosamente.
+Se verifica cada clave, se detectan duplicados en el lote y en GitHub, y se publican únicamente los ítems compatibles con el motor actual (selección única con **dos o más alternativas, conservando todas las originales**). Los ítems ambiguos o incompatibles se reportan para revisión, sin descartarlos silenciosamente.
 
 ## Cómo proporcionar preguntas nuevas
 
@@ -23,7 +23,7 @@ Puedes facilitar a ChatGPT las preguntas en Word, PDF, Excel, texto o como lista
 1. Institución y asignatura.
 2. Unidad, tema y subtema (puede haber varios).
 3. Número de preguntas y dificultad deseada.
-4. Tipo: inicialmente selección única (cuatro alternativas, solo una correcta).
+4. Tipo: inicialmente selección única (dos o más alternativas, una sola correcta).
 5. Si las preguntas deben basarse en materiales curriculares adjuntos o ser originales.
 
 ChatGPT puede transformarlas al JSON utilizado por la plataforma y publicarlas directamente en GitHub con la conexión autorizada. Antes de publicar, verificar resultados matemáticos, alternativas, explicación y cantidad de preguntas disponibles.
@@ -37,8 +37,8 @@ ChatGPT puede transformarlas al JSON utilizado por la plataforma y publicarlas d
 - `dificultad`: `basico`, `intermedio` o `avanzado`.
 - `tipo`: `seleccion_unica` en la versión piloto.
 - `enunciado`: pregunta completa, con datos necesarios.
-- `opciones`: cuatro objetos con `id` (A–D) y `texto`.
-- `respuesta`: identificador A–D de la alternativa correcta.
+- `opciones`: arreglo de longitud variable, con un objeto `{id, texto}` por alternativa. Los IDs deben ser únicos (A, B, C, D, E, F, etc.).
+- `respuesta`: identificador de la única alternativa correcta, que debe existir en `opciones`.
 - `explicacion`: justificación o procedimiento correcto.
 - `puntaje`: puntuación de referencia (normalmente 1).
 
@@ -58,7 +58,7 @@ Consulta `plantillas/pregunta-seleccion-unica.json` para un ejemplo.
 
 Para agregar un nuevo tema, proporcionar a ChatGPT un mensaje como:
 
-> Añade 30 preguntas a Matemática Superior, unidad Geometría analítica, tema Circunferencia, subtema Ecuación canónica. Incluye 10 básicas, 15 intermedias y 5 avanzadas. Cuatro alternativas, explicación y validación. Actualiza el JSON en GitHub conservando todas las preguntas existentes y comprueba el banco.
+> Añade 30 preguntas a Matemática Superior, unidad Geometría analítica, tema Circunferencia, subtema Ecuación canónica. Incluye 10 básicas, 15 intermedias y 5 avanzadas. Alternativas suficientes y sin límite fijo de cuatro, explicación y validación. Actualiza el JSON en GitHub conservando todas las preguntas existentes y comprueba el banco.
 
 Se añadirán al archivo JSON de la asignatura; el configurador detectará automáticamente el nuevo tema/subtema. No hace falta tocar HTML.
 
@@ -66,7 +66,7 @@ Se añadirán al archivo JSON de la asignatura; el configurador detectará autom
 
 1. Abrir https://jpaulmata80.github.io/bancos-preguntas/app.html#docente
 2. Seleccionar Bachillerato > Matemática Superior.
-3. Marcar uno o varios subtemas de Ecuación de la Recta.
+3. Desplegar uno o varios temas y marcar los subtemas deseados. Las selecciones se conservan aunque se cierre cada tema.
 4. Configurar 10 preguntas y, por ejemplo, 180 segundos por pregunta; indicar fechas y copiar el enlace generado.
 5. Compartir el enlace de práctica con los estudiantes.
 
