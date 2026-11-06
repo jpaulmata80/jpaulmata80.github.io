@@ -1814,11 +1814,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "90°"
+          "texto": "0°"
         },
         {
           "id": "B",
-          "texto": "0°"
+          "texto": "30°"
         },
         {
           "id": "C",
@@ -1826,10 +1826,18 @@
         },
         {
           "id": "D",
+          "texto": "60°"
+        },
+        {
+          "id": "E",
           "texto": "180°"
+        },
+        {
+          "id": "F",
+          "texto": "90°"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "F",
       "explicacion": "Son rectas perpendiculares.",
       "puntaje": 1,
       "titulo_origen": "Ángulo entre dos rectas - 01 - Fórmula",
@@ -1846,11 +1854,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "45°"
+          "texto": "90°"
         },
         {
           "id": "B",
-          "texto": "90°"
+          "texto": "30°"
         },
         {
           "id": "C",
@@ -1858,10 +1866,18 @@
         },
         {
           "id": "D",
+          "texto": "135°"
+        },
+        {
+          "id": "E",
           "texto": "0°"
+        },
+        {
+          "id": "F",
+          "texto": "45°"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "F",
       "explicacion": "tan θ = |(1-0)/(1+0)|=1, luego θ=45°.",
       "puntaje": 1,
       "titulo_origen": "Ángulo entre dos rectas - 02 - Fórmula",
@@ -1878,22 +1894,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "90°"
-        },
-        {
-          "id": "B",
           "texto": "60°"
         },
         {
+          "id": "B",
+          "texto": "90°"
+        },
+        {
           "id": "C",
-          "texto": "45°"
+          "texto": "120°"
         },
         {
           "id": "D",
+          "texto": "45°"
+        },
+        {
+          "id": "E",
+          "texto": "30°"
+        },
+        {
+          "id": "F",
           "texto": "0°"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "B",
       "explicacion": "El producto de pendientes vale -1.",
       "puntaje": 1,
       "titulo_origen": "Ángulo entre dos rectas - 03 - Fórmula",
@@ -1910,22 +1934,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "0°"
-        },
-        {
-          "id": "B",
           "texto": "45°"
         },
         {
+          "id": "B",
+          "texto": "90°"
+        },
+        {
           "id": "C",
-          "texto": "30°"
+          "texto": "0°"
         },
         {
           "id": "D",
+          "texto": "30°"
+        },
+        {
+          "id": "E",
+          "texto": "60°"
+        },
+        {
+          "id": "F",
           "texto": "180°"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "C",
       "explicacion": "Direcciones paralelas generan ángulo menor 0°.",
       "puntaje": 1,
       "titulo_origen": "Ángulo entre dos rectas - 04 - Fórmula",
@@ -1942,11 +1974,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "60°"
+          "texto": "45°"
         },
         {
           "id": "B",
-          "texto": "45°"
+          "texto": "120°"
         },
         {
           "id": "C",
@@ -1954,10 +1986,18 @@
         },
         {
           "id": "D",
+          "texto": "60°"
+        },
+        {
+          "id": "E",
+          "texto": "30°"
+        },
+        {
+          "id": "F",
           "texto": "90°"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "D",
       "explicacion": "tan θ = √3 ⇒ θ=60°.",
       "puntaje": 1,
       "titulo_origen": "Ángulo entre dos rectas - 05 - Fórmula",
@@ -1974,11 +2014,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "90°"
+          "texto": "60°"
         },
         {
           "id": "B",
-          "texto": "60°"
+          "texto": "30°"
         },
         {
           "id": "C",
@@ -1986,10 +2026,18 @@
         },
         {
           "id": "D",
+          "texto": "0°"
+        },
+        {
+          "id": "E",
+          "texto": "90°"
+        },
+        {
+          "id": "F",
           "texto": "120°"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "E",
       "explicacion": "Sus pendientes son recíprocas opuestas.",
       "puntaje": 1,
       "titulo_origen": "Ángulo entre dos rectas - 07 - Aplicación",
@@ -2014,10 +2062,18 @@
         },
         {
           "id": "C",
-          "texto": "15°"
+          "texto": "120°"
         },
         {
           "id": "D",
+          "texto": "15°"
+        },
+        {
+          "id": "E",
+          "texto": "60°"
+        },
+        {
+          "id": "F",
           "texto": "90°"
         }
       ],
@@ -2038,11 +2094,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "90°"
+          "texto": "130°"
         },
         {
           "id": "B",
-          "texto": "130°"
+          "texto": "45°"
         },
         {
           "id": "C",
@@ -2050,10 +2106,18 @@
         },
         {
           "id": "D",
+          "texto": "110°"
+        },
+        {
+          "id": "E",
+          "texto": "90°"
+        },
+        {
+          "id": "F",
           "texto": "70°"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "E",
       "explicacion": "La diferencia es 110°-20°=90°.",
       "puntaje": 1,
       "titulo_origen": "Ángulo entre dos rectas - 10 - Aplicación",
@@ -2070,11 +2134,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "5"
+          "texto": "7"
         },
         {
           "id": "B",
-          "texto": "7"
+          "texto": "4"
         },
         {
           "id": "C",
@@ -2082,10 +2146,18 @@
         },
         {
           "id": "D",
+          "texto": "√7"
+        },
+        {
+          "id": "E",
+          "texto": "5"
+        },
+        {
+          "id": "F",
           "texto": "25"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "E",
       "explicacion": "d = √(3² + 4²) = 5.",
       "puntaje": 1,
       "titulo_origen": "Distancia entre dos puntos - 01 - Fórmula",
@@ -2102,22 +2174,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "8"
-        },
-        {
-          "id": "B",
           "texto": "4"
         },
         {
+          "id": "B",
+          "texto": "8"
+        },
+        {
           "id": "C",
-          "texto": "√8"
+          "texto": "10"
         },
         {
           "id": "D",
+          "texto": "√8"
+        },
+        {
+          "id": "E",
+          "texto": "16"
+        },
+        {
+          "id": "F",
           "texto": "6"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "B",
       "explicacion": "Ambos puntos tienen igual ordenada; la diferencia horizontal es 8.",
       "puntaje": 1,
       "titulo_origen": "Distancia entre dos puntos - 02 - Fórmula",
@@ -2134,11 +2214,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "10"
+          "texto": "√52"
         },
         {
           "id": "B",
-          "texto": "√52"
+          "texto": "8"
         },
         {
           "id": "C",
@@ -2146,10 +2226,18 @@
         },
         {
           "id": "D",
+          "texto": "10"
+        },
+        {
+          "id": "E",
+          "texto": "14"
+        },
+        {
+          "id": "F",
           "texto": "100"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "D",
       "explicacion": "d = √(6² + 8²) = 10.",
       "puntaje": 1,
       "titulo_origen": "Distancia entre dos puntos - 03 - Fórmula",
@@ -2166,11 +2254,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "13"
+          "texto": "17"
         },
         {
           "id": "B",
-          "texto": "17"
+          "texto": "12"
         },
         {
           "id": "C",
@@ -2178,10 +2266,18 @@
         },
         {
           "id": "D",
+          "texto": "√119"
+        },
+        {
+          "id": "E",
           "texto": "169"
+        },
+        {
+          "id": "F",
+          "texto": "13"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "F",
       "explicacion": "d = √(25 + 144) = 13.",
       "puntaje": 1,
       "titulo_origen": "Distancia entre dos puntos - 04 - Fórmula",
@@ -2198,11 +2294,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "8"
+          "texto": "2"
         },
         {
           "id": "B",
-          "texto": "2"
+          "texto": "6"
         },
         {
           "id": "C",
@@ -2210,10 +2306,18 @@
         },
         {
           "id": "D",
+          "texto": "8"
+        },
+        {
+          "id": "E",
+          "texto": "√8"
+        },
+        {
+          "id": "F",
           "texto": "10"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "D",
       "explicacion": "La abscisa coincide y |5 - (-3)| = 8.",
       "puntaje": 1,
       "titulo_origen": "Distancia entre dos puntos - 05 - Fórmula",
@@ -2230,22 +2334,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "100 m"
-        },
-        {
-          "id": "B",
           "texto": "140 m"
         },
         {
+          "id": "B",
+          "texto": "80 m"
+        },
+        {
           "id": "C",
-          "texto": "10 m"
+          "texto": "100 m"
         },
         {
           "id": "D",
+          "texto": "10 m"
+        },
+        {
+          "id": "E",
+          "texto": "50 m"
+        },
+        {
+          "id": "F",
           "texto": "120 m"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "C",
       "explicacion": "La distancia en unidades es √(6²+8²)=10; por tanto, 100 m.",
       "puntaje": 1,
       "titulo_origen": "Distancia entre dos puntos - 06 - Aplicación",
@@ -2262,11 +2374,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "10 km"
+          "texto": "100 km"
         },
         {
           "id": "B",
-          "texto": "100 km"
+          "texto": "8 km"
         },
         {
           "id": "C",
@@ -2274,10 +2386,18 @@
         },
         {
           "id": "D",
+          "texto": "10 km"
+        },
+        {
+          "id": "E",
+          "texto": "14 km"
+        },
+        {
+          "id": "F",
           "texto": "6 km"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "D",
       "explicacion": "d = √(6²+(-8)²) = 10 km.",
       "puntaje": 1,
       "titulo_origen": "Distancia entre dos puntos - 07 - Aplicación",
@@ -2294,22 +2414,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "10 m"
-        },
-        {
-          "id": "B",
           "texto": "48 m"
         },
         {
+          "id": "B",
+          "texto": "6 m"
+        },
+        {
           "id": "C",
-          "texto": "14 m"
+          "texto": "10 m"
         },
         {
           "id": "D",
+          "texto": "14 m"
+        },
+        {
+          "id": "E",
+          "texto": "√14 m"
+        },
+        {
+          "id": "F",
           "texto": "8 m"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "C",
       "explicacion": "La longitud del lado AB es 10 m.",
       "puntaje": 1,
       "titulo_origen": "Distancia entre dos puntos - 08 - Aplicación",
@@ -2326,11 +2454,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "Recorre 7 unidades; la distancia directa es 5."
+          "texto": "Ambas distancias son 7."
         },
         {
           "id": "B",
-          "texto": "Ambas distancias son 7."
+          "texto": "Recorre 5 unidades; la distancia directa es 7."
         },
         {
           "id": "C",
@@ -2338,10 +2466,18 @@
         },
         {
           "id": "D",
+          "texto": "Ambas distancias son 5."
+        },
+        {
+          "id": "E",
           "texto": "La distancia directa es mayor que el recorrido por ejes."
+        },
+        {
+          "id": "F",
+          "texto": "Recorre 7 unidades; la distancia directa es 5."
         }
       ],
-      "respuesta": "A",
+      "respuesta": "F",
       "explicacion": "El recorrido por ejes es 3+4=7; la distancia euclidiana es 5.",
       "puntaje": 1,
       "titulo_origen": "Distancia entre dos puntos - 09 - Aplicación",
@@ -2358,22 +2494,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "-7"
-        },
-        {
-          "id": "B",
           "texto": "-14"
         },
         {
+          "id": "B",
+          "texto": "7"
+        },
+        {
           "id": "C",
-          "texto": "-√7"
+          "texto": "-7"
         },
         {
           "id": "D",
+          "texto": "-√7"
+        },
+        {
+          "id": "E",
+          "texto": "14"
+        },
+        {
+          "id": "F",
           "texto": "0"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "C",
       "explicacion": "En el eje horizontal, |x|=7; a la izquierda implica x=-7.",
       "puntaje": 1,
       "titulo_origen": "Distancia entre dos puntos - 10 - Aplicación",
@@ -2390,22 +2534,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "Son paralelas (o coincidentes)."
-        },
-        {
-          "id": "B",
           "texto": "Son necesariamente coincidentes."
         },
         {
+          "id": "B",
+          "texto": "Forman 90°."
+        },
+        {
           "id": "C",
-          "texto": "Son perpendiculares."
+          "texto": "Son paralelas (o coincidentes)."
         },
         {
           "id": "D",
+          "texto": "Son perpendiculares."
+        },
+        {
+          "id": "E",
+          "texto": "Forman 45°."
+        },
+        {
+          "id": "F",
           "texto": "No puede establecerse ninguna relación."
         }
       ],
-      "respuesta": "A",
+      "respuesta": "C",
       "explicacion": "Pendientes iguales indican rectas paralelas o coincidentes.",
       "puntaje": 1,
       "titulo_origen": "Paralelismo y perpendicularidad - 01 - Fórmula",
@@ -2422,11 +2574,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "-1/2"
+          "texto": "-2"
         },
         {
           "id": "B",
-          "texto": "-2"
+          "texto": "1"
         },
         {
           "id": "C",
@@ -2434,10 +2586,18 @@
         },
         {
           "id": "D",
+          "texto": "-1/2"
+        },
+        {
+          "id": "E",
+          "texto": "0"
+        },
+        {
+          "id": "F",
           "texto": "1/2"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "D",
       "explicacion": "Para rectas no verticales ni horizontales: m₁m₂=-1.",
       "puntaje": 1,
       "titulo_origen": "Paralelismo y perpendicularidad - 02 - Fórmula",
@@ -2454,11 +2614,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "2/5"
+          "texto": "-2/5"
         },
         {
           "id": "B",
-          "texto": "-2/5"
+          "texto": "-1"
         },
         {
           "id": "C",
@@ -2466,10 +2626,18 @@
         },
         {
           "id": "D",
+          "texto": "1"
+        },
+        {
+          "id": "E",
           "texto": "-5/2"
+        },
+        {
+          "id": "F",
+          "texto": "2/5"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "F",
       "explicacion": "El recíproco opuesto de -5/2 es 2/5.",
       "puntaje": 1,
       "titulo_origen": "Paralelismo y perpendicularidad - 05 - Fórmula",
@@ -2494,10 +2662,18 @@
         },
         {
           "id": "C",
-          "texto": "-1"
+          "texto": "0"
         },
         {
           "id": "D",
+          "texto": "-1"
+        },
+        {
+          "id": "E",
+          "texto": "-1/2"
+        },
+        {
+          "id": "F",
           "texto": "2"
         }
       ],
@@ -2526,10 +2702,18 @@
         },
         {
           "id": "C",
-          "texto": "Una calle de pendiente 2."
+          "texto": "Una calle de pendiente 1."
         },
         {
           "id": "D",
+          "texto": "Una calle de pendiente 2."
+        },
+        {
+          "id": "E",
+          "texto": "Una calle de pendiente 1/2."
+        },
+        {
+          "id": "F",
           "texto": "Otra calle horizontal."
         }
       ],
@@ -2558,10 +2742,18 @@
         },
         {
           "id": "C",
-          "texto": "6"
+          "texto": "-3"
         },
         {
           "id": "D",
+          "texto": "6"
+        },
+        {
+          "id": "E",
+          "texto": "1/3"
+        },
+        {
+          "id": "F",
           "texto": "2"
         }
       ],
@@ -2582,22 +2774,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "1"
-        },
-        {
-          "id": "B",
           "texto": "1/√3"
         },
         {
+          "id": "B",
+          "texto": "√3"
+        },
+        {
           "id": "C",
-          "texto": "No definida"
+          "texto": "1"
         },
         {
           "id": "D",
+          "texto": "No definida"
+        },
+        {
+          "id": "E",
+          "texto": "-1"
+        },
+        {
+          "id": "F",
           "texto": "0"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "C",
       "explicacion": "m=tan(45°)=1.",
       "puntaje": 1,
       "titulo_origen": "Pendiente de una recta - 02 - Fórmula",
@@ -2622,10 +2822,18 @@
         },
         {
           "id": "C",
-          "texto": "6"
+          "texto": "-6"
         },
         {
           "id": "D",
+          "texto": "6"
+        },
+        {
+          "id": "E",
+          "texto": "-1/6"
+        },
+        {
+          "id": "F",
           "texto": "0"
         }
       ],
@@ -2654,10 +2862,18 @@
         },
         {
           "id": "C",
-          "texto": "-√3"
+          "texto": "No definida"
         },
         {
           "id": "D",
+          "texto": "-√3"
+        },
+        {
+          "id": "E",
+          "texto": "1"
+        },
+        {
+          "id": "F",
           "texto": "0"
         }
       ],
@@ -2678,11 +2894,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "No definida"
+          "texto": "0"
         },
         {
           "id": "B",
-          "texto": "0"
+          "texto": "1"
         },
         {
           "id": "C",
@@ -2690,10 +2906,18 @@
         },
         {
           "id": "D",
+          "texto": "11"
+        },
+        {
+          "id": "E",
           "texto": "1/11"
+        },
+        {
+          "id": "F",
+          "texto": "No definida"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "F",
       "explicacion": "La diferencia de abscisas es cero: recta vertical.",
       "puntaje": 1,
       "titulo_origen": "Pendiente de una recta - 05 - Fórmula",
@@ -2710,11 +2934,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "1/4"
+          "texto": "-1/4"
         },
         {
           "id": "B",
-          "texto": "-1/4"
+          "texto": "3"
         },
         {
           "id": "C",
@@ -2722,10 +2946,18 @@
         },
         {
           "id": "D",
+          "texto": "1/4"
+        },
+        {
+          "id": "E",
+          "texto": "1/3"
+        },
+        {
+          "id": "F",
           "texto": "15"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "D",
       "explicacion": "Pendiente = elevación / avance = 3/12 = 1/4.",
       "puntaje": 1,
       "titulo_origen": "Pendiente de una recta - 06 - Aplicación",
@@ -2742,22 +2974,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "-1/5"
-        },
-        {
-          "id": "B",
           "texto": "1/5"
         },
         {
+          "id": "B",
+          "texto": "-1/5"
+        },
+        {
           "id": "C",
-          "texto": "5"
+          "texto": "0"
         },
         {
           "id": "D",
+          "texto": "5"
+        },
+        {
+          "id": "E",
+          "texto": "-5"
+        },
+        {
+          "id": "F",
           "texto": "-1/2"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "B",
       "explicacion": "La variación vertical es -2; m=-2/10=-1/5.",
       "puntaje": 1,
       "titulo_origen": "Pendiente de una recta - 07 - Aplicación",
@@ -2774,11 +3014,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "La coordenada y aumenta."
+          "texto": "Forma un ángulo de 135° con el eje x positivo."
         },
         {
           "id": "B",
-          "texto": "Forma un ángulo de 135° con el eje x positivo."
+          "texto": "La coordenada y disminuye."
         },
         {
           "id": "C",
@@ -2786,10 +3026,18 @@
         },
         {
           "id": "D",
+          "texto": "Es necesariamente vertical."
+        },
+        {
+          "id": "E",
+          "texto": "La coordenada y aumenta."
+        },
+        {
+          "id": "F",
           "texto": "Su pendiente es cero."
         }
       ],
-      "respuesta": "A",
+      "respuesta": "E",
       "explicacion": "Una pendiente positiva implica aumento de y al aumentar x.",
       "puntaje": 1,
       "titulo_origen": "Pendiente de una recta - 08 - Aplicación",
@@ -2806,11 +3054,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "(8, 5)"
+          "texto": "(0, 0)"
         },
         {
           "id": "B",
-          "texto": "(0, 0)"
+          "texto": "(5, 8)"
         },
         {
           "id": "C",
@@ -2818,10 +3066,18 @@
         },
         {
           "id": "D",
+          "texto": "(8, -5)"
+        },
+        {
+          "id": "E",
           "texto": "(-3, 8)"
+        },
+        {
+          "id": "F",
+          "texto": "(8, 5)"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "F",
       "explicacion": "Una recta horizontal conserva la ordenada y=5.",
       "puntaje": 1,
       "titulo_origen": "Pendiente de una recta - 09 - Aplicación",
@@ -2838,11 +3094,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "2 unidades"
+          "texto": "1/2 unidad"
         },
         {
           "id": "B",
-          "texto": "1/2 unidad"
+          "texto": "10 unidades"
         },
         {
           "id": "C",
@@ -2850,10 +3106,18 @@
         },
         {
           "id": "D",
+          "texto": "4 unidades"
+        },
+        {
+          "id": "E",
           "texto": "8 unidades"
+        },
+        {
+          "id": "F",
+          "texto": "2 unidades"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "F",
       "explicacion": "m=(9-1)/(5-1)=8/4=2.",
       "puntaje": 1,
       "titulo_origen": "Pendiente de una recta - 10 - Aplicación",
@@ -2870,11 +3134,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "(5, 7)"
+          "texto": "(10, 14)"
         },
         {
           "id": "B",
-          "texto": "(10, 14)"
+          "texto": "(6, 7)"
         },
         {
           "id": "C",
@@ -2882,10 +3146,18 @@
         },
         {
           "id": "D",
+          "texto": "(3, 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(5, 7)"
+        },
+        {
+          "id": "F",
           "texto": "(5, 6)"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "E",
       "explicacion": "Promedie abscisas y ordenadas: (5,7).",
       "puntaje": 1,
       "titulo_origen": "Punto medio - 01 - Fórmula",
@@ -2902,22 +3174,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "(-2, -1)"
-        },
-        {
-          "id": "B",
           "texto": "(2, 1)"
         },
         {
+          "id": "B",
+          "texto": "(-2, -1)"
+        },
+        {
           "id": "C",
-          "texto": "(-4, -2)"
+          "texto": "(-2, 1)"
         },
         {
           "id": "D",
+          "texto": "(-4, -2)"
+        },
+        {
+          "id": "E",
+          "texto": "(4, -8)"
+        },
+        {
+          "id": "F",
           "texto": "(1, -2)"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "B",
       "explicacion": "((-6+2)/2,(3-5)/2)=(-2,-1).",
       "puntaje": 1,
       "titulo_origen": "Punto medio - 02 - Fórmula",
@@ -2934,11 +3214,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "(6, -4)"
+          "texto": "(12, -8)"
         },
         {
           "id": "B",
-          "texto": "(12, -8)"
+          "texto": "(4, -6)"
         },
         {
           "id": "C",
@@ -2946,10 +3226,18 @@
         },
         {
           "id": "D",
+          "texto": "(6, 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(6, -4)"
+        },
+        {
+          "id": "F",
           "texto": "(0, -4)"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "E",
       "explicacion": "La media de cada coordenada es (6,-4).",
       "puntaje": 1,
       "titulo_origen": "Punto medio - 03 - Fórmula",
@@ -2966,11 +3254,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "(1, -3)"
+          "texto": "(-4, -3)"
         },
         {
           "id": "B",
-          "texto": "(-4, -3)"
+          "texto": "(4, -8)"
         },
         {
           "id": "C",
@@ -2978,10 +3266,18 @@
         },
         {
           "id": "D",
+          "texto": "(2, -6)"
+        },
+        {
+          "id": "E",
+          "texto": "(1, -3)"
+        },
+        {
+          "id": "F",
           "texto": "(-1, 3)"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "E",
       "explicacion": "((-3+5)/2,(-7+1)/2)=(1,-3).",
       "puntaje": 1,
       "titulo_origen": "Punto medio - 04 - Fórmula",
@@ -2998,22 +3294,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "(3, 2)"
-        },
-        {
-          "id": "B",
           "texto": "(-3, 2)"
         },
         {
+          "id": "B",
+          "texto": "(4, 2)"
+        },
+        {
           "id": "C",
-          "texto": "(8, 0)"
+          "texto": "(3, 2)"
         },
         {
           "id": "D",
+          "texto": "(8, 0)"
+        },
+        {
+          "id": "E",
+          "texto": "(3, 0)"
+        },
+        {
+          "id": "F",
           "texto": "(6, 4)"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "C",
       "explicacion": "((7-1)/2,(2+2)/2)=(3,2).",
       "puntaje": 1,
       "titulo_origen": "Punto medio - 05 - Fórmula",
@@ -3030,22 +3334,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "(6, 3)"
-        },
-        {
-          "id": "B",
           "texto": "(5, 3)"
         },
         {
+          "id": "B",
+          "texto": "(6, 3)"
+        },
+        {
           "id": "C",
-          "texto": "(6, 2)"
+          "texto": "(12, 6)"
         },
         {
           "id": "D",
+          "texto": "(6, 2)"
+        },
+        {
+          "id": "E",
+          "texto": "(8, 4)"
+        },
+        {
+          "id": "F",
           "texto": "(4, 2)"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "B",
       "explicacion": "El sensor va en las coordenadas promedio.",
       "puntaje": 1,
       "titulo_origen": "Punto medio - 06 - Aplicación",
@@ -3062,22 +3374,30 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "(8, 7)"
-        },
-        {
-          "id": "B",
           "texto": "(7, 2)"
         },
         {
+          "id": "B",
+          "texto": "(10, 6)"
+        },
+        {
           "id": "C",
-          "texto": "(-8, -7)"
+          "texto": "(8, 7)"
         },
         {
           "id": "D",
+          "texto": "(-8, -7)"
+        },
+        {
+          "id": "E",
+          "texto": "(3, 4)"
+        },
+        {
+          "id": "F",
           "texto": "(6, 5)"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "C",
       "explicacion": "B = 2M - A = (10-2,6-(-1)) = (8,7).",
       "puntaje": 1,
       "titulo_origen": "Punto medio - 07 - Aplicación",
@@ -3102,10 +3422,18 @@
         },
         {
           "id": "C",
-          "texto": "(2, 6)"
+          "texto": "(1, -3)"
         },
         {
           "id": "D",
+          "texto": "(2, 6)"
+        },
+        {
+          "id": "E",
+          "texto": "(-1, -3)"
+        },
+        {
+          "id": "F",
           "texto": "(5, 6)"
         }
       ],
@@ -3126,11 +3454,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "(6, 7)"
+          "texto": "(3, 5)"
         },
         {
           "id": "B",
-          "texto": "(3, 5)"
+          "texto": "(6, 3)"
         },
         {
           "id": "C",
@@ -3138,10 +3466,18 @@
         },
         {
           "id": "D",
+          "texto": "(6, -7)"
+        },
+        {
+          "id": "E",
           "texto": "(-6, 7)"
+        },
+        {
+          "id": "F",
+          "texto": "(6, 7)"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "F",
       "explicacion": "B=(2·0-(-6),2·4-1)=(6,7).",
       "puntaje": 1,
       "titulo_origen": "Punto medio - 09 - Aplicación",
@@ -3158,11 +3494,11 @@
       "opciones": [
         {
           "id": "A",
-          "texto": "(5, 5)"
+          "texto": "(5, 4)"
         },
         {
           "id": "B",
-          "texto": "(5, 4)"
+          "texto": "(8, -8)"
         },
         {
           "id": "C",
@@ -3170,10 +3506,18 @@
         },
         {
           "id": "D",
+          "texto": "(4, 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(5, 5)"
+        },
+        {
+          "id": "F",
           "texto": "(10, 10)"
         }
       ],
-      "respuesta": "A",
+      "respuesta": "E",
       "explicacion": "El promedio de ambas coordenadas vale 5.",
       "puntaje": 1,
       "titulo_origen": "Punto medio - 10 - Aplicación",
