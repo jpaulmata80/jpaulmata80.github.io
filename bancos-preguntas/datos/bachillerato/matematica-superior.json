@@ -40,7 +40,7 @@
       "subtema": "Pendiente de una recta",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(2, 4) y Q(2, 4)?",
+      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(2, 4) y Q(5, 13)?",
       "opciones": [
         {
           "id": "A",
@@ -60,7 +60,7 @@
         }
       ],
       "respuesta": "D",
-      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (4 − (4))/(2 − (2)) = 3.",
+      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (13 − 4)/(5 − 2) = 3.",
       "puntaje": 1
     },
     {
