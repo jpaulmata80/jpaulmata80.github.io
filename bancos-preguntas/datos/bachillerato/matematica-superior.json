@@ -1,6 +1,1807 @@
 {
   "version": 1,
   "asignatura": "matematica-superior",
-  "descripcion": "Banco preparado para incorporar preguntas. Todavía no hay preguntas publicadas.",
-  "preguntas": []
+  "descripcion": "Banco piloto de Matemática Superior: Ecuación de la Recta. Preguntas originales de selección única con retroalimentación; sujeto a revisión del docente antes de evaluaciones oficiales.",
+  "preguntas": [
+    {
+      "id": "MATS-RECT-001",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(−3, 7) y Q(−1, 3)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-3"
+        },
+        {
+          "id": "B",
+          "texto": "2"
+        },
+        {
+          "id": "C",
+          "texto": "-2"
+        },
+        {
+          "id": "D",
+          "texto": "-1"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (3 − (7))/(−1 − (−3)) = −2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-002",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(2, 4) y Q(2, 4)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4"
+        },
+        {
+          "id": "B",
+          "texto": "2"
+        },
+        {
+          "id": "C",
+          "texto": "-3"
+        },
+        {
+          "id": "D",
+          "texto": "3"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (4 − (4))/(2 − (2)) = 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-003",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(4, −3) y Q(2, −3)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "0"
+        },
+        {
+          "id": "B",
+          "texto": "1"
+        },
+        {
+          "id": "C",
+          "texto": "-1"
+        },
+        {
+          "id": "D",
+          "texto": "2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (−3 − (−3))/(2 − (4)) = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-004",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(−2, 5) y Q(4, −1)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "1"
+        },
+        {
+          "id": "B",
+          "texto": "-1"
+        },
+        {
+          "id": "C",
+          "texto": "0"
+        },
+        {
+          "id": "D",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (−1 − (5))/(4 − (−2)) = −1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-005",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(1, −2) y Q(−3, −10)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "1"
+        },
+        {
+          "id": "B",
+          "texto": "-2"
+        },
+        {
+          "id": "C",
+          "texto": "2"
+        },
+        {
+          "id": "D",
+          "texto": "3"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (−10 − (−2))/(−3 − (1)) = 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-006",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(2, 7) y Q(1, 3)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5"
+        },
+        {
+          "id": "B",
+          "texto": "3"
+        },
+        {
+          "id": "C",
+          "texto": "-4"
+        },
+        {
+          "id": "D",
+          "texto": "4"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (3 − (7))/(1 − (2)) = 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-007",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(−4, 12) y Q(2, −6)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-3"
+        },
+        {
+          "id": "B",
+          "texto": "-2"
+        },
+        {
+          "id": "C",
+          "texto": "-4"
+        },
+        {
+          "id": "D",
+          "texto": "3"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (−6 − (12))/(2 − (−4)) = −3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-008",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(3, −2) y Q(−2, −7)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-1"
+        },
+        {
+          "id": "B",
+          "texto": "1"
+        },
+        {
+          "id": "C",
+          "texto": "2"
+        },
+        {
+          "id": "D",
+          "texto": "0"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (−7 − (−2))/(−2 − (3)) = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-009",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta que pasa por P(−3, 14) y Q(1, −2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-5"
+        },
+        {
+          "id": "B",
+          "texto": "4"
+        },
+        {
+          "id": "C",
+          "texto": "-4"
+        },
+        {
+          "id": "D",
+          "texto": "-3"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "m = (y₂ − y₁)/(x₂ − x₁) = (−2 − (14))/(1 − (−3)) = −4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-010",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de la recta vertical x = 4?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "0"
+        },
+        {
+          "id": "B",
+          "texto": "1"
+        },
+        {
+          "id": "C",
+          "texto": "−1"
+        },
+        {
+          "id": "D",
+          "texto": "No definida"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "En una recta vertical Δx = 0, por lo tanto Δy/Δx no está definida.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-011",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma explícita e interpretación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "En la ecuación y = −3x + 5, ¿cuál es la pendiente?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-3"
+        },
+        {
+          "id": "B",
+          "texto": "5"
+        },
+        {
+          "id": "C",
+          "texto": "3"
+        },
+        {
+          "id": "D",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En la forma y = mx + b, la pendiente es el coeficiente de x, es decir, m = −3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-012",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma explícita e interpretación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "En la ecuación y = 2x − 4, ¿cuál es la pendiente?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3"
+        },
+        {
+          "id": "B",
+          "texto": "2"
+        },
+        {
+          "id": "C",
+          "texto": "-4"
+        },
+        {
+          "id": "D",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "En la forma y = mx + b, la pendiente es el coeficiente de x, es decir, m = 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-013",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma explícita e interpretación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "En la ecuación y = 3, ¿cuál es la pendiente?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "1"
+        },
+        {
+          "id": "B",
+          "texto": "-1"
+        },
+        {
+          "id": "C",
+          "texto": "0"
+        },
+        {
+          "id": "D",
+          "texto": "3"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "En la forma y = mx + b, la pendiente es el coeficiente de x, es decir, m = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-014",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma explícita e interpretación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "En la ecuación y = 4x, ¿cuál es la pendiente?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "0"
+        },
+        {
+          "id": "B",
+          "texto": "-4"
+        },
+        {
+          "id": "C",
+          "texto": "5"
+        },
+        {
+          "id": "D",
+          "texto": "4"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "En la forma y = mx + b, la pendiente es el coeficiente de x, es decir, m = 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-015",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma explícita e interpretación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "En la ecuación y = −x − 2, ¿cuál es la pendiente?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-1"
+        },
+        {
+          "id": "B",
+          "texto": "-2"
+        },
+        {
+          "id": "C",
+          "texto": "1"
+        },
+        {
+          "id": "D",
+          "texto": "0"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En la forma y = mx + b, la pendiente es el coeficiente de x, es decir, m = −1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-016",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma explícita e interpretación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿En qué valor de y corta al eje vertical la recta y = 3x + 1?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2"
+        },
+        {
+          "id": "B",
+          "texto": "1"
+        },
+        {
+          "id": "C",
+          "texto": "3"
+        },
+        {
+          "id": "D",
+          "texto": "-1"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "La intersección con el eje y ocurre cuando x = 0. Entonces y = 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-017",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma explícita e interpretación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿En qué valor de y corta al eje vertical la recta y = −2x − 3?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3"
+        },
+        {
+          "id": "B",
+          "texto": "-4"
+        },
+        {
+          "id": "C",
+          "texto": "-3"
+        },
+        {
+          "id": "D",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "La intersección con el eje y ocurre cuando x = 0. Entonces y = −3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-018",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma explícita e interpretación",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿En qué valor de y corta al eje vertical la recta y = x + 6?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "1"
+        },
+        {
+          "id": "B",
+          "texto": "-6"
+        },
+        {
+          "id": "C",
+          "texto": "7"
+        },
+        {
+          "id": "D",
+          "texto": "6"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "La intersección con el eje y ocurre cuando x = 0. Entonces y = 6.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-019",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma explícita e interpretación",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿En qué valor de y corta al eje vertical la recta y = 5x − 1?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-1"
+        },
+        {
+          "id": "B",
+          "texto": "5"
+        },
+        {
+          "id": "C",
+          "texto": "1"
+        },
+        {
+          "id": "D",
+          "texto": "0"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La intersección con el eje y ocurre cuando x = 0. Entonces y = −1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-020",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma explícita e interpretación",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿En qué valor de y corta al eje vertical la recta y = −4x + 2?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3"
+        },
+        {
+          "id": "B",
+          "texto": "2"
+        },
+        {
+          "id": "C",
+          "texto": "-4"
+        },
+        {
+          "id": "D",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "La intersección con el eje y ocurre cuando x = 0. Entonces y = 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-021",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por un punto y pendiente",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina la ecuación explícita de la recta que pasa por (−2, 1) y tiene pendiente m = 2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 2x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "y = −2x + 5"
+        },
+        {
+          "id": "C",
+          "texto": "y = 2x + 5"
+        },
+        {
+          "id": "D",
+          "texto": "y = 2x + 6"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Sustituyendo en y − y₀ = m(x − x₀), se obtiene b = y₀ − mx₀ = 1 − (2)(−2) = 5; por tanto, y = 2x + 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-022",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por un punto y pendiente",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina la ecuación explícita de la recta que pasa por (1, 4) y tiene pendiente m = −3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −3x + 8"
+        },
+        {
+          "id": "B",
+          "texto": "y = −3x + 6"
+        },
+        {
+          "id": "C",
+          "texto": "y = 3x + 7"
+        },
+        {
+          "id": "D",
+          "texto": "y = −3x + 7"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Sustituyendo en y − y₀ = m(x − x₀), se obtiene b = y₀ − mx₀ = 4 − (−3)(1) = 7; por tanto, y = −3x + 7.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-023",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por un punto y pendiente",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina la ecuación explícita de la recta que pasa por (3, −2) y tiene pendiente m = 1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = x − 5"
+        },
+        {
+          "id": "B",
+          "texto": "y = x − 4"
+        },
+        {
+          "id": "C",
+          "texto": "y = x − 6"
+        },
+        {
+          "id": "D",
+          "texto": "y = −x − 5"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Sustituyendo en y − y₀ = m(x − x₀), se obtiene b = y₀ − mx₀ = −2 − (1)(3) = −5; por tanto, y = x − 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-024",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por un punto y pendiente",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina la ecuación explícita de la recta que pasa por (−4, 2) y tiene pendiente m = −1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = x − 2"
+        },
+        {
+          "id": "B",
+          "texto": "y = −x − 2"
+        },
+        {
+          "id": "C",
+          "texto": "y = −x − 1"
+        },
+        {
+          "id": "D",
+          "texto": "y = −x − 3"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Sustituyendo en y − y₀ = m(x − x₀), se obtiene b = y₀ − mx₀ = 2 − (−1)(−4) = −2; por tanto, y = −x − 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-025",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por un punto y pendiente",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina la ecuación explícita de la recta que pasa por (2, −3) y tiene pendiente m = 4.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 4x − 12"
+        },
+        {
+          "id": "B",
+          "texto": "y = −4x − 11"
+        },
+        {
+          "id": "C",
+          "texto": "y = 4x − 11"
+        },
+        {
+          "id": "D",
+          "texto": "y = 4x − 10"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Sustituyendo en y − y₀ = m(x − x₀), se obtiene b = y₀ − mx₀ = −3 − (4)(2) = −11; por tanto, y = 4x − 11.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-026",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por un punto y pendiente",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina la ecuación explícita de la recta que pasa por (3, 1) y tiene pendiente m = −2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −2x + 8"
+        },
+        {
+          "id": "B",
+          "texto": "y = −2x + 6"
+        },
+        {
+          "id": "C",
+          "texto": "y = 2x + 7"
+        },
+        {
+          "id": "D",
+          "texto": "y = −2x + 7"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Sustituyendo en y − y₀ = m(x − x₀), se obtiene b = y₀ − mx₀ = 1 − (−2)(3) = 7; por tanto, y = −2x + 7.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-027",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por un punto y pendiente",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina la ecuación explícita de la recta que pasa por (−1, −4) y tiene pendiente m = 3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 3x − 1"
+        },
+        {
+          "id": "B",
+          "texto": "y = 3x"
+        },
+        {
+          "id": "C",
+          "texto": "y = 3x − 2"
+        },
+        {
+          "id": "D",
+          "texto": "y = −3x − 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Sustituyendo en y − y₀ = m(x − x₀), se obtiene b = y₀ − mx₀ = −4 − (3)(−1) = −1; por tanto, y = 3x − 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-028",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por un punto y pendiente",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina la ecuación explícita de la recta que pasa por (1, 5) y tiene pendiente m = −4.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 4x + 9"
+        },
+        {
+          "id": "B",
+          "texto": "y = −4x + 9"
+        },
+        {
+          "id": "C",
+          "texto": "y = −4x + 10"
+        },
+        {
+          "id": "D",
+          "texto": "y = −4x + 8"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Sustituyendo en y − y₀ = m(x − x₀), se obtiene b = y₀ − mx₀ = 5 − (−4)(1) = 9; por tanto, y = −4x + 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-029",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por un punto y pendiente",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina la ecuación explícita de la recta que pasa por (4, −1) y tiene pendiente m = 2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 2x − 10"
+        },
+        {
+          "id": "B",
+          "texto": "y = −2x − 9"
+        },
+        {
+          "id": "C",
+          "texto": "y = 2x − 9"
+        },
+        {
+          "id": "D",
+          "texto": "y = 2x − 8"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Sustituyendo en y − y₀ = m(x − x₀), se obtiene b = y₀ − mx₀ = −1 − (2)(4) = −9; por tanto, y = 2x − 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-030",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por un punto y pendiente",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina la ecuación explícita de la recta que pasa por (−2, 3) y tiene pendiente m = −3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −3x − 2"
+        },
+        {
+          "id": "B",
+          "texto": "y = −3x − 4"
+        },
+        {
+          "id": "C",
+          "texto": "y = 3x − 3"
+        },
+        {
+          "id": "D",
+          "texto": "y = −3x − 3"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Sustituyendo en y − y₀ = m(x − x₀), se obtiene b = y₀ − mx₀ = 3 − (−3)(−2) = −3; por tanto, y = −3x − 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-031",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por dos puntos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Qué ecuación corresponde a la recta que pasa por A(−2, −3) y B(1, 3)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 2x + 1"
+        },
+        {
+          "id": "B",
+          "texto": "y = 2x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "y = 2x"
+        },
+        {
+          "id": "D",
+          "texto": "y = −2x + 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La pendiente es m = (3 − (−3))/(1 − (−2)) = 2. Luego b = y₁ − mx₁ = 1, así que y = 2x + 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-032",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por dos puntos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Qué ecuación corresponde a la recta que pasa por A(1, 3) y B(4, 0)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "y = −x + 4"
+        },
+        {
+          "id": "C",
+          "texto": "y = −x + 5"
+        },
+        {
+          "id": "D",
+          "texto": "y = −x + 3"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "La pendiente es m = (0 − (3))/(4 − (1)) = −1. Luego b = y₁ − mx₁ = 4, así que y = −x + 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-033",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por dos puntos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Qué ecuación corresponde a la recta que pasa por A(−3, −11) y B(−1, −5)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 3x − 3"
+        },
+        {
+          "id": "B",
+          "texto": "y = −3x − 2"
+        },
+        {
+          "id": "C",
+          "texto": "y = 3x − 2"
+        },
+        {
+          "id": "D",
+          "texto": "y = 3x − 1"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "La pendiente es m = (−5 − (−11))/(−1 − (−3)) = 3. Luego b = y₁ − mx₁ = −2, así que y = 3x − 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-034",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por dos puntos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Qué ecuación corresponde a la recta que pasa por A(0, 5) y B(3, 8)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = x + 6"
+        },
+        {
+          "id": "B",
+          "texto": "y = x + 4"
+        },
+        {
+          "id": "C",
+          "texto": "y = −x + 5"
+        },
+        {
+          "id": "D",
+          "texto": "y = x + 5"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "La pendiente es m = (8 − (5))/(3 − (0)) = 1. Luego b = y₁ − mx₁ = 5, así que y = x + 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-035",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por dos puntos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Qué ecuación corresponde a la recta que pasa por A(2, −3) y B(5, −9)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −2x + 1"
+        },
+        {
+          "id": "B",
+          "texto": "y = −2x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "y = −2x"
+        },
+        {
+          "id": "D",
+          "texto": "y = 2x + 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La pendiente es m = (−9 − (−3))/(5 − (2)) = −2. Luego b = y₁ − mx₁ = 1, así que y = −2x + 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-036",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por dos puntos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Qué ecuación corresponde a la recta que pasa por A(−1, 5) y B(4, −10)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 3x + 2"
+        },
+        {
+          "id": "B",
+          "texto": "y = −3x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "y = −3x + 3"
+        },
+        {
+          "id": "D",
+          "texto": "y = −3x + 1"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "La pendiente es m = (−10 − (5))/(4 − (−1)) = −3. Luego b = y₁ − mx₁ = 2, así que y = −3x + 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-037",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por dos puntos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Qué ecuación corresponde a la recta que pasa por A(1, 1) y B(2, 5)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 4x − 4"
+        },
+        {
+          "id": "B",
+          "texto": "y = −4x − 3"
+        },
+        {
+          "id": "C",
+          "texto": "y = 4x − 3"
+        },
+        {
+          "id": "D",
+          "texto": "y = 4x − 2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "La pendiente es m = (5 − (1))/(2 − (1)) = 4. Luego b = y₁ − mx₁ = −3, así que y = 4x − 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-038",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por dos puntos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Qué ecuación corresponde a la recta que pasa por A(−2, 11) y B(1, −1)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −4x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "y = −4x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "y = 4x + 3"
+        },
+        {
+          "id": "D",
+          "texto": "y = −4x + 3"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "La pendiente es m = (−1 − (11))/(1 − (−2)) = −4. Luego b = y₁ − mx₁ = 3, así que y = −4x + 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-039",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por dos puntos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Qué ecuación corresponde a la recta que pasa por A(−1, −7) y B(4, 3)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 2x − 5"
+        },
+        {
+          "id": "B",
+          "texto": "y = 2x − 4"
+        },
+        {
+          "id": "C",
+          "texto": "y = 2x − 6"
+        },
+        {
+          "id": "D",
+          "texto": "y = −2x − 5"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La pendiente es m = (3 − (−7))/(4 − (−1)) = 2. Luego b = y₁ − mx₁ = −5, así que y = 2x − 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-040",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Recta por dos puntos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Qué ecuación corresponde a la recta que pasa por A(3, −10) y B(1, −6)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 2x − 4"
+        },
+        {
+          "id": "B",
+          "texto": "y = −2x − 4"
+        },
+        {
+          "id": "C",
+          "texto": "y = −2x − 3"
+        },
+        {
+          "id": "D",
+          "texto": "y = −2x − 5"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "La pendiente es m = (−6 − (−10))/(1 − (3)) = −2. Luego b = y₁ − mx₁ = −4, así que y = −2x − 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-041",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Paralelas y perpendiculares",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla la recta que pasa por (1, 4) y es paralela a y = 2x − 3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −2x + 2"
+        },
+        {
+          "id": "B",
+          "texto": "y = 3x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "y = 2x + 2"
+        },
+        {
+          "id": "D",
+          "texto": "y = 2x + 3"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Las rectas paralelas comparten pendiente m = 2. Con el punto dado, b = 4 − (2)(1) = 2. Por ello, y = 2x + 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-042",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Paralelas y perpendiculares",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla la recta que pasa por (2, −2) y es paralela a y = −x + 5.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −x + 1"
+        },
+        {
+          "id": "B",
+          "texto": "y = x"
+        },
+        {
+          "id": "C",
+          "texto": "y = 0"
+        },
+        {
+          "id": "D",
+          "texto": "y = −x"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Las rectas paralelas comparten pendiente m = −1. Con el punto dado, b = −2 − (−1)(2) = 0. Por ello, y = −x.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-043",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Paralelas y perpendiculares",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla la recta que pasa por (−1, 1) y es paralela a y = 3x.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 3x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "y = 3x + 5"
+        },
+        {
+          "id": "C",
+          "texto": "y = −3x + 4"
+        },
+        {
+          "id": "D",
+          "texto": "y = 4x + 4"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Las rectas paralelas comparten pendiente m = 3. Con el punto dado, b = 1 − (3)(−1) = 4. Por ello, y = 3x + 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-044",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Paralelas y perpendiculares",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla la recta que pasa por (3, 0) y es paralela a y = −2x + 4.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −x + 6"
+        },
+        {
+          "id": "B",
+          "texto": "y = −2x + 6"
+        },
+        {
+          "id": "C",
+          "texto": "y = −2x + 7"
+        },
+        {
+          "id": "D",
+          "texto": "y = 2x + 6"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Las rectas paralelas comparten pendiente m = −2. Con el punto dado, b = 0 − (−2)(3) = 6. Por ello, y = −2x + 6.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-045",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Paralelas y perpendiculares",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla la recta que pasa por (−2, 3) y es paralela a y = 4x − 1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −4x + 11"
+        },
+        {
+          "id": "B",
+          "texto": "y = 5x + 11"
+        },
+        {
+          "id": "C",
+          "texto": "y = 4x + 11"
+        },
+        {
+          "id": "D",
+          "texto": "y = 4x + 12"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Las rectas paralelas comparten pendiente m = 4. Con el punto dado, b = 3 − (4)(−2) = 11. Por ello, y = 4x + 11.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-046",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Paralelas y perpendiculares",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la ecuación de la recta perpendicular a y = 2x + 1 que pasa por (0, 3)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 2x + 3"
+        },
+        {
+          "id": "B",
+          "texto": "y = (1/2)x + 3"
+        },
+        {
+          "id": "C",
+          "texto": "y = −2x + 3"
+        },
+        {
+          "id": "D",
+          "texto": "y = −(1/2)x + 3"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "El producto de pendientes de rectas perpendiculares es −1: m⊥ = −1/(2). Como pasa por (0, 3), la ordenada al origen es 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-047",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Paralelas y perpendiculares",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la ecuación de la recta perpendicular a y = −2x + 1 que pasa por (0, −1)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = (1/2)x − 1"
+        },
+        {
+          "id": "B",
+          "texto": "y = −2x − 1"
+        },
+        {
+          "id": "C",
+          "texto": "y = −(1/2)x − 1"
+        },
+        {
+          "id": "D",
+          "texto": "y = 2x − 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El producto de pendientes de rectas perpendiculares es −1: m⊥ = −1/(−2). Como pasa por (0, −1), la ordenada al origen es −1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-048",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Paralelas y perpendiculares",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la ecuación de la recta perpendicular a y = 3x + 1 que pasa por (0, 2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −3x + 2"
+        },
+        {
+          "id": "B",
+          "texto": "y = −(1/3)x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "y = 3x + 2"
+        },
+        {
+          "id": "D",
+          "texto": "y = (1/3)x + 2"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "El producto de pendientes de rectas perpendiculares es −1: m⊥ = −1/(3). Como pasa por (0, 2), la ordenada al origen es 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-049",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Paralelas y perpendiculares",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la ecuación de la recta perpendicular a y = −3x + 1 que pasa por (0, 4)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −(1/3)x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "y = 3x + 4"
+        },
+        {
+          "id": "C",
+          "texto": "y = (1/3)x + 4"
+        },
+        {
+          "id": "D",
+          "texto": "y = −3x + 4"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "El producto de pendientes de rectas perpendiculares es −1: m⊥ = −1/(−3). Como pasa por (0, 4), la ordenada al origen es 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-050",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Paralelas y perpendiculares",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la ecuación de la recta perpendicular a y = 4x + 1 que pasa por (0, −2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 4x − 2"
+        },
+        {
+          "id": "B",
+          "texto": "y = (1/4)x − 2"
+        },
+        {
+          "id": "C",
+          "texto": "y = −4x − 2"
+        },
+        {
+          "id": "D",
+          "texto": "y = −(1/4)x − 2"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "El producto de pendientes de rectas perpendiculares es −1: m⊥ = −1/(4). Como pasa por (0, −2), la ordenada al origen es −2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-051",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma general e intersecciones",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Escribe en forma explícita la recta −2x + y + 3 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 2x − 3"
+        },
+        {
+          "id": "B",
+          "texto": "y = −2x − 3"
+        },
+        {
+          "id": "C",
+          "texto": "y = 2x + 3"
+        },
+        {
+          "id": "D",
+          "texto": "y = 2x − 2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "De −2x + y + 3 = 0 se despeja y: 1y = 2x − 3, luego y = 2x − 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-052",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma general e intersecciones",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Escribe en forma explícita la recta 2x + 2y − 8 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = −x + 5"
+        },
+        {
+          "id": "B",
+          "texto": "y = −x + 4"
+        },
+        {
+          "id": "C",
+          "texto": "y = x + 4"
+        },
+        {
+          "id": "D",
+          "texto": "y = −x − 4"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "De 2x + 2y − 8 = 0 se despeja y: 2y = −2x + 8, luego y = −x + 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-053",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma general e intersecciones",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Escribe en forma explícita la recta −3x + y − 2 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 3x − 2"
+        },
+        {
+          "id": "B",
+          "texto": "y = 3x + 3"
+        },
+        {
+          "id": "C",
+          "texto": "y = 3x + 2"
+        },
+        {
+          "id": "D",
+          "texto": "y = −3x + 2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "De −3x + y − 2 = 0 se despeja y: 1y = 3x + 2, luego y = 3x + 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-054",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma general e intersecciones",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Escribe en forma explícita la recta 6x + 3y + 3 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = 2x − 1"
+        },
+        {
+          "id": "B",
+          "texto": "y = −2x + 1"
+        },
+        {
+          "id": "C",
+          "texto": "y = −2x"
+        },
+        {
+          "id": "D",
+          "texto": "y = −2x − 1"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "De 6x + 3y + 3 = 0 se despeja y: 3y = −6x − 3, luego y = −2x − 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-055",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma general e intersecciones",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Escribe en forma explícita la recta −2x + 2y − 10 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "y = x + 5"
+        },
+        {
+          "id": "B",
+          "texto": "y = −x + 5"
+        },
+        {
+          "id": "C",
+          "texto": "y = x − 5"
+        },
+        {
+          "id": "D",
+          "texto": "y = x + 6"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "De −2x + 2y − 10 = 0 se despeja y: 2y = 2x + 10, luego y = x + 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-056",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma general e intersecciones",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Para y = 2x − 6, ¿en qué abscisa corta la recta al eje x?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4"
+        },
+        {
+          "id": "B",
+          "texto": "3"
+        },
+        {
+          "id": "C",
+          "texto": "-3"
+        },
+        {
+          "id": "D",
+          "texto": "-6"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "En el eje x se cumple y = 0. Resolviendo 0 = 2x − 6, resulta x = 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-057",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma general e intersecciones",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Para y = −3x + 6, ¿en qué abscisa corta la recta al eje x?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6"
+        },
+        {
+          "id": "B",
+          "texto": "3"
+        },
+        {
+          "id": "C",
+          "texto": "2"
+        },
+        {
+          "id": "D",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "En el eje x se cumple y = 0. Resolviendo 0 = −3x + 6, resulta x = 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-058",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma general e intersecciones",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Para y = x − 4, ¿en qué abscisa corta la recta al eje x?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-4"
+        },
+        {
+          "id": "B",
+          "texto": "5"
+        },
+        {
+          "id": "C",
+          "texto": "3"
+        },
+        {
+          "id": "D",
+          "texto": "4"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "En el eje x se cumple y = 0. Resolviendo 0 = 1x − 4, resulta x = 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-059",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma general e intersecciones",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Para y = −2x − 8, ¿en qué abscisa corta la recta al eje x?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-4"
+        },
+        {
+          "id": "B",
+          "texto": "4"
+        },
+        {
+          "id": "C",
+          "texto": "-8"
+        },
+        {
+          "id": "D",
+          "texto": "-3"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En el eje x se cumple y = 0. Resolviendo 0 = −2x − 8, resulta x = −4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-RECT-060",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Recta",
+      "subtema": "Forma general e intersecciones",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Para y = 4x − 8, ¿en qué abscisa corta la recta al eje x?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3"
+        },
+        {
+          "id": "B",
+          "texto": "2"
+        },
+        {
+          "id": "C",
+          "texto": "-2"
+        },
+        {
+          "id": "D",
+          "texto": "-8"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "En el eje x se cumple y = 0. Resolviendo 0 = 4x − 8, resulta x = 2.",
+      "puntaje": 1
+    }
+  ]
 }
