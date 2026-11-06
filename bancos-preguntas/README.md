@@ -6,14 +6,14 @@ Sitio disponible en https://jpaulmata80.github.io/bancos-preguntas/
 
 - Universidad: Sistemas Digitales, Programación de Redes y Domótica e Inmótica.
 - Bachillerato: Matemática General (Tercero BGU) y Matemática Superior.
-- Bancos piloto: Matemática General (46 preguntas demostrativas) y Matemática Superior (60 preguntas de Ecuación de la Recta, organizadas en seis subtemas).
+- Bancos piloto: Matemática General (46 preguntas demostrativas) y Matemática Superior (103 preguntas: 60 de Ecuación de la Recta y 43 de Fundamentos de Geometría Analítica). Las 43 preguntas importadas conservan sus seis alternativas originales.
 - Un banco JSON por asignatura, con preguntas organizadas por unidad, tema y subtema.
 - Alimentación y revisión: consulta [la guía de alimentación](GUIA_ALIMENTACION.md) y [la plantilla JSON](plantillas/pregunta-seleccion-unica.json).
 
 ## Flujo de uso
 
 1. Entrar en la sección **Configurar práctica**.
-2. Seleccionar institución, asignatura y uno o más temas/subtemas.
+2. Seleccionar institución, asignatura y uno o más temas desplegables y sus subtemas; se pueden combinar diferentes temas en una misma práctica.
 3. Configurar cantidad, tiempo por pregunta (segundos), fechas de apertura/cierre (zona Ecuador UTC-05), intentos y título.
 4. Pulsar **Generar enlace de práctica** y compartirlo.
 5. Los estudiantes responden preguntas al azar y ven nota y explicación al concluir.
@@ -28,7 +28,7 @@ Ingresar las fechas en la hora local de Ecuador continental (UTC-05). El navegad
 
 Editar el archivo JSON de la asignatura en `datos/`. Campos requeridos por pregunta:
 `id, unidad, tema, subtema, dificultad, enunciado, opciones, respuesta, explicacion, puntaje`.
-`opciones` es una lista de cuatro objetos `{id:"A"|"B"|"C"|"D", texto:"..."}`.
+`opciones` es una lista flexible de dos o más objetos `{id:"A"|"B"|"C"|..., texto:"..."}`.
 `respuesta` contiene el identificador de la alternativa correcta. Mantener identificadores únicos.
 El catálogo de asignaturas está en `datos/catalogo.json`.
 
