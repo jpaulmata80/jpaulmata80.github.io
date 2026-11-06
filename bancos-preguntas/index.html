@@ -60,7 +60,12 @@ function fillInstituciones(){ $("institucion").innerHTML=catalog.instituciones.m
 function fillAsignaturas(){const i=catalog.instituciones.find(x=>x.id===$("institucion").value);$("asignatura").innerHTML=i.asignaturas.map(a=>'<option value="'+esc(a.id)+'">'+esc(a.nombre)+"</option>").join("");refreshTemas()}
 async function refreshTemas(){let id=$("asignatura").value;$("temas").textContent="Cargando temas…";$("resultadoLink").classList.add("hidden");try{
  const list=await loadBank(id);if(id!==$("asignatura").value)return;banco=list;
- const group=[...new Set(list.map(q=>q.tema))].sort((a,b)=>a.localeCompare(b,"es"));$("temas").innerHTML=group.length?group.map(t=>'<label class="checkline"><input type="checkbox" name="tema" value="'+esc(t)+'" '+(t==="Radicales"?"checked":"")+'> '+esc(t)+' ('+list.filter(q=>q.tema===t).length+' preguntas)</label>').join(""):'<div class="warn">Todavía no hay preguntas en esta asignatura. Puedes incorporarlas más adelante.</div>';
+ const group=[...new Set(list.map(q=>q.tema))].sort((a,b)=>a.localeCompare(b,"es"));
+ $("temas").innerHTML=group.length?group.map(t=>{
+ const qs=list.filter(q=>q.tema===t),subs=[...new Set(qs.map(q=>q.subtema||"General"))].sort((a,b)=>a.localeCompare(b,"es"));
+ return '<div class="choice-card" style="margin-bottom:12px"><h3>'+esc(t)+' <span class="pill">'+qs.length+' preguntas</span></h3>'+
+ subs.map(sub=>'<label class="checkline"><input type="checkbox" name="tema" value="'+esc(t+"::"+sub)+'" '+(t==="Radicales"?"checked":"")+'> '+esc(sub)+' ('+qs.filter(q=>(q.subtema||"General")===sub).length+')</label>').join("")+'</div>'
+ }).join(""):'<div class="warn">Todavía no hay preguntas en esta asignatura. Puedes incorporarlas más adelante.</div>';
  $("estadoBanco").textContent="Banco disponible: "+list.length+" preguntas. Selecciona los temas y genera tu enlace.";
 }catch(e){banco=[];$("temas").textContent="No fue posible abrir el banco.";$("estadoBanco").textContent=e.message}}
 function renderCatalog(){
@@ -68,23 +73,24 @@ function renderCatalog(){
 }
 function validateCfg(c){if(!c||c.v!==1||!getSubject(c.a)||typeof c.t!=="string"||c.t.length>90||!Array.isArray(c.temas)||!c.temas.length||c.temas.length>50||c.temas.some(x=>typeof x!=="string"||x.length>100)||safeInt(c.n,1,100)===null||safeInt(c.s,15,1800)===null||safeInt(c.l,0,3)===null)throw Error("Configuración inválida");
 if(c.ini!==null&&(!Number.isInteger(c.ini)||c.ini<0))throw Error("Inicio inválido");if(c.fin!==null&&(!Number.isInteger(c.fin)||c.fin<0))throw Error("Cierre inválido");if(c.ini!==null&&c.fin!==null&&c.fin<=c.ini)throw Error("El cierre debe ser posterior a la apertura");return c}
+function matchContent(q,items){return items.includes(q.tema)||items.includes(q.tema+"::"+(q.subtema||"General"))}
 function practiceUrl(c){let u=new URL("./",BASE);u.searchParams.set("p",encode(c));return u.href}
 function submitConfig(e){e.preventDefault();setMsg("msgConfig","");try{
  const temas=[...document.querySelectorAll('input[name="tema"]:checked')].map(x=>x.value);
  const c=validateCfg({v:1,a:$("asignatura").value,t:$("titulo").value.trim(),temas,n:Number($("cantidad").value),s:Number($("segundos").value),ini:utcFromEcuador($("inicioFecha").value),fin:utcFromEcuador($("finFecha").value),l:Number($("intentos").value)});
- const total=banco.filter(q=>temas.includes(q.tema)).length;if(total<c.n)throw Error("Hay "+total+" preguntas disponibles para esta selección. Reduce la cantidad o agrega más preguntas al banco.");
+ const total=banco.filter(q=>matchContent(q,temas)).length;if(total<c.n)throw Error("Hay "+total+" preguntas disponibles para esta selección. Reduce la cantidad o agrega más preguntas al banco.");
  const url=practiceUrl(c);$("link").value=url;$("probar").href=url;$("resultadoLink").classList.remove("hidden");$("resultadoLink").scrollIntoView({behavior:"smooth"});
 }catch(err){setMsg("msgConfig",err.message,"error")}}
 function countKey(c){return "sbpa_attempt_"+encode(c)}
 function countAttempts(){try{return Number(localStorage.getItem(countKey(cfg))||0)}catch{return 0}}
 function isAvailable(){const now=Date.now();if(cfg.ini!==null&&now<cfg.ini)return {ok:false,msg:"La práctica se habilitará el "+formatDate(cfg.ini)+" (hora de Ecuador)."};if(cfg.fin!==null&&now>cfg.fin)return {ok:false,msg:"La práctica finalizó el "+formatDate(cfg.fin)+" (hora de Ecuador)."};if(cfg.l>0&&countAttempts()>=cfg.l)return {ok:false,msg:"Has alcanzado el número máximo de intentos permitido en este navegador."};return {ok:true,msg:""}}
 function intro(){const a=getSubject(cfg.a);$("practicaTitulo").textContent=cfg.t;$("practicaAsignatura").textContent=a.institucion+" · "+a.nombre;$("resumenPractica").innerHTML='<div class="metric">'+cfg.n+' preguntas aleatorias</div><div class="metric">'+Math.round(cfg.s/60*10)/10+' min/pregunta</div><div class="metric">'+(cfg.l===0?"Intentos ilimitados":cfg.l+" intento(s) en este navegador")+'</div><p class="muted">Temas: '+cfg.temas.map(esc).join(", ")+'</p><p class="small muted">Inicio: '+(cfg.ini===null?"Inmediato":formatDate(cfg.ini))+' · Fin: '+(cfg.fin===null?"Sin fecha de cierre":formatDate(cfg.fin))+'</p><p class="small muted">Las respuestas y explicaciones se mostrarán al finalizar.</p>';
- let avail=isAvailable();const eligible=banco.filter(q=>cfg.temas.includes(q.tema));$("comenzar").disabled=!avail.ok||eligible.length<cfg.n;
+ let avail=isAvailable();const eligible=banco.filter(q=>matchContent(q,cfg.temas));$("comenzar").disabled=!avail.ok||eligible.length<cfg.n;
  $("avisoFecha").innerHTML=avail.msg?'<div class="warn">'+esc(avail.msg)+'</div>':eligible.length<cfg.n?'<div class="warn">El banco actualmente no tiene suficientes preguntas para esta configuración.</div>':'<div class="success">Práctica disponible. Puedes comenzar.</div>';
  $("introPractica").classList.remove("hidden");$("preguntaCard").classList.add("hidden");$("resultadoCard").classList.add("hidden");}
 function clearClock(){if(clock!==null){clearInterval(clock);clock=null}}
 function start(){if(!isAvailable().ok)return intro();
- const eligible=banco.filter(q=>cfg.temas.includes(q.tema));if(eligible.length<cfg.n)return intro();
+ const eligible=banco.filter(q=>matchContent(q,cfg.temas));if(eligible.length<cfg.n)return intro();
  // Exclude previous attempt when sufficient alternatives exist.
  let pool=eligible.filter(q=>!prevIds.includes(q.id));if(pool.length<cfg.n)pool=eligible;
  instancias=shuffle(pool).slice(0,cfg.n).map(q=>({...q,opciones:shuffle(q.opciones)}));prevIds=instancias.map(q=>q.id);
