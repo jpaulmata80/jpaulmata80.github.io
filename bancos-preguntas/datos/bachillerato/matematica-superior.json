@@ -1,7 +1,7 @@
 {
   "version": 1,
   "asignatura": "matematica-superior",
-  "descripcion": "Banco piloto de Matemática Superior: Ecuación de la Recta. Preguntas originales de selección única con retroalimentación; sujeto a revisión del docente antes de evaluaciones oficiales.",
+  "descripcion": "Bancos de Matemática Superior: Ecuación de la Recta (piloto original) y Fundamentos de Geometría Analítica (importación Moodle XML de noviembre 2026).",
   "preguntas": [
     {
       "id": "MATS-RECT-001",
@@ -1802,6 +1802,1382 @@
       "respuesta": "B",
       "explicacion": "En el eje x se cumple y = 0. Resolviendo 0 = 4x − 8, resulta x = 2.",
       "puntaje": 1
+    },
+    {
+      "id": "MATS-GA-001",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Ángulo entre dos rectas",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el ángulo menor entre una recta horizontal y una vertical?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "90°"
+        },
+        {
+          "id": "B",
+          "texto": "0°"
+        },
+        {
+          "id": "C",
+          "texto": "45°"
+        },
+        {
+          "id": "D",
+          "texto": "180°"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Son rectas perpendiculares.",
+      "puntaje": 1,
+      "titulo_origen": "Ángulo entre dos rectas - 01 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-002",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Ángulo entre dos rectas",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Dos rectas con pendientes m₁=1 y m₂=0 forman un ángulo agudo de:",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "45°"
+        },
+        {
+          "id": "B",
+          "texto": "90°"
+        },
+        {
+          "id": "C",
+          "texto": "60°"
+        },
+        {
+          "id": "D",
+          "texto": "0°"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "tan θ = |(1-0)/(1+0)|=1, luego θ=45°.",
+      "puntaje": 1,
+      "titulo_origen": "Ángulo entre dos rectas - 02 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-003",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Ángulo entre dos rectas",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el ángulo menor entre dos rectas con pendientes 1 y -1?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "90°"
+        },
+        {
+          "id": "B",
+          "texto": "60°"
+        },
+        {
+          "id": "C",
+          "texto": "45°"
+        },
+        {
+          "id": "D",
+          "texto": "0°"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El producto de pendientes vale -1.",
+      "puntaje": 1,
+      "titulo_origen": "Ángulo entre dos rectas - 03 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-004",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Ángulo entre dos rectas",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Dos rectas no verticales tienen pendientes iguales, m₁=m₂=2. El ángulo menor entre sus direcciones es:",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "0°"
+        },
+        {
+          "id": "B",
+          "texto": "45°"
+        },
+        {
+          "id": "C",
+          "texto": "30°"
+        },
+        {
+          "id": "D",
+          "texto": "180°"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Direcciones paralelas generan ángulo menor 0°.",
+      "puntaje": 1,
+      "titulo_origen": "Ángulo entre dos rectas - 04 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-005",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Ángulo entre dos rectas",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una recta tiene pendiente √3 y otra es horizontal. ¿Cuál es el ángulo agudo entre ambas?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "60°"
+        },
+        {
+          "id": "B",
+          "texto": "45°"
+        },
+        {
+          "id": "C",
+          "texto": "0°"
+        },
+        {
+          "id": "D",
+          "texto": "90°"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "tan θ = √3 ⇒ θ=60°.",
+      "puntaje": 1,
+      "titulo_origen": "Ángulo entre dos rectas - 05 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-007",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Ángulo entre dos rectas",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Dos caminos tienen pendientes 1/2 y -2. ¿Qué ángulo menor forman en la intersección?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "90°"
+        },
+        {
+          "id": "B",
+          "texto": "60°"
+        },
+        {
+          "id": "C",
+          "texto": "45°"
+        },
+        {
+          "id": "D",
+          "texto": "120°"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Sus pendientes son recíprocas opuestas.",
+      "puntaje": 1,
+      "titulo_origen": "Ángulo entre dos rectas - 07 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-008",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Ángulo entre dos rectas",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una vía forma 30° con la horizontal y otra forma 60°, ambas medidas en sentido antihorario desde el eje x positivo. ¿Cuál es el ángulo agudo entre ellas?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "30°"
+        },
+        {
+          "id": "B",
+          "texto": "45°"
+        },
+        {
+          "id": "C",
+          "texto": "15°"
+        },
+        {
+          "id": "D",
+          "texto": "90°"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La diferencia de inclinaciones es 60°-30°=30°.",
+      "puntaje": 1,
+      "titulo_origen": "Ángulo entre dos rectas - 09 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-009",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Ángulo entre dos rectas",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "En un plano arquitectónico, dos pasillos se cruzan; uno tiene inclinación 20° y el otro 110° respecto del eje x positivo. ¿Qué ángulo menor forman?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "90°"
+        },
+        {
+          "id": "B",
+          "texto": "130°"
+        },
+        {
+          "id": "C",
+          "texto": "20°"
+        },
+        {
+          "id": "D",
+          "texto": "70°"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La diferencia es 110°-20°=90°.",
+      "puntaje": 1,
+      "titulo_origen": "Ángulo entre dos rectas - 10 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-010",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Distancia entre dos puntos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Calcule la distancia entre A(1, 2) y B(4, 6).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5"
+        },
+        {
+          "id": "B",
+          "texto": "7"
+        },
+        {
+          "id": "C",
+          "texto": "6"
+        },
+        {
+          "id": "D",
+          "texto": "25"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "d = √(3² + 4²) = 5.",
+      "puntaje": 1,
+      "titulo_origen": "Distancia entre dos puntos - 01 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-011",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Distancia entre dos puntos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "La distancia entre P(-3, 2) y Q(5, 2) es:",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8"
+        },
+        {
+          "id": "B",
+          "texto": "4"
+        },
+        {
+          "id": "C",
+          "texto": "√8"
+        },
+        {
+          "id": "D",
+          "texto": "6"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Ambos puntos tienen igual ordenada; la diferencia horizontal es 8.",
+      "puntaje": 1,
+      "titulo_origen": "Distancia entre dos puntos - 02 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-012",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Distancia entre dos puntos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halle la distancia entre A(-2, -1) y B(4, 7).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "10"
+        },
+        {
+          "id": "B",
+          "texto": "√52"
+        },
+        {
+          "id": "C",
+          "texto": "12"
+        },
+        {
+          "id": "D",
+          "texto": "100"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "d = √(6² + 8²) = 10.",
+      "puntaje": 1,
+      "titulo_origen": "Distancia entre dos puntos - 03 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-013",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Distancia entre dos puntos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la distancia entre (0, 0) y (-5, 12)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "13"
+        },
+        {
+          "id": "B",
+          "texto": "17"
+        },
+        {
+          "id": "C",
+          "texto": "7"
+        },
+        {
+          "id": "D",
+          "texto": "169"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "d = √(25 + 144) = 13.",
+      "puntaje": 1,
+      "titulo_origen": "Distancia entre dos puntos - 04 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-014",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Distancia entre dos puntos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "La distancia entre A(2, -3) y B(2, 5) es:",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8"
+        },
+        {
+          "id": "B",
+          "texto": "2"
+        },
+        {
+          "id": "C",
+          "texto": "5"
+        },
+        {
+          "id": "D",
+          "texto": "10"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La abscisa coincide y |5 - (-3)| = 8.",
+      "puntaje": 1,
+      "titulo_origen": "Distancia entre dos puntos - 05 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-015",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Distancia entre dos puntos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Un dron se desplaza en un plano desde (1, 1) hasta (7, 9), donde cada unidad equivale a 10 m. ¿Cuál es la distancia directa recorrida?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "100 m"
+        },
+        {
+          "id": "B",
+          "texto": "140 m"
+        },
+        {
+          "id": "C",
+          "texto": "10 m"
+        },
+        {
+          "id": "D",
+          "texto": "120 m"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La distancia en unidades es √(6²+8²)=10; por tanto, 100 m.",
+      "puntaje": 1,
+      "titulo_origen": "Distancia entre dos puntos - 06 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-016",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Distancia entre dos puntos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Dos antenas están ubicadas en A(-4, 3) y B(2, -5), con coordenadas en km. ¿Cuánto mide el enlace recto entre ellas?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "10 km"
+        },
+        {
+          "id": "B",
+          "texto": "100 km"
+        },
+        {
+          "id": "C",
+          "texto": "√28 km"
+        },
+        {
+          "id": "D",
+          "texto": "6 km"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "d = √(6²+(-8)²) = 10 km.",
+      "puntaje": 1,
+      "titulo_origen": "Distancia entre dos puntos - 07 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-017",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Distancia entre dos puntos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Un terreno tiene vértices consecutivos A(0, 0) y B(6, 8), en metros. ¿Qué longitud de cerca requiere ese lado?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "10 m"
+        },
+        {
+          "id": "B",
+          "texto": "48 m"
+        },
+        {
+          "id": "C",
+          "texto": "14 m"
+        },
+        {
+          "id": "D",
+          "texto": "8 m"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La longitud del lado AB es 10 m.",
+      "puntaje": 1,
+      "titulo_origen": "Distancia entre dos puntos - 08 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-018",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Distancia entre dos puntos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una persona camina de A(1, 2) a B(4, 6) siguiendo primero la dirección horizontal y después la vertical. ¿Qué afirmación es correcta?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Recorre 7 unidades; la distancia directa es 5."
+        },
+        {
+          "id": "B",
+          "texto": "Ambas distancias son 7."
+        },
+        {
+          "id": "C",
+          "texto": "Recorre 12 unidades; la distancia directa es 5."
+        },
+        {
+          "id": "D",
+          "texto": "La distancia directa es mayor que el recorrido por ejes."
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El recorrido por ejes es 3+4=7; la distancia euclidiana es 5.",
+      "puntaje": 1,
+      "titulo_origen": "Distancia entre dos puntos - 09 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-019",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Distancia entre dos puntos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Se conoce A(0, 0) y B(x, 0). Si la distancia entre ambos es 7 y B está a la izquierda del origen, ¿cuál es x?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-7"
+        },
+        {
+          "id": "B",
+          "texto": "-14"
+        },
+        {
+          "id": "C",
+          "texto": "-√7"
+        },
+        {
+          "id": "D",
+          "texto": "0"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En el eje horizontal, |x|=7; a la izquierda implica x=-7.",
+      "puntaje": 1,
+      "titulo_origen": "Distancia entre dos puntos - 10 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-020",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Paralelismo y perpendicularidad",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Dos rectas no verticales tienen pendientes m₁=3 y m₂=3. ¿Qué relación guardan?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Son paralelas (o coincidentes)."
+        },
+        {
+          "id": "B",
+          "texto": "Son necesariamente coincidentes."
+        },
+        {
+          "id": "C",
+          "texto": "Son perpendiculares."
+        },
+        {
+          "id": "D",
+          "texto": "No puede establecerse ninguna relación."
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Pendientes iguales indican rectas paralelas o coincidentes.",
+      "puntaje": 1,
+      "titulo_origen": "Paralelismo y perpendicularidad - 01 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-021",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Paralelismo y perpendicularidad",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una recta tiene pendiente 2. ¿Qué pendiente debe tener una recta perpendicular?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-1/2"
+        },
+        {
+          "id": "B",
+          "texto": "-2"
+        },
+        {
+          "id": "C",
+          "texto": "2"
+        },
+        {
+          "id": "D",
+          "texto": "1/2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Para rectas no verticales ni horizontales: m₁m₂=-1.",
+      "puntaje": 1,
+      "titulo_origen": "Paralelismo y perpendicularidad - 02 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-022",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Paralelismo y perpendicularidad",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Si m₁=-5/2, determine m₂ para que las rectas sean perpendiculares.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2/5"
+        },
+        {
+          "id": "B",
+          "texto": "-2/5"
+        },
+        {
+          "id": "C",
+          "texto": "5/2"
+        },
+        {
+          "id": "D",
+          "texto": "-5/2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El recíproco opuesto de -5/2 es 2/5.",
+      "puntaje": 1,
+      "titulo_origen": "Paralelismo y perpendicularidad - 05 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-023",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Paralelismo y perpendicularidad",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una vía recta tiene pendiente 1/2. Se proyecta una calle perpendicular. ¿Qué pendiente debe asignarse a la nueva calle?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-2"
+        },
+        {
+          "id": "B",
+          "texto": "1/2"
+        },
+        {
+          "id": "C",
+          "texto": "-1"
+        },
+        {
+          "id": "D",
+          "texto": "2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "(1/2)·(-2)=-1.",
+      "puntaje": 1,
+      "titulo_origen": "Paralelismo y perpendicularidad - 06 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-024",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Paralelismo y perpendicularidad",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una cuadrícula urbana contiene una avenida horizontal. ¿Cuál de estas calles será perpendicular a la avenida?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Una calle vertical."
+        },
+        {
+          "id": "B",
+          "texto": "Una calle de pendiente -1."
+        },
+        {
+          "id": "C",
+          "texto": "Una calle de pendiente 2."
+        },
+        {
+          "id": "D",
+          "texto": "Otra calle horizontal."
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Las rectas horizontal y vertical forman 90°.",
+      "puntaje": 1,
+      "titulo_origen": "Paralelismo y perpendicularidad - 07 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-026",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine la pendiente de la recta que pasa por (1, 2) y (3, 8).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3"
+        },
+        {
+          "id": "B",
+          "texto": "0"
+        },
+        {
+          "id": "C",
+          "texto": "6"
+        },
+        {
+          "id": "D",
+          "texto": "2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "m=(8-2)/(3-1)=3.",
+      "puntaje": 1,
+      "titulo_origen": "Pendiente de una recta - 01 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-027",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "La pendiente de una recta que forma un ángulo de 45° con el eje x positivo es:",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "1"
+        },
+        {
+          "id": "B",
+          "texto": "1/√3"
+        },
+        {
+          "id": "C",
+          "texto": "No definida"
+        },
+        {
+          "id": "D",
+          "texto": "0"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "m=tan(45°)=1.",
+      "puntaje": 1,
+      "titulo_origen": "Pendiente de una recta - 02 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-028",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine la pendiente de la recta que pasa por (-2, 5) y (4, -1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-1"
+        },
+        {
+          "id": "B",
+          "texto": "1"
+        },
+        {
+          "id": "C",
+          "texto": "6"
+        },
+        {
+          "id": "D",
+          "texto": "0"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "m=(-1-5)/(4-(-2))=-6/6=-1.",
+      "puntaje": 1,
+      "titulo_origen": "Pendiente de una recta - 03 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-029",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la pendiente de una recta cuya inclinación es 135°?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-1"
+        },
+        {
+          "id": "B",
+          "texto": "√3"
+        },
+        {
+          "id": "C",
+          "texto": "-√3"
+        },
+        {
+          "id": "D",
+          "texto": "0"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "m=tan(135°)=-1.",
+      "puntaje": 1,
+      "titulo_origen": "Pendiente de una recta - 04 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-030",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "La recta que pasa por (4, -2) y (4, 9) tiene pendiente:",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "No definida"
+        },
+        {
+          "id": "B",
+          "texto": "0"
+        },
+        {
+          "id": "C",
+          "texto": "-1"
+        },
+        {
+          "id": "D",
+          "texto": "1/11"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La diferencia de abscisas es cero: recta vertical.",
+      "puntaje": 1,
+      "titulo_origen": "Pendiente de una recta - 05 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-031",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una rampa sube 3 m por cada 12 m de avance horizontal. ¿Cuál es su pendiente?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "1/4"
+        },
+        {
+          "id": "B",
+          "texto": "-1/4"
+        },
+        {
+          "id": "C",
+          "texto": "4"
+        },
+        {
+          "id": "D",
+          "texto": "15"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Pendiente = elevación / avance = 3/12 = 1/4.",
+      "puntaje": 1,
+      "titulo_origen": "Pendiente de una recta - 06 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-032",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una carretera representada por una línea recta baja 2 m por cada 10 m de avance horizontal. ¿Cuál es su pendiente?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-1/5"
+        },
+        {
+          "id": "B",
+          "texto": "1/5"
+        },
+        {
+          "id": "C",
+          "texto": "5"
+        },
+        {
+          "id": "D",
+          "texto": "-1/2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La variación vertical es -2; m=-2/10=-1/5.",
+      "puntaje": 1,
+      "titulo_origen": "Pendiente de una recta - 07 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-033",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una recta tiene pendiente positiva. ¿Qué se deduce al recorrerla de izquierda a derecha?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "La coordenada y aumenta."
+        },
+        {
+          "id": "B",
+          "texto": "Forma un ángulo de 135° con el eje x positivo."
+        },
+        {
+          "id": "C",
+          "texto": "Es necesariamente horizontal."
+        },
+        {
+          "id": "D",
+          "texto": "Su pendiente es cero."
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Una pendiente positiva implica aumento de y al aumentar x.",
+      "puntaje": 1,
+      "titulo_origen": "Pendiente de una recta - 08 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-034",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una recta es horizontal y pasa por A(-3, 5). ¿Cuál de los siguientes puntos puede pertenecer a ella?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(8, 5)"
+        },
+        {
+          "id": "B",
+          "texto": "(0, 0)"
+        },
+        {
+          "id": "C",
+          "texto": "(5, -3)"
+        },
+        {
+          "id": "D",
+          "texto": "(-3, 8)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Una recta horizontal conserva la ordenada y=5.",
+      "puntaje": 1,
+      "titulo_origen": "Pendiente de una recta - 09 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-035",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Pendiente de una recta",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Dos puntos de una ruta son A(1, 1) y B(5, 9). Si x representa distancia horizontal e y altura, ¿cuánto aumenta la altura por cada unidad horizontal?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2 unidades"
+        },
+        {
+          "id": "B",
+          "texto": "1/2 unidad"
+        },
+        {
+          "id": "C",
+          "texto": "-2 unidades"
+        },
+        {
+          "id": "D",
+          "texto": "8 unidades"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "m=(9-1)/(5-1)=8/4=2.",
+      "puntaje": 1,
+      "titulo_origen": "Pendiente de una recta - 10 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-036",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Punto medio",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el punto medio de A(2, 4) y B(8, 10).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(5, 7)"
+        },
+        {
+          "id": "B",
+          "texto": "(10, 14)"
+        },
+        {
+          "id": "C",
+          "texto": "(4, 8)"
+        },
+        {
+          "id": "D",
+          "texto": "(5, 6)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Promedie abscisas y ordenadas: (5,7).",
+      "puntaje": 1,
+      "titulo_origen": "Punto medio - 01 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-037",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Punto medio",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "El punto medio de (-6, 3) y (2, -5) es:",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(-2, -1)"
+        },
+        {
+          "id": "B",
+          "texto": "(2, 1)"
+        },
+        {
+          "id": "C",
+          "texto": "(-4, -2)"
+        },
+        {
+          "id": "D",
+          "texto": "(1, -2)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "((-6+2)/2,(3-5)/2)=(-2,-1).",
+      "puntaje": 1,
+      "titulo_origen": "Punto medio - 02 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-038",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Punto medio",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Encuentre el punto medio de (0, 0) y (12, -8).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(6, -4)"
+        },
+        {
+          "id": "B",
+          "texto": "(12, -8)"
+        },
+        {
+          "id": "C",
+          "texto": "(-6, 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(0, -4)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La media de cada coordenada es (6,-4).",
+      "puntaje": 1,
+      "titulo_origen": "Punto medio - 03 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-039",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Punto medio",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Calcule el punto medio de A(-3, -7) y B(5, 1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(1, -3)"
+        },
+        {
+          "id": "B",
+          "texto": "(-4, -3)"
+        },
+        {
+          "id": "C",
+          "texto": "(1, 3)"
+        },
+        {
+          "id": "D",
+          "texto": "(-1, 3)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "((-3+5)/2,(-7+1)/2)=(1,-3).",
+      "puntaje": 1,
+      "titulo_origen": "Punto medio - 04 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-040",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Punto medio",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el punto medio entre (7, 2) y (-1, 2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(3, 2)"
+        },
+        {
+          "id": "B",
+          "texto": "(-3, 2)"
+        },
+        {
+          "id": "C",
+          "texto": "(8, 0)"
+        },
+        {
+          "id": "D",
+          "texto": "(6, 4)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "((7-1)/2,(2+2)/2)=(3,2).",
+      "puntaje": 1,
+      "titulo_origen": "Punto medio - 05 - Fórmula",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-041",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Punto medio",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "El punto medio de un cable tensado entre A(2, 1) y B(10, 5) se usará para instalar un sensor. ¿Dónde se instala?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(6, 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(5, 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(6, 2)"
+        },
+        {
+          "id": "D",
+          "texto": "(4, 2)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El sensor va en las coordenadas promedio.",
+      "puntaje": 1,
+      "titulo_origen": "Punto medio - 06 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-042",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Punto medio",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Un segmento tiene extremo A(2, -1) y punto medio M(5, 3). ¿Cuál es el otro extremo B?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(8, 7)"
+        },
+        {
+          "id": "B",
+          "texto": "(7, 2)"
+        },
+        {
+          "id": "C",
+          "texto": "(-8, -7)"
+        },
+        {
+          "id": "D",
+          "texto": "(6, 5)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "B = 2M - A = (10-2,6-(-1)) = (8,7).",
+      "puntaje": 1,
+      "titulo_origen": "Punto medio - 07 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-043",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Punto medio",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una plaza rectangular tiene dos vértices opuestos en (-4, -2) y (6, 8). ¿Dónde se encuentra el centro de la plaza?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(1, 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(10, 10)"
+        },
+        {
+          "id": "C",
+          "texto": "(2, 6)"
+        },
+        {
+          "id": "D",
+          "texto": "(5, 6)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El centro coincide con el punto medio de la diagonal.",
+      "puntaje": 1,
+      "titulo_origen": "Punto medio - 08 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-044",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Punto medio",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "M(0, 4) es el punto medio de A(-6, 1) y B. Determine B.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(6, 7)"
+        },
+        {
+          "id": "B",
+          "texto": "(3, 5)"
+        },
+        {
+          "id": "C",
+          "texto": "(0, 8)"
+        },
+        {
+          "id": "D",
+          "texto": "(-6, 7)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "B=(2·0-(-6),2·4-1)=(6,7).",
+      "puntaje": 1,
+      "titulo_origen": "Punto medio - 09 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
+    },
+    {
+      "id": "MATS-GA-045",
+      "unidad": "Geometría analítica",
+      "tema": "Fundamentos de Geometría Analítica",
+      "subtema": "Punto medio",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "En un mapa, un poste debe ubicarse exactamente a mitad de camino en línea recta entre (1, 9) y (9, 1). ¿Cuál opción lo ubica correctamente?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(5, 5)"
+        },
+        {
+          "id": "B",
+          "texto": "(5, 4)"
+        },
+        {
+          "id": "C",
+          "texto": "(9, 9)"
+        },
+        {
+          "id": "D",
+          "texto": "(10, 10)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El promedio de ambas coordenadas vale 5.",
+      "puntaje": 1,
+      "titulo_origen": "Punto medio - 10 - Aplicación",
+      "origen": "Moodle XML · Lección #01 · Talleres 01 al 02 · 2026-11-06"
     }
   ]
 }
