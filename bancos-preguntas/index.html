@@ -3,7 +3,7 @@
 <title>Banco de Preguntas | Portal académico</title><meta name="description" content="Autoevaluación y generación de prácticas académicas para universidad y bachillerato.">
 <style>
 :root{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:#1d2a40;background:#f4f7fb}*{box-sizing:border-box}
-body{margin:0}header{background:#fff;border-bottom:1px solid #dbe2eb;position:sticky;top:0;z-index:3}nav{max-width:1120px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}nav a{font-size:14px;color:#344b68;text-decoration:none}nav strong{font-size:15px}
+body{margin:0}header{background:#fff;border-bottom:1px solid #dbe2eb;position:sticky;top:0;z-index:3}nav{max-width:1120px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}nav a{font-size:14px;color:#344b68;text-decoration:none}body.modo-estudiante #navInicio,body.modo-estudiante #navDocente,body.modo-estudiante #navPortal{display:none}nav strong{font-size:15px}
 .hero{background:linear-gradient(120deg,#142946,#234f77);color:white;padding:42px 20px}main{max-width:1080px;margin:auto;padding:24px 20px 60px}.hero>div{max-width:1080px;margin:auto}.hero p{color:#d7e5f7;line-height:1.6}h1{font-size:clamp(1.8rem,4vw,2.7rem);margin:0 0 9px}h2{font-size:1.4rem;margin:0 0 15px}h3{font-size:1.05rem;margin:12px 0}p{line-height:1.6}
 .card{background:#fff;border:1px solid #e1e7ee;border-radius:18px;padding:23px;margin-bottom:20px;box-shadow:0 3px 14px #10264108}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:15px}.choice-card{border:1px solid #dce4ed;padding:22px;border-radius:14px;background:#fafcff}.choice-card h3{margin-top:0}
@@ -14,7 +14,7 @@ label{display:block;font-size:14px;font-weight:650;margin:0 0 7px}input,select{w
 footer{text-align:center;padding:28px;color:#5d6c7e;font-size:13px}.stat{font-variant-numeric:tabular-nums}
 @media(max-width:600px){.card{padding:17px}.hero{padding:30px 20px}nav{flex-wrap:wrap}.flex button{width:100%}}
 </style></head><body>
-<header><nav><strong>Banco de Preguntas Académicos</strong><div class="flex"><a href="#inicio" id="navInicio">Inicio</a><a href="#docente" id="navDocente">Configurar práctica</a><a href="https://jpaulmata80.github.io/">Portal académico</a></div></nav></header>
+<header><nav><strong>Banco de Preguntas Académicos</strong><div class="flex"><a href="#inicio" id="navInicio">Inicio</a><a href="#docente" id="navDocente">Configurar práctica</a><a id="navPortal" href="https://jpaulmata80.github.io/">Portal académico</a></div></nav></header>
 <div class="hero"><div><span class="pill">Plataforma de práctica · Versión piloto</span><h1>Bancos de preguntas</h1><p>Universidad y Bachillerato · Configuración docente, prácticas aleatorias y resultados con retroalimentación.</p></div></div>
 <main>
 <section id="inicio">
@@ -36,15 +36,23 @@ footer{text-align:center;padding:28px;color:#5d6c7e;font-size:13px}.stat{font-va
 </section>
 <section id="estudiante" class="hidden">
 <div class="card" id="introPractica"><h2 id="practicaTitulo">Práctica</h2><p id="practicaAsignatura" class="muted"></p><div id="resumenPractica"></div><div id="avisoFecha"></div><button id="comenzar" disabled>Iniciar práctica</button></div>
-<div class="card hidden" id="preguntaCard"><div class="flex" style="justify-content:space-between"><span id="numeroPregunta" class="pill"></span><span id="reloj" class="pill stat" aria-live="polite"></span></div><div class="progress"><div id="barra"></div></div><h2 id="enunciado"></h2><div id="opciones"></div><button id="siguiente" type="button">Siguiente pregunta</button><p class="small muted">Si se agota el tiempo, se registra como omitida y continúa automáticamente.</p></div>
-<div class="card hidden" id="resultadoCard"><h2>Resultado de tu práctica</h2><div id="resumenResultado"></div><h3>Revisión de respuestas</h3><div id="revision"></div><div class="flex"><button id="reintentar">Hacer otro intento</button><button id="volver" type="button">Volver al inicio</button></div></div>
+<div class="card hidden" id="preguntaCard"><div class="flex" style="justify-content:space-between"><span id="numeroPregunta" class="pill"></span><span id="reloj" class="pill stat" aria-live="polite"></span></div><div class="progress"><div id="barra"></div></div><h2 id="enunciado"></h2><div id="opciones"></div><div class="flex"><button id="siguiente" type="button">Siguiente pregunta</button><button id="terminarAhora" type="button" style="background:#eef2f7;color:#2b4663;border:1px solid #c4d0dc">Terminar repaso</button></div><p class="small muted">Si se agota el tiempo, se registra como omitida y continúa automáticamente.</p></div>
+<div class="card hidden" id="resultadoCard"><h2>Resultado de tu práctica</h2><div id="resumenResultado"></div><h3>Revisión de respuestas</h3><div id="revision"></div><div class="flex"><button id="reintentar">Hacer otro intento</button><button id="volver" type="button">Finalizar repaso</button></div></div>
+<div class="card hidden" id="finRepaso" aria-live="polite">
+ <div style="font-size:42px" aria-hidden="true">✓</div>
+ <h2>Fin del repaso</h2>
+ <p id="finMensaje" class="muted">Has finalizado tu sesión de práctica.</p>
+ <div id="finResumen"></div>
+ <p class="small muted">Gracias por dedicar tiempo a tu aprendizaje. Puedes cerrar esta pestaña; no es necesario volver a la página principal.</p>
+ <div class="flex"><button id="revisarUltimo" type="button" class="hidden">Revisar último resultado</button><button id="otroIntento" type="button" class="hidden">Hacer otro intento</button></div>
+</div>
 </section>
 </main><footer>© 2026 · Jean Paul Mata Quevedo · Recurso de autoaprendizaje. Las calificaciones aquí no son oficiales.</footer>
 <script>
 "use strict";
 const $=id=>document.getElementById(id), BASE=new URL("./",location.href), TZ="America/Guayaquil";
 let catalog, banco=[],instancias=[],cfg=null,actual=0,clock=null,remaining=0,entries=[],locked=false;
-let prevIds=[];
+let prevIds=[],lastSummary=null,hasReviewInSession=false;
 const esc=x=>String(x??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 const setMsg=(id,msg,klass="warn")=>{$(id).innerHTML=msg?'<div class="'+klass+'">'+esc(msg)+'</div>':""};
 const getSubject=id=>catalog.instituciones.flatMap(i=>i.asignaturas.map(a=>({...a,nivel:i.id,institucion:i.nombre}))).find(a=>a.id===id);
@@ -55,7 +63,7 @@ function shuffle(a){const out=[...a];for(let i=out.length-1;i>0;i--){let j=crypt
 function encode(o){const bytes=new TextEncoder().encode(JSON.stringify(o));let s="";for(const x of bytes)s+=String.fromCharCode(x);return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"")}
 function decode(s){if(s.length>12000)throw Error("Enlace demasiado largo");const t=atob(s.replace(/-/g,"+").replace(/_/g,"/"));return JSON.parse(new TextDecoder().decode(Uint8Array.from(t,c=>c.charCodeAt(0))))}
 async function loadBank(asig){const a=getSubject(asig);if(!a)throw Error("Asignatura no válida");const url=new URL(a.archivo,BASE);const response=await fetch(url,{cache:"no-store"});if(!response.ok)throw Error("No se pudo cargar el banco");const j=await response.json();if(!Array.isArray(j.preguntas))throw Error("Formato de banco inválido");return j.preguntas}
-function show(s){for(const id of ["inicio","docente","estudiante"])$(id).classList.toggle("hidden",id!==s);window.scrollTo({top:0,behavior:"instant"})}
+function show(s){for(const id of ["inicio","docente","estudiante"])$(id).classList.toggle("hidden",id!==s);document.body.classList.toggle("modo-estudiante",s==="estudiante");window.scrollTo({top:0,behavior:"instant"})}
 function fillInstituciones(){
  $("institucion").innerHTML=catalog.instituciones.map(i=>'<option value="'+esc(i.id)+'">'+esc(i.nombre)+" — "+esc(i.institucion)+"</option>").join("");
  $("institucion").value="bachillerato";
@@ -137,19 +145,21 @@ function submitConfig(e){e.preventDefault();setMsg("msgConfig","");try{
  const url=practiceUrl(c);$("link").value=url;$("probar").href=url;$("resultadoLink").classList.remove("hidden");$("resultadoLink").scrollIntoView({behavior:"smooth"});
 }catch(err){setMsg("msgConfig",err.message,"error")}}
 function countKey(c){return "sbpa_attempt_"+encode(c)}
+function lastKey(c){return "sbpa_last_"+encode(c)}
+function registerAttempt(){try{localStorage.setItem(countKey(cfg),String(countAttempts()+1))}catch{}}
 function countAttempts(){try{return Number(localStorage.getItem(countKey(cfg))||0)}catch{return 0}}
 function isAvailable(){const now=Date.now();if(cfg.ini!==null&&now<cfg.ini)return {ok:false,msg:"La práctica se habilitará el "+formatDate(cfg.ini)+" (hora de Ecuador)."};if(cfg.fin!==null&&now>cfg.fin)return {ok:false,msg:"La práctica finalizó el "+formatDate(cfg.fin)+" (hora de Ecuador)."};if(cfg.l>0&&countAttempts()>=cfg.l)return {ok:false,msg:"Has alcanzado el número máximo de intentos permitido en este navegador."};return {ok:true,msg:""}}
-function intro(){const a=getSubject(cfg.a);$("practicaTitulo").textContent=cfg.t;$("practicaAsignatura").textContent=a.institucion+" · "+a.nombre;$("resumenPractica").innerHTML='<div class="metric">'+cfg.n+' preguntas aleatorias</div><div class="metric">'+Math.round(cfg.s/60*10)/10+' min/pregunta</div><div class="metric">'+(cfg.l===0?"Intentos ilimitados":cfg.l+" intento(s) en este navegador")+'</div><p class="muted">Temas: '+cfg.temas.map(esc).join(", ")+'</p><p class="small muted">Inicio: '+(cfg.ini===null?"Inmediato":formatDate(cfg.ini))+' · Fin: '+(cfg.fin===null?"Sin fecha de cierre":formatDate(cfg.fin))+'</p><p class="small muted">Las respuestas y explicaciones se mostrarán al finalizar.</p>';
+function intro(){if(cfg.l>0&&countAttempts()>=cfg.l)return showEnd("limite");const a=getSubject(cfg.a);$("practicaTitulo").textContent=cfg.t;$("practicaAsignatura").textContent=a.institucion+" · "+a.nombre;$("resumenPractica").innerHTML='<div class="metric">'+cfg.n+' preguntas aleatorias</div><div class="metric">'+Math.round(cfg.s/60*10)/10+' min/pregunta</div><div class="metric">'+(cfg.l===0?"Intentos ilimitados":cfg.l+" intento(s) en este navegador")+'</div><p class="muted">Temas: '+cfg.temas.map(esc).join(", ")+'</p><p class="small muted">Inicio: '+(cfg.ini===null?"Inmediato":formatDate(cfg.ini))+' · Fin: '+(cfg.fin===null?"Sin fecha de cierre":formatDate(cfg.fin))+'</p><p class="small muted">Las respuestas y explicaciones se mostrarán al finalizar.</p>';
  let avail=isAvailable();const eligible=banco.filter(q=>matchContent(q,cfg.temas));$("comenzar").disabled=!avail.ok||eligible.length<cfg.n;
  $("avisoFecha").innerHTML=avail.msg?'<div class="warn">'+esc(avail.msg)+'</div>':eligible.length<cfg.n?'<div class="warn">El banco actualmente no tiene suficientes preguntas para esta configuración.</div>':'<div class="success">Práctica disponible. Puedes comenzar.</div>';
- $("introPractica").classList.remove("hidden");$("preguntaCard").classList.add("hidden");$("resultadoCard").classList.add("hidden");}
+ $("introPractica").classList.remove("hidden");$("preguntaCard").classList.add("hidden");$("resultadoCard").classList.add("hidden");$("finRepaso").classList.add("hidden");}
 function clearClock(){if(clock!==null){clearInterval(clock);clock=null}}
-function start(){if(!isAvailable().ok)return intro();
+function start(){if(!isAvailable().ok)return intro();hasReviewInSession=false;
  const eligible=banco.filter(q=>matchContent(q,cfg.temas));if(eligible.length<cfg.n)return intro();
  // Exclude previous attempt when sufficient alternatives exist.
  let pool=eligible.filter(q=>!prevIds.includes(q.id));if(pool.length<cfg.n)pool=eligible;
  instancias=shuffle(pool).slice(0,cfg.n).map(q=>({...q,opciones:shuffle(q.opciones)}));prevIds=instancias.map(q=>q.id);
- entries=instancias.map(q=>({respuesta:null,agotada:false}));actual=0;$("introPractica").classList.add("hidden");$("resultadoCard").classList.add("hidden");$("preguntaCard").classList.remove("hidden");renderPregunta();}
+ entries=instancias.map(q=>({respuesta:null,agotada:false}));actual=0;$("introPractica").classList.add("hidden");$("resultadoCard").classList.add("hidden");$("finRepaso").classList.add("hidden");$("preguntaCard").classList.remove("hidden");renderPregunta();}
 function renderPregunta(){clearClock();locked=false;remaining=cfg.s;const q=instancias[actual];$("numeroPregunta").textContent="Pregunta "+(actual+1)+" de "+cfg.n;$("barra").style.width=(actual/cfg.n*100)+"%";$("enunciado").textContent=q.enunciado;
  $("opciones").innerHTML=q.opciones.map(o=>'<label class="option"><input type="radio" name="respuesta" value="'+esc(o.id)+'"> <span>'+esc(o.texto)+'</span></label>').join("");
  $("siguiente").textContent=actual===cfg.n-1?"Finalizar práctica":"Siguiente pregunta";$("reloj").textContent=remaining+" s";
@@ -157,13 +167,44 @@ function renderPregunta(){clearClock();locked=false;remaining=cfg.s;const q=inst
 function advance(){if(locked)return;locked=true;const checked=document.querySelector('input[name="respuesta"]:checked');entries[actual].respuesta=checked?checked.value:null;clearClock();if(actual>=cfg.n-1){finish()}else{actual++;renderPregunta()}}
 function finish(){clearClock();$("preguntaCard").classList.add("hidden");$("resultadoCard").classList.remove("hidden");
  let aciertos=0,omisiones=0;const revisions=instancias.map((q,i)=>{const r=entries[i];let ok=r.respuesta===q.respuesta;if(ok)aciertos++;if(!r.respuesta)omisiones++;return {q,r,ok}});
- let nota=(aciertos/cfg.n*10).toFixed(2);$("resumenResultado").innerHTML='<div class="metric"><strong>'+nota+'/10</strong> nota referencial</div><div class="metric">'+aciertos+' aciertos</div><div class="metric">'+(cfg.n-aciertos-omisiones)+' errores</div><div class="metric">'+omisiones+' omisiones</div><p>Resultado: '+Math.round(aciertos/cfg.n*100)+'% de respuestas correctas.</p>';
+ let nota=(aciertos/cfg.n*10).toFixed(2);lastSummary={nota,aciertos,total:cfg.n,fecha:Date.now()};hasReviewInSession=true;$("resumenResultado").innerHTML='<div class="metric"><strong>'+nota+'/10</strong> nota referencial</div><div class="metric">'+aciertos+' aciertos</div><div class="metric">'+(cfg.n-aciertos-omisiones)+' errores</div><div class="metric">'+omisiones+' omisiones</div><p>Resultado: '+Math.round(aciertos/cfg.n*100)+'% de respuestas correctas.</p>';
  $("revision").innerHTML=revisions.map((v,i)=>'<article class="review '+(v.ok?"correct":v.r.respuesta?"wrong":"neutral")+'"><strong>'+(i+1)+'. '+esc(v.q.enunciado)+'</strong><p class="small">'+(v.ok?"Respuesta correcta":v.r.agotada?"Tiempo agotado":v.r.respuesta?"Respuesta incorrecta":"Sin responder")+'</p><p class="small">Tu respuesta: '+esc(v.r.respuesta?v.q.opciones.find(o=>o.id===v.r.respuesta)?.texto:"Omitida")+'</p><p class="small">Respuesta correcta: <strong>'+esc(v.q.opciones.find(o=>o.id===v.q.respuesta)?.texto)+'</strong></p><p class="small muted">'+esc(v.q.explicacion)+'</p></article>').join("");
- try{localStorage.setItem(countKey(cfg),String(countAttempts()+1))}catch{}
- $("reintentar").disabled=!isAvailable().ok;$("resultadoCard").scrollIntoView({behavior:"smooth"});
+ registerAttempt();
+ try{localStorage.setItem(lastKey(cfg),JSON.stringify(lastSummary))}catch{}
+ const disponible=isAvailable();
+ $("reintentar").disabled=!disponible.ok;
+ $("volver").textContent=cfg.l>0&&countAttempts()>=cfg.l?"Finalizar repaso (sin intentos restantes)":"Finalizar repaso";
+ $("resultadoCard").scrollIntoView({behavior:"smooth"});
 }
-async function init(){try{const response=await fetch(new URL("datos/catalogo.json",BASE),{cache:"no-store"});if(!response.ok)throw Error("No se pudo cargar el catálogo");catalog=await response.json();renderCatalog();fillInstituciones();$("institucion").addEventListener("change",()=>fillAsignaturas());$("asignatura").addEventListener("change",refreshTemas);$("temas").addEventListener("change",onTopicsChange);$("formConfig").addEventListener("submit",submitConfig);$("copiar").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("link").value);$("copiar").textContent="¡Copiado!"}catch{$("link").select();$("copiar").textContent="Selecciona y copia el enlace"}});$("siguiente").addEventListener("click",advance);$("comenzar").addEventListener("click",start);$("reintentar").addEventListener("click",()=>{intro();if(!isAvailable().ok)return;start()});$("volver").addEventListener("click",()=>{history.replaceState(null,"",BASE.pathname);show("inicio")});$("navInicio").addEventListener("click",()=>{if(clock!==null&& !confirm("¿Abandonar este intento?"))return;clearClock();show("inicio")});$("navDocente").addEventListener("click",()=>{if(clock!==null&& !confirm("¿Abandonar este intento?"))return;clearClock();show("docente")});
- const param=new URLSearchParams(location.search).get("p");if(param){cfg=validateCfg(decode(param));banco=await loadBank(cfg.a);show("estudiante");intro();}else if(location.hash==="#docente")show("docente");else show("inicio");
+function showEnd(motivo){
+ clearClock();
+ $("introPractica").classList.add("hidden");
+ $("preguntaCard").classList.add("hidden");
+ $("resultadoCard").classList.add("hidden");
+ $("finRepaso").classList.remove("hidden");
+ const messages={
+  finalizado:"Has terminado esta sesión de práctica. Puedes cerrar esta pestaña cuando desees.",
+  limite:"Has utilizado todos los intentos permitidos para esta práctica en este navegador.",
+  voluntario:"Has decidido terminar el repaso antes de completar todas las preguntas. Este intento se registra como utilizado."
+ };
+ $("finMensaje").textContent=messages[motivo]||messages.finalizado;
+ const count=countAttempts();
+ const summary=motivo!=="voluntario"?lastSummary:null;
+ $("finResumen").innerHTML=(summary?
+  '<div class="metric"><strong>Última nota: '+esc(summary.nota)+'/10</strong></div><div class="metric">'+esc(summary.aciertos)+' de '+esc(summary.total)+' respuestas correctas</div>':"")+
+  '<p class="small muted">Intentos utilizados en este navegador: '+count+(cfg.l>0?" de "+cfg.l:" (ilimitados)")+'.</p>';
+ $("revisarUltimo").classList.toggle("hidden",!hasReviewInSession||motivo==="voluntario");
+ $("otroIntento").classList.toggle("hidden",!isAvailable().ok);
+ $("finRepaso").scrollIntoView({behavior:"smooth"});
+}
+function endEarly(){
+ if(!confirm("¿Terminar el repaso ahora? Este intento contará como utilizado y no recibirás una calificación de las preguntas pendientes."))return;
+ registerAttempt();
+ showEnd("voluntario");
+}
+
+async function init(){try{const response=await fetch(new URL("datos/catalogo.json",BASE),{cache:"no-store"});if(!response.ok)throw Error("No se pudo cargar el catálogo");catalog=await response.json();renderCatalog();fillInstituciones();$("institucion").addEventListener("change",()=>fillAsignaturas());$("asignatura").addEventListener("change",refreshTemas);$("temas").addEventListener("change",onTopicsChange);$("formConfig").addEventListener("submit",submitConfig);$("copiar").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("link").value);$("copiar").textContent="¡Copiado!"}catch{$("link").select();$("copiar").textContent="Selecciona y copia el enlace"}});$("siguiente").addEventListener("click",advance);$("terminarAhora").addEventListener("click",endEarly);$("comenzar").addEventListener("click",start);$("reintentar").addEventListener("click",()=>{if(!isAvailable().ok)return showEnd("limite");start()});$("volver").addEventListener("click",()=>showEnd("finalizado"));$("revisarUltimo").addEventListener("click",()=>{$("finRepaso").classList.add("hidden");$("resultadoCard").classList.remove("hidden");$("resultadoCard").scrollIntoView({behavior:"smooth"})});$("otroIntento").addEventListener("click",()=>{if(!isAvailable().ok)return showEnd("limite");start()});$("navInicio").addEventListener("click",()=>{if(clock!==null&& !confirm("¿Abandonar este intento?"))return;clearClock();show("inicio")});$("navDocente").addEventListener("click",()=>{if(clock!==null&& !confirm("¿Abandonar este intento?"))return;clearClock();show("docente")});
+ const param=new URLSearchParams(location.search).get("p");if(param){cfg=validateCfg(decode(param));banco=await loadBank(cfg.a);try{const item=JSON.parse(localStorage.getItem(lastKey(cfg))||"null");if(item&&Number.isFinite(Number(item.nota))&&Number.isInteger(item.aciertos))lastSummary=item}catch{}show("estudiante");intro();}else if(location.hash==="#docente")show("docente");else show("inicio");
  }catch(e){$("asignaturas").innerHTML='<div class="error">Error: '+esc(e.message)+'. Comprueba el enlace o recarga la página.</div>';show("inicio")}}
 init();
 </script></body></html>
