@@ -3616,6 +3616,576 @@
       "respuesta": "F",
       "explicacion": "La identidad a² - b² = (a - b)(a + b) permite descomponer este polinomio. Se reconocen las bases A = 4x+3y y B = x-2y. Entonces (4x+3y)² - (x-2y)² = (5y + 3x)(y + 5x). Al distribuir los factores se recupera 15x² + 28xy + 5y².",
       "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio cuadrado perfecto x² + 6x + 9.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 3)²"
+        },
+        {
+          "id": "B",
+          "texto": "(2(x) + 3)²"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 3 + 1)²"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 3 - 1)²"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 3)²"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 2(3))²"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a 2AB, con A = x y B = 3. Aplicando A² + 2AB + B² = (A + B)², se obtiene (x + 3)². Al desarrollar el cuadrado se recupera x² + 6x + 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por trinomio cuadrado perfecto de 4a² - 12a + 9?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2a - 3)²"
+        },
+        {
+          "id": "B",
+          "texto": "(2a - 3 + 1)²"
+        },
+        {
+          "id": "C",
+          "texto": "(2a + 3)²"
+        },
+        {
+          "id": "D",
+          "texto": "(2(2a) - 3)²"
+        },
+        {
+          "id": "E",
+          "texto": "(2a - 2(3))²"
+        },
+        {
+          "id": "F",
+          "texto": "(2a - 3 - 1)²"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a -2AB, con A = 2a y B = 3. Aplicando A² - 2AB + B² = (A - B)², se obtiene (2a - 3)². Al desarrollar el cuadrado se recupera 4a² - 12a + 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza 9x² + 30xy + 25y² como el cuadrado de un binomio.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(3x + 5y - 1)²"
+        },
+        {
+          "id": "B",
+          "texto": "(3x + 5y + 1)²"
+        },
+        {
+          "id": "C",
+          "texto": "(3x - 5y)²"
+        },
+        {
+          "id": "D",
+          "texto": "(3x + 5y)²"
+        },
+        {
+          "id": "E",
+          "texto": "(2(3x) + 5y)²"
+        },
+        {
+          "id": "F",
+          "texto": "(3x + 2(5y))²"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a 2AB, con A = 3x y B = 5y. Aplicando A² + 2AB + B² = (A + B)², se obtiene (3x + 5y)². Al desarrollar el cuadrado se recupera 9x² + 30xy + 25y².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Encuentra la factorización de 16m⁴ - 40m²n + 25n².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(4m² - 5n)²"
+        },
+        {
+          "id": "B",
+          "texto": "(2(4m²) - 5n)²"
+        },
+        {
+          "id": "C",
+          "texto": "(4m² - 2(5n))²"
+        },
+        {
+          "id": "D",
+          "texto": "(4m² + 5n)²"
+        },
+        {
+          "id": "E",
+          "texto": "(4m² - 5n + 1)²"
+        },
+        {
+          "id": "F",
+          "texto": "(4m² - 5n - 1)²"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a -2AB, con A = 4m² y B = 5n. Aplicando A² - 2AB + B² = (A - B)², se obtiene (4m² - 5n)². Al desarrollar el cuadrado se recupera 16m⁴ - 40m²n + 25n².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón el trinomio 25p²q² + 70pqr + 49r² como cuadrado perfecto.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(5pq - 7r)²"
+        },
+        {
+          "id": "B",
+          "texto": "(2(5pq) + 7r)²"
+        },
+        {
+          "id": "C",
+          "texto": "(5pq + 7r + 1)²"
+        },
+        {
+          "id": "D",
+          "texto": "(5pq + 7r - 1)²"
+        },
+        {
+          "id": "E",
+          "texto": "(5pq + 7r)²"
+        },
+        {
+          "id": "F",
+          "texto": "(5pq + 2(7r))²"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a 2AB, con A = 5pq y B = 7r. Aplicando A² + 2AB + B² = (A + B)², se obtiene (5pq + 7r)². Al desarrollar el cuadrado se recupera 25p²q² + 70pqr + 49r².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio x⁶ - 14x³y² + 49y⁴.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x³ - 7y²)²"
+        },
+        {
+          "id": "B",
+          "texto": "(x³ - 7y² + 1)²"
+        },
+        {
+          "id": "C",
+          "texto": "(x³ + 7y²)²"
+        },
+        {
+          "id": "D",
+          "texto": "(2(x³) - 7y²)²"
+        },
+        {
+          "id": "E",
+          "texto": "(x³ - 2(7y²))²"
+        },
+        {
+          "id": "F",
+          "texto": "(x³ - 7y² - 1)²"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a -2AB, con A = x³ y B = 7y². Aplicando A² - 2AB + B² = (A - B)², se obtiene (x³ - 7y²)². Al desarrollar el cuadrado se recupera x⁶ - 14x³y² + 49y⁴.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Identifica las bases del trinomio 81x⁸ - 126x⁴y³ + 49y⁶ y factorízalo.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(9x⁴ - 7y³ - 1)²"
+        },
+        {
+          "id": "B",
+          "texto": "(9x⁴ - 7y³ + 1)²"
+        },
+        {
+          "id": "C",
+          "texto": "(9x⁴ + 7y³)²"
+        },
+        {
+          "id": "D",
+          "texto": "(9x⁴ - 7y³)²"
+        },
+        {
+          "id": "E",
+          "texto": "(2(9x⁴) - 7y³)²"
+        },
+        {
+          "id": "F",
+          "texto": "(9x⁴ - 2(7y³))²"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a -2AB, con A = 9x⁴ y B = 7y³. Aplicando A² - 2AB + B² = (A - B)², se obtiene (9x⁴ - 7y³)². Al desarrollar el cuadrado se recupera 81x⁸ - 126x⁴y³ + 49y⁶.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Expresa 64m⁶ + 112m³n⁴ + 49n⁸ como un cuadrado de binomio.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(8m³ + 7n⁴)²"
+        },
+        {
+          "id": "B",
+          "texto": "(8m³ + 7n⁴ - 1)²"
+        },
+        {
+          "id": "C",
+          "texto": "(8m³ + 2(7n⁴))²"
+        },
+        {
+          "id": "D",
+          "texto": "(8m³ - 7n⁴)²"
+        },
+        {
+          "id": "E",
+          "texto": "(8m³ + 7n⁴ + 1)²"
+        },
+        {
+          "id": "F",
+          "texto": "(2(8m³) + 7n⁴)²"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a 2AB, con A = 8m³ y B = 7n⁴. Aplicando A² + 2AB + B² = (A + B)², se obtiene (8m³ + 7n⁴)². Al desarrollar el cuadrado se recupera 64m⁶ + 112m³n⁴ + 49n⁸.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza, reconociendo un binomio compuesto: (x + 2)² + 10(x + 2)y + 25y².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "((x + 2) - 5y)²"
+        },
+        {
+          "id": "B",
+          "texto": "(2((x + 2)) + 5y)²"
+        },
+        {
+          "id": "C",
+          "texto": "((x + 2) + 5y + 1)²"
+        },
+        {
+          "id": "D",
+          "texto": "((x + 2) + 2(5y))²"
+        },
+        {
+          "id": "E",
+          "texto": "((x + 2) + 5y - 1)²"
+        },
+        {
+          "id": "F",
+          "texto": "((x + 2) + 5y)²"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a 2AB, con A = (x + 2) y B = 5y. Aplicando A² + 2AB + B² = (A + B)², se obtiene ((x + 2) + 5y)². Al desarrollar el cuadrado se recupera (x + 2)² + 10(x + 2)y + 25y².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza completamente el trinomio cuadrado perfecto 4(x - y)² - 20(x - y)z + 25z².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2(x - y) - 5z)²"
+        },
+        {
+          "id": "B",
+          "texto": "(2(x - y) - 2(5z))²"
+        },
+        {
+          "id": "C",
+          "texto": "(2(x - y) - 5z + 1)²"
+        },
+        {
+          "id": "D",
+          "texto": "(2(x - y) - 5z - 1)²"
+        },
+        {
+          "id": "E",
+          "texto": "(2(x - y) + 5z)²"
+        },
+        {
+          "id": "F",
+          "texto": "(2(2(x - y)) - 5z)²"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a -2AB, con A = 2(x - y) y B = 5z. Aplicando A² - 2AB + B² = (A - B)², se obtiene (2(x - y) - 5z)². Al desarrollar el cuadrado se recupera 4(x - y)² - 20(x - y)z + 25z².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Reconoce el cuadrado de un binomio compuesto y factoriza (2a + 3b)² + 12(2a + 3b)c + 36c².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "((2a + 3b) + 2(6c))²"
+        },
+        {
+          "id": "B",
+          "texto": "((2a + 3b) + 6c + 1)²"
+        },
+        {
+          "id": "C",
+          "texto": "((2a + 3b) - 6c)²"
+        },
+        {
+          "id": "D",
+          "texto": "((2a + 3b) + 6c - 1)²"
+        },
+        {
+          "id": "E",
+          "texto": "(2((2a + 3b)) + 6c)²"
+        },
+        {
+          "id": "F",
+          "texto": "((2a + 3b) + 6c)²"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a 2AB, con A = (2a + 3b) y B = 6c. Aplicando A² + 2AB + B² = (A + B)², se obtiene ((2a + 3b) + 6c)². Al desarrollar el cuadrado se recupera (2a + 3b)² + 12(2a + 3b)c + 36c².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza por trinomio cuadrado perfecto 49(x² - 1)² - 70(x² - 1)y³ + 25y⁶.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(7(x² - 1) - 5y³)²"
+        },
+        {
+          "id": "B",
+          "texto": "(7(x² - 1) - 5y³ - 1)²"
+        },
+        {
+          "id": "C",
+          "texto": "(7(x² - 1) - 2(5y³))²"
+        },
+        {
+          "id": "D",
+          "texto": "(7(x² - 1) + 5y³)²"
+        },
+        {
+          "id": "E",
+          "texto": "(7(x² - 1) - 5y³ + 1)²"
+        },
+        {
+          "id": "F",
+          "texto": "(2(7(x² - 1)) - 5y³)²"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Es un trinomio cuadrado perfecto porque el primer y el último términos son cuadrados, y el término central equivale a -2AB, con A = 7(x² - 1) y B = 5y³. Aplicando A² - 2AB + B² = (A - B)², se obtiene (7(x² - 1) - 5y³)². Al desarrollar el cuadrado se recupera 49(x² - 1)² - 70(x² - 1)y³ + 25y⁶.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el valor positivo de k para que x⁴ + kx²y³ + 49y⁶ sea un trinomio cuadrado perfecto.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "7"
+        },
+        {
+          "id": "B",
+          "texto": "28"
+        },
+        {
+          "id": "C",
+          "texto": "49"
+        },
+        {
+          "id": "D",
+          "texto": "21"
+        },
+        {
+          "id": "E",
+          "texto": "98"
+        },
+        {
+          "id": "F",
+          "texto": "14"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Para que sea un trinomio cuadrado perfecto, el término central debe tener el coeficiente de 2AB. Con A = x² y B = 7y³, el término central requerido es el de (x² + 7y³)². Por ello k = 14. La condición k > 0 descarta signos ambiguos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halle el valor positivo de k para que 16m⁶ - km³n² + 81n⁴ sea un trinomio cuadrado perfecto.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "72"
+        },
+        {
+          "id": "B",
+          "texto": "18"
+        },
+        {
+          "id": "C",
+          "texto": "81"
+        },
+        {
+          "id": "D",
+          "texto": "108"
+        },
+        {
+          "id": "E",
+          "texto": "36"
+        },
+        {
+          "id": "F",
+          "texto": "144"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Para que sea un trinomio cuadrado perfecto, el término central debe tener el coeficiente de 2AB. Con A = 4m³ y B = 9n², el término central requerido es el de (4m³ - 9n²)². Por ello k = 72. La condición k > 0 descarta signos ambiguos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TCP-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio cuadrado perfecto",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Calcule k > 0 para que 49a⁸ + 70a⁴b³ + kb⁶ sea un trinomio cuadrado perfecto.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "49"
+        },
+        {
+          "id": "B",
+          "texto": "35"
+        },
+        {
+          "id": "C",
+          "texto": "5"
+        },
+        {
+          "id": "D",
+          "texto": "100"
+        },
+        {
+          "id": "E",
+          "texto": "10"
+        },
+        {
+          "id": "F",
+          "texto": "25"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Para que sea un trinomio cuadrado perfecto, el término central debe tener el coeficiente de 2AB. Con A = 7a⁴ y B = 5b³, el término central requerido es el de (7a⁴ + 5b³)². Por ello k = 25. La condición k > 0 descarta signos ambiguos.",
+      "puntaje": 1
     }
   ]
 }
