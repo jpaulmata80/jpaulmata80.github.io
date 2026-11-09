@@ -4186,6 +4186,1336 @@
       "respuesta": "F",
       "explicacion": "Para que sea un trinomio cuadrado perfecto, el término central debe tener el coeficiente de 2AB. Con A = 7a⁴ y B = 5b³, el término central requerido es el de (7a⁴ + 5b³)². Por ello k = 25. La condición k > 0 descarta signos ambiguos.",
       "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio x² + 5x + 6.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 2)(x + 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 3)(x + 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 2)(x + 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 2)(x - 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 2)(x + 3)"
+        },
+        {
+          "id": "F",
+          "texto": "(x - 2)(x - 3)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Para factorizar x² + 5x + 6 buscamos dos números cuya suma sea b = 5 y cuyo producto sea c = 6. Los números son 2 y 3, ya que 2 + (3) = 5 y (2)·(3) = 6. Por tanto, x² + 5x + 6 = (x + 2)(x + 3). La expansión da x² + (5)x + (6).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización en binomios de x² + 5x + 4?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 1)(x - 4)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 1)(x + 4)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 1)(x + 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 1)(x - 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 2)(x + 4)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 1)(x + 5)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Para factorizar x² + 5x + 4 buscamos dos números cuya suma sea b = 5 y cuyo producto sea c = 4. Los números son 1 y 4, ya que 1 + (4) = 5 y (1)·(4) = 4. Por tanto, x² + 5x + 4 = (x + 1)(x + 4). La expansión da x² + (5)x + (4).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores el trinomio de la forma x² + bx + c: x² - 5x + 6.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 2)(x + 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 1)(x - 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 2)(x - 3)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 2)(x - 2)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 2)(x + 3)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 2)(x - 3)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Para factorizar x² - 5x + 6 buscamos dos números cuya suma sea b = -5 y cuyo producto sea c = 6. Los números son -2 y -3, ya que -2 + (-3) = -5 y (-2)·(-3) = 6. Por tanto, x² - 5x + 6 = (x - 2)(x - 3). La expansión da x² + (-5)x + (6).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio x² + 1x - 6.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 2)(x + 4)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 2)(x - 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 2)(x + 3)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 2)(x + 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 2)(x - 3)"
+        },
+        {
+          "id": "F",
+          "texto": "(x - 1)(x + 3)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Para factorizar x² + 1x - 6 buscamos dos números cuya suma sea b = 1 y cuyo producto sea c = -6. Los números son -2 y 3, ya que -2 + (3) = 1 y (-2)·(3) = -6. Por tanto, x² + 1x - 6 = (x - 2)(x + 3). La expansión da x² + (1)x + (-6).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización en binomios de x² - 3x - 10?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 2)(x - 5)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 2)(x + 5)"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 3)(x - 5)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 2)(x - 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 2)(x - 5)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 2)(x + 5)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Para factorizar x² - 3x - 10 buscamos dos números cuya suma sea b = -3 y cuyo producto sea c = -10. Los números son 2 y -5, ya que 2 + (-5) = -3 y (2)·(-5) = -10. Por tanto, x² - 3x - 10 = (x + 2)(x - 5). La expansión da x² + (-3)x + (-10).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores el trinomio de la forma x² + bx + c: x² + 11x + 28.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 5)(x + 7)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 4)(x + 8)"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 4)(x - 7)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 4)(x + 7)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 4)(x - 7)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 4)(x + 7)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Para factorizar x² + 11x + 28 buscamos dos números cuya suma sea b = 11 y cuyo producto sea c = 28. Los números son 4 y 7, ya que 4 + (7) = 11 y (4)·(7) = 28. Por tanto, x² + 11x + 28 = (x + 4)(x + 7). La expansión da x² + (11)x + (28).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio x² - 11x + 24.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 3)(x - 8)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 3)(x + 8)"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 3)(x - 8)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 3)(x + 8)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 2)(x - 8)"
+        },
+        {
+          "id": "F",
+          "texto": "(x - 3)(x - 7)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Para factorizar x² - 11x + 24 buscamos dos números cuya suma sea b = -11 y cuyo producto sea c = 24. Los números son -3 y -8, ya que -3 + (-8) = -11 y (-3)·(-8) = 24. Por tanto, x² - 11x + 24 = (x - 3)(x - 8). La expansión da x² + (-11)x + (24).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización en binomios de x² + 5x - 36?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 4)(x - 9)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 4)(x + 9)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 3)(x + 9)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 4)(x + 10)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 4)(x - 9)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 4)(x + 9)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Para factorizar x² + 5x - 36 buscamos dos números cuya suma sea b = 5 y cuyo producto sea c = -36. Los números son -4 y 9, ya que -4 + (9) = 5 y (-4)·(9) = -36. Por tanto, x² + 5x - 36 = (x - 4)(x + 9). La expansión da x² + (5)x + (-36).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores el trinomio de la forma x² + bx + c: x² - 1x - 42.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 6)(x - 6)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 6)(x + 7)"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 6)(x - 7)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 6)(x - 7)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 6)(x + 7)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 7)(x - 7)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Para factorizar x² - 1x - 42 buscamos dos números cuya suma sea b = -1 y cuyo producto sea c = -42. Los números son 6 y -7, ya que 6 + (-7) = -1 y (6)·(-7) = -42. Por tanto, x² - 1x - 42 = (x + 6)(x - 7). La expansión da x² + (-1)x + (-42).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio x² + 14x + 33.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 3)(x + 11)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 3)(x - 11)"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 4)(x + 11)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 3)(x + 11)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 3)(x + 12)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 3)(x - 11)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Para factorizar x² + 14x + 33 buscamos dos números cuya suma sea b = 14 y cuyo producto sea c = 33. Los números son 3 y 11, ya que 3 + (11) = 14 y (3)·(11) = 33. Por tanto, x² + 14x + 33 = (x + 3)(x + 11). La expansión da x² + (14)x + (33).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización en binomios de x² - 14x + 45?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 4)(x - 9)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 5)(x - 8)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 5)(x + 9)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 5)(x - 9)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 5)(x - 9)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 5)(x + 9)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Para factorizar x² - 14x + 45 buscamos dos números cuya suma sea b = -14 y cuyo producto sea c = 45. Los números son -5 y -9, ya que -5 + (-9) = -14 y (-5)·(-9) = 45. Por tanto, x² - 14x + 45 = (x - 5)(x - 9). La expansión da x² + (-14)x + (45).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores el trinomio de la forma x² + bx + c: x² + 5x - 24.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 8)(x + 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 8)(x - 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 8)(x + 3)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 9)(x - 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 8)(x - 2)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 8)(x - 3)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Para factorizar x² + 5x - 24 buscamos dos números cuya suma sea b = 5 y cuyo producto sea c = -24. Los números son 8 y -3, ya que 8 + (-3) = 5 y (8)·(-3) = -24. Por tanto, x² + 5x - 24 = (x + 8)(x - 3). La expansión da x² + (5)x + (-24).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio x² + 7x - 78.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 6)(x + 13)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 6)(x - 13)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 5)(x + 13)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 6)(x + 14)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 6)(x - 13)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 6)(x + 13)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Para factorizar x² + 7x - 78 buscamos dos números cuya suma sea b = 7 y cuyo producto sea c = -78. Los números son -6 y 13, ya que -6 + (13) = 7 y (-6)·(13) = -78. Por tanto, x² + 7x - 78 = (x - 6)(x + 13). La expansión da x² + (7)x + (-78).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización en binomios de x² + 16x + 63?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 7)(x + 10)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 7)(x + 9)"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 7)(x - 9)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 7)(x + 9)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 7)(x - 9)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 8)(x + 9)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Para factorizar x² + 16x + 63 buscamos dos números cuya suma sea b = 16 y cuyo producto sea c = 63. Los números son 7 y 9, ya que 7 + (9) = 16 y (7)·(9) = 63. Por tanto, x² + 16x + 63 = (x + 7)(x + 9). La expansión da x² + (16)x + (63).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores el trinomio de la forma x² + bx + c: x² - 6x - 40.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 10)(x + 4)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 10)(x - 4)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 10)(x + 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 9)(x + 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 10)(x + 5)"
+        },
+        {
+          "id": "F",
+          "texto": "(x - 10)(x - 4)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Para factorizar x² - 6x - 40 buscamos dos números cuya suma sea b = -6 y cuyo producto sea c = -40. Los números son -10 y 4, ya que -10 + (4) = -6 y (-10)·(4) = -40. Por tanto, x² - 6x - 40 = (x - 10)(x + 4). La expansión da x² + (-6)x + (-40).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-016",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio x² + 5x - 204.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 11)(x + 17)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 12)(x + 18)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 12)(x - 17)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 12)(x + 17)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 12)(x + 17)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 12)(x - 17)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Para factorizar x² + 5x - 204 buscamos dos números cuya suma sea b = 5 y cuyo producto sea c = -204. Los números son -12 y 17, ya que -12 + (17) = 5 y (-12)·(17) = -204. Por tanto, x² + 5x - 204 = (x - 12)(x + 17). La expansión da x² + (5)x + (-204).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-017",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización en binomios de x² - 4x - 437?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 19)(x + 23)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 19)(x - 23)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 19)(x + 23)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 20)(x - 23)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 19)(x - 23)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 19)(x - 22)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Para factorizar x² - 4x - 437 buscamos dos números cuya suma sea b = -4 y cuyo producto sea c = -437. Los números son 19 y -23, ya que 19 + (-23) = -4 y (19)·(-23) = -437. Por tanto, x² - 4x - 437 = (x + 19)(x - 23). La expansión da x² + (-4)x + (-437).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-018",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores el trinomio de la forma x² + bx + c: x² - 30x + 224.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 14)(x + 16)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 13)(x - 16)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 14)(x - 15)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 14)(x + 16)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 14)(x - 16)"
+        },
+        {
+          "id": "F",
+          "texto": "(x - 14)(x - 16)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Para factorizar x² - 30x + 224 buscamos dos números cuya suma sea b = -30 y cuyo producto sea c = 224. Los números son -14 y -16, ya que -14 + (-16) = -30 y (-14)·(-16) = 224. Por tanto, x² - 30x + 224 = (x - 14)(x - 16). La expansión da x² + (-30)x + (224).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-019",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio x² + 4x - 525.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 25)(x - 21)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 25)(x - 20)"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 25)(x + 21)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 25)(x - 21)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 25)(x + 21)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 26)(x - 21)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Para factorizar x² + 4x - 525 buscamos dos números cuya suma sea b = 4 y cuyo producto sea c = -525. Los números son 25 y -21, ya que 25 + (-21) = 4 y (25)·(-21) = -525. Por tanto, x² + 4x - 525 = (x + 25)(x - 21). La expansión da x² + (4)x + (-525).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-020",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización en binomios de x² - 5x - 864?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 27)(x - 32)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 27)(x - 32)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 27)(x + 32)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 28)(x - 32)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 27)(x - 31)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 27)(x + 32)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Para factorizar x² - 5x - 864 buscamos dos números cuya suma sea b = -5 y cuyo producto sea c = -864. Los números son 27 y -32, ya que 27 + (-32) = -5 y (27)·(-32) = -864. Por tanto, x² - 5x - 864 = (x + 27)(x - 32). La expansión da x² + (-5)x + (-864).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-021",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores el trinomio de la forma x² + bx + c: x² + 11x - 522.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 17)(x + 29)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 18)(x + 30)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 18)(x + 29)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 18)(x - 29)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 18)(x + 29)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 18)(x - 29)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Para factorizar x² + 11x - 522 buscamos dos números cuya suma sea b = 11 y cuyo producto sea c = -522. Los números son -18 y 29, ya que -18 + (29) = 11 y (-18)·(29) = -522. Por tanto, x² + 11x - 522 = (x - 18)(x + 29). La expansión da x² + (11)x + (-522).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-022",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio x² + 68x + 1147.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 31)(x - 37)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 31)(x + 37)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 31)(x - 37)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 31)(x + 37)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 32)(x + 37)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 31)(x + 38)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Para factorizar x² + 68x + 1147 buscamos dos números cuya suma sea b = 68 y cuyo producto sea c = 1147. Los números son 31 y 37, ya que 31 + (37) = 68 y (31)·(37) = 1147. Por tanto, x² + 68x + 1147 = (x + 31)(x + 37). La expansión da x² + (68)x + (1147).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-023",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización en binomios de x² - 59x + 840?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 24)(x + 35)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 23)(x - 35)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 24)(x - 34)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 24)(x + 35)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 24)(x - 35)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 24)(x - 35)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Para factorizar x² - 59x + 840 buscamos dos números cuya suma sea b = -59 y cuyo producto sea c = 840. Los números son -24 y -35, ya que -24 + (-35) = -59 y (-24)·(-35) = 840. Por tanto, x² - 59x + 840 = (x - 24)(x - 35). La expansión da x² + (-59)x + (840).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-024",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores el trinomio de la forma x² + bx + c: x² + 5x - 924.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 33)(x - 27)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 33)(x + 28)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 33)(x - 28)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 33)(x + 28)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 34)(x - 28)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 33)(x - 28)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Para factorizar x² + 5x - 924 buscamos dos números cuya suma sea b = 5 y cuyo producto sea c = -924. Los números son 33 y -28, ya que 33 + (-28) = 5 y (33)·(-28) = -924. Por tanto, x² + 5x - 924 = (x + 33)(x - 28). La expansión da x² + (5)x + (-924).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-025",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio x² + 7x - 1710.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 45)(x - 38)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 45)(x - 38)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 45)(x + 38)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 46)(x - 38)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 45)(x - 37)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 45)(x + 38)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Para factorizar x² + 7x - 1710 buscamos dos números cuya suma sea b = 7 y cuyo producto sea c = -1710. Los números son 45 y -38, ya que 45 + (-38) = 7 y (45)·(-38) = -1710. Por tanto, x² + 7x - 1710 = (x + 45)(x - 38). La expansión da x² + (7)x + (-1710).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-026",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización en binomios de x² + 5x - 1974?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 41)(x + 47)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 42)(x + 47)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 42)(x + 48)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 42)(x - 47)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 42)(x + 47)"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 42)(x - 47)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Para factorizar x² + 5x - 1974 buscamos dos números cuya suma sea b = 5 y cuyo producto sea c = -1974. Los números son -42 y 47, ya que -42 + (47) = 5 y (-42)·(47) = -1974. Por tanto, x² + 5x - 1974 = (x - 42)(x + 47). La expansión da x² + (5)x + (-1974).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-027",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores el trinomio de la forma x² + bx + c: x² - 80x + 1599.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 39)(x + 41)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 39)(x - 41)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 39)(x - 41)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 39)(x + 41)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 38)(x - 41)"
+        },
+        {
+          "id": "F",
+          "texto": "(x - 39)(x - 40)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Para factorizar x² - 80x + 1599 buscamos dos números cuya suma sea b = -80 y cuyo producto sea c = 1599. Los números son -39 y -41, ya que -39 + (-41) = -80 y (-39)·(-41) = 1599. Por tanto, x² - 80x + 1599 = (x - 39)(x - 41). La expansión da x² + (-80)x + (1599).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-028",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El polinomio x² + kx + 84 es divisible entre (x + 7). ¿Cuál es el valor de k?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "20"
+        },
+        {
+          "id": "B",
+          "texto": "21"
+        },
+        {
+          "id": "C",
+          "texto": "24"
+        },
+        {
+          "id": "D",
+          "texto": "19"
+        },
+        {
+          "id": "E",
+          "texto": "17"
+        },
+        {
+          "id": "F",
+          "texto": "18"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Como (x + 7) es un factor, x = -7 debe anular el polinomio. Sustituimos: (-7)² + k(-7) + 84 = 0. Al despejar, k = 19. También se comprueba que los factores son (x + 7)(x + 12): 7 + (12) = 19 y 7·(12) = 84.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-029",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El polinomio x² + kx - 180 es divisible entre (x - 9). ¿Cuál es el valor de k?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "16"
+        },
+        {
+          "id": "B",
+          "texto": "9"
+        },
+        {
+          "id": "C",
+          "texto": "10"
+        },
+        {
+          "id": "D",
+          "texto": "12"
+        },
+        {
+          "id": "E",
+          "texto": "11"
+        },
+        {
+          "id": "F",
+          "texto": "13"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Como (x - 9) es un factor, x = 9 debe anular el polinomio. Sustituimos: (9)² + k(9) - 180 = 0. Al despejar, k = 11. También se comprueba que los factores son (x - 9)(x + 20): -9 + (20) = 11 y -9·(20) = -180.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-030",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El polinomio x² - 7x + k es divisible entre (x - 12). ¿Cuál es el valor de k?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-61"
+        },
+        {
+          "id": "B",
+          "texto": "-59"
+        },
+        {
+          "id": "C",
+          "texto": "-58"
+        },
+        {
+          "id": "D",
+          "texto": "-55"
+        },
+        {
+          "id": "E",
+          "texto": "-62"
+        },
+        {
+          "id": "F",
+          "texto": "-60"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "El factor (x - 12) indica que x = 12 es una raíz. Sustituyendo en x² - 7x + k = 0 resulta k = -60. Se confirma mediante (x - 12)(x + 5), pues -12·(5) = -60.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-031",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El polinomio x² + kx + 390 es divisible entre (x + 15). ¿Cuál es el valor de k?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "41"
+        },
+        {
+          "id": "B",
+          "texto": "43"
+        },
+        {
+          "id": "C",
+          "texto": "46"
+        },
+        {
+          "id": "D",
+          "texto": "39"
+        },
+        {
+          "id": "E",
+          "texto": "40"
+        },
+        {
+          "id": "F",
+          "texto": "42"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Como (x + 15) es un factor, x = -15 debe anular el polinomio. Sustituimos: (-15)² + k(-15) + 390 = 0. Al despejar, k = 41. También se comprueba que los factores son (x + 15)(x + 26): 15 + (26) = 41 y 15·(26) = 390.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-032",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El polinomio x² + kx - 504 es divisible entre (x + 28). ¿Cuál es el valor de k?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8"
+        },
+        {
+          "id": "B",
+          "texto": "10"
+        },
+        {
+          "id": "C",
+          "texto": "9"
+        },
+        {
+          "id": "D",
+          "texto": "11"
+        },
+        {
+          "id": "E",
+          "texto": "12"
+        },
+        {
+          "id": "F",
+          "texto": "15"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Como (x + 28) es un factor, x = -28 debe anular el polinomio. Sustituimos: (-28)² + k(-28) - 504 = 0. Al despejar, k = 10. También se comprueba que los factores son (x + 28)(x - 18): 28 + (-18) = 10 y 28·(-18) = -504.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-033",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El polinomio x² - 3x + k es divisible entre (x + 14). ¿Cuál es el valor de k?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-237"
+        },
+        {
+          "id": "B",
+          "texto": "-236"
+        },
+        {
+          "id": "C",
+          "texto": "-238"
+        },
+        {
+          "id": "D",
+          "texto": "-233"
+        },
+        {
+          "id": "E",
+          "texto": "-240"
+        },
+        {
+          "id": "F",
+          "texto": "-239"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "El factor (x + 14) indica que x = -14 es una raíz. Sustituyendo en x² - 3x + k = 0 resulta k = -238. Se confirma mediante (x + 14)(x - 17), pues 14·(-17) = -238.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-034",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El polinomio x² + kx + 1120 es divisible entre (x + 35). ¿Cuál es el valor de k?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "72"
+        },
+        {
+          "id": "B",
+          "texto": "65"
+        },
+        {
+          "id": "C",
+          "texto": "66"
+        },
+        {
+          "id": "D",
+          "texto": "67"
+        },
+        {
+          "id": "E",
+          "texto": "68"
+        },
+        {
+          "id": "F",
+          "texto": "69"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Como (x + 35) es un factor, x = -35 debe anular el polinomio. Sustituimos: (-35)² + k(-35) + 1120 = 0. Al despejar, k = 67. También se comprueba que los factores son (x + 35)(x + 32): 35 + (32) = 67 y 35·(32) = 1120.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-TBC-035",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma x² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El polinomio x² + kx - 1080 es divisible entre (x - 40). ¿Cuál es el valor de k?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-14"
+        },
+        {
+          "id": "B",
+          "texto": "-12"
+        },
+        {
+          "id": "C",
+          "texto": "-11"
+        },
+        {
+          "id": "D",
+          "texto": "-8"
+        },
+        {
+          "id": "E",
+          "texto": "-13"
+        },
+        {
+          "id": "F",
+          "texto": "-15"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Como (x - 40) es un factor, x = 40 debe anular el polinomio. Sustituimos: (40)² + k(40) - 1080 = 0. Al despejar, k = -13. También se comprueba que los factores son (x - 40)(x + 27): -40 + (27) = -13 y -40·(27) = -1080.",
+      "puntaje": 1
     }
   ]
 }
