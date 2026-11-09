@@ -6656,6 +6656,766 @@
       "respuesta": "F",
       "explicacion": "Si (17x + 6) es factor, entonces x = -6/17 debe ser una raíz. Sustituyendo en el trinomio y multiplicando por 17² para eliminar denominadores se obtiene la condición 85·(6)² - b·(17)·(6) + c·(17)² = 0. Al sustituir los datos conocidos y despejar resulta k = -38. Se confirma porque el trinomio completo 85x² - 38x - 24 se factoriza como (17x + 6)(5x - 4).",
       "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: (x)³ + (2)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 2)(x² - 2x + 5)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 2)(x² - 2x + 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 2)(x² - 2x - 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 2)(x² + 2x + 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 2)(x² - 2x + 4)"
+        },
+        {
+          "id": "F",
+          "texto": "(x - 2)(x² - 2x + 4)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = x y B = 2. Así, (x)³ + (2)³ = (x + 2)(x² - 2x + 4). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de (x)³ - (3)³?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 3)(x² + 3x + 8)"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 3)(x² + 3x + 9)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 3)(x² + 3x + 9)"
+        },
+        {
+          "id": "D",
+          "texto": "(x - 3)(x² + 3x - 9)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 3)(x² - 3x + 9)"
+        },
+        {
+          "id": "F",
+          "texto": "(x - 3)(x² + 3x + 10)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = x y B = 3. Así, (x)³ - (3)³ = (x - 3)(x² + 3x + 9). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores utilizando la identidad de cubos: (2x)³ + (1)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2x + 1)(4x² - 2x + 1)"
+        },
+        {
+          "id": "B",
+          "texto": "(2x + 1)(4x² - 2x - 1)"
+        },
+        {
+          "id": "C",
+          "texto": "(2x + 1)(4x² - 2x + 2)"
+        },
+        {
+          "id": "D",
+          "texto": "(2x - 1)(4x² - 2x + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(2x + 1)(4x² - 2x)"
+        },
+        {
+          "id": "F",
+          "texto": "(2x + 1)(4x² + 2x + 1)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 2x y B = 1. Así, (2x)³ + (1)³ = (2x + 1)(4x² - 2x + 1). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: (3a)³ - (2)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(3a - 2)(9a² - 6a + 4)"
+        },
+        {
+          "id": "B",
+          "texto": "(3a - 2)(9a² + 6a + 5)"
+        },
+        {
+          "id": "C",
+          "texto": "(3a + 2)(9a² + 6a + 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(3a - 2)(9a² + 6a + 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(3a - 2)(9a² + 6a + 3)"
+        },
+        {
+          "id": "F",
+          "texto": "(3a - 2)(9a² + 6a - 4)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 3a y B = 2. Así, (3a)³ - (2)³ = (3a - 2)(9a² + 6a + 4). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de (y)³ + (4)³?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(y + 4)(y² - 4y + 16)"
+        },
+        {
+          "id": "B",
+          "texto": "(y + 4)(y² - 4y + 17)"
+        },
+        {
+          "id": "C",
+          "texto": "(y - 4)(y² - 4y + 16)"
+        },
+        {
+          "id": "D",
+          "texto": "(y + 4)(y² + 4y + 16)"
+        },
+        {
+          "id": "E",
+          "texto": "(y + 4)(y² - 4y - 16)"
+        },
+        {
+          "id": "F",
+          "texto": "(y + 4)(y² - 4y + 15)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = y y B = 4. Así, (y)³ + (4)³ = (y + 4)(y² - 4y + 16). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores utilizando la identidad de cubos: (2x)³ - (3y)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(-3y + 2x)(9y² + 4x² - 6xy)"
+        },
+        {
+          "id": "B",
+          "texto": "(-3y + 2x)(9y² + 4x² + 6xy - 1)"
+        },
+        {
+          "id": "C",
+          "texto": "(-3y + 2x)(9y² + 4x² + 6xy + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "(-3y + 2x)(-9y² + 4x² + 6xy)"
+        },
+        {
+          "id": "E",
+          "texto": "(3y + 2x)(9y² + 4x² + 6xy)"
+        },
+        {
+          "id": "F",
+          "texto": "(-3y + 2x)(9y² + 4x² + 6xy)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 2x y B = 3y. Así, (2x)³ - (3y)³ = (-3y + 2x)(9y² + 4x² + 6xy). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: (3a)³ + (2b)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2b + 3a)(-4b² + 9a² - 6ab)"
+        },
+        {
+          "id": "B",
+          "texto": "(2b + 3a)(4b² + 9a² + 6ab)"
+        },
+        {
+          "id": "C",
+          "texto": "(2b + 3a)(4b² + 9a² - 6ab)"
+        },
+        {
+          "id": "D",
+          "texto": "(2b + 3a)(4b² + 9a² - 6ab + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(2b + 3a)(4b² + 9a² - 6ab - 1)"
+        },
+        {
+          "id": "F",
+          "texto": "(-2b + 3a)(4b² + 9a² - 6ab)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 3a y B = 2b. Así, (3a)³ + (2b)³ = (2b + 3a)(4b² + 9a² - 6ab). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de (x²)³ - (5)³?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x² - 5)(x⁴ + 5x² - 25)"
+        },
+        {
+          "id": "B",
+          "texto": "(x² + 5)(x⁴ + 5x² + 25)"
+        },
+        {
+          "id": "C",
+          "texto": "(x² - 5)(x⁴ - 5x² + 25)"
+        },
+        {
+          "id": "D",
+          "texto": "(x² - 5)(x⁴ + 5x² + 25)"
+        },
+        {
+          "id": "E",
+          "texto": "(x² - 5)(x⁴ + 5x² + 24)"
+        },
+        {
+          "id": "F",
+          "texto": "(x² - 5)(x⁴ + 5x² + 26)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = x² y B = 5. Así, (x²)³ - (5)³ = (x² - 5)(x⁴ + 5x² + 25). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores utilizando la identidad de cubos: (4m)³ + (n)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(n + 4m)(n² + 16m² - 4mn)"
+        },
+        {
+          "id": "B",
+          "texto": "(-n + 4m)(n² + 16m² - 4mn)"
+        },
+        {
+          "id": "C",
+          "texto": "(n + 4m)(-n² + 16m² - 4mn)"
+        },
+        {
+          "id": "D",
+          "texto": "(n + 4m)(n² + 16m² - 4mn - 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(n + 4m)(n² + 16m² - 4mn + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "(n + 4m)(n² + 16m² + 4mn)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 4m y B = n. Así, (4m)³ + (n)³ = (n + 4m)(n² + 16m² - 4mn). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: (2p²)³ - (3q)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2p² + 3q)(4p⁴ + 6p²q + 9q²)"
+        },
+        {
+          "id": "B",
+          "texto": "(2p² - 3q)(4p⁴ + 6p²q + 9q² + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "(2p² - 3q)(4p⁴ - 6p²q + 9q²)"
+        },
+        {
+          "id": "D",
+          "texto": "(2p² - 3q)(4p⁴ + 6p²q + 9q² - 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(2p² - 3q)(4p⁴ + 6p²q + 9q²)"
+        },
+        {
+          "id": "F",
+          "texto": "(2p² - 3q)(4p⁴ + 6p²q - 9q²)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 2p² y B = 3q. Así, (2p²)³ - (3q)³ = (2p² - 3q)(4p⁴ + 6p²q + 9q²). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de (x+1)³ - (2)³?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x - 1)(x² + 4x + 8)"
+        },
+        {
+          "id": "B",
+          "texto": "(x - 1)(x² + 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(x - 1)(x² + 4x - 1)"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 3)(x² + 4x + 7)"
+        },
+        {
+          "id": "E",
+          "texto": "(x - 1)(x² + 4x + 7)"
+        },
+        {
+          "id": "F",
+          "texto": "(x - 1)(x² + 4x + 6)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = x+1 y B = 2. Así, (x+1)³ - (2)³ = (x - 1)(x² + 4x + 7). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores utilizando la identidad de cubos: (2x-1)³ + (3)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2x + 2)(4x² - 10x + 14)"
+        },
+        {
+          "id": "B",
+          "texto": "(2x + 2)(4x² - 10x - 5)"
+        },
+        {
+          "id": "C",
+          "texto": "(2x - 4)(4x² - 10x + 13)"
+        },
+        {
+          "id": "D",
+          "texto": "(2x + 2)(4x² - 10x + 12)"
+        },
+        {
+          "id": "E",
+          "texto": "(2x + 2)(4x² + 2x + 7)"
+        },
+        {
+          "id": "F",
+          "texto": "(2x + 2)(4x² - 10x + 13)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 2x-1 y B = 3. Así, (2x-1)³ + (3)³ = (2x + 2)(4x² - 10x + 13). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: (3a+b)³ - (2c)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(-2c + b + 3a)(4c² + b² + 2bc + 9a² + 6ac + 6ab)"
+        },
+        {
+          "id": "B",
+          "texto": "(-2c + b + 3a)(-4c² + b² + 2bc + 9a² + 6ac + 6ab)"
+        },
+        {
+          "id": "C",
+          "texto": "(-2c + b + 3a)(4c² + b² + 2bc + 9a² + 6ac + 6ab - 1)"
+        },
+        {
+          "id": "D",
+          "texto": "(-2c + b + 3a)(4c² + b² + 2bc + 9a² + 6ac + 6ab + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(-2c + b + 3a)(4c² + b² - 2bc + 9a² - 6ac + 6ab)"
+        },
+        {
+          "id": "F",
+          "texto": "(2c + b + 3a)(4c² + b² + 2bc + 9a² + 6ac + 6ab)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 3a+b y B = 2c. Así, (3a+b)³ - (2c)³ = (-2c + b + 3a)(4c² + b² + 2bc + 9a² + 6ac + 6ab). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de (x²+2)³ + (y)³?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x² + y + 2)(x⁴ + x²y + y² + 4x² + 2y + 4)"
+        },
+        {
+          "id": "B",
+          "texto": "(x² + y + 2)(x⁴ - x²y + y² + 4x² - 2y + 4)"
+        },
+        {
+          "id": "C",
+          "texto": "(x² - y + 2)(x⁴ - x²y + y² + 4x² - 2y + 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(x² + y + 2)(x⁴ - x²y + y² + 4x² - 2y + 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(x² + y + 2)(x⁴ - x²y - y² + 4x² - 2y + 4)"
+        },
+        {
+          "id": "F",
+          "texto": "(x² + y + 2)(x⁴ - x²y + y² + 4x² - 2y + 5)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = x²+2 y B = y. Así, (x²+2)³ + (y)³ = (x² + y + 2)(x⁴ - x²y + y² + 4x² - 2y + 4). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores utilizando la identidad de cubos: (2m+n)³ - (m-n)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2n + m)(n² + 7m² + mn + 1)"
+        },
+        {
+          "id": "B",
+          "texto": "(2n + m)(n² + 7m² + mn - 1)"
+        },
+        {
+          "id": "C",
+          "texto": "(2n + m)(n² + 7m² + mn)"
+        },
+        {
+          "id": "D",
+          "texto": "(3m)(n² + 7m² + mn)"
+        },
+        {
+          "id": "E",
+          "texto": "(2n + m)(-n² + 5m² + 5mn)"
+        },
+        {
+          "id": "F",
+          "texto": "(2n + m)(3n² + 3m² + 3mn)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 2m+n y B = m-n. Así, (2m+n)³ - (m-n)³ = (2n + m)(n² + 7m² + mn). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-016",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: (3x-2y)³ + (x+y)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(-y + 4x)(3y² + 13x² - 9xy)"
+        },
+        {
+          "id": "B",
+          "texto": "(-3y + 2x)(7y² + 7x² - 11xy)"
+        },
+        {
+          "id": "C",
+          "texto": "(-y + 4x)(7y² + 7x² - 11xy + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "(-y + 4x)(7y² + 7x² - 11xy)"
+        },
+        {
+          "id": "E",
+          "texto": "(-y + 4x)(7y² + 7x² - 11xy - 1)"
+        },
+        {
+          "id": "F",
+          "texto": "(-y + 4x)(5y² + 5x² - 15xy)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 3x-2y y B = x+y. Así, (3x-2y)³ + (x+y)³ = (-y + 4x)(7y² + 7x² - 11xy). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-017",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de (a²-b)³ - (2a+b)³?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(a² - 2b - 2a)(a⁴ + 2a³ - a²b - b² - 4a² - 6ab)"
+        },
+        {
+          "id": "B",
+          "texto": "(a² - 2b - 2a)(a⁴ + 2a³ - a²b + b² + 4a² + 2ab + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "(a² - 2b - 2a)(a⁴ + 2a³ - a²b + b² + 4a² + 2ab)"
+        },
+        {
+          "id": "D",
+          "texto": "(a² - 2b - 2a)(a⁴ - 2a³ - 3a²b + 3b² + 4a² + 6ab)"
+        },
+        {
+          "id": "E",
+          "texto": "(a² + 2a)(a⁴ + 2a³ - a²b + b² + 4a² + 2ab)"
+        },
+        {
+          "id": "F",
+          "texto": "(a² - 2b - 2a)(a⁴ + 2a³ - a²b + b² + 4a² + 2ab - 1)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = a²-b y B = 2a+b. Así, (a²-b)³ - (2a+b)³ = (a² - 2b - 2a)(a⁴ + 2a³ - a²b + b² + 4a² + 2ab). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-018",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Descompón en factores utilizando la identidad de cubos: (2x²+1)³ + (x-3)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2x² + x - 2)(4x⁴ - 2x³ + 11x² - 7x + 14)"
+        },
+        {
+          "id": "B",
+          "texto": "(2x² + x - 2)(4x⁴ - 2x³ + 11x² - 7x + 13)"
+        },
+        {
+          "id": "C",
+          "texto": "(2x² + x - 2)(4x⁴ + 2x³ - x² - 5x + 7)"
+        },
+        {
+          "id": "D",
+          "texto": "(2x² + x - 2)(4x⁴ - 2x³ + 11x² - 7x + 12)"
+        },
+        {
+          "id": "E",
+          "texto": "(2x² - x + 4)(4x⁴ - 2x³ + 11x² - 7x + 13)"
+        },
+        {
+          "id": "F",
+          "texto": "(2x² + x - 2)(4x⁴ - 2x³ + 9x² + 5x - 5)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 2x²+1 y B = x-3. Así, (2x²+1)³ + (x-3)³ = (2x² + x - 2)(4x⁴ - 2x³ + 11x² - 7x + 13). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-019",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: (4p-q)³ - (2p+3q)³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(-4q + 2p)(7q² + 28p² + 14pq)"
+        },
+        {
+          "id": "B",
+          "texto": "(-4q + 2p)(13q² + 12p² - 6pq)"
+        },
+        {
+          "id": "C",
+          "texto": "(-4q + 2p)(-11q² + 20p² - 10pq)"
+        },
+        {
+          "id": "D",
+          "texto": "(-4q + 2p)(7q² + 28p² + 14pq - 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(-4q + 2p)(7q² + 28p² + 14pq + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "(2q + 6p)(7q² + 28p² + 14pq)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 4p-q y B = 2p+3q. Así, (4p-q)³ - (2p+3q)³ = (-4q + 2p)(7q² + 28p² + 14pq). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-CUB-020",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Suma o Diferencia de cubos",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de (x²+y²)³ + (x-y)³?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(y² + x² - y + x)(y⁴ + x⁴ + 2x²y² - y³ + x³ - x²y + xy² + y² + x² - 2xy)"
+        },
+        {
+          "id": "B",
+          "texto": "(y² + x² - y + x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² - y² - x² + 2xy)"
+        },
+        {
+          "id": "C",
+          "texto": "(y² + x² + y - x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² + y² + x² - 2xy)"
+        },
+        {
+          "id": "D",
+          "texto": "(y² + x² - y + x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² + y² + x² - 2xy - 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(y² + x² - y + x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² + y² + x² - 2xy + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "(y² + x² - y + x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² + y² + x² - 2xy)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = x²+y² y B = x-y. Así, (x²+y²)³ + (x-y)³ = (y² + x² - y + x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² + y² + x² - 2xy). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "puntaje": 1
     }
   ]
 }
