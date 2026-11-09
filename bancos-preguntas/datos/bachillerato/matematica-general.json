@@ -1336,6 +1336,1146 @@
       "respuesta": "A",
       "explicacion": "Una potencia es un producto repetido: 4 elevado a 3 es 64.",
       "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza extrayendo el máximo factor común: 6x + 12.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6(2)"
+        },
+        {
+          "id": "B",
+          "texto": "6(2x + 2)"
+        },
+        {
+          "id": "C",
+          "texto": "6(x + 3)"
+        },
+        {
+          "id": "D",
+          "texto": "12(x + 2)"
+        },
+        {
+          "id": "E",
+          "texto": "6(x + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "6(x + 2)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se identifica el máximo factor común 6 y se divide cada término del polinomio por él. Los términos restantes forman x + 2. Por consiguiente, 6x + 12 = 6(x + 2). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por factor común de 8a² + 12a?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4a(2a + 2)"
+        },
+        {
+          "id": "B",
+          "texto": "4a(3a + 3)"
+        },
+        {
+          "id": "C",
+          "texto": "4a(a + 3)"
+        },
+        {
+          "id": "D",
+          "texto": "8a(2a + 3)"
+        },
+        {
+          "id": "E",
+          "texto": "4a(2a + 3)"
+        },
+        {
+          "id": "F",
+          "texto": "4a(2a + 4)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se identifica el máximo factor común 4a y se divide cada término del polinomio por él. Los términos restantes forman 2a + 3. Por consiguiente, 8a² + 12a = 4a(2a + 3). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Extrae el máximo factor común en: 15y - 25.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5(3y - 4)"
+        },
+        {
+          "id": "B",
+          "texto": "5(3y - 5)"
+        },
+        {
+          "id": "C",
+          "texto": "5(4y - 5)"
+        },
+        {
+          "id": "D",
+          "texto": "10(3y - 5)"
+        },
+        {
+          "id": "E",
+          "texto": "5(2y - 5)"
+        },
+        {
+          "id": "F",
+          "texto": "5(3y - 6)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se identifica el máximo factor común 5 y se divide cada término del polinomio por él. Los términos restantes forman 3y - 5. Por consiguiente, 15y - 25 = 5(3y - 5). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza extrayendo el máximo factor común: 9m² - 6m.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3m(3m - 2)"
+        },
+        {
+          "id": "B",
+          "texto": "3m(2m - 2)"
+        },
+        {
+          "id": "C",
+          "texto": "3m(3m - 1)"
+        },
+        {
+          "id": "D",
+          "texto": "6m(3m - 2)"
+        },
+        {
+          "id": "E",
+          "texto": "3m(3m - 3)"
+        },
+        {
+          "id": "F",
+          "texto": "3m(4m - 2)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se identifica el máximo factor común 3m y se divide cada término del polinomio por él. Los términos restantes forman 3m - 2. Por consiguiente, 9m² - 6m = 3m(3m - 2). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por factor común de 14p + 21q?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "14(2p + 3q)"
+        },
+        {
+          "id": "B",
+          "texto": "7(2p + 3q - 1)"
+        },
+        {
+          "id": "C",
+          "texto": "7(3p + 3q)"
+        },
+        {
+          "id": "D",
+          "texto": "7(2p + 3q)"
+        },
+        {
+          "id": "E",
+          "texto": "7(2p + 3q + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "7(p + 3q)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se identifica el máximo factor común 7 y se divide cada término del polinomio por él. Los términos restantes forman 2p + 3q. Por consiguiente, 14p + 21q = 7(2p + 3q). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Extrae el máximo factor común en: 18x³ + 24x².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6x²(3x + 4)"
+        },
+        {
+          "id": "B",
+          "texto": "6x²(4x + 4)"
+        },
+        {
+          "id": "C",
+          "texto": "6x²(3x + 3)"
+        },
+        {
+          "id": "D",
+          "texto": "12x²(3x + 4)"
+        },
+        {
+          "id": "E",
+          "texto": "6x²(2x + 4)"
+        },
+        {
+          "id": "F",
+          "texto": "6x²(3x + 5)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se identifica el máximo factor común 6x² y se divide cada término del polinomio por él. Los términos restantes forman 3x + 4. Por consiguiente, 18x³ + 24x² = 6x²(3x + 4). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza extrayendo el máximo factor común: 20a²b - 30ab².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "10ab(a - 3b)"
+        },
+        {
+          "id": "B",
+          "texto": "10ab(2a - 3b)"
+        },
+        {
+          "id": "C",
+          "texto": "10ab(2a - 3b + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "20ab(2a - 3b)"
+        },
+        {
+          "id": "E",
+          "texto": "10ab(3a - 3b)"
+        },
+        {
+          "id": "F",
+          "texto": "10ab(2a - 3b - 1)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se identifica el máximo factor común 10ab y se divide cada término del polinomio por él. Los términos restantes forman 2a - 3b. Por consiguiente, 20a²b - 30ab² = 10ab(2a - 3b). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por factor común de 12x²y + 18xy² - 6xy?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6xy(2x + 3y - 1)"
+        },
+        {
+          "id": "B",
+          "texto": "6xy(2x + 3y - 2)"
+        },
+        {
+          "id": "C",
+          "texto": "6xy(x + 3y - 1)"
+        },
+        {
+          "id": "D",
+          "texto": "12xy(2x + 3y - 1)"
+        },
+        {
+          "id": "E",
+          "texto": "6xy(2x + 3y)"
+        },
+        {
+          "id": "F",
+          "texto": "6xy(3x + 3y - 1)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se identifica el máximo factor común 6xy y se divide cada término del polinomio por él. Los términos restantes forman 2x + 3y - 1. Por consiguiente, 12x²y + 18xy² - 6xy = 6xy(2x + 3y - 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Extrae el máximo factor común en: -15x³ + 20x².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5x²(-3x + 5)"
+        },
+        {
+          "id": "B",
+          "texto": "5x²(-3x + 3)"
+        },
+        {
+          "id": "C",
+          "texto": "5x²(-2x + 4)"
+        },
+        {
+          "id": "D",
+          "texto": "5x²(-3x + 4)"
+        },
+        {
+          "id": "E",
+          "texto": "10x²(-3x + 4)"
+        },
+        {
+          "id": "F",
+          "texto": "5x²(-4x + 4)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se identifica el máximo factor común 5x² y se divide cada término del polinomio por él. Los términos restantes forman -3x + 4. Por consiguiente, -15x³ + 20x² = 5x²(-3x + 4). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza extrayendo el máximo factor común: 28a³b² - 21a²b³.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "7a²b²(4a - 3b)"
+        },
+        {
+          "id": "B",
+          "texto": "7a²b²(3a - 3b)"
+        },
+        {
+          "id": "C",
+          "texto": "7a²b²(4a - 3b - 1)"
+        },
+        {
+          "id": "D",
+          "texto": "7a²b²(4a - 3b + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "7a²b²(5a - 3b)"
+        },
+        {
+          "id": "F",
+          "texto": "14a²b²(4a - 3b)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se identifica el máximo factor común 7a²b² y se divide cada término del polinomio por él. Los términos restantes forman 4a - 3b. Por consiguiente, 28a³b² - 21a²b³ = 7a²b²(4a - 3b). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por factor común de 35m²n + 14mn² + 21mn?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "7mn(6m + 2n + 3)"
+        },
+        {
+          "id": "B",
+          "texto": "14mn(5m + 2n + 3)"
+        },
+        {
+          "id": "C",
+          "texto": "7mn(4m + 2n + 3)"
+        },
+        {
+          "id": "D",
+          "texto": "7mn(5m + 2n + 2)"
+        },
+        {
+          "id": "E",
+          "texto": "7mn(5m + 2n + 4)"
+        },
+        {
+          "id": "F",
+          "texto": "7mn(5m + 2n + 3)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se identifica el máximo factor común 7mn y se divide cada término del polinomio por él. Los términos restantes forman 5m + 2n + 3. Por consiguiente, 35m²n + 14mn² + 21mn = 7mn(5m + 2n + 3). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Extrae el máximo factor común en: 16x⁴ - 24x³ + 8x².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8x²(2x² - 3x)"
+        },
+        {
+          "id": "B",
+          "texto": "16x²(2x² - 3x + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "8x²(2x² - 4x + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "8x²(2x² - 2x + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "8x²(2x² - 3x + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "8x²(2x² - 3x + 2)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se identifica el máximo factor común 8x² y se divide cada término del polinomio por él. Los términos restantes forman 2x² - 3x + 1. Por consiguiente, 16x⁴ - 24x³ + 8x² = 8x²(2x² - 3x + 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza extrayendo el máximo factor común: 45p³q - 30p²q².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "15p²q(3p - 2q + 1)"
+        },
+        {
+          "id": "B",
+          "texto": "15p²q(2p - 2q)"
+        },
+        {
+          "id": "C",
+          "texto": "30p²q(3p - 2q)"
+        },
+        {
+          "id": "D",
+          "texto": "15p²q(3p - 2q)"
+        },
+        {
+          "id": "E",
+          "texto": "15p²q(4p - 2q)"
+        },
+        {
+          "id": "F",
+          "texto": "15p²q(3p - 2q - 1)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se identifica el máximo factor común 15p²q y se divide cada término del polinomio por él. Los términos restantes forman 3p - 2q. Por consiguiente, 45p³q - 30p²q² = 15p²q(3p - 2q). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por factor común de 27a³ + 18a² - 9a?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "9a(3a² + 2a - 1)"
+        },
+        {
+          "id": "B",
+          "texto": "18a(3a² + 2a - 1)"
+        },
+        {
+          "id": "C",
+          "texto": "9a(3a² + a - 1)"
+        },
+        {
+          "id": "D",
+          "texto": "9a(3a² + 2a)"
+        },
+        {
+          "id": "E",
+          "texto": "9a(3a² + 2a - 2)"
+        },
+        {
+          "id": "F",
+          "texto": "9a(3a² + 3a - 1)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se identifica el máximo factor común 9a y se divide cada término del polinomio por él. Los términos restantes forman 3a² + 2a - 1. Por consiguiente, 27a³ + 18a² - 9a = 9a(3a² + 2a - 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Extrae el máximo factor común en: 24x²y² + 36xy³ - 12xy.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "12xy(2xy + 3y² + x - 1)"
+        },
+        {
+          "id": "B",
+          "texto": "12xy(2xy + 3y² - x - 1)"
+        },
+        {
+          "id": "C",
+          "texto": "12xy(2xy + 3y²)"
+        },
+        {
+          "id": "D",
+          "texto": "12xy(2xy + 3y² - 2)"
+        },
+        {
+          "id": "E",
+          "texto": "24xy(2xy + 3y² - 1)"
+        },
+        {
+          "id": "F",
+          "texto": "12xy(2xy + 3y² - 1)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se identifica el máximo factor común 12xy y se divide cada término del polinomio por él. Los términos restantes forman 2xy + 3y² - 1. Por consiguiente, 24x²y² + 36xy³ - 12xy = 12xy(2xy + 3y² - 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-016",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza extrayendo el máximo factor común: 32r³s - 48r²s² + 16rs.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "16rs(-3rs + 2r²)"
+        },
+        {
+          "id": "B",
+          "texto": "32rs(-3rs + 2r² + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "16rs(-3rs + 2r² + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "16rs(-3rs + 2r² - r + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "16rs(-3rs + 2r² + r + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "16rs(-3rs + 2r² + 2)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se identifica el máximo factor común 16rs y se divide cada término del polinomio por él. Los términos restantes forman -3rs + 2r² + 1. Por consiguiente, 32r³s - 48r²s² + 16rs = 16rs(-3rs + 2r² + 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-017",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por factor común de 42x³y² - 56x²y³?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "14x²y²(3x - 4y + 1)"
+        },
+        {
+          "id": "B",
+          "texto": "14x²y²(4x - 4y)"
+        },
+        {
+          "id": "C",
+          "texto": "14x²y²(2x - 4y)"
+        },
+        {
+          "id": "D",
+          "texto": "14x²y²(3x - 4y)"
+        },
+        {
+          "id": "E",
+          "texto": "28x²y²(3x - 4y)"
+        },
+        {
+          "id": "F",
+          "texto": "14x²y²(3x - 4y - 1)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se identifica el máximo factor común 14x²y² y se divide cada término del polinomio por él. Los términos restantes forman 3x - 4y. Por consiguiente, 42x³y² - 56x²y³ = 14x²y²(3x - 4y). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-018",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Extrae el máximo factor común en: 25a⁴b + 40a³b² + 15a²b.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5a²b(8ab + 5a² - a + 3)"
+        },
+        {
+          "id": "B",
+          "texto": "5a²b(8ab + 5a² + 2)"
+        },
+        {
+          "id": "C",
+          "texto": "10a²b(8ab + 5a² + 3)"
+        },
+        {
+          "id": "D",
+          "texto": "5a²b(8ab + 5a² + 4)"
+        },
+        {
+          "id": "E",
+          "texto": "5a²b(8ab + 5a² + 3)"
+        },
+        {
+          "id": "F",
+          "texto": "5a²b(8ab + 5a² + a + 3)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se identifica el máximo factor común 5a²b y se divide cada término del polinomio por él. Los términos restantes forman 8ab + 5a² + 3. Por consiguiente, 25a⁴b + 40a³b² + 15a²b = 5a²b(8ab + 5a² + 3). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-019",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza extrayendo el máximo factor común: 54u³v - 36u²v² + 18uv.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "18uv(-2uv + 3u² + 2)"
+        },
+        {
+          "id": "B",
+          "texto": "18uv(-2uv + 3u² + u + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "18uv(-2uv + 3u² + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "18uv(-2uv + 3u²)"
+        },
+        {
+          "id": "E",
+          "texto": "36uv(-2uv + 3u² + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "18uv(-2uv + 3u² - u + 1)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se identifica el máximo factor común 18uv y se divide cada término del polinomio por él. Los términos restantes forman -2uv + 3u² + 1. Por consiguiente, 54u³v - 36u²v² + 18uv = 18uv(-2uv + 3u² + 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-020",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por factor común de 60x⁴ - 45x³ + 30x²?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "15x²(4x² - 3x + 2)"
+        },
+        {
+          "id": "B",
+          "texto": "15x²(4x² - 3x + 3)"
+        },
+        {
+          "id": "C",
+          "texto": "15x²(4x² - 4x + 2)"
+        },
+        {
+          "id": "D",
+          "texto": "15x²(4x² - 2x + 2)"
+        },
+        {
+          "id": "E",
+          "texto": "15x²(4x² - 3x + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "30x²(4x² - 3x + 2)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se identifica el máximo factor común 15x² y se divide cada término del polinomio por él. Los términos restantes forman 4x² - 3x + 2. Por consiguiente, 60x⁴ - 45x³ + 30x² = 15x²(4x² - 3x + 2). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-021",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Extrae el máximo factor común en: 72x⁵y³ - 48x⁴y⁴ + 24x³y².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "24x³y²(-2xy² + 3x²y - x + 1)"
+        },
+        {
+          "id": "B",
+          "texto": "24x³y²(-2xy² + 3x²y + x + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "24x³y²(-2xy² + 3x²y)"
+        },
+        {
+          "id": "D",
+          "texto": "48x³y²(-2xy² + 3x²y + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "24x³y²(-2xy² + 3x²y + 2)"
+        },
+        {
+          "id": "F",
+          "texto": "24x³y²(-2xy² + 3x²y + 1)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se identifica el máximo factor común 24x³y² y se divide cada término del polinomio por él. Los términos restantes forman -2xy² + 3x²y + 1. Por consiguiente, 72x⁵y³ - 48x⁴y⁴ + 24x³y² = 24x³y²(-2xy² + 3x²y + 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-022",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza extrayendo el máximo factor común: -84a⁴b³ + 126a³b⁴ - 42a²b².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "42a²b²(3ab² - 2a²b - 1)"
+        },
+        {
+          "id": "B",
+          "texto": "42a²b²(3ab² - 2a²b - 2)"
+        },
+        {
+          "id": "C",
+          "texto": "42a²b²(3ab² - 2a²b + a - 1)"
+        },
+        {
+          "id": "D",
+          "texto": "84a²b²(3ab² - 2a²b - 1)"
+        },
+        {
+          "id": "E",
+          "texto": "42a²b²(3ab² - 2a²b - a - 1)"
+        },
+        {
+          "id": "F",
+          "texto": "42a²b²(3ab² - 2a²b)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se identifica el máximo factor común 42a²b² y se divide cada término del polinomio por él. Los términos restantes forman 3ab² - 2a²b - 1. Por consiguiente, -84a⁴b³ + 126a³b⁴ - 42a²b² = 42a²b²(3ab² - 2a²b - 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-023",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por factor común de 105m⁵n² - 70m⁴n³ + 35m³n?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "35m³n(-2mn² + 3m²n + 2)"
+        },
+        {
+          "id": "B",
+          "texto": "35m³n(-2mn² + 3m²n + m + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "35m³n(-2mn² + 3m²n + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "35m³n(-2mn² + 3m²n - m + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "70m³n(-2mn² + 3m²n + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "35m³n(-2mn² + 3m²n)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se identifica el máximo factor común 35m³n y se divide cada término del polinomio por él. Los términos restantes forman -2mn² + 3m²n + 1. Por consiguiente, 105m⁵n² - 70m⁴n³ + 35m³n = 35m³n(-2mn² + 3m²n + 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-024",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Extrae el máximo factor común en: 96p⁴q³ + 144p³q⁴ - 48p²q².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "48p²q²(3pq² + 2p²q - 1)"
+        },
+        {
+          "id": "B",
+          "texto": "48p²q²(3pq² + 2p²q - p - 1)"
+        },
+        {
+          "id": "C",
+          "texto": "48p²q²(3pq² + 2p²q - 2)"
+        },
+        {
+          "id": "D",
+          "texto": "48p²q²(3pq² + 2p²q + p - 1)"
+        },
+        {
+          "id": "E",
+          "texto": "48p²q²(3pq² + 2p²q)"
+        },
+        {
+          "id": "F",
+          "texto": "96p²q²(3pq² + 2p²q - 1)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se identifica el máximo factor común 48p²q² y se divide cada término del polinomio por él. Los términos restantes forman 3pq² + 2p²q - 1. Por consiguiente, 96p⁴q³ + 144p³q⁴ - 48p²q² = 48p²q²(3pq² + 2p²q - 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-025",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza extrayendo el máximo factor común: 150x⁶y² - 90x⁴y³ + 60x³y.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "30x³y(5x³y - 3xy² + 1)"
+        },
+        {
+          "id": "B",
+          "texto": "30x³y(5x³y - 3xy² + x + 2)"
+        },
+        {
+          "id": "C",
+          "texto": "30x³y(5x³y - 3xy² + 3)"
+        },
+        {
+          "id": "D",
+          "texto": "60x³y(5x³y - 3xy² + 2)"
+        },
+        {
+          "id": "E",
+          "texto": "30x³y(5x³y - 3xy² - x + 2)"
+        },
+        {
+          "id": "F",
+          "texto": "30x³y(5x³y - 3xy² + 2)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se identifica el máximo factor común 30x³y y se divide cada término del polinomio por él. Los términos restantes forman 5x³y - 3xy² + 2. Por consiguiente, 150x⁶y² - 90x⁴y³ + 60x³y = 30x³y(5x³y - 3xy² + 2). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-026",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por factor común de 63a⁴b²c - 42a³b³c² + 21a²bc?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "21a²bc(-2ab²c + 3a²b)"
+        },
+        {
+          "id": "B",
+          "texto": "21a²bc(-2ab²c + 3a²b - a + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "21a²bc(-2ab²c + 3a²b + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "42a²bc(-2ab²c + 3a²b + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "21a²bc(-2ab²c + 3a²b + a + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "21a²bc(-2ab²c + 3a²b + 2)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se identifica el máximo factor común 21a²bc y se divide cada término del polinomio por él. Los términos restantes forman -2ab²c + 3a²b + 1. Por consiguiente, 63a⁴b²c - 42a³b³c² + 21a²bc = 21a²bc(-2ab²c + 3a²b + 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-027",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Extrae el máximo factor común en: 4x(x + 2) + 6(x + 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2(x + 2)(x + 3)"
+        },
+        {
+          "id": "B",
+          "texto": "2(x + 2)(3x + 3)"
+        },
+        {
+          "id": "C",
+          "texto": "2(x + 2)(2x + 3)"
+        },
+        {
+          "id": "D",
+          "texto": "4(x + 2)(2x + 3)"
+        },
+        {
+          "id": "E",
+          "texto": "2(x + 2)(2x + 4)"
+        },
+        {
+          "id": "F",
+          "texto": "2(x + 2)(2x + 2)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Primero se reconoce el factor común 2(x + 2) en todos los sumandos y luego se reúne la expresión restante 2x + 3. Por consiguiente, 4x(x + 2) + 6(x + 2) = 2(x + 2)(2x + 3). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-028",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza extrayendo el máximo factor común: 3a²(a - b) - 6ab(a - b) + 9b²(a - b).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3(a - b)(-2ab + a² + 3b²)"
+        },
+        {
+          "id": "B",
+          "texto": "3(a - b)(-2ab + a² + 3b² + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "3(a - b)(-2ab + a² + 3b² - 1)"
+        },
+        {
+          "id": "D",
+          "texto": "6(a - b)(-2ab + a² + 3b²)"
+        },
+        {
+          "id": "E",
+          "texto": "3(a - b)(-2ab + a² + 3b² - a)"
+        },
+        {
+          "id": "F",
+          "texto": "3(a - b)(-2ab + a² + 3b² + a)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Primero se reconoce el factor común 3(a - b) en todos los sumandos y luego se reúne la expresión restante -2ab + a² + 3b². Por consiguiente, 3a²(a - b) - 6ab(a - b) + 9b²(a - b) = 3(a - b)(-2ab + a² + 3b²). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-029",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización por factor común de 12m(m - 1) - 8(m - 1) + 4n(m - 1)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4(m - 1)(3m + n - 3)"
+        },
+        {
+          "id": "B",
+          "texto": "8(m - 1)(3m + n - 2)"
+        },
+        {
+          "id": "C",
+          "texto": "4(m - 1)(3m + n - 1)"
+        },
+        {
+          "id": "D",
+          "texto": "4(m - 1)(3m + n - 2)"
+        },
+        {
+          "id": "E",
+          "texto": "4(m - 1)(4m + n - 2)"
+        },
+        {
+          "id": "F",
+          "texto": "4(m - 1)(2m + n - 2)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Primero se reconoce el factor común 4(m - 1) en todos los sumandos y luego se reúne la expresión restante 3m + n - 2. Por consiguiente, 12m(m - 1) - 8(m - 1) + 4n(m - 1) = 4(m - 1)(3m + n - 2). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-COM-030",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Factor común",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Extrae el máximo factor común en: 6x(x - y) + 9y(x - y) - 3(x - y).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3(x - y)(2x + 3y - 2)"
+        },
+        {
+          "id": "B",
+          "texto": "3(x - y)(3x + 3y - 1)"
+        },
+        {
+          "id": "C",
+          "texto": "3(x - y)(2x + 3y - 1)"
+        },
+        {
+          "id": "D",
+          "texto": "3(x - y)(x + 3y - 1)"
+        },
+        {
+          "id": "E",
+          "texto": "3(x - y)(2x + 3y)"
+        },
+        {
+          "id": "F",
+          "texto": "6(x - y)(2x + 3y - 1)"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Primero se reconoce el factor común 3(x - y) en todos los sumandos y luego se reúne la expresión restante 2x + 3y - 1. Por consiguiente, 6x(x - y) + 9y(x - y) - 3(x - y) = 3(x - y)(2x + 3y - 1). Al distribuir se recupera exactamente la expresión inicial.",
+      "puntaje": 1
     }
   ]
 }
