@@ -5516,6 +5516,1146 @@
       "respuesta": "E",
       "explicacion": "Como (x - 40) es un factor, x = 40 debe anular el polinomio. Sustituimos: (40)² + k(40) - 1080 = 0. Al despejar, k = -13. También se comprueba que los factores son (x - 40)(x + 27): -40 + (27) = -13 y -40·(27) = -1080.",
       "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio 2x² + 7x + 3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2x + 1)(x + 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(2x - 1)(x - 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(2x + 1)(x - 3)"
+        },
+        {
+          "id": "D",
+          "texto": "(2x + 2)(x + 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(2x + 1)(x + 4)"
+        },
+        {
+          "id": "F",
+          "texto": "(2x - 1)(x + 3)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (2x + 1) y (1x + 3) tales que a = 2·1 = 2, b = 2·(3) + 1·(1) = 7 y c = (1)·(3) = 3. Por ello, 2x² + 7x + 3 = (2x + 1)(x + 3). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de 3x² + 1x - 2?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(3x - 3)(x + 1)"
+        },
+        {
+          "id": "B",
+          "texto": "(3x + 2)(x - 1)"
+        },
+        {
+          "id": "C",
+          "texto": "(3x + 2)(x + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "(3x - 1)(x + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(3x - 2)(x + 1)"
+        },
+        {
+          "id": "F",
+          "texto": "(3x - 2)(x - 1)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (3x - 2) y (1x + 1) tales que a = 3·1 = 3, b = 3·(1) + 1·(-2) = 1 y c = (-2)·(1) = -2. Por ello, 3x² + 1x - 2 = (3x - 2)(x + 1). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Expresa el trinomio 2x² - 7x + 6 como producto de dos binomios.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2x - 3)(x - 2)"
+        },
+        {
+          "id": "B",
+          "texto": "(2x + 3)(x - 2)"
+        },
+        {
+          "id": "C",
+          "texto": "(2x - 3)(x + 2)"
+        },
+        {
+          "id": "D",
+          "texto": "(2x + 3)(x + 2)"
+        },
+        {
+          "id": "E",
+          "texto": "(2x - 2)(x - 2)"
+        },
+        {
+          "id": "F",
+          "texto": "(2x - 4)(x - 2)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (2x - 3) y (1x - 2) tales que a = 2·1 = 2, b = 2·(-2) + 1·(-3) = -7 y c = (-3)·(-2) = 6. Por ello, 2x² - 7x + 6 = (2x - 3)(x - 2). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio 3x² - 4x - 4.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(3x + 3)(x - 2)"
+        },
+        {
+          "id": "B",
+          "texto": "(3x + 1)(x - 2)"
+        },
+        {
+          "id": "C",
+          "texto": "(3x - 2)(x - 2)"
+        },
+        {
+          "id": "D",
+          "texto": "(3x + 2)(x + 2)"
+        },
+        {
+          "id": "E",
+          "texto": "(3x - 2)(x + 2)"
+        },
+        {
+          "id": "F",
+          "texto": "(3x + 2)(x - 2)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (3x + 2) y (1x - 2) tales que a = 3·1 = 3, b = 3·(-2) + 1·(2) = -4 y c = (2)·(-2) = -4. Por ello, 3x² - 4x - 4 = (3x + 2)(x - 2). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de 4x² + 7x - 2?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(4x - 1)(x + 2)"
+        },
+        {
+          "id": "B",
+          "texto": "(4x - 2)(x + 2)"
+        },
+        {
+          "id": "C",
+          "texto": "(4x - 1)(x - 2)"
+        },
+        {
+          "id": "D",
+          "texto": "(4x + 1)(x + 2)"
+        },
+        {
+          "id": "E",
+          "texto": "(4x - 1)(x + 3)"
+        },
+        {
+          "id": "F",
+          "texto": "(4x + 1)(x - 2)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (4x - 1) y (1x + 2) tales que a = 4·1 = 4, b = 4·(2) + 1·(-1) = 7 y c = (-1)·(2) = -2. Por ello, 4x² + 7x - 2 = (4x - 1)(x + 2). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Expresa el trinomio 10x² + 19x + 6 como producto de dos binomios.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(5x + 3)(2x + 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(5x - 2)(2x - 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(5x - 2)(2x + 3)"
+        },
+        {
+          "id": "D",
+          "texto": "(5x + 1)(2x + 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(5x + 2)(2x - 3)"
+        },
+        {
+          "id": "F",
+          "texto": "(5x + 2)(2x + 3)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (5x + 2) y (2x + 3) tales que a = 5·2 = 10, b = 5·(3) + 2·(2) = 19 y c = (2)·(3) = 6. Por ello, 10x² + 19x + 6 = (5x + 2)(2x + 3). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio 12x² - 1x - 6.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(4x - 3)(3x + 2)"
+        },
+        {
+          "id": "B",
+          "texto": "(4x - 2)(3x + 2)"
+        },
+        {
+          "id": "C",
+          "texto": "(4x - 3)(3x - 2)"
+        },
+        {
+          "id": "D",
+          "texto": "(4x + 3)(3x - 2)"
+        },
+        {
+          "id": "E",
+          "texto": "(4x - 4)(3x + 2)"
+        },
+        {
+          "id": "F",
+          "texto": "(4x + 3)(3x + 2)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (4x - 3) y (3x + 2) tales que a = 4·3 = 12, b = 4·(2) + 3·(-3) = -1 y c = (-3)·(2) = -6. Por ello, 12x² - 1x - 6 = (4x - 3)(3x + 2). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de 6x² - 23x + 15?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(6x + 5)(x + 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(6x - 6)(x - 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(6x + 5)(x - 3)"
+        },
+        {
+          "id": "D",
+          "texto": "(6x - 5)(x + 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(6x - 5)(x - 3)"
+        },
+        {
+          "id": "F",
+          "texto": "(6x - 4)(x - 3)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (6x - 5) y (1x - 3) tales que a = 6·1 = 6, b = 6·(-3) + 1·(-5) = -23 y c = (-5)·(-3) = 15. Por ello, 6x² - 23x + 15 = (6x - 5)(x - 3). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Expresa el trinomio 14x² - 1x - 3 como producto de dos binomios.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(7x + 4)(2x - 1)"
+        },
+        {
+          "id": "B",
+          "texto": "(7x - 3)(2x + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "(7x + 3)(2x + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "(7x + 2)(2x - 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(7x + 3)(2x - 1)"
+        },
+        {
+          "id": "F",
+          "texto": "(7x - 3)(2x - 1)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (7x + 3) y (2x - 1) tales que a = 7·2 = 14, b = 7·(-1) + 2·(3) = -1 y c = (3)·(-1) = -3. Por ello, 14x² - 1x - 3 = (7x + 3)(2x - 1). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio 15x² - 22x + 8.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(5x - 5)(3x - 2)"
+        },
+        {
+          "id": "B",
+          "texto": "(5x + 4)(3x + 2)"
+        },
+        {
+          "id": "C",
+          "texto": "(5x + 4)(3x - 2)"
+        },
+        {
+          "id": "D",
+          "texto": "(5x - 4)(3x - 2)"
+        },
+        {
+          "id": "E",
+          "texto": "(5x - 3)(3x - 2)"
+        },
+        {
+          "id": "F",
+          "texto": "(5x - 4)(3x + 2)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (5x - 4) y (3x - 2) tales que a = 5·3 = 15, b = 5·(-2) + 3·(-4) = -22 y c = (-4)·(-2) = 8. Por ello, 15x² - 22x + 8 = (5x - 4)(3x - 2). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de 16x² + 42x + 5?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(8x + 1)(2x + 5)"
+        },
+        {
+          "id": "B",
+          "texto": "(8x - 1)(2x + 5)"
+        },
+        {
+          "id": "C",
+          "texto": "(8x + 1)(2x - 5)"
+        },
+        {
+          "id": "D",
+          "texto": "(8x + 2)(2x + 5)"
+        },
+        {
+          "id": "E",
+          "texto": "(8x - 1)(2x - 5)"
+        },
+        {
+          "id": "F",
+          "texto": "(8x + 1)(2x + 6)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (8x + 1) y (2x + 5) tales que a = 8·2 = 16, b = 8·(5) + 2·(1) = 42 y c = (1)·(5) = 5. Por ello, 16x² + 42x + 5 = (8x + 1)(2x + 5). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Expresa el trinomio 12x² - 25x - 7 como producto de dos binomios.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(3x + 7)(4x - 1)"
+        },
+        {
+          "id": "B",
+          "texto": "(3x - 8)(4x + 1)"
+        },
+        {
+          "id": "C",
+          "texto": "(3x + 7)(4x + 1)"
+        },
+        {
+          "id": "D",
+          "texto": "(3x - 6)(4x + 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(3x - 7)(4x - 1)"
+        },
+        {
+          "id": "F",
+          "texto": "(3x - 7)(4x + 1)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (3x - 7) y (4x + 1) tales que a = 3·4 = 12, b = 3·(1) + 4·(-7) = -25 y c = (-7)·(1) = -7. Por ello, 12x² - 25x - 7 = (3x - 7)(4x + 1). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio 9x² + 34x - 8.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(9x - 2)(x + 4)"
+        },
+        {
+          "id": "B",
+          "texto": "(9x - 3)(x + 4)"
+        },
+        {
+          "id": "C",
+          "texto": "(9x - 2)(x - 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(9x - 1)(x + 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(9x + 2)(x + 4)"
+        },
+        {
+          "id": "F",
+          "texto": "(9x + 2)(x - 4)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (9x - 2) y (1x + 4) tales que a = 9·1 = 9, b = 9·(4) + 1·(-2) = 34 y c = (-2)·(4) = -8. Por ello, 9x² + 34x - 8 = (9x - 2)(x + 4). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de 10x² - 3x - 18?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(5x + 6)(2x + 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(5x - 6)(2x + 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(5x + 7)(2x - 3)"
+        },
+        {
+          "id": "D",
+          "texto": "(5x + 5)(2x - 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(5x - 6)(2x - 3)"
+        },
+        {
+          "id": "F",
+          "texto": "(5x + 6)(2x - 3)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (5x + 6) y (2x - 3) tales que a = 5·2 = 10, b = 5·(-3) + 2·(6) = -3 y c = (6)·(-3) = -18. Por ello, 10x² - 3x - 18 = (5x + 6)(2x - 3). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Expresa el trinomio 21x² + 13x - 20 como producto de dos binomios.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(7x - 4)(3x + 4)"
+        },
+        {
+          "id": "B",
+          "texto": "(7x - 6)(3x + 4)"
+        },
+        {
+          "id": "C",
+          "texto": "(7x - 5)(3x - 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(7x + 5)(3x - 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(7x - 5)(3x + 4)"
+        },
+        {
+          "id": "F",
+          "texto": "(7x + 5)(3x + 4)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (7x - 5) y (3x + 4) tales que a = 7·3 = 21, b = 7·(4) + 3·(-5) = 13 y c = (-5)·(4) = -20. Por ello, 21x² + 13x - 20 = (7x - 5)(3x + 4). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-016",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio 88x² + 1x - 35.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(11x - 7)(8x + 5)"
+        },
+        {
+          "id": "B",
+          "texto": "(11x + 7)(8x - 5)"
+        },
+        {
+          "id": "C",
+          "texto": "(11x - 7)(8x - 5)"
+        },
+        {
+          "id": "D",
+          "texto": "(11x + 7)(8x + 5)"
+        },
+        {
+          "id": "E",
+          "texto": "(11x + 6)(8x - 5)"
+        },
+        {
+          "id": "F",
+          "texto": "(11x + 8)(8x - 5)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (11x + 7) y (8x - 5) tales que a = 11·8 = 88, b = 11·(-5) + 8·(7) = 1 y c = (7)·(-5) = -35. Por ello, 88x² + 1x - 35 = (11x + 7)(8x - 5). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-017",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de 91x² + 2x - 45?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(13x - 9)(7x + 5)"
+        },
+        {
+          "id": "B",
+          "texto": "(13x - 8)(7x + 5)"
+        },
+        {
+          "id": "C",
+          "texto": "(13x - 9)(7x - 5)"
+        },
+        {
+          "id": "D",
+          "texto": "(13x - 10)(7x + 5)"
+        },
+        {
+          "id": "E",
+          "texto": "(13x + 9)(7x - 5)"
+        },
+        {
+          "id": "F",
+          "texto": "(13x + 9)(7x + 5)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (13x - 9) y (7x + 5) tales que a = 13·7 = 91, b = 13·(5) + 7·(-9) = 2 y c = (-9)·(5) = -45. Por ello, 91x² + 2x - 45 = (13x - 9)(7x + 5). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-018",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Expresa el trinomio 85x² - 167x - 44 como producto de dos binomios.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(17x + 3)(5x - 11)"
+        },
+        {
+          "id": "B",
+          "texto": "(17x + 5)(5x - 11)"
+        },
+        {
+          "id": "C",
+          "texto": "(17x - 4)(5x - 11)"
+        },
+        {
+          "id": "D",
+          "texto": "(17x + 4)(5x - 11)"
+        },
+        {
+          "id": "E",
+          "texto": "(17x - 4)(5x + 11)"
+        },
+        {
+          "id": "F",
+          "texto": "(17x + 4)(5x + 11)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (17x + 4) y (5x - 11) tales que a = 17·5 = 85, b = 17·(-11) + 5·(4) = -167 y c = (4)·(-11) = -44. Por ello, 85x² - 167x - 44 = (17x + 4)(5x - 11). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-019",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio 76x² + 81x - 91.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(19x - 13)(4x + 7)"
+        },
+        {
+          "id": "B",
+          "texto": "(19x + 13)(4x + 7)"
+        },
+        {
+          "id": "C",
+          "texto": "(19x - 12)(4x + 7)"
+        },
+        {
+          "id": "D",
+          "texto": "(19x + 13)(4x - 7)"
+        },
+        {
+          "id": "E",
+          "texto": "(19x - 13)(4x - 7)"
+        },
+        {
+          "id": "F",
+          "texto": "(19x - 14)(4x + 7)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (19x - 13) y (4x + 7) tales que a = 19·4 = 76, b = 19·(7) + 4·(-13) = 81 y c = (-13)·(7) = -91. Por ello, 76x² + 81x - 91 = (19x - 13)(4x + 7). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-020",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de 132x² + 185x + 63?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(12x - 7)(11x - 9)"
+        },
+        {
+          "id": "B",
+          "texto": "(12x + 6)(11x + 9)"
+        },
+        {
+          "id": "C",
+          "texto": "(12x + 8)(11x + 9)"
+        },
+        {
+          "id": "D",
+          "texto": "(12x + 7)(11x - 9)"
+        },
+        {
+          "id": "E",
+          "texto": "(12x - 7)(11x + 9)"
+        },
+        {
+          "id": "F",
+          "texto": "(12x + 7)(11x + 9)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (12x + 7) y (11x + 9) tales que a = 12·11 = 132, b = 12·(9) + 11·(7) = 185 y c = (7)·(9) = 63. Por ello, 132x² + 185x + 63 = (12x + 7)(11x + 9). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-021",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Expresa el trinomio 126x² - 169x + 55 como producto de dos binomios.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(14x - 10)(9x - 5)"
+        },
+        {
+          "id": "B",
+          "texto": "(14x - 12)(9x - 5)"
+        },
+        {
+          "id": "C",
+          "texto": "(14x - 11)(9x + 5)"
+        },
+        {
+          "id": "D",
+          "texto": "(14x + 11)(9x - 5)"
+        },
+        {
+          "id": "E",
+          "texto": "(14x - 11)(9x - 5)"
+        },
+        {
+          "id": "F",
+          "texto": "(14x + 11)(9x + 5)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (14x - 11) y (9x - 5) tales que a = 14·9 = 126, b = 14·(-5) + 9·(-11) = -169 y c = (-11)·(-5) = 55. Por ello, 126x² - 169x + 55 = (14x - 11)(9x - 5). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-022",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio 105x² - 139x - 104.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(15x + 8)(7x + 13)"
+        },
+        {
+          "id": "B",
+          "texto": "(15x - 8)(7x + 13)"
+        },
+        {
+          "id": "C",
+          "texto": "(15x - 8)(7x - 13)"
+        },
+        {
+          "id": "D",
+          "texto": "(15x + 9)(7x - 13)"
+        },
+        {
+          "id": "E",
+          "texto": "(15x + 7)(7x - 13)"
+        },
+        {
+          "id": "F",
+          "texto": "(15x + 8)(7x - 13)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (15x + 8) y (7x - 13) tales que a = 15·7 = 105, b = 15·(-13) + 7·(8) = -139 y c = (8)·(-13) = -104. Por ello, 105x² - 139x - 104 = (15x + 8)(7x - 13). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-023",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la factorización correcta de 176x² + 13x - 63?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(16x - 9)(11x + 7)"
+        },
+        {
+          "id": "B",
+          "texto": "(16x - 10)(11x + 7)"
+        },
+        {
+          "id": "C",
+          "texto": "(16x - 9)(11x - 7)"
+        },
+        {
+          "id": "D",
+          "texto": "(16x + 9)(11x - 7)"
+        },
+        {
+          "id": "E",
+          "texto": "(16x - 8)(11x + 7)"
+        },
+        {
+          "id": "F",
+          "texto": "(16x + 9)(11x + 7)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (16x - 9) y (11x + 7) tales que a = 16·11 = 176, b = 16·(7) + 11·(-9) = 13 y c = (-9)·(7) = -63. Por ello, 176x² + 13x - 63 = (16x - 9)(11x + 7). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-024",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Expresa el trinomio 153x² - 29x - 70 como producto de dos binomios.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(17x + 9)(9x - 7)"
+        },
+        {
+          "id": "B",
+          "texto": "(17x + 10)(9x - 7)"
+        },
+        {
+          "id": "C",
+          "texto": "(17x - 10)(9x - 7)"
+        },
+        {
+          "id": "D",
+          "texto": "(17x + 10)(9x + 7)"
+        },
+        {
+          "id": "E",
+          "texto": "(17x - 10)(9x + 7)"
+        },
+        {
+          "id": "F",
+          "texto": "(17x + 11)(9x - 7)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (17x + 10) y (9x - 7) tales que a = 17·9 = 153, b = 17·(-7) + 9·(10) = -29 y c = (10)·(-7) = -70. Por ello, 153x² - 29x - 70 = (17x + 10)(9x - 7). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-025",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Factoriza el trinomio 247x² + 131x - 66.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(19x - 6)(13x + 11)"
+        },
+        {
+          "id": "B",
+          "texto": "(19x + 6)(13x - 11)"
+        },
+        {
+          "id": "C",
+          "texto": "(19x - 5)(13x + 11)"
+        },
+        {
+          "id": "D",
+          "texto": "(19x - 7)(13x + 11)"
+        },
+        {
+          "id": "E",
+          "texto": "(19x - 6)(13x - 11)"
+        },
+        {
+          "id": "F",
+          "texto": "(19x + 6)(13x + 11)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En un trinomio ax² + bx + c, buscamos los binomios (19x - 6) y (13x + 11) tales que a = 19·13 = 247, b = 19·(11) + 13·(-6) = 131 y c = (-6)·(11) = -66. Por ello, 247x² + 131x - 66 = (19x - 6)(13x + 11). Al distribuir se recuperan los tres términos originales.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-026",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El trinomio 84x² + kx - 15 tiene a (12x + 5) como factor. Determina el valor de k.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-3"
+        },
+        {
+          "id": "B",
+          "texto": "1"
+        },
+        {
+          "id": "C",
+          "texto": "0"
+        },
+        {
+          "id": "D",
+          "texto": "-1"
+        },
+        {
+          "id": "E",
+          "texto": "4"
+        },
+        {
+          "id": "F",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Si (12x + 5) es factor, entonces x = -5/12 debe ser una raíz. Sustituyendo en el trinomio y multiplicando por 12² para eliminar denominadores se obtiene la condición 84·(5)² - b·(12)·(5) + c·(12)² = 0. Al sustituir los datos conocidos y despejar resulta k = -1. Se confirma porque el trinomio completo 84x² - 1x - 15 se factoriza como (12x + 5)(7x - 3).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-027",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El trinomio 99x² + 41x + k tiene a (11x - 4) como factor. Determina el valor de k.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-29"
+        },
+        {
+          "id": "B",
+          "texto": "-30"
+        },
+        {
+          "id": "C",
+          "texto": "-28"
+        },
+        {
+          "id": "D",
+          "texto": "-26"
+        },
+        {
+          "id": "E",
+          "texto": "-27"
+        },
+        {
+          "id": "F",
+          "texto": "-23"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Si (11x - 4) es factor, entonces x = 4/11 debe ser una raíz. Sustituyendo en el trinomio y multiplicando por 11² para eliminar denominadores se obtiene la condición 99·(-4)² - b·(11)·(-4) + c·(11)² = 0. Al sustituir los datos conocidos y despejar resulta k = -28. Se confirma porque el trinomio completo 99x² + 41x - 28 se factoriza como (11x - 4)(9x + 7).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-028",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El trinomio 104x² + kx - 18 tiene a (13x + 2) como factor. Determina el valor de k.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-99"
+        },
+        {
+          "id": "B",
+          "texto": "-103"
+        },
+        {
+          "id": "C",
+          "texto": "-100"
+        },
+        {
+          "id": "D",
+          "texto": "-102"
+        },
+        {
+          "id": "E",
+          "texto": "-96"
+        },
+        {
+          "id": "F",
+          "texto": "-101"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Si (13x + 2) es factor, entonces x = -2/13 debe ser una raíz. Sustituyendo en el trinomio y multiplicando por 13² para eliminar denominadores se obtiene la condición 104·(2)² - b·(13)·(2) + c·(13)² = 0. Al sustituir los datos conocidos y despejar resulta k = -101. Se confirma porque el trinomio completo 104x² - 101x - 18 se factoriza como (13x + 2)(8x - 9).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-029",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El trinomio 42x² + 139x + k tiene a (14x - 5) como factor. Determina el valor de k.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-56"
+        },
+        {
+          "id": "B",
+          "texto": "-50"
+        },
+        {
+          "id": "C",
+          "texto": "-55"
+        },
+        {
+          "id": "D",
+          "texto": "-54"
+        },
+        {
+          "id": "E",
+          "texto": "-57"
+        },
+        {
+          "id": "F",
+          "texto": "-53"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Si (14x - 5) es factor, entonces x = 5/14 debe ser una raíz. Sustituyendo en el trinomio y multiplicando por 14² para eliminar denominadores se obtiene la condición 42·(-5)² - b·(14)·(-5) + c·(14)² = 0. Al sustituir los datos conocidos y despejar resulta k = -55. Se confirma porque el trinomio completo 42x² + 139x - 55 se factoriza como (14x - 5)(3x + 11).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-FAC-AXBC-030",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Factorización",
+      "subtema": "Trinomio de la forma ax² + bx + c",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El trinomio 85x² + kx - 24 tiene a (17x + 6) como factor. Determina el valor de k.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-39"
+        },
+        {
+          "id": "B",
+          "texto": "-36"
+        },
+        {
+          "id": "C",
+          "texto": "-37"
+        },
+        {
+          "id": "D",
+          "texto": "-33"
+        },
+        {
+          "id": "E",
+          "texto": "-40"
+        },
+        {
+          "id": "F",
+          "texto": "-38"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Si (17x + 6) es factor, entonces x = -6/17 debe ser una raíz. Sustituyendo en el trinomio y multiplicando por 17² para eliminar denominadores se obtiene la condición 85·(6)² - b·(17)·(6) + c·(17)² = 0. Al sustituir los datos conocidos y despejar resulta k = -38. Se confirma porque el trinomio completo 85x² - 38x - 24 se factoriza como (17x + 6)(5x - 4).",
+      "puntaje": 1
     }
   ]
 }
