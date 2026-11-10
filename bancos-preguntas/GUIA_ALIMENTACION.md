@@ -83,4 +83,14 @@ Se añadirán al archivo JSON de la asignatura; el configurador detectará autom
 
 ## Exportación a Moodle
 
-Desde [Exportar a Moodle](exportar-moodle.html) se pueden seleccionar una o varias asignaturas, abrir temas y seleccionar subtemas, filtrar por dificultad y establecer un límite opcional de preguntas aleatorias por asignatura. El formato **Moodle XML** conserva las alternativas originales sin imponer un número fijo. Al seleccionar varias asignaturas se descarga un ZIP que contiene un XML independiente por asignatura. Se añaden categorías de Asignatura → Unidad → Tema → Subtema. El sistema excluye y comunica preguntas que no cumplen la estructura mínima (selección única, respuesta inequívoca, opciones y explicación). En Moodle activa **Obtener categoría desde el archivo** al importar y comprueba el resultado antes de una evaluación oficial. El proceso no modifica los JSON originales.
+Desde [Exportar a Moodle](exportar-moodle.html) puedes seleccionar una o varias asignaturas, temas/subtemas, dificultades y un máximo opcional por asignatura. El XML conserva todas las alternativas de cada pregunta y permite importar por selección única. Al elegir varias asignaturas se entrega un ZIP con un archivo XML separado para cada una.
+
+La exportación ofrece tres modalidades de categorías:
+
+- **Sin categorías (predeterminada):** el archivo contiene solo las preguntas. En Moodle, selecciona manualmente la categoría de destino y **desmarca «Obtener categoría desde el archivo»**. Es ideal para añadir nuevas preguntas a una categoría ya existente.
+- **Bajo una categoría padre existente:** indica la ruta exacta de esa categoría en Moodle, por ejemplo `Matemática Superior / Geometría analítica`, y marca qué niveles agregar debajo: Unidad, Tema o Subtema. Puedes configurar rutas independientes si exportas varias asignaturas. En Moodle, **activa «Obtener categoría desde el archivo»**.
+- **Jerarquía completa:** mantiene la organización original Asignatura → Unidad → Tema → Subtema bajo la raíz del curso de Moodle. En Moodle, **activa «Obtener categoría desde el archivo»**.
+
+Antes de descargar se muestra una vista previa de las rutas y los recuentos de las preguntas validadas. El exportador no puede consultar las categorías ya existentes en Moodle; revisa cuidadosamente el nombre y la ruta. Cuando elijas una muestra aleatoria, la vista previa presenta categorías posibles. Si vuelves a importar preguntas existentes, Moodle puede duplicarlas; selecciona solamente el contenido nuevo.
+
+El proceso no modifica los bancos JSON originales ni el configurador de prácticas.
