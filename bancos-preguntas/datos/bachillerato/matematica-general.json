@@ -9316,6 +9316,1146 @@
       "respuesta": "A",
       "explicacion": "Desarrolla primero los productos y paréntesis indicados; después suma y resta términos semejantes. El resultado es 2x³ − 11x + 7.",
       "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Desarrolla y simplifica el producto notable: (x + 3)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + 6x + 9"
+        },
+        {
+          "id": "B",
+          "texto": "x² + 9"
+        },
+        {
+          "id": "C",
+          "texto": "x² − 6x + 9"
+        },
+        {
+          "id": "D",
+          "texto": "x² + 3x + 9"
+        },
+        {
+          "id": "E",
+          "texto": "x² + 6x − 9"
+        },
+        {
+          "id": "F",
+          "texto": "x² + 6x + 18"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La identidad (A + B)² = A² + 2AB + B², con A = x y B = 3, produce x² + 6x + 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el resultado simplificado de (a + 5)²?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "a² + 25"
+        },
+        {
+          "id": "B",
+          "texto": "a² + 10a + 25"
+        },
+        {
+          "id": "C",
+          "texto": "a² − 10a + 25"
+        },
+        {
+          "id": "D",
+          "texto": "a² + 5a + 25"
+        },
+        {
+          "id": "E",
+          "texto": "a² + 10a − 25"
+        },
+        {
+          "id": "F",
+          "texto": "a² + 10a + 50"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "La identidad (A + B)² = A² + 2AB + B², con A = a y B = 5, produce a² + 10a + 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la identidad correspondiente y simplifica: (x − 4)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + 16"
+        },
+        {
+          "id": "B",
+          "texto": "x² + 8x + 16"
+        },
+        {
+          "id": "C",
+          "texto": "x² − 8x + 16"
+        },
+        {
+          "id": "D",
+          "texto": "x² − 4x + 16"
+        },
+        {
+          "id": "E",
+          "texto": "x² − 8x − 16"
+        },
+        {
+          "id": "F",
+          "texto": "x² − 8x + 32"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "La identidad (A − B)² = A² − 2AB + B², con A = x y B = 4, produce x² − 8x + 16.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Desarrolla y simplifica el producto notable: (2y − 1)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4y² + 1"
+        },
+        {
+          "id": "B",
+          "texto": "4y² + 4y + 1"
+        },
+        {
+          "id": "C",
+          "texto": "4y² − 2y + 1"
+        },
+        {
+          "id": "D",
+          "texto": "4y² − 4y + 1"
+        },
+        {
+          "id": "E",
+          "texto": "4y² − 4y − 1"
+        },
+        {
+          "id": "F",
+          "texto": "4y² − 4y + 2"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "La identidad (A − B)² = A² − 2AB + B², con A = 2y y B = 1, produce 4y² − 4y + 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el resultado simplificado de (x + 7)(x − 7)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + 49"
+        },
+        {
+          "id": "B",
+          "texto": "x² + 49 − 14x"
+        },
+        {
+          "id": "C",
+          "texto": "x² + 49 + 14x"
+        },
+        {
+          "id": "D",
+          "texto": "x² − 98"
+        },
+        {
+          "id": "E",
+          "texto": "x² − 49"
+        },
+        {
+          "id": "F",
+          "texto": "2x² − 49"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "El producto de conjugados (A + B)(A − B) = A² − B² elimina los términos cruzados. Con A = x y B = 7 resulta x² − 49.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la identidad correspondiente y simplifica: (3x + 2)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "9x² + 4"
+        },
+        {
+          "id": "B",
+          "texto": "9x² − 12x + 4"
+        },
+        {
+          "id": "C",
+          "texto": "9x² + 6x + 4"
+        },
+        {
+          "id": "D",
+          "texto": "9x² + 12x − 4"
+        },
+        {
+          "id": "E",
+          "texto": "9x² + 12x + 8"
+        },
+        {
+          "id": "F",
+          "texto": "9x² + 12x + 4"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "La identidad (A + B)² = A² + 2AB + B², con A = 3x y B = 2, produce 9x² + 12x + 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Desarrolla y simplifica el producto notable: (2a + 3b)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4a² + 12ab + 9b²"
+        },
+        {
+          "id": "B",
+          "texto": "4a² + 9b²"
+        },
+        {
+          "id": "C",
+          "texto": "4a² − 12ab + 9b²"
+        },
+        {
+          "id": "D",
+          "texto": "4a² + 6ab + 9b²"
+        },
+        {
+          "id": "E",
+          "texto": "4a² + 12ab − 9b²"
+        },
+        {
+          "id": "F",
+          "texto": "4a² + 12ab + 18b²"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La identidad (A + B)² = A² + 2AB + B², con A = 2a y B = 3b, produce 4a² + 12ab + 9b².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el resultado simplificado de (x² + 4)²?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x⁴ + 16"
+        },
+        {
+          "id": "B",
+          "texto": "x⁴ + 8x² + 16"
+        },
+        {
+          "id": "C",
+          "texto": "x⁴ − 8x² + 16"
+        },
+        {
+          "id": "D",
+          "texto": "x⁴ + 4x² + 16"
+        },
+        {
+          "id": "E",
+          "texto": "x⁴ + 8x² − 16"
+        },
+        {
+          "id": "F",
+          "texto": "x⁴ + 8x² + 32"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "La identidad (A + B)² = A² + 2AB + B², con A = x² y B = 4, produce x⁴ + 8x² + 16.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la identidad correspondiente y simplifica: (3x − 5)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "9x² + 25"
+        },
+        {
+          "id": "B",
+          "texto": "9x² + 30x + 25"
+        },
+        {
+          "id": "C",
+          "texto": "9x² − 30x + 25"
+        },
+        {
+          "id": "D",
+          "texto": "9x² − 15x + 25"
+        },
+        {
+          "id": "E",
+          "texto": "9x² − 30x − 25"
+        },
+        {
+          "id": "F",
+          "texto": "9x² − 30x + 50"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "La identidad (A − B)² = A² − 2AB + B², con A = 3x y B = 5, produce 9x² − 30x + 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Desarrolla y simplifica el producto notable: (4m − n)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "16m² + n²"
+        },
+        {
+          "id": "B",
+          "texto": "16m² + 8mn + n²"
+        },
+        {
+          "id": "C",
+          "texto": "16m² − 4mn + n²"
+        },
+        {
+          "id": "D",
+          "texto": "16m² − 8mn + n²"
+        },
+        {
+          "id": "E",
+          "texto": "16m² − 8mn − n²"
+        },
+        {
+          "id": "F",
+          "texto": "16m² − 8mn + 2n²"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "La identidad (A − B)² = A² − 2AB + B², con A = 4m y B = n, produce 16m² − 8mn + n².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el resultado simplificado de (2y² − 3)²?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4y⁴ + 9"
+        },
+        {
+          "id": "B",
+          "texto": "4y⁴ + 12y² + 9"
+        },
+        {
+          "id": "C",
+          "texto": "4y⁴ − 6y² + 9"
+        },
+        {
+          "id": "D",
+          "texto": "4y⁴ − 12y² − 9"
+        },
+        {
+          "id": "E",
+          "texto": "4y⁴ − 12y² + 9"
+        },
+        {
+          "id": "F",
+          "texto": "4y⁴ − 12y² + 18"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "La identidad (A − B)² = A² − 2AB + B², con A = 2y² y B = 3, produce 4y⁴ − 12y² + 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la identidad correspondiente y simplifica: (2x + 3)(2x − 3).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4x² + 9"
+        },
+        {
+          "id": "B",
+          "texto": "4x² + 9 − 12x"
+        },
+        {
+          "id": "C",
+          "texto": "4x² + 9 + 12x"
+        },
+        {
+          "id": "D",
+          "texto": "4x² − 18"
+        },
+        {
+          "id": "E",
+          "texto": "8x² − 9"
+        },
+        {
+          "id": "F",
+          "texto": "4x² − 9"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "El producto de conjugados (A + B)(A − B) = A² − B² elimina los términos cruzados. Con A = 2x y B = 3 resulta 4x² − 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Desarrolla y simplifica el producto notable: (5a + b)(5a − b).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "25a² − b²"
+        },
+        {
+          "id": "B",
+          "texto": "25a² + b²"
+        },
+        {
+          "id": "C",
+          "texto": "25a² + b² − 10ab"
+        },
+        {
+          "id": "D",
+          "texto": "25a² + b² + 10ab"
+        },
+        {
+          "id": "E",
+          "texto": "25a² − 2b²"
+        },
+        {
+          "id": "F",
+          "texto": "50a² − b²"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El producto de conjugados (A + B)(A − B) = A² − B² elimina los términos cruzados. Con A = 5a y B = b resulta 25a² − b².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el resultado simplificado de (x² + 2)(x² − 2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x⁴ + 4"
+        },
+        {
+          "id": "B",
+          "texto": "x⁴ − 4"
+        },
+        {
+          "id": "C",
+          "texto": "x⁴ + 4 − 4x²"
+        },
+        {
+          "id": "D",
+          "texto": "x⁴ + 4 + 4x²"
+        },
+        {
+          "id": "E",
+          "texto": "x⁴ − 8"
+        },
+        {
+          "id": "F",
+          "texto": "2x⁴ − 4"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "El producto de conjugados (A + B)(A − B) = A² − B² elimina los términos cruzados. Con A = x² y B = 2 resulta x⁴ − 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la identidad correspondiente y simplifica: (3p + 2q)(3p − 2q).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "9p² + 4q²"
+        },
+        {
+          "id": "B",
+          "texto": "9p² + 4q² − 12pq"
+        },
+        {
+          "id": "C",
+          "texto": "9p² − 4q²"
+        },
+        {
+          "id": "D",
+          "texto": "9p² + 4q² + 12pq"
+        },
+        {
+          "id": "E",
+          "texto": "9p² − 8q²"
+        },
+        {
+          "id": "F",
+          "texto": "18p² − 4q²"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "El producto de conjugados (A + B)(A − B) = A² − B² elimina los términos cruzados. Con A = 3p y B = 2q resulta 9p² − 4q².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-016",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Desarrolla y simplifica el producto notable: (2x² + 3y)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4x⁴ + 9y²"
+        },
+        {
+          "id": "B",
+          "texto": "4x⁴ − 12x²y + 9y²"
+        },
+        {
+          "id": "C",
+          "texto": "4x⁴ + 6x²y + 9y²"
+        },
+        {
+          "id": "D",
+          "texto": "4x⁴ + 12x²y + 9y²"
+        },
+        {
+          "id": "E",
+          "texto": "4x⁴ + 12x²y − 9y²"
+        },
+        {
+          "id": "F",
+          "texto": "4x⁴ + 12x²y + 18y²"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "La identidad (A + B)² = A² + 2AB + B², con A = 2x² y B = 3y, produce 4x⁴ + 12x²y + 9y².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-017",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el resultado simplificado de (3a² + 2b³)²?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "9a⁴ + 4b⁶"
+        },
+        {
+          "id": "B",
+          "texto": "9a⁴ − 12a²b³ + 4b⁶"
+        },
+        {
+          "id": "C",
+          "texto": "9a⁴ + 6a²b³ + 4b⁶"
+        },
+        {
+          "id": "D",
+          "texto": "9a⁴ + 12a²b³ − 4b⁶"
+        },
+        {
+          "id": "E",
+          "texto": "9a⁴ + 12a²b³ + 4b⁶"
+        },
+        {
+          "id": "F",
+          "texto": "9a⁴ + 12a²b³ + 8b⁶"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "La identidad (A + B)² = A² + 2AB + B², con A = 3a² y B = 2b³, produce 9a⁴ + 12a²b³ + 4b⁶.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-018",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la identidad correspondiente y simplifica: (4x + 5y²)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "16x² + 25y⁴"
+        },
+        {
+          "id": "B",
+          "texto": "16x² − 40xy² + 25y⁴"
+        },
+        {
+          "id": "C",
+          "texto": "16x² + 20xy² + 25y⁴"
+        },
+        {
+          "id": "D",
+          "texto": "16x² + 40xy² − 25y⁴"
+        },
+        {
+          "id": "E",
+          "texto": "16x² + 40xy² + 50y⁴"
+        },
+        {
+          "id": "F",
+          "texto": "16x² + 40xy² + 25y⁴"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "La identidad (A + B)² = A² + 2AB + B², con A = 4x y B = 5y², produce 16x² + 40xy² + 25y⁴.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-019",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Desarrolla y simplifica el producto notable: (x²y + 3z)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x⁴y² + 6x²yz + 9z²"
+        },
+        {
+          "id": "B",
+          "texto": "x⁴y² + 9z²"
+        },
+        {
+          "id": "C",
+          "texto": "x⁴y² − 6x²yz + 9z²"
+        },
+        {
+          "id": "D",
+          "texto": "x⁴y² + 3x²yz + 9z²"
+        },
+        {
+          "id": "E",
+          "texto": "x⁴y² + 6x²yz − 9z²"
+        },
+        {
+          "id": "F",
+          "texto": "x⁴y² + 6x²yz + 18z²"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La identidad (A + B)² = A² + 2AB + B², con A = x²y y B = 3z, produce x⁴y² + 6x²yz + 9z².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-020",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el resultado simplificado de (5m²n + 2)²?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "25m⁴n² + 4"
+        },
+        {
+          "id": "B",
+          "texto": "25m⁴n² + 20m²n + 4"
+        },
+        {
+          "id": "C",
+          "texto": "25m⁴n² − 20m²n + 4"
+        },
+        {
+          "id": "D",
+          "texto": "25m⁴n² + 10m²n + 4"
+        },
+        {
+          "id": "E",
+          "texto": "25m⁴n² + 20m²n − 4"
+        },
+        {
+          "id": "F",
+          "texto": "25m⁴n² + 20m²n + 8"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "La identidad (A + B)² = A² + 2AB + B², con A = 5m²n y B = 2, produce 25m⁴n² + 20m²n + 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-021",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la identidad correspondiente y simplifica: (3x² − 4y)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "9x⁴ + 16y²"
+        },
+        {
+          "id": "B",
+          "texto": "9x⁴ + 24x²y + 16y²"
+        },
+        {
+          "id": "C",
+          "texto": "9x⁴ − 24x²y + 16y²"
+        },
+        {
+          "id": "D",
+          "texto": "9x⁴ − 12x²y + 16y²"
+        },
+        {
+          "id": "E",
+          "texto": "9x⁴ − 24x²y − 16y²"
+        },
+        {
+          "id": "F",
+          "texto": "9x⁴ − 24x²y + 32y²"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "La identidad (A − B)² = A² − 2AB + B², con A = 3x² y B = 4y, produce 9x⁴ − 24x²y + 16y².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-022",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Desarrolla y simplifica el producto notable: (2a³ − 5b)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4a⁶ + 25b²"
+        },
+        {
+          "id": "B",
+          "texto": "4a⁶ + 20a³b + 25b²"
+        },
+        {
+          "id": "C",
+          "texto": "4a⁶ − 10a³b + 25b²"
+        },
+        {
+          "id": "D",
+          "texto": "4a⁶ − 20a³b + 25b²"
+        },
+        {
+          "id": "E",
+          "texto": "4a⁶ − 20a³b − 25b²"
+        },
+        {
+          "id": "F",
+          "texto": "4a⁶ − 20a³b + 50b²"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "La identidad (A − B)² = A² − 2AB + B², con A = 2a³ y B = 5b, produce 4a⁶ − 20a³b + 25b².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-023",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el resultado simplificado de (x² − 6xy)²?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x⁴ + 36x²y²"
+        },
+        {
+          "id": "B",
+          "texto": "x⁴ + 12x³y + 36x²y²"
+        },
+        {
+          "id": "C",
+          "texto": "x⁴ − 6x³y + 36x²y²"
+        },
+        {
+          "id": "D",
+          "texto": "x⁴ − 12x³y − 36x²y²"
+        },
+        {
+          "id": "E",
+          "texto": "x⁴ − 12x³y + 36x²y²"
+        },
+        {
+          "id": "F",
+          "texto": "x⁴ − 12x³y + 72x²y²"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "La identidad (A − B)² = A² − 2AB + B², con A = x² y B = 6xy, produce x⁴ − 12x³y + 36x²y².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-024",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la identidad correspondiente y simplifica: (4p − 3q²)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "16p² + 9q⁴"
+        },
+        {
+          "id": "B",
+          "texto": "16p² + 24pq² + 9q⁴"
+        },
+        {
+          "id": "C",
+          "texto": "16p² − 12pq² + 9q⁴"
+        },
+        {
+          "id": "D",
+          "texto": "16p² − 24pq² − 9q⁴"
+        },
+        {
+          "id": "E",
+          "texto": "16p² − 24pq² + 18q⁴"
+        },
+        {
+          "id": "F",
+          "texto": "16p² − 24pq² + 9q⁴"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "La identidad (A − B)² = A² − 2AB + B², con A = 4p y B = 3q², produce 16p² − 24pq² + 9q⁴.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-025",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Desarrolla y simplifica el producto notable: (2m²n − 3r)².",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4m⁴n² − 12m²nr + 9r²"
+        },
+        {
+          "id": "B",
+          "texto": "4m⁴n² + 9r²"
+        },
+        {
+          "id": "C",
+          "texto": "4m⁴n² + 12m²nr + 9r²"
+        },
+        {
+          "id": "D",
+          "texto": "4m⁴n² − 6m²nr + 9r²"
+        },
+        {
+          "id": "E",
+          "texto": "4m⁴n² − 12m²nr − 9r²"
+        },
+        {
+          "id": "F",
+          "texto": "4m⁴n² − 12m²nr + 18r²"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "La identidad (A − B)² = A² − 2AB + B², con A = 2m²n y B = 3r, produce 4m⁴n² − 12m²nr + 9r².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-026",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el resultado simplificado de (2x² + 3y)(2x² − 3y)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4x⁴ + 9y²"
+        },
+        {
+          "id": "B",
+          "texto": "4x⁴ − 9y²"
+        },
+        {
+          "id": "C",
+          "texto": "4x⁴ + 9y² − 12x²y"
+        },
+        {
+          "id": "D",
+          "texto": "4x⁴ + 9y² + 12x²y"
+        },
+        {
+          "id": "E",
+          "texto": "4x⁴ − 18y²"
+        },
+        {
+          "id": "F",
+          "texto": "8x⁴ − 9y²"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "El producto de conjugados (A + B)(A − B) = A² − B² elimina los términos cruzados. Con A = 2x² y B = 3y resulta 4x⁴ − 9y².",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-027",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la identidad correspondiente y simplifica: (4a² + 5b³)(4a² − 5b³).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "16a⁴ + 25b⁶"
+        },
+        {
+          "id": "B",
+          "texto": "16a⁴ + 25b⁶ − 40a²b³"
+        },
+        {
+          "id": "C",
+          "texto": "16a⁴ − 25b⁶"
+        },
+        {
+          "id": "D",
+          "texto": "16a⁴ + 25b⁶ + 40a²b³"
+        },
+        {
+          "id": "E",
+          "texto": "16a⁴ − 50b⁶"
+        },
+        {
+          "id": "F",
+          "texto": "32a⁴ − 25b⁶"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "El producto de conjugados (A + B)(A − B) = A² − B² elimina los términos cruzados. Con A = 4a² y B = 5b³ resulta 16a⁴ − 25b⁶.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-028",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Desarrolla y simplifica el producto notable: (3m²n + 2)(3m²n − 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "9m⁴n² + 4"
+        },
+        {
+          "id": "B",
+          "texto": "9m⁴n² + 4 − 12m²n"
+        },
+        {
+          "id": "C",
+          "texto": "9m⁴n² + 4 + 12m²n"
+        },
+        {
+          "id": "D",
+          "texto": "9m⁴n² − 4"
+        },
+        {
+          "id": "E",
+          "texto": "9m⁴n² − 8"
+        },
+        {
+          "id": "F",
+          "texto": "18m⁴n² − 4"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "El producto de conjugados (A + B)(A − B) = A² − B² elimina los términos cruzados. Con A = 3m²n y B = 2 resulta 9m⁴n² − 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-029",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el resultado simplificado de (2 + √(3x))(2 − √(3x))?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4 + 3x"
+        },
+        {
+          "id": "B",
+          "texto": "4 − 6x"
+        },
+        {
+          "id": "C",
+          "texto": "8 − 3x"
+        },
+        {
+          "id": "D",
+          "texto": "5 − 3x"
+        },
+        {
+          "id": "E",
+          "texto": "4 − 3x"
+        },
+        {
+          "id": "F",
+          "texto": "3 − 3x"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Conjugados: (A + B)(A − B) = A² − B². Aquí A = 2 y B = √(3x), por lo que queda 4 − 3x. Para trabajar en los reales el radicando debe ser no negativo.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-NOT-030",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Productos Notables",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la identidad correspondiente y simplifica: (5 + √(2y))(5 − √(2y)).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "25 + 2y"
+        },
+        {
+          "id": "B",
+          "texto": "25 − 4y"
+        },
+        {
+          "id": "C",
+          "texto": "50 − 2y"
+        },
+        {
+          "id": "D",
+          "texto": "26 − 2y"
+        },
+        {
+          "id": "E",
+          "texto": "24 − 2y"
+        },
+        {
+          "id": "F",
+          "texto": "25 − 2y"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Conjugados: (A + B)(A − B) = A² − B². Aquí A = 5 y B = √(2y), por lo que queda 25 − 2y. Para trabajar en los reales el radicando debe ser no negativo.",
+      "puntaje": 1
     }
   ]
 }
