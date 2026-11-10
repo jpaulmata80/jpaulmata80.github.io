@@ -80,3 +80,7 @@ Se añadirán al archivo JSON de la asignatura; el configurador detectará autom
 - Iniciar otra práctica para ver una selección diferente.
 - Verificar la versión móvil.
 
+
+## Exportación a Moodle
+
+Desde [Exportar a Moodle](exportar-moodle.html) se pueden seleccionar una o varias asignaturas, abrir temas y seleccionar subtemas, filtrar por dificultad y establecer un límite opcional de preguntas aleatorias por asignatura. El formato **Moodle XML** conserva las alternativas originales sin imponer un número fijo. Al seleccionar varias asignaturas se descarga un ZIP que contiene un XML independiente por asignatura. Se añaden categorías de Asignatura → Unidad → Tema → Subtema. El sistema excluye y comunica preguntas que no cumplen la estructura mínima (selección única, respuesta inequívoca, opciones y explicación). En Moodle activa **Obtener categoría desde el archivo** al importar y comprueba el resultado antes de una evaluación oficial. El proceso no modifica los JSON originales.
