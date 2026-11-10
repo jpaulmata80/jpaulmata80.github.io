@@ -6664,35 +6664,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "Factoriza mediante suma o diferencia de cubos: (x)³ + (2)³.",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: x³ + 1.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(x + 2)(x² - 2x + 5)"
+          "texto": "(x − 1)(x² − x + 1)"
         },
         {
           "id": "B",
-          "texto": "(x + 2)(x² - 2x + 3)"
+          "texto": "(x + 1)(x² + x + 1)"
         },
         {
           "id": "C",
-          "texto": "(x + 2)(x² - 2x - 4)"
+          "texto": "(x + 1)(x² − x + 1)"
         },
         {
           "id": "D",
-          "texto": "(x + 2)(x² + 2x + 4)"
+          "texto": "(x + 1)(x² − x − 1)"
         },
         {
           "id": "E",
-          "texto": "(x + 2)(x² - 2x + 4)"
+          "texto": "(x + 1)(x² − 2x + 1)"
         },
         {
           "id": "F",
-          "texto": "(x - 2)(x² - 2x + 4)"
+          "texto": "(x + 1)(x² − x + 2)"
         }
       ],
-      "respuesta": "E",
-      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = x y B = 2. Así, (x)³ + (2)³ = (x + 2)(x² - 2x + 4). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "C",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² − AB + B²), con A = x y B = 1. Por tanto, x³ + 1 = (x + 1)(x² − x + 1). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -6702,35 +6702,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "¿Cuál es la factorización correcta de (x)³ - (3)³?",
+      "enunciado": "¿Cuál es la factorización mediante suma o diferencia de cubos de x³ − 8?",
       "opciones": [
         {
           "id": "A",
-          "texto": "(x - 3)(x² + 3x + 8)"
+          "texto": "(x + 2)(x² + 2x + 4)"
         },
         {
           "id": "B",
-          "texto": "(x + 3)(x² + 3x + 9)"
+          "texto": "(x − 2)(x² + 2x + 4)"
         },
         {
           "id": "C",
-          "texto": "(x - 3)(x² + 3x + 9)"
+          "texto": "(x − 2)(x² − 2x + 4)"
         },
         {
           "id": "D",
-          "texto": "(x - 3)(x² + 3x - 9)"
+          "texto": "(x − 2)(x² + 2x − 4)"
         },
         {
           "id": "E",
-          "texto": "(x - 3)(x² - 3x + 9)"
+          "texto": "(x − 2)(x² + 4x + 4)"
         },
         {
           "id": "F",
-          "texto": "(x - 3)(x² + 3x + 10)"
+          "texto": "(x − 2)(x² + 2x + 8)"
         }
       ],
-      "respuesta": "C",
-      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = x y B = 3. Así, (x)³ - (3)³ = (x - 3)(x² + 3x + 9). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "B",
+      "explicacion": "Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = x y B = 2. Por tanto, x³ − 8 = (x − 2)(x² + 2x + 4). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -6740,35 +6740,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "Descompón en factores utilizando la identidad de cubos: (2x)³ + (1)³.",
+      "enunciado": "Descompón en factores aplicando la identidad de cubos: a³ − 1.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(2x + 1)(4x² - 2x + 1)"
+          "texto": "(a − 1)(a² + a + 1)"
         },
         {
           "id": "B",
-          "texto": "(2x + 1)(4x² - 2x - 1)"
+          "texto": "(a + 1)(a² + a + 1)"
         },
         {
           "id": "C",
-          "texto": "(2x + 1)(4x² - 2x + 2)"
+          "texto": "(a − 1)(a² − a + 1)"
         },
         {
           "id": "D",
-          "texto": "(2x - 1)(4x² - 2x + 1)"
+          "texto": "(a − 1)(a² + a − 1)"
         },
         {
           "id": "E",
-          "texto": "(2x + 1)(4x² - 2x)"
+          "texto": "(a − 1)(a² + 2a + 1)"
         },
         {
           "id": "F",
-          "texto": "(2x + 1)(4x² + 2x + 1)"
+          "texto": "(a − 1)(a² + a + 2)"
         }
       ],
       "respuesta": "A",
-      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 2x y B = 1. Así, (2x)³ + (1)³ = (2x + 1)(4x² - 2x + 1). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "explicacion": "Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = a y B = 1. Por tanto, a³ − 1 = (a − 1)(a² + a + 1). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -6778,35 +6778,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "Factoriza mediante suma o diferencia de cubos: (3a)³ - (2)³.",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: y³ − 27.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(3a - 2)(9a² - 6a + 4)"
+          "texto": "(y + 3)(y² + 3y + 9)"
         },
         {
           "id": "B",
-          "texto": "(3a - 2)(9a² + 6a + 5)"
+          "texto": "(y − 3)(y² − 3y + 9)"
         },
         {
           "id": "C",
-          "texto": "(3a + 2)(9a² + 6a + 4)"
+          "texto": "(y − 3)(y² + 3y − 9)"
         },
         {
           "id": "D",
-          "texto": "(3a - 2)(9a² + 6a + 4)"
+          "texto": "(y − 3)(y² + 6y + 9)"
         },
         {
           "id": "E",
-          "texto": "(3a - 2)(9a² + 6a + 3)"
+          "texto": "(y − 3)(y² + 3y + 18)"
         },
         {
           "id": "F",
-          "texto": "(3a - 2)(9a² + 6a - 4)"
+          "texto": "(y − 3)(y² + 3y + 9)"
         }
       ],
-      "respuesta": "D",
-      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 3a y B = 2. Así, (3a)³ - (2)³ = (3a - 2)(9a² + 6a + 4). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "F",
+      "explicacion": "Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = y y B = 3. Por tanto, y³ − 27 = (y − 3)(y² + 3y + 9). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -6816,35 +6816,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "¿Cuál es la factorización correcta de (y)³ + (4)³?",
+      "enunciado": "¿Cuál es la factorización mediante suma o diferencia de cubos de 8x³ − 1?",
       "opciones": [
         {
           "id": "A",
-          "texto": "(y + 4)(y² - 4y + 16)"
+          "texto": "(2x + 1)(4x² + 2x + 1)"
         },
         {
           "id": "B",
-          "texto": "(y + 4)(y² - 4y + 17)"
+          "texto": "(2x − 1)(4x² − 2x + 1)"
         },
         {
           "id": "C",
-          "texto": "(y - 4)(y² - 4y + 16)"
+          "texto": "(2x − 1)(4x² + 2x − 1)"
         },
         {
           "id": "D",
-          "texto": "(y + 4)(y² + 4y + 16)"
+          "texto": "(2x − 1)(4x² + 4x + 1)"
         },
         {
           "id": "E",
-          "texto": "(y + 4)(y² - 4y - 16)"
+          "texto": "(2x − 1)(4x² + 2x + 1)"
         },
         {
           "id": "F",
-          "texto": "(y + 4)(y² - 4y + 15)"
+          "texto": "(2x − 1)(4x² + 2x + 2)"
         }
       ],
-      "respuesta": "A",
-      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = y y B = 4. Así, (y)³ + (4)³ = (y + 4)(y² - 4y + 16). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "E",
+      "explicacion": "Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = 2x y B = 1. Por tanto, 8x³ − 1 = (2x − 1)(4x² + 2x + 1). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -6854,35 +6854,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "intermedio",
       "tipo": "seleccion_unica",
-      "enunciado": "Descompón en factores utilizando la identidad de cubos: (2x)³ - (3y)³.",
+      "enunciado": "Descompón en factores aplicando la identidad de cubos: x³ + y³.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(-3y + 2x)(9y² + 4x² - 6xy)"
+          "texto": "(x − y)(x² − xy + y²)"
         },
         {
           "id": "B",
-          "texto": "(-3y + 2x)(9y² + 4x² + 6xy - 1)"
+          "texto": "(x + y)(x² + xy + y²)"
         },
         {
           "id": "C",
-          "texto": "(-3y + 2x)(9y² + 4x² + 6xy + 1)"
+          "texto": "(x + y)(x² − xy − y²)"
         },
         {
           "id": "D",
-          "texto": "(-3y + 2x)(-9y² + 4x² + 6xy)"
+          "texto": "(x + y)(x² − xy + y²)"
         },
         {
           "id": "E",
-          "texto": "(3y + 2x)(9y² + 4x² + 6xy)"
+          "texto": "(x + y)(x² − 2xy + y²)"
         },
         {
           "id": "F",
-          "texto": "(-3y + 2x)(9y² + 4x² + 6xy)"
+          "texto": "(x + y)(x² − xy + 2y²)"
         }
       ],
-      "respuesta": "F",
-      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 2x y B = 3y. Así, (2x)³ - (3y)³ = (-3y + 2x)(9y² + 4x² + 6xy). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "D",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² − AB + B²), con A = x y B = y. Por tanto, x³ + y³ = (x + y)(x² − xy + y²). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -6892,35 +6892,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "intermedio",
       "tipo": "seleccion_unica",
-      "enunciado": "Factoriza mediante suma o diferencia de cubos: (3a)³ + (2b)³.",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: x³ − y³.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(2b + 3a)(-4b² + 9a² - 6ab)"
+          "texto": "(x + y)(x² + xy + y²)"
         },
         {
           "id": "B",
-          "texto": "(2b + 3a)(4b² + 9a² + 6ab)"
+          "texto": "(x − y)(x² − xy + y²)"
         },
         {
           "id": "C",
-          "texto": "(2b + 3a)(4b² + 9a² - 6ab)"
+          "texto": "(x − y)(x² + xy + y²)"
         },
         {
           "id": "D",
-          "texto": "(2b + 3a)(4b² + 9a² - 6ab + 1)"
+          "texto": "(x − y)(x² + xy − y²)"
         },
         {
           "id": "E",
-          "texto": "(2b + 3a)(4b² + 9a² - 6ab - 1)"
+          "texto": "(x − y)(x² + 2xy + y²)"
         },
         {
           "id": "F",
-          "texto": "(-2b + 3a)(4b² + 9a² - 6ab)"
+          "texto": "(x − y)(x² + xy + 2y²)"
         }
       ],
       "respuesta": "C",
-      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 3a y B = 2b. Así, (3a)³ + (2b)³ = (2b + 3a)(4b² + 9a² - 6ab). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "explicacion": "Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = x y B = y. Por tanto, x³ − y³ = (x − y)(x² + xy + y²). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -6930,35 +6930,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "intermedio",
       "tipo": "seleccion_unica",
-      "enunciado": "¿Cuál es la factorización correcta de (x²)³ - (5)³?",
+      "enunciado": "¿Cuál es la factorización mediante suma o diferencia de cubos de 8x³ + 27y³?",
       "opciones": [
         {
           "id": "A",
-          "texto": "(x² - 5)(x⁴ + 5x² - 25)"
+          "texto": "(2x − 3y)(4x² − 6xy + 9y²)"
         },
         {
           "id": "B",
-          "texto": "(x² + 5)(x⁴ + 5x² + 25)"
+          "texto": "(2x + 3y)(4x² − 6xy + 9y²)"
         },
         {
           "id": "C",
-          "texto": "(x² - 5)(x⁴ - 5x² + 25)"
+          "texto": "(2x + 3y)(4x² + 6xy + 9y²)"
         },
         {
           "id": "D",
-          "texto": "(x² - 5)(x⁴ + 5x² + 25)"
+          "texto": "(2x + 3y)(4x² − 6xy − 9y²)"
         },
         {
           "id": "E",
-          "texto": "(x² - 5)(x⁴ + 5x² + 24)"
+          "texto": "(2x + 3y)(4x² − 12xy + 9y²)"
         },
         {
           "id": "F",
-          "texto": "(x² - 5)(x⁴ + 5x² + 26)"
+          "texto": "(2x + 3y)(4x² − 6xy + 18y²)"
         }
       ],
-      "respuesta": "D",
-      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = x² y B = 5. Así, (x²)³ - (5)³ = (x² - 5)(x⁴ + 5x² + 25). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "B",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² − AB + B²), con A = 2x y B = 3y. Por tanto, 8x³ + 27y³ = (2x + 3y)(4x² − 6xy + 9y²). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -6968,35 +6968,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "intermedio",
       "tipo": "seleccion_unica",
-      "enunciado": "Descompón en factores utilizando la identidad de cubos: (4m)³ + (n)³.",
+      "enunciado": "Descompón en factores aplicando la identidad de cubos: 27a³ − 64b³.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(n + 4m)(n² + 16m² - 4mn)"
+          "texto": "(3a − 4b)(9a² + 12ab + 16b²)"
         },
         {
           "id": "B",
-          "texto": "(-n + 4m)(n² + 16m² - 4mn)"
+          "texto": "(3a + 4b)(9a² + 12ab + 16b²)"
         },
         {
           "id": "C",
-          "texto": "(n + 4m)(-n² + 16m² - 4mn)"
+          "texto": "(3a − 4b)(9a² − 12ab + 16b²)"
         },
         {
           "id": "D",
-          "texto": "(n + 4m)(n² + 16m² - 4mn - 1)"
+          "texto": "(3a − 4b)(9a² + 12ab − 16b²)"
         },
         {
           "id": "E",
-          "texto": "(n + 4m)(n² + 16m² - 4mn + 1)"
+          "texto": "(3a − 4b)(9a² + 24ab + 16b²)"
         },
         {
           "id": "F",
-          "texto": "(n + 4m)(n² + 16m² + 4mn)"
+          "texto": "(3a − 4b)(9a² + 12ab + 32b²)"
         }
       ],
       "respuesta": "A",
-      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 4m y B = n. Así, (4m)³ + (n)³ = (n + 4m)(n² + 16m² - 4mn). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "explicacion": "Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = 3a y B = 4b. Por tanto, 27a³ − 64b³ = (3a − 4b)(9a² + 12ab + 16b²). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7006,35 +7006,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "intermedio",
       "tipo": "seleccion_unica",
-      "enunciado": "Factoriza mediante suma o diferencia de cubos: (2p²)³ - (3q)³.",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: 125m³ + n³.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(2p² + 3q)(4p⁴ + 6p²q + 9q²)"
+          "texto": "(5m − n)(25m² − 5mn + n²)"
         },
         {
           "id": "B",
-          "texto": "(2p² - 3q)(4p⁴ + 6p²q + 9q² + 1)"
+          "texto": "(5m + n)(25m² + 5mn + n²)"
         },
         {
           "id": "C",
-          "texto": "(2p² - 3q)(4p⁴ - 6p²q + 9q²)"
+          "texto": "(5m + n)(25m² − 5mn − n²)"
         },
         {
           "id": "D",
-          "texto": "(2p² - 3q)(4p⁴ + 6p²q + 9q² - 1)"
+          "texto": "(5m + n)(25m² − 10mn + n²)"
         },
         {
           "id": "E",
-          "texto": "(2p² - 3q)(4p⁴ + 6p²q + 9q²)"
+          "texto": "(5m + n)(25m² − 5mn + 2n²)"
         },
         {
           "id": "F",
-          "texto": "(2p² - 3q)(4p⁴ + 6p²q - 9q²)"
+          "texto": "(5m + n)(25m² − 5mn + n²)"
         }
       ],
-      "respuesta": "E",
-      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 2p² y B = 3q. Así, (2p²)³ - (3q)³ = (2p² - 3q)(4p⁴ + 6p²q + 9q²). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "F",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² − AB + B²), con A = 5m y B = n. Por tanto, 125m³ + n³ = (5m + n)(25m² − 5mn + n²). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7044,35 +7044,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "¿Cuál es la factorización correcta de (x+1)³ - (2)³?",
+      "enunciado": "¿Cuál es la factorización mediante suma o diferencia de cubos de x⁹ − 125y⁶?",
       "opciones": [
         {
           "id": "A",
-          "texto": "(x - 1)(x² + 4x + 8)"
+          "texto": "(x³ + 5y²)(x⁶ + 5x³y² + 25y⁴)"
         },
         {
           "id": "B",
-          "texto": "(x - 1)(x² + 3)"
+          "texto": "(x³ − 5y²)(x⁶ − 5x³y² + 25y⁴)"
         },
         {
           "id": "C",
-          "texto": "(x - 1)(x² + 4x - 1)"
+          "texto": "(x³ − 5y²)(x⁶ + 5x³y² − 25y⁴)"
         },
         {
           "id": "D",
-          "texto": "(x + 3)(x² + 4x + 7)"
+          "texto": "(x³ − 5y²)(x⁶ + 10x³y² + 25y⁴)"
         },
         {
           "id": "E",
-          "texto": "(x - 1)(x² + 4x + 7)"
+          "texto": "(x³ − 5y²)(x⁶ + 5x³y² + 25y⁴)"
         },
         {
           "id": "F",
-          "texto": "(x - 1)(x² + 4x + 6)"
+          "texto": "(x³ − 5y²)(x⁶ + 5x³y² + 50y⁴)"
         }
       ],
       "respuesta": "E",
-      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = x+1 y B = 2. Así, (x+1)³ - (2)³ = (x - 1)(x² + 4x + 7). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "explicacion": "Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = x³ y B = 5y². Por tanto, x⁹ − 125y⁶ = (x³ − 5y²)(x⁶ + 5x³y² + 25y⁴). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7082,35 +7082,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Descompón en factores utilizando la identidad de cubos: (2x-1)³ + (3)³.",
+      "enunciado": "Descompón en factores aplicando la identidad de cubos: 27a⁶ + 64b⁹.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(2x + 2)(4x² - 10x + 14)"
+          "texto": "(3a² − 4b³)(9a⁴ − 12a²b³ + 16b⁶)"
         },
         {
           "id": "B",
-          "texto": "(2x + 2)(4x² - 10x - 5)"
+          "texto": "(3a² + 4b³)(9a⁴ + 12a²b³ + 16b⁶)"
         },
         {
           "id": "C",
-          "texto": "(2x - 4)(4x² - 10x + 13)"
+          "texto": "(3a² + 4b³)(9a⁴ − 12a²b³ − 16b⁶)"
         },
         {
           "id": "D",
-          "texto": "(2x + 2)(4x² - 10x + 12)"
+          "texto": "(3a² + 4b³)(9a⁴ − 12a²b³ + 16b⁶)"
         },
         {
           "id": "E",
-          "texto": "(2x + 2)(4x² + 2x + 7)"
+          "texto": "(3a² + 4b³)(9a⁴ − 24a²b³ + 16b⁶)"
         },
         {
           "id": "F",
-          "texto": "(2x + 2)(4x² - 10x + 13)"
+          "texto": "(3a² + 4b³)(9a⁴ − 12a²b³ + 32b⁶)"
         }
       ],
-      "respuesta": "F",
-      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 2x-1 y B = 3. Así, (2x-1)³ + (3)³ = (2x + 2)(4x² - 10x + 13). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "D",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² − AB + B²), con A = 3a² y B = 4b³. Por tanto, 27a⁶ + 64b⁹ = (3a² + 4b³)(9a⁴ − 12a²b³ + 16b⁶). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7120,35 +7120,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Factoriza mediante suma o diferencia de cubos: (3a+b)³ - (2c)³.",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: 64p⁶q³ − 27r⁹.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(-2c + b + 3a)(4c² + b² + 2bc + 9a² + 6ac + 6ab)"
+          "texto": "(4p²q + 3r³)(16p⁴q² + 12p²qr³ + 9r⁶)"
         },
         {
           "id": "B",
-          "texto": "(-2c + b + 3a)(-4c² + b² + 2bc + 9a² + 6ac + 6ab)"
+          "texto": "(4p²q − 3r³)(16p⁴q² − 12p²qr³ + 9r⁶)"
         },
         {
           "id": "C",
-          "texto": "(-2c + b + 3a)(4c² + b² + 2bc + 9a² + 6ac + 6ab - 1)"
+          "texto": "(4p²q − 3r³)(16p⁴q² + 12p²qr³ + 9r⁶)"
         },
         {
           "id": "D",
-          "texto": "(-2c + b + 3a)(4c² + b² + 2bc + 9a² + 6ac + 6ab + 1)"
+          "texto": "(4p²q − 3r³)(16p⁴q² + 12p²qr³ − 9r⁶)"
         },
         {
           "id": "E",
-          "texto": "(-2c + b + 3a)(4c² + b² - 2bc + 9a² - 6ac + 6ab)"
+          "texto": "(4p²q − 3r³)(16p⁴q² + 24p²qr³ + 9r⁶)"
         },
         {
           "id": "F",
-          "texto": "(2c + b + 3a)(4c² + b² + 2bc + 9a² + 6ac + 6ab)"
+          "texto": "(4p²q − 3r³)(16p⁴q² + 12p²qr³ + 18r⁶)"
         }
       ],
-      "respuesta": "A",
-      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 3a+b y B = 2c. Así, (3a+b)³ - (2c)³ = (-2c + b + 3a)(4c² + b² + 2bc + 9a² + 6ac + 6ab). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "C",
+      "explicacion": "Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = 4p²q y B = 3r³. Por tanto, 64p⁶q³ − 27r⁹ = (4p²q − 3r³)(16p⁴q² + 12p²qr³ + 9r⁶). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7158,35 +7158,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "¿Cuál es la factorización correcta de (x²+2)³ + (y)³?",
+      "enunciado": "¿Cuál es la factorización mediante suma o diferencia de cubos de 343u⁹ + 8v⁶?",
       "opciones": [
         {
           "id": "A",
-          "texto": "(x² + y + 2)(x⁴ + x²y + y² + 4x² + 2y + 4)"
+          "texto": "(7u³ − 2v²)(49u⁶ − 14u³v² + 4v⁴)"
         },
         {
           "id": "B",
-          "texto": "(x² + y + 2)(x⁴ - x²y + y² + 4x² - 2y + 4)"
+          "texto": "(7u³ + 2v²)(49u⁶ − 14u³v² + 4v⁴)"
         },
         {
           "id": "C",
-          "texto": "(x² - y + 2)(x⁴ - x²y + y² + 4x² - 2y + 4)"
+          "texto": "(7u³ + 2v²)(49u⁶ + 14u³v² + 4v⁴)"
         },
         {
           "id": "D",
-          "texto": "(x² + y + 2)(x⁴ - x²y + y² + 4x² - 2y + 3)"
+          "texto": "(7u³ + 2v²)(49u⁶ − 14u³v² − 4v⁴)"
         },
         {
           "id": "E",
-          "texto": "(x² + y + 2)(x⁴ - x²y - y² + 4x² - 2y + 4)"
+          "texto": "(7u³ + 2v²)(49u⁶ − 28u³v² + 4v⁴)"
         },
         {
           "id": "F",
-          "texto": "(x² + y + 2)(x⁴ - x²y + y² + 4x² - 2y + 5)"
+          "texto": "(7u³ + 2v²)(49u⁶ − 14u³v² + 8v⁴)"
         }
       ],
       "respuesta": "B",
-      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = x²+2 y B = y. Así, (x²+2)³ + (y)³ = (x² + y + 2)(x⁴ - x²y + y² + 4x² - 2y + 4). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² − AB + B²), con A = 7u³ y B = 2v². Por tanto, 343u⁹ + 8v⁶ = (7u³ + 2v²)(49u⁶ − 14u³v² + 4v⁴). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7196,35 +7196,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Descompón en factores utilizando la identidad de cubos: (2m+n)³ - (m-n)³.",
+      "enunciado": "Descompón en factores aplicando la identidad de cubos: 125m¹² − 216n⁹.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(2n + m)(n² + 7m² + mn + 1)"
+          "texto": "(5m⁴ − 6n³)(25m⁸ + 30m⁴n³ + 36n⁶)"
         },
         {
           "id": "B",
-          "texto": "(2n + m)(n² + 7m² + mn - 1)"
+          "texto": "(5m⁴ + 6n³)(25m⁸ + 30m⁴n³ + 36n⁶)"
         },
         {
           "id": "C",
-          "texto": "(2n + m)(n² + 7m² + mn)"
+          "texto": "(5m⁴ − 6n³)(25m⁸ − 30m⁴n³ + 36n⁶)"
         },
         {
           "id": "D",
-          "texto": "(3m)(n² + 7m² + mn)"
+          "texto": "(5m⁴ − 6n³)(25m⁸ + 30m⁴n³ − 36n⁶)"
         },
         {
           "id": "E",
-          "texto": "(2n + m)(-n² + 5m² + 5mn)"
+          "texto": "(5m⁴ − 6n³)(25m⁸ + 60m⁴n³ + 36n⁶)"
         },
         {
           "id": "F",
-          "texto": "(2n + m)(3n² + 3m² + 3mn)"
+          "texto": "(5m⁴ − 6n³)(25m⁸ + 30m⁴n³ + 72n⁶)"
         }
       ],
-      "respuesta": "C",
-      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 2m+n y B = m-n. Así, (2m+n)³ - (m-n)³ = (2n + m)(n² + 7m² + mn). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "A",
+      "explicacion": "Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = 5m⁴ y B = 6n³. Por tanto, 125m¹² − 216n⁹ = (5m⁴ − 6n³)(25m⁸ + 30m⁴n³ + 36n⁶). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7234,35 +7234,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Factoriza mediante suma o diferencia de cubos: (3x-2y)³ + (x+y)³.",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: 24x³ + 81y³.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(-y + 4x)(3y² + 13x² - 9xy)"
+          "texto": "3(2x − 3y)(4x² − 6xy + 9y²)"
         },
         {
           "id": "B",
-          "texto": "(-3y + 2x)(7y² + 7x² - 11xy)"
+          "texto": "3(2x + 3y)(4x² + 6xy + 9y²)"
         },
         {
           "id": "C",
-          "texto": "(-y + 4x)(7y² + 7x² - 11xy + 1)"
+          "texto": "3(2x + 3y)(4x² − 6xy − 9y²)"
         },
         {
           "id": "D",
-          "texto": "(-y + 4x)(7y² + 7x² - 11xy)"
+          "texto": "3(2x + 3y)(4x² − 12xy + 9y²)"
         },
         {
           "id": "E",
-          "texto": "(-y + 4x)(7y² + 7x² - 11xy - 1)"
+          "texto": "3(2x + 3y)(4x² − 6xy + 18y²)"
         },
         {
           "id": "F",
-          "texto": "(-y + 4x)(5y² + 5x² - 15xy)"
+          "texto": "3(2x + 3y)(4x² − 6xy + 9y²)"
         }
       ],
-      "respuesta": "D",
-      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 3x-2y y B = x+y. Así, (3x-2y)³ + (x+y)³ = (-y + 4x)(7y² + 7x² - 11xy). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "F",
+      "explicacion": "Primero se extrae el factor común 3: 24x³ + 81y³ = 3(8x³ + 27y³). Se aplica la identidad A³ + B³ = (A + B)(A² − AB + B²), con A = 2x y B = 3y. Por tanto, 24x³ + 81y³ = 3(2x + 3y)(4x² − 6xy + 9y²). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7272,35 +7272,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "¿Cuál es la factorización correcta de (a²-b)³ - (2a+b)³?",
+      "enunciado": "¿Cuál es la factorización mediante suma o diferencia de cubos de 54m⁶ − 16n³?",
       "opciones": [
         {
           "id": "A",
-          "texto": "(a² - 2b - 2a)(a⁴ + 2a³ - a²b - b² - 4a² - 6ab)"
+          "texto": "2(3m² + 2n)(9m⁴ + 6m²n + 4n²)"
         },
         {
           "id": "B",
-          "texto": "(a² - 2b - 2a)(a⁴ + 2a³ - a²b + b² + 4a² + 2ab + 1)"
+          "texto": "2(3m² − 2n)(9m⁴ − 6m²n + 4n²)"
         },
         {
           "id": "C",
-          "texto": "(a² - 2b - 2a)(a⁴ + 2a³ - a²b + b² + 4a² + 2ab)"
+          "texto": "2(3m² − 2n)(9m⁴ + 6m²n − 4n²)"
         },
         {
           "id": "D",
-          "texto": "(a² - 2b - 2a)(a⁴ - 2a³ - 3a²b + 3b² + 4a² + 6ab)"
+          "texto": "2(3m² − 2n)(9m⁴ + 12m²n + 4n²)"
         },
         {
           "id": "E",
-          "texto": "(a² + 2a)(a⁴ + 2a³ - a²b + b² + 4a² + 2ab)"
+          "texto": "2(3m² − 2n)(9m⁴ + 6m²n + 4n²)"
         },
         {
           "id": "F",
-          "texto": "(a² - 2b - 2a)(a⁴ + 2a³ - a²b + b² + 4a² + 2ab - 1)"
+          "texto": "2(3m² − 2n)(9m⁴ + 6m²n + 8n²)"
         }
       ],
-      "respuesta": "C",
-      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = a²-b y B = 2a+b. Así, (a²-b)³ - (2a+b)³ = (a² - 2b - 2a)(a⁴ + 2a³ - a²b + b² + 4a² + 2ab). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "E",
+      "explicacion": "Primero se extrae el factor común 2: 54m⁶ − 16n³ = 2(27m⁶ − 8n³). Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = 3m² y B = 2n. Por tanto, 54m⁶ − 16n³ = 2(3m² − 2n)(9m⁴ + 6m²n + 4n²). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7310,35 +7310,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Descompón en factores utilizando la identidad de cubos: (2x²+1)³ + (x-3)³.",
+      "enunciado": "Descompón en factores aplicando la identidad de cubos: 16x⁶ + 2y³.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(2x² + x - 2)(4x⁴ - 2x³ + 11x² - 7x + 14)"
+          "texto": "2(2x² − y)(4x⁴ − 2x²y + y²)"
         },
         {
           "id": "B",
-          "texto": "(2x² + x - 2)(4x⁴ - 2x³ + 11x² - 7x + 13)"
+          "texto": "2(2x² + y)(4x⁴ + 2x²y + y²)"
         },
         {
           "id": "C",
-          "texto": "(2x² + x - 2)(4x⁴ + 2x³ - x² - 5x + 7)"
+          "texto": "2(2x² + y)(4x⁴ − 2x²y − y²)"
         },
         {
           "id": "D",
-          "texto": "(2x² + x - 2)(4x⁴ - 2x³ + 11x² - 7x + 12)"
+          "texto": "2(2x² + y)(4x⁴ − 2x²y + y²)"
         },
         {
           "id": "E",
-          "texto": "(2x² - x + 4)(4x⁴ - 2x³ + 11x² - 7x + 13)"
+          "texto": "2(2x² + y)(4x⁴ − 4x²y + y²)"
         },
         {
           "id": "F",
-          "texto": "(2x² + x - 2)(4x⁴ - 2x³ + 9x² + 5x - 5)"
+          "texto": "2(2x² + y)(4x⁴ − 2x²y + 2y²)"
         }
       ],
-      "respuesta": "B",
-      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = 2x²+1 y B = x-3. Así, (2x²+1)³ + (x-3)³ = (2x² + x - 2)(4x⁴ - 2x³ + 11x² - 7x + 13). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "D",
+      "explicacion": "Primero se extrae el factor común 2: 16x⁶ + 2y³ = 2(8x⁶ + y³). Se aplica la identidad A³ + B³ = (A + B)(A² − AB + B²), con A = 2x² y B = y. Por tanto, 16x⁶ + 2y³ = 2(2x² + y)(4x⁴ − 2x²y + y²). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7348,35 +7348,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Factoriza mediante suma o diferencia de cubos: (4p-q)³ - (2p+3q)³.",
+      "enunciado": "Factoriza mediante suma o diferencia de cubos: 81a⁹ − 3b⁶.",
       "opciones": [
         {
           "id": "A",
-          "texto": "(-4q + 2p)(7q² + 28p² + 14pq)"
+          "texto": "3(3a³ + b²)(9a⁶ + 3a³b² + b⁴)"
         },
         {
           "id": "B",
-          "texto": "(-4q + 2p)(13q² + 12p² - 6pq)"
+          "texto": "3(3a³ − b²)(9a⁶ − 3a³b² + b⁴)"
         },
         {
           "id": "C",
-          "texto": "(-4q + 2p)(-11q² + 20p² - 10pq)"
+          "texto": "3(3a³ − b²)(9a⁶ + 3a³b² + b⁴)"
         },
         {
           "id": "D",
-          "texto": "(-4q + 2p)(7q² + 28p² + 14pq - 1)"
+          "texto": "3(3a³ − b²)(9a⁶ + 3a³b² − b⁴)"
         },
         {
           "id": "E",
-          "texto": "(-4q + 2p)(7q² + 28p² + 14pq + 1)"
+          "texto": "3(3a³ − b²)(9a⁶ + 6a³b² + b⁴)"
         },
         {
           "id": "F",
-          "texto": "(2q + 6p)(7q² + 28p² + 14pq)"
+          "texto": "3(3a³ − b²)(9a⁶ + 3a³b² + 2b⁴)"
         }
       ],
-      "respuesta": "A",
-      "explicacion": "Se aplica la identidad A³ - B³ = (A - B)(A² + AB + B²). En este ejercicio A = 4p-q y B = 2p+3q. Así, (4p-q)³ - (2p+3q)³ = (-4q + 2p)(7q² + 28p² + 14pq). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "C",
+      "explicacion": "Primero se extrae el factor común 3: 81a⁹ − 3b⁶ = 3(27a⁹ − b⁶). Se aplica la identidad A³ − B³ = (A − B)(A² + AB + B²), con A = 3a³ y B = b². Por tanto, 81a⁹ − 3b⁶ = 3(3a³ − b²)(9a⁶ + 3a³b² + b⁴). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     },
     {
@@ -7386,35 +7386,35 @@
       "subtema": "Suma o Diferencia de cubos",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "¿Cuál es la factorización correcta de (x²+y²)³ + (x-y)³?",
+      "enunciado": "¿Cuál es la factorización mediante suma o diferencia de cubos de 16p⁹ + 54q⁶?",
       "opciones": [
         {
           "id": "A",
-          "texto": "(y² + x² - y + x)(y⁴ + x⁴ + 2x²y² - y³ + x³ - x²y + xy² + y² + x² - 2xy)"
+          "texto": "2(2p³ − 3q²)(4p⁶ − 6p³q² + 9q⁴)"
         },
         {
           "id": "B",
-          "texto": "(y² + x² - y + x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² - y² - x² + 2xy)"
+          "texto": "2(2p³ + 3q²)(4p⁶ − 6p³q² + 9q⁴)"
         },
         {
           "id": "C",
-          "texto": "(y² + x² + y - x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² + y² + x² - 2xy)"
+          "texto": "2(2p³ + 3q²)(4p⁶ + 6p³q² + 9q⁴)"
         },
         {
           "id": "D",
-          "texto": "(y² + x² - y + x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² + y² + x² - 2xy - 1)"
+          "texto": "2(2p³ + 3q²)(4p⁶ − 6p³q² − 9q⁴)"
         },
         {
           "id": "E",
-          "texto": "(y² + x² - y + x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² + y² + x² - 2xy + 1)"
+          "texto": "2(2p³ + 3q²)(4p⁶ − 12p³q² + 9q⁴)"
         },
         {
           "id": "F",
-          "texto": "(y² + x² - y + x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² + y² + x² - 2xy)"
+          "texto": "2(2p³ + 3q²)(4p⁶ − 6p³q² + 18q⁴)"
         }
       ],
-      "respuesta": "F",
-      "explicacion": "Se aplica la identidad A³ + B³ = (A + B)(A² - AB + B²). En este ejercicio A = x²+y² y B = x-y. Así, (x²+y²)³ + (x-y)³ = (y² + x² - y + x)(y⁴ + x⁴ + 2x²y² + y³ - x³ + x²y - xy² + y² + x² - 2xy). La comprobación se realiza multiplicando los dos factores: el producto coincide con la expresión inicial, incluidos todos sus términos.",
+      "respuesta": "B",
+      "explicacion": "Primero se extrae el factor común 2: 16p⁹ + 54q⁶ = 2(8p⁹ + 27q⁶). Se aplica la identidad A³ + B³ = (A + B)(A² − AB + B²), con A = 2p³ y B = 3q². Por tanto, 16p⁹ + 54q⁶ = 2(2p³ + 3q²)(4p⁶ − 6p³q² + 9q⁴). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
     }
   ]
