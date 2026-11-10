@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Exportar a Moodle XML | Banco de Preguntas</title>
+<meta name="description" content="Exportación selectiva de bancos de preguntas académicos a Moodle XML.">
+<style>
+:root{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:#1d2a40;background:#f4f7fb}
+*{box-sizing:border-box}
+body{margin:0}
+header{background:#fff;border-bottom:1px solid #dbe2eb;position:sticky;top:0;z-index:3}
+nav{max-width:1120px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+nav a{font-size:14px;color:#344b68;text-decoration:none}
+nav strong{font-size:15px}
+.hero{background:linear-gradient(120deg,#142946,#234f77);color:white;padding:38px 20px}
+.hero>div,main{max-width:1080px;margin:auto}
+.hero p{color:#d7e5f7}
+main{padding:24px 20px 55px}
+h1{font-size:clamp(1.8rem,4vw,2.55rem);margin:4px 0 9px}
+h2{font-size:1.35rem;margin:0 0 12px}
+h3{font-size:1.04rem;margin:12px 0 10px}
+p{line-height:1.55}
+.card{background:#fff;border:1px solid #e1e7ee;border-radius:18px;padding:23px;margin-bottom:20px;box-shadow:0 3px 14px #10264108}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.muted{color:#56677d}.small{font-size:13px}
+label{display:block;font-size:14px;font-weight:650;margin-bottom:8px}
+input[type=number]{width:100%;border:1px solid #b7c5d5;border-radius:10px;padding:11px;font:inherit}
+input[type=checkbox]{accent-color:#1b638d;width:17px;height:17px;flex:none}
+button,.btn{border:0;border-radius:10px;padding:11px 16px;background:#1d5a80;color:white;font:inherit;font-weight:650;cursor:pointer;text-decoration:none}
+button:hover,.btn:hover{background:#124567}
+button:disabled{background:#9ba9b8;cursor:not-allowed}
+button.secondary{background:#e8f0f6;color:#234965}
+button.secondary:hover{background:#dce9f1}
+.flex{display:flex;align-items:center;gap:11px;flex-wrap:wrap}
+.subject-row,.checkline{display:flex;align-items:center;gap:10px;border:1px solid #dce4ed;border-radius:10px;padding:11px 13px;margin-bottom:8px;background:#fff;font-weight:500}
+.subject-row{justify-content:space-between;cursor:pointer}
+.subject-row>span:first-of-type{flex:1}
+.subject-row small{font-size:12px;color:#50677b;font-weight:400}
+.subject-section{margin:12px 0 18px}
+.subject-section h3{color:#243e5b;font-size:14px;margin-bottom:10px}
+.subject-card{border:1px solid #d8e4ed;border-radius:13px;margin:12px 0;overflow:hidden;background:#fff}
+.subject-card>summary{padding:15px 17px;background:#eef4fa;font-weight:700;cursor:pointer;list-style:none}
+.subject-card summary::-webkit-details-marker{display:none}
+.subject-card>div{padding:14px 17px}
+.topic-panel{border:1px solid #dce4ed;border-radius:11px;margin:9px 0;overflow:hidden}
+.topic-panel summary{padding:12px 15px;background:#f5f8fb;cursor:pointer;display:flex;justify-content:space-between;gap:12px}
+.topic-panel summary small{color:#597083;font-size:12px}
+.topic-panel>div{padding:12px 15px}
+.checkline{font-size:13px;cursor:pointer;margin:7px 0}
+.topic-controls{margin:9px 0}
+.warn{background:#fff7e7;border:1px solid #efcf8d;border-radius:11px;padding:13px;margin:12px 0}
+.success{background:#eaf5ec;border:1px solid #b7dcc5;border-radius:11px;padding:13px;margin:12px 0}
+.error{background:#fff0ee;border:1px solid #f1b7af;border-radius:11px;padding:13px;margin:12px 0}
+.stat{font-variant-numeric:tabular-nums}
+.pill{font-size:12px;font-weight:650;color:#204c6b;background:#deedf6;padding:6px 9px;border-radius:30px;display:inline-block}
+.summary-table{width:100%;border-collapse:collapse;font-size:14px}
+.summary-table th,.summary-table td{text-align:left;padding:10px 8px;border-bottom:1px solid #e3eaf1}
+.summary-table th:last-child,.summary-table td:last-child{text-align:right}
+.difficulty{display:flex;flex-wrap:wrap;gap:16px;padding:12px 0}
+.difficulty label{display:flex;align-items:center;gap:8px;font-weight:500}
+#summary .muted{margin-top:8px}
+.note{font-size:13px;color:#50647a}
+footer{text-align:center;padding:25px;color:#617186;font-size:13px}
+@media(max-width:600px){.card{padding:16px}nav{flex-wrap:wrap}.hero{padding:29px 20px}.flex button{width:100%}.summary-table{font-size:12px}}
+</style>
+</head>
+<body>
+<header><nav><strong>Banco de Preguntas Académicos</strong><div class="flex"><a href="app.html#inicio">Inicio</a><a href="app.html#docente">Configurar práctica</a><a href="exportar-moodle.html" aria-current="page">Exportar a Moodle</a></div></nav></header>
+<div class="hero"><div><span class="pill">Herramienta docente · Moodle XML</span><h1>Exportar bancos a Moodle</h1><p>Selecciona una o varias asignaturas, temas y subtemas. Descarga preguntas verificadas estructuralmente para importarlas al banco de preguntas de Moodle.</p></div></div>
+<main>
+<section class="card">
+<h2>1. Seleccionar asignaturas</h2>
+<p class="muted small">Puedes seleccionar varias. Cada asignatura se convierte en un archivo XML independiente; al elegir varias, se descargan juntas en un ZIP.</p>
+<div id="subjects"><p>Cargando catálogo…</p></div>
+</section>
+<section class="card">
+<h2>2. Seleccionar temas y subtemas</h2>
+<p class="muted small">Se marcan todos los subtemas de una asignatura al seleccionarla. Puedes ajustar el contenido de varios temas; las selecciones se conservan aunque cierres los paneles.</p>
+<div class="flex topic-controls"><button class="secondary" type="button" id="allTopics">Seleccionar todo</button><button class="secondary" type="button" id="clearTopics">Limpiar selección</button></div>
+<div id="topicSelector" aria-live="polite">Selecciona al menos una asignatura.</div>
+</section>
+<section class="card">
+<h2>3. Configurar el archivo</h2>
+<div class="grid">
+<div><label>Dificultad de las preguntas</label><div class="difficulty" id="difficulties">
+<label><input type="checkbox" value="basico" checked> Básica</label>
+<label><input type="checkbox" value="intermedio" checked> Intermedia</label>
+<label><input type="checkbox" value="avanzado" checked> Avanzada</label>
+</div></div>
+<div><label for="maximum">Máximo de preguntas por asignatura</label><input type="number" id="maximum" min="0" max="100000" step="1" value="0"><p class="note">0 = todas las seleccionadas. Si indicas un límite, se extrae una muestra aleatoria sin repetir preguntas de cada asignatura.</p></div>
+</div>
+<div class="warn small">Las categorías se exportan como Asignatura → Unidad → Tema → Subtema. En Moodle, activa <strong>Obtener categoría desde el archivo</strong> al importar. Este módulo no crea cuestionarios automáticamente ni sustituye la revisión docente.</div>
+</section>
+<section class="card">
+<h2>4. Validar y descargar</h2>
+<div id="summary" aria-live="polite">Esperando selección…</div>
+<div id="errors"></div>
+<div class="flex" style="margin-top:16px"><button id="download" type="button" disabled>Descargar Moodle XML</button><span id="exportStatus" class="small muted" role="status"></span></div>
+<p class="note">El XML contiene las respuestas correctas, las alternativas originales y las explicaciones. Importa siempre en el curso Moodle correspondiente. Los bancos de esta web son públicos; para exámenes confidenciales revisa la exposición de las preguntas y realiza una prueba de importación antes de una evaluación oficial.</p>
+</section>
+<section class="card">
+<h2>Importación en Moodle</h2>
+<p class="small">En tu curso de Moodle, abre <strong>Banco de preguntas → Importar</strong>, selecciona el formato <strong>Moodle XML</strong>, activa <strong>Obtener categoría desde el archivo</strong> y carga el XML correspondiente a esa asignatura. Si descargaste un ZIP, primero extrae los archivos XML. Después prepara el cuestionario oficial desde el banco de preguntas importado.</p>
+</section>
+</main>
+<footer>Exportador integrado · Portal académico · Generación local en tu navegador</footer>
+<script>
+"use strict";
+const BASE=new URL("./",location.href);
+const $=id=>document.getElementById(id);
+const catalogList=[];
+const bankCache=new Map();
+const selectedSubjects=new Set();
+const selections=new Map();
+const loading=new Set();
+let catalogReady=false;
+const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const escapeXml=escapeHtml;
+const choiceKey=(topic,subtopic)=>JSON.stringify([topic,subtopic]);
+const categoryPart=s=>String(s||"Sin clasificar").trim().replace(/\//g,"-");
+const getSubject=id=>catalogList.find(s=>s.id===id);
+
+async function loadBank(subject){
+ if(bankCache.has(subject.id))return bankCache.get(subject.id);
+ loading.add(subject.id);updateStatus();renderSubjects();
+ try{
+  const response=await fetch(new URL(subject.archivo,BASE),{cache:"no-store"});
+  if(!response.ok)throw Error("HTTP "+response.status);
+  const json=await response.json();
+  if(!Array.isArray(json.preguntas))throw Error("El archivo no contiene una lista de preguntas");
+  bankCache.set(subject.id,json.preguntas);
+  if(!selections.has(subject.id)){
+   selections.set(subject.id,new Set(json.preguntas.map(q=>choiceKey(q.tema||"Sin tema",q.subtema||"General"))));
+  }
+  return json.preguntas;
+ }finally{
+  loading.delete(subject.id);updateStatus();renderSubjects();
+ }
+}
+
+function renderSubjects(){
+ const institutions=[...new Set(catalogList.map(s=>s.institucion))];
+ $("subjects").innerHTML=institutions.map(inst=>
+  '<div class="subject-section"><h3>'+escapeHtml(inst)+'</h3>'+
+  catalogList.filter(s=>s.institucion===inst).map(s=>{
+   const known=bankCache.get(s.id),status=loading.has(s.id)?"Cargando…":known?known.length+" preguntas":"Por consultar";
+   return '<label class="subject-row"><input type="checkbox" data-subject="'+escapeHtml(s.id)+'" '+(selectedSubjects.has(s.id)?"checked":"")+'><span>'+escapeHtml(s.nombre)+'</span><small>'+escapeHtml(status)+'</small></label>';
+  }).join("")+'</div>'
+ ).join("");
+}
+
+function topicMap(questions){
+ const map=new Map();
+ for(const q of questions){
+  const topic=q.tema||"Sin tema",sub=q.subtema||"General";
+  if(!map.has(topic))map.set(topic,new Map());
+  const subMap=map.get(topic);
+  subMap.set(sub,(subMap.get(sub)||0)+1);
+ }
+ return [...map].sort((a,b)=>a[0].localeCompare(b[0],"es")).map(([name,subs])=>({
+  name,subs:[...subs].sort((a,b)=>a[0].localeCompare(b[0],"es")),
+  count:[...subs.values()].reduce((a,b)=>a+b,0)
+ }));
+}
+
+function renderTopics(){
+ if(!selectedSubjects.size){$("topicSelector").textContent="Selecciona al menos una asignatura.";updatePreview();return}
+ $("topicSelector").innerHTML=[...selectedSubjects].map(id=>{
+  const subject=getSubject(id),data=bankCache.get(id);
+  if(!subject)return "";
+  if(!data)return '<div class="warn">Cargando '+escapeHtml(subject.nombre)+'…</div>';
+  if(!data.length)return '<div class="warn">'+escapeHtml(subject.nombre)+' todavía no contiene preguntas.</div>';
+  const choices=selections.get(id)||new Set();
+  return '<details class="subject-card" data-subject-id="'+escapeHtml(id)+'" open><summary>'+escapeHtml(subject.nombre)+' · '+data.length+' preguntas</summary><div>'+
+   topicMap(data).map(topic=>{
+    const allChecked=topic.subs.every(([sub])=>choices.has(choiceKey(topic.name,sub)));
+    const n=topic.subs.filter(([sub])=>choices.has(choiceKey(topic.name,sub))).length;
+    return '<details class="topic-panel"><summary><strong>'+escapeHtml(topic.name)+'</strong><small>'+n+'/'+topic.subs.length+' subtemas · '+topic.count+' preguntas</small></summary><div>'+
+     '<label class="checkline"><input type="checkbox" data-kind="topic" data-topic="'+escapeHtml(topic.name)+'" '+(allChecked?"checked":"")+'><strong>Seleccionar todo el tema</strong></label>'+
+     topic.subs.map(([sub,count])=>'<label class="checkline"><input type="checkbox" data-kind="sub" value="'+escapeHtml(choiceKey(topic.name,sub))+'" '+(choices.has(choiceKey(topic.name,sub))?"checked":"")+'>'+escapeHtml(sub)+' ('+count+' preguntas)</label>').join("")+
+    '</div></details>'
+   }).join("")+
+  '</div></details>';
+ }).join("");
+ updatePreview();
+}
+
+function onTopicChange(event){
+ const input=event.target;
+ if(input.tagName!=="INPUT")return;
+ const card=input.closest(".subject-card");
+ if(!card)return;
+ const id=card.dataset.subjectId,selected=selections.get(id);
+ if(!selected)return;
+ if(input.dataset.kind==="sub"){
+  if(input.checked)selected.add(input.value);
+  else selected.delete(input.value);
+  const panel=input.closest(".topic-panel");
+  const checks=[...panel.querySelectorAll('input[data-kind="sub"]')];
+  panel.querySelector('input[data-kind="topic"]').checked=checks.every(x=>x.checked);
+ }else if(input.dataset.kind==="topic"){
+  const panel=input.closest(".topic-panel");
+  for(const child of panel.querySelectorAll('input[data-kind="sub"]')){
+   child.checked=input.checked;
+   if(child.checked)selected.add(child.value);
+   else selected.delete(child.value);
+  }
+ }else return;
+ const panel=input.closest(".topic-panel");
+ const topicName=panel.querySelector("summary strong").textContent;
+ const total=panel.querySelectorAll('input[data-kind="sub"]').length;
+ const amount=panel.querySelectorAll('input[data-kind="sub"]:checked').length;
+ const size=(bankCache.get(id)||[]).filter(q=>q.tema===topicName).length;
+ panel.querySelector("summary small").textContent=amount+"/"+total+" subtemas · "+size+" preguntas";
+ const parent=panel.querySelector('input[data-kind="topic"]'),checks=[...panel.querySelectorAll('input[data-kind="sub"]')];
+ parent.indeterminate=checks.some(x=>x.checked)&&!checks.every(x=>x.checked);
+ updatePreview();
+}
+
+function selectedDifficulties(){return new Set([...$("difficulties").querySelectorAll("input:checked")].map(x=>x.value))}
+function limitValue(){const value=$("maximum").value.trim(),n=Number(value);return value!==""&&Number.isSafeInteger(n)&&n>=0&&n<=100000?n:null}
+
+function validateQuestion(q,ids){
+ if(!q||typeof q!=="object")return "Pregunta no válida";
+ if(q.tipo&&q.tipo!=="seleccion_unica")return "Tipo de pregunta no compatible";
+ if(typeof q.id!=="string"||!q.id.trim())return "Identificador vacío";
+ if(ids.has(q.id))return "Identificador repetido";
+ ids.add(q.id);
+ if(typeof q.enunciado!=="string"||!q.enunciado.trim())return "Enunciado vacío";
+ if(!Array.isArray(q.opciones)||q.opciones.length<2)return "Se requieren al menos dos alternativas";
+ const optionIDs=new Set(),optionTexts=new Set();let correct=0;
+ for(const answer of q.opciones){
+  if(!answer||typeof answer.id!=="string"||!answer.id.trim()||typeof answer.texto!=="string"||!answer.texto.trim())return "Alternativa incompleta";
+  if(optionIDs.has(answer.id))return "Identificador de opción repetido";
+  optionIDs.add(answer.id);
+  const text=answer.texto.normalize("NFC").trim().toLowerCase();
+  if(optionTexts.has(text))return "Alternativas repetidas";
+  optionTexts.add(text);
+  if(answer.id===q.respuesta)correct++;
+ }
+ if(correct!==1)return "Debe existir exactamente una respuesta correcta";
+ if(typeof q.explicacion!=="string"||!q.explicacion.trim())return "Falta la explicación";
+ const puntaje=Number(q.puntaje===undefined?1:q.puntaje);
+ if(!Number.isFinite(puntaje)||puntaje<=0)return "Puntaje inválido";
+ return "";
+}
+
+function buildReports(){
+ const difficulties=selectedDifficulties(),cap=limitValue(),reports=[];
+ for(const id of selectedSubjects){
+  const subject=getSubject(id),questions=bankCache.get(id),chosen=selections.get(id)||new Set();
+  if(!subject||!questions)continue;
+  const eligible=questions.filter(q=>chosen.has(choiceKey(q.tema||"Sin tema",q.subtema||"General"))&&difficulties.has(q.dificultad));
+  const ids=new Set(),valid=[],errors=[];
+  for(const q of eligible){
+   const issue=validateQuestion(q,ids);
+   if(issue)errors.push({id:q&&q.id||"Sin ID",reason:issue});
+   else valid.push(q);
+  }
+  reports.push({subject,valid,errors,eligible:eligible.length,toExport:cap===null?0:(cap===0?valid.length:Math.min(cap,valid.length))});
+ }
+ return reports;
+}
+function updateStatus(){
+ const waiting=loading.size>0||!catalogReady;
+ $("exportStatus").textContent=waiting?"Cargando bancos seleccionados…":"";
+ $("download").disabled=waiting;
+}
+
+function updatePreview(){
+ const report=buildReports(),pending=loading.size>0,invalidLimit=limitValue()===null;
+ const total=report.reduce((n,r)=>n+r.toExport,0),invalid=report.reduce((n,r)=>n+r.errors.length,0);
+ const rows=report.map(r=>'<tr><td>'+escapeHtml(r.subject.nombre)+'</td><td class="stat">'+r.eligible+'</td><td class="stat">'+r.errors.length+'</td><td class="stat"><strong>'+r.toExport+'</strong></td></tr>').join("");
+ $("summary").innerHTML='<p class="small muted">Se exportan solo preguntas de selección única con clave, alternativas y explicación válidas.</p>'+
+  '<table class="summary-table"><thead><tr><th>Asignatura</th><th>Seleccionadas</th><th>Excluidas</th><th>Exportar</th></tr></thead><tbody>'+
+  (rows||'<tr><td colspan="4">No hay asignaturas cargadas.</td></tr>')+
+  '</tbody></table><p class="stat"><strong>Total a exportar: '+total+' preguntas</strong> · '+report.filter(r=>r.toExport>0).length+' archivo(s) XML.</p>';
+ const messages=[];
+ if(invalidLimit)messages.push("El máximo por asignatura debe ser un número entero entre 0 y 100000.");
+ if(!selectedDifficulties().size)messages.push("Selecciona al menos una dificultad.");
+ if(invalid){
+  const details=report.flatMap(r=>r.errors.slice(0,5).map(e=>r.subject.nombre+" / "+e.id+": "+e.reason)).slice(0,12);
+  messages.push(invalid+" pregunta(s) excluida(s) tras la validación estructural. "+details.join(" | "));
+ }
+ if(pending)messages.push("Todavía se están cargando bancos de preguntas.");
+ $("errors").innerHTML=messages.length?'<div class="warn small">'+messages.map(escapeHtml).join("<p></p>")+'</div>':"";
+ $("download").disabled=pending||invalidLimit||total===0||!selectedDifficulties().size;
+ $("download").textContent=report.filter(r=>r.toExport>0).length>1?"Descargar ZIP con XML por asignatura":"Descargar Moodle XML";
+}
+
+function xmlHtml(s){return "<p>"+escapeHtml(s).replace(/\r\n?|\n/g,"<br>")+"</p>"}
+function categoryPath(subject,q){
+ return "$course$/top/"+[subject.nombre,q.unidad||"Sin unidad",q.tema||"Sin tema",q.subtema||"General"].map(categoryPart).join("/");
+}
+function createMoodleXML(subject,questions){
+ const categories=new Map();
+ for(const q of questions){
+  const path=categoryPath(subject,q);
+  if(!categories.has(path))categories.set(path,[]);
+  categories.get(path).push(q);
+ }
+ const lines=['<?xml version="1.0" encoding="UTF-8"?>','<quiz>'];
+ for(const path of [...categories.keys()].sort((a,b)=>a.localeCompare(b,"es"))){
+  lines.push('  <question type="category"><category><text>'+escapeXml(path)+'</text></category></question>');
+  for(const q of categories.get(path)){
+   const name=q.id+" · "+q.enunciado.slice(0,90);
+   const grade=Number(q.puntaje===undefined?1:q.puntaje).toFixed(7);
+   lines.push('  <question type="multichoice">');
+   lines.push('    <name><text>'+escapeXml(name)+'</text></name>');
+   lines.push('    <questiontext format="html"><text><![CDATA['+xmlHtml(q.enunciado)+']]></text></questiontext>');
+   lines.push('    <generalfeedback format="html"><text><![CDATA['+xmlHtml(q.explicacion)+']]></text></generalfeedback>');
+   lines.push('    <defaultgrade>'+grade+'</defaultgrade>');
+   lines.push('    <penalty>0.3333333</penalty>');
+   lines.push('    <hidden>0</hidden>');
+   lines.push('    <single>true</single>');
+   lines.push('    <shuffleanswers>true</shuffleanswers>');
+   lines.push('    <answernumbering>abc</answernumbering>');
+   for(const opt of q.opciones){
+    const correct=opt.id===q.respuesta;
+    lines.push('    <answer fraction="'+(correct?"100":"0")+'" format="html">');
+    lines.push('      <text><![CDATA['+xmlHtml(opt.texto)+']]></text>');
+    lines.push('      <feedback format="html"><text><![CDATA[<p>'+(correct?"Correcto.":"Revisa tu procedimiento.")+'</p>]]></text></feedback>');
+    lines.push('    </answer>');
+   }
+   lines.push('  </question>');
+  }
+ }
+ lines.push('</quiz>');
+ return lines.join("\n")+"\n";
+}
+
+function shuffledSubset(list,max){
+ if(!max||max>=list.length)return [...list];
+ const copy=[...list];
+ const getRandom=upper=>{
+  if(window.crypto&&window.crypto.getRandomValues){
+   const arr=new Uint32Array(1),range=4294967296,limit=Math.floor(range/upper)*upper;
+   do{window.crypto.getRandomValues(arr)}while(arr[0]>=limit);
+   return arr[0]%upper;
+  }
+  return Math.floor(Math.random()*upper);
+ };
+ for(let i=copy.length-1;i>0;i--){
+  const j=getRandom(i+1);
+  [copy[i],copy[j]]=[copy[j],copy[i]];
+ }
+ return copy.slice(0,max);
+}
+function slug(s){return String(s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,70)||"asignatura"}
+function localDay(){
+ const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,"0"),String(d.getDate()).padStart(2,"0")].join("-");
+}
+function downloadBlob(blob,name){
+ const href=URL.createObjectURL(blob),a=document.createElement("a");
+ a.href=href;a.download=name;document.body.appendChild(a);a.click();a.remove();
+ setTimeout(()=>URL.revokeObjectURL(href),15000);
+}
+
+const crcTable=Array.from({length:256},(_,j)=>{let c=j;for(let i=0;i<8;i++)c=(c&1)?(0xEDB88320^(c>>>1)):(c>>>1);return c>>>0;});
+function crc32(bytes){let c=0xFFFFFFFF;for(const b of bytes)c=crcTable[(c^b)&255]^(c>>>8);return (c^0xFFFFFFFF)>>>0}
+function zipFiles(files){
+ if(files.length>65535)throw Error("Demasiados archivos ZIP");
+ const encoder=new TextEncoder(),locals=[],centrals=[];
+ const d=new Date(),dosTime=(d.getHours()<<11)|(d.getMinutes()<<5)|Math.floor(d.getSeconds()/2);
+ const dosDate=((Math.max(1980,d.getFullYear())-1980)<<9)|((d.getMonth()+1)<<5)|d.getDate();
+ let offset=0,centralSize=0;
+ for(const file of files){
+  const name=encoder.encode(file.name),data=encoder.encode(file.content),check=crc32(data);
+  const h=new Uint8Array(30),a=new DataView(h.buffer);
+  a.setUint32(0,0x04034b50,true);a.setUint16(4,20,true);a.setUint16(6,0x0800,true);
+  a.setUint16(8,0,true);a.setUint16(10,dosTime,true);a.setUint16(12,dosDate,true);
+  a.setUint32(14,check,true);a.setUint32(18,data.length,true);a.setUint32(22,data.length,true);
+  a.setUint16(26,name.length,true);a.setUint16(28,0,true);
+  locals.push(h,name,data);
+  const ch=new Uint8Array(46),v=new DataView(ch.buffer);
+  v.setUint32(0,0x02014b50,true);v.setUint16(4,20,true);v.setUint16(6,20,true);
+  v.setUint16(8,0x0800,true);v.setUint16(10,0,true);v.setUint16(12,dosTime,true);v.setUint16(14,dosDate,true);
+  v.setUint32(16,check,true);v.setUint32(20,data.length,true);v.setUint32(24,data.length,true);
+  v.setUint16(28,name.length,true);v.setUint16(30,0,true);v.setUint16(32,0,true);
+  v.setUint16(34,0,true);v.setUint16(36,0,true);v.setUint32(38,0,true);v.setUint32(42,offset,true);
+  centrals.push(ch,name);
+  offset+=h.length+name.length+data.length;centralSize+=ch.length+name.length;
+ }
+ const end=new Uint8Array(22),v=new DataView(end.buffer);
+ v.setUint32(0,0x06054b50,true);v.setUint16(4,0,true);v.setUint16(6,0,true);
+ v.setUint16(8,files.length,true);v.setUint16(10,files.length,true);
+ v.setUint32(12,centralSize,true);v.setUint32(16,offset,true);v.setUint16(20,0,true);
+ return new Blob([...locals,...centrals,end],{type:"application/zip"});
+}
+
+function startDownload(){
+ const reports=buildReports().filter(r=>r.toExport>0);
+ const cap=limitValue();
+ if(cap===null||!reports.length||loading.size){updatePreview();return}
+ const files=reports.map(r=>{
+  const subset=shuffledSubset(r.valid,cap);
+  const name=slug(r.subject.id)+"-moodle-"+localDay()+".xml";
+  return {name,content:createMoodleXML(r.subject,subset)};
+ });
+ if(files.length===1){
+  downloadBlob(new Blob([files[0].content],{type:"application/xml;charset=utf-8"}),files[0].name);
+ }else{
+  downloadBlob(zipFiles(files),"bancos-moodle-"+localDay()+".zip");
+ }
+ $("exportStatus").textContent="Descarga preparada: "+files.length+" archivo(s), "+reports.reduce((s,r)=>s+r.toExport,0)+" preguntas.";
+}
+
+async function init(){
+ try{
+  const response=await fetch(new URL("datos/catalogo.json",BASE),{cache:"no-store"});
+  if(!response.ok)throw Error("No fue posible cargar el catálogo");
+  const data=await response.json();
+  for(const institution of data.instituciones||[]){
+   for(const subject of institution.asignaturas||[]){
+    catalogList.push({...subject,institucion:institution.nombre});
+   }
+  }
+  if(!catalogList.length)throw Error("El catálogo no contiene asignaturas");
+  catalogReady=true;
+  selectedSubjects.add(catalogList.some(s=>s.id==="matematica-general")?"matematica-general":catalogList[0].id);
+  renderSubjects();
+  await Promise.all([...selectedSubjects].map(async id=>{
+   try{await loadBank(getSubject(id))}catch(e){$("exportStatus").textContent="No se pudo cargar "+getSubject(id).nombre+": "+e.message}
+  }));
+  renderTopics();
+ }catch(e){
+  $("subjects").innerHTML='<div class="error">'+escapeHtml(e.message)+'</div>';
+  $("download").disabled=true;
+ }
+}
+
+$("subjects").addEventListener("change",async event=>{
+ const input=event.target,id=input.dataset.subject;
+ if(!id)return;
+ if(!input.checked){
+  selectedSubjects.delete(id);
+  renderTopics();updatePreview();return;
+ }
+ selectedSubjects.add(id);
+ renderTopics();
+ try{await loadBank(getSubject(id))}catch(e){$("exportStatus").textContent="Error al cargar el banco: "+e.message;selectedSubjects.delete(id)}
+ renderSubjects();renderTopics();
+});
+$("topicSelector").addEventListener("change",onTopicChange);
+$("difficulties").addEventListener("change",updatePreview);
+$("maximum").addEventListener("input",updatePreview);
+$("allTopics").addEventListener("click",()=>{
+ for(const id of selectedSubjects){
+  const qs=bankCache.get(id)||[];
+  selections.set(id,new Set(qs.map(q=>choiceKey(q.tema||"Sin tema",q.subtema||"General"))));
+ }
+ renderTopics();
+});
+$("clearTopics").addEventListener("click",()=>{
+ for(const id of selectedSubjects)selections.set(id,new Set());
+ renderTopics();
+});
+$("download").addEventListener("click",startDownload);
+init();
+</script>
+</body>
+</html>
