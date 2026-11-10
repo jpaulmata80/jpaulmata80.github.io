@@ -40,12 +40,19 @@ Primera versión: configurador docente, enlaces, aleatorización, temporizador y
 
 ## Exportar a Moodle XML
 
-1. Abrir [Exportar a Moodle](exportar-moodle.html), también accesible desde el configurador docente.
-2. Seleccionar una o varias asignaturas y marcar los temas o subtemas que se incluirán.
-3. Filtrar dificultades si es necesario. Dejar `0` en el límite para descargar todas las preguntas; cualquier otro valor genera una selección aleatoria independiente por asignatura.
-4. Revisar el recuento y las exclusiones detectadas por la validación estructural.
-5. Descargar un XML cuando se selecciona una sola asignatura o un ZIP con XML separados cuando se seleccionan varias.
-6. En Moodle, entrar en **Banco de preguntas → Importar → Moodle XML**, activar **Obtener categoría desde el archivo**, extraer el ZIP si se descargó uno y cargar el XML correspondiente al curso.
-7. Comprobar categorías, alternativas, retroalimentación y claves en un cuestionario de prueba antes de una evaluación oficial.
+Desde [Exportar a Moodle](exportar-moodle.html), accesible desde el menú y el configurador docente:
 
-El formato generado es de preguntas de **selección única** (`multichoice`, `single=true`) con todas las alternativas originales, una fracción `100` para la correcta y `0` para las incorrectas. Se incluyen en el XML las categorías `Asignatura / Unidad / Tema / Subtema` bajo `$course$/top`, el enunciado y la explicación general. No convierte preguntas a selección múltiple ni crea exámenes oficiales automáticamente. Si los bancos de origen son públicos, sus respuestas también son públicas.
+1. Seleccionar una o varias asignaturas y los temas o subtemas que se incluirán.
+2. Filtrar por dificultad; dejar `0` en el límite para exportar todas las preguntas o definir un número para una selección aleatoria independiente por asignatura.
+3. Elegir la **modalidad de categorías** antes de descargar:
+   - **Sin categorías en el XML** (predeterminada): exporta únicamente las preguntas. En Moodle, seleccionar manualmente la categoría de destino y **desmarcar** «Obtener categoría desde el archivo». Todas las preguntas de ese XML irán a la categoría elegida.
+   - **Bajo una categoría padre existente**: escribir una ruta que ya existe en Moodle, por ejemplo `Matemática Superior / Geometría analítica`; elegir si debajo se incorporará **Unidad**, **Tema** y/o **Subtema**. El XML tendrá rutas basadas en `$course$/top/` y esta categoría padre. En Moodle, **activar** «Obtener categoría desde el archivo». La herramienta no consulta Moodle; el usuario debe introducir la ruta de forma exacta.
+   - **Jerarquía completa**: exporta la ruta `$course$/top/Asignatura/Unidad/Tema/Subtema`, igual que la primera versión del exportador. En Moodle, **activar** «Obtener categoría desde el archivo».
+4. Verificar la **vista previa de las rutas** y la validación estructural de preguntas. Si se configuró un límite aleatorio, la vista previa muestra rutas posibles, no necesariamente todas las que aparecerán en la muestra.
+5. Descargar un XML por asignatura, o un ZIP con XML separados si se seleccionaron varias. Descomprimir el ZIP antes de importar en Moodle.
+6. En el curso Moodle correspondiente, ir a **Banco de preguntas → Importar → Moodle XML** y seguir las instrucciones específicas que muestra el exportador según la modalidad.
+7. Comprobar categorías, alternativas, respuestas y retroalimentación mediante un cuestionario de prueba antes de la evaluación oficial.
+
+Cada pregunta de selección única conserva todas sus alternativas, una fracción de calificación de `100` en la correcta, `0` en las incorrectas y la explicación general. No se alteran los bancos JSON ni se crean automáticamente cuestionarios oficiales.
+
+**Importante:** elegir la misma categoría padre no previene que Moodle pueda incorporar de nuevo preguntas ya importadas; para evitar duplicarlas, exporta solo los contenidos nuevos y verifica su existencia antes de repetir una importación. Las categorías son propias de cada curso y contexto de Moodle, y el exportador no verifica su existencia porque no está conectado a Moodle.
