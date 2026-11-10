@@ -8184,35 +8184,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "Simplifica la suma de polinomios: (2x + 3) + (x + 4).",
+      "enunciado": "Suma y simplifica: (3x² + 2x−4) + (x²−5x + 1).",
       "opciones": [
         {
           "id": "A",
-          "texto": "3x + 8"
+          "texto": "4x² − 3x − 2"
         },
         {
           "id": "B",
-          "texto": "3x + 6"
+          "texto": "4x² − 3x − 3"
         },
         {
           "id": "C",
-          "texto": "3x + 7"
+          "texto": "4x² − 3x − 4"
         },
         {
           "id": "D",
-          "texto": "4x + 7"
+          "texto": "4x² − 3x + 3"
         },
         {
           "id": "E",
-          "texto": "2x + 7"
+          "texto": "4x² − 3x"
         },
         {
           "id": "F",
-          "texto": "x² + 3x + 7"
+          "texto": "4x² − 2x − 3"
         }
       ],
-      "respuesta": "C",
-      "explicacion": "Se agrupan y suman los coeficientes de términos semejantes: (2x + 3) + (x + 4) = 3x + 7.",
+      "respuesta": "B",
+      "explicacion": "Suma los coeficientes de los términos semejantes, respetando los exponentes. El resultado es 4x² − 3x − 3.",
       "puntaje": 1
     },
     {
@@ -8222,35 +8222,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "Calcula la resta de polinomios: (5x + 2) − (2x − 1).",
+      "enunciado": "Resta y simplifica: (4x³−x + 2)−(x³ + 2x−3).",
       "opciones": [
         {
           "id": "A",
-          "texto": "3x + 4"
+          "texto": "3x³ − 3x + 6"
         },
         {
           "id": "B",
-          "texto": "3x + 3"
+          "texto": "3x³ − 3x + 4"
         },
         {
           "id": "C",
-          "texto": "3x + 2"
+          "texto": "3x³ − 3x + 5"
         },
         {
           "id": "D",
-          "texto": "4x + 3"
+          "texto": "3x³ − 3x − 5"
         },
         {
           "id": "E",
-          "texto": "2x + 3"
+          "texto": "3x³ − 3x"
         },
         {
           "id": "F",
-          "texto": "x² + 3x + 3"
+          "texto": "3x³ − 2x + 5"
         }
       ],
-      "respuesta": "B",
-      "explicacion": "Se cambian los signos de los términos del segundo polinomio y se reducen los términos semejantes: (5x + 2) − (2x − 1) = 3x + 3.",
+      "respuesta": "C",
+      "explicacion": "Cambia los signos de todos los términos que aparecen dentro de cada paréntesis precedido por un signo menos. Luego reduce términos semejantes y obtienes 3x³ − 3x + 5.",
       "puntaje": 1
     },
     {
@@ -8260,35 +8260,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "Simplifica la suma de polinomios: (x² + 2x) + (3x² − x).",
+      "enunciado": "Suma y simplifica: (2a² + 3ab−b²) + (a²−ab + 2b²).",
       "opciones": [
         {
           "id": "A",
-          "texto": "4x² + x"
+          "texto": "3ab + 3a² + b²"
         },
         {
           "id": "B",
-          "texto": "4x² + x + 1"
+          "texto": "ab + 3a² + b²"
         },
         {
           "id": "C",
-          "texto": "4x² + x − 1"
+          "texto": "−2ab + 3a² + b²"
         },
         {
           "id": "D",
-          "texto": "4x² + 2x"
+          "texto": "2ab + 3a² + b²"
         },
         {
           "id": "E",
-          "texto": "4x²"
+          "texto": "3a² + b²"
         },
         {
           "id": "F",
-          "texto": "5x² + x"
+          "texto": "2ab + 4a² + b²"
         }
       ],
-      "respuesta": "A",
-      "explicacion": "Se agrupan y suman los coeficientes de términos semejantes: (x² + 2x) + (3x² − x) = 4x² + x.",
+      "respuesta": "D",
+      "explicacion": "Suma los coeficientes de los términos semejantes, respetando los exponentes. El resultado es 2ab + 3a² + b².",
       "puntaje": 1
     },
     {
@@ -8298,35 +8298,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "Calcula la resta de polinomios: (4x² + 1) − (x² − 2).",
+      "enunciado": "Resta y simplifica: (5y⁴−2y² + 3)−(2y⁴ + y²−1).",
       "opciones": [
         {
           "id": "A",
-          "texto": "3x² + 4"
+          "texto": "3y⁴ − 3y² + 5"
         },
         {
           "id": "B",
-          "texto": "3x² + 2"
+          "texto": "3y⁴ − 3y² + 3"
         },
         {
           "id": "C",
-          "texto": "3x² + x + 3"
+          "texto": "3y⁴ − 3y² − 4"
         },
         {
           "id": "D",
-          "texto": "3x² − x + 3"
+          "texto": "3y⁴ − 3y²"
         },
         {
           "id": "E",
-          "texto": "4x² + 3"
+          "texto": "3y⁴ − 3y² + 4"
         },
         {
           "id": "F",
-          "texto": "3x² + 3"
+          "texto": "3y⁴ − 2y² + 4"
         }
       ],
-      "respuesta": "F",
-      "explicacion": "Se cambian los signos de los términos del segundo polinomio y se reducen los términos semejantes: (4x² + 1) − (x² − 2) = 3x² + 3.",
+      "respuesta": "E",
+      "explicacion": "Cambia los signos de todos los términos que aparecen dentro de cada paréntesis precedido por un signo menos. Luego reduce términos semejantes y obtienes 3y⁴ − 3y² + 4.",
       "puntaje": 1
     },
     {
@@ -8336,35 +8336,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "basico",
       "tipo": "seleccion_unica",
-      "enunciado": "Simplifica la suma de polinomios: (3x − 2) + (2x + 5).",
+      "enunciado": "Multiplica y simplifica: (2m + 3) · (m−2).",
       "opciones": [
         {
           "id": "A",
-          "texto": "5x + 4"
+          "texto": "2m² − m − 5"
         },
         {
           "id": "B",
-          "texto": "5x + 2"
+          "texto": "2m² − m − 7"
         },
         {
           "id": "C",
-          "texto": "6x + 3"
+          "texto": "2m² − m + 6"
         },
         {
           "id": "D",
-          "texto": "4x + 3"
+          "texto": "2m² − m"
         },
         {
           "id": "E",
-          "texto": "5x + 3"
+          "texto": "2m² − 6"
         },
         {
           "id": "F",
-          "texto": "x² + 5x + 3"
+          "texto": "2m² − m − 6"
         }
       ],
-      "respuesta": "E",
-      "explicacion": "Se agrupan y suman los coeficientes de términos semejantes: (3x − 2) + (2x + 5) = 5x + 3.",
+      "respuesta": "F",
+      "explicacion": "Aplica la propiedad distributiva y reúne los términos semejantes. El producto simplificado es 2m² − m − 6.",
       "puntaje": 1
     },
     {
@@ -8374,35 +8374,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "intermedio",
       "tipo": "seleccion_unica",
-      "enunciado": "Simplifica la suma de polinomios: (3x² + 2x − 1) + (2x² − 5x + 3).",
+      "enunciado": "Resta y simplifica: (3x⁵−2x³ + x)−(x⁵ + 4x³−2x + 1).",
       "opciones": [
         {
           "id": "A",
-          "texto": "5x² − 3x + 3"
+          "texto": "2x⁵ − 6x³ + 3x − 1"
         },
         {
           "id": "B",
-          "texto": "5x² − 3x + 1"
+          "texto": "2x⁵ − 6x³ + 3x"
         },
         {
           "id": "C",
-          "texto": "5x² − 2x + 2"
+          "texto": "2x⁵ − 6x³ + 3x − 2"
         },
         {
           "id": "D",
-          "texto": "5x² − 3x + 2"
+          "texto": "2x⁵ − 6x³ + 3x + 1"
         },
         {
           "id": "E",
-          "texto": "5x² − 4x + 2"
+          "texto": "2x⁵ − 6x³ + 4x − 1"
         },
         {
           "id": "F",
-          "texto": "6x² − 3x + 2"
+          "texto": "2x⁵ − 6x³ + 2x − 1"
         }
       ],
-      "respuesta": "D",
-      "explicacion": "Se agrupan y suman los coeficientes de términos semejantes: (3x² + 2x − 1) + (2x² − 5x + 3) = 5x² − 3x + 2.",
+      "respuesta": "A",
+      "explicacion": "Cambia los signos de todos los términos que aparecen dentro de cada paréntesis precedido por un signo menos. Luego reduce términos semejantes y obtienes 2x⁵ − 6x³ + 3x − 1.",
       "puntaje": 1
     },
     {
@@ -8412,35 +8412,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "intermedio",
       "tipo": "seleccion_unica",
-      "enunciado": "Calcula la resta de polinomios: (4x² − x + 2) − (x² + 3x − 1).",
+      "enunciado": "Suma y simplifica: (4a³−2ab² + b³) + (2a³ + 5ab²−3b³).",
       "opciones": [
         {
           "id": "A",
-          "texto": "3x² − 4x + 4"
+          "texto": "4ab² + 6a³ − 2b³"
         },
         {
           "id": "B",
-          "texto": "3x² − 4x + 2"
+          "texto": "3ab² + 6a³ − 2b³"
         },
         {
           "id": "C",
-          "texto": "3x² − 4x + 3"
+          "texto": "2ab² + 6a³ − 2b³"
         },
         {
           "id": "D",
-          "texto": "3x² − 3x + 3"
+          "texto": "−3ab² + 6a³ − 2b³"
         },
         {
           "id": "E",
-          "texto": "3x² − 5x + 3"
+          "texto": "6a³ − 2b³"
         },
         {
           "id": "F",
-          "texto": "4x² − 4x + 3"
+          "texto": "3ab² + 7a³ − 2b³"
         }
       ],
-      "respuesta": "C",
-      "explicacion": "Se cambian los signos de los términos del segundo polinomio y se reducen los términos semejantes: (4x² − x + 2) − (x² + 3x − 1) = 3x² − 4x + 3.",
+      "respuesta": "B",
+      "explicacion": "Suma los coeficientes de los términos semejantes, respetando los exponentes. El resultado es 3ab² + 6a³ − 2b³.",
       "puntaje": 1
     },
     {
@@ -8450,35 +8450,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "intermedio",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (2x) · (x + 3).",
+      "enunciado": "Multiplica y simplifica: (x²−2x + 3) · (x + 1).",
       "opciones": [
         {
           "id": "A",
-          "texto": "2x² + 6x + 1"
+          "texto": "x³ − x² + x + 4"
         },
         {
           "id": "B",
-          "texto": "2x² + 6x"
+          "texto": "x³ − x² + x + 2"
         },
         {
           "id": "C",
-          "texto": "2x² + 6x − 1"
+          "texto": "x³ − x² + x + 3"
         },
         {
           "id": "D",
-          "texto": "2x² + 7x"
+          "texto": "x³ − x² + x − 3"
         },
         {
           "id": "E",
-          "texto": "2x² + 5x"
+          "texto": "x³ − x² + x"
         },
         {
           "id": "F",
-          "texto": "3x² + 6x"
+          "texto": "x³ − x² + 2x + 3"
         }
       ],
-      "respuesta": "B",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (2x) por (x + 3) es 2x² + 6x.",
+      "respuesta": "C",
+      "explicacion": "Aplica la propiedad distributiva y reúne los términos semejantes. El producto simplificado es x³ − x² + x + 3.",
       "puntaje": 1
     },
     {
@@ -8488,35 +8488,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "intermedio",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (−3x) · (x − 2).",
+      "enunciado": "Multiplica y simplifica: (2y² + 3y−1) · (y−2).",
       "opciones": [
         {
           "id": "A",
-          "texto": "−3x² + 6x"
+          "texto": "2y³ − y² − 7y + 3"
         },
         {
           "id": "B",
-          "texto": "−3x² + 6x + 1"
+          "texto": "2y³ − y² − 7y + 1"
         },
         {
           "id": "C",
-          "texto": "−3x² + 6x − 1"
+          "texto": "2y³ − y² − 7y − 2"
         },
         {
           "id": "D",
-          "texto": "−3x² + 7x"
+          "texto": "2y³ − y² − 7y + 2"
         },
         {
           "id": "E",
-          "texto": "−3x² + 5x"
+          "texto": "2y³ − y² − 7y"
         },
         {
           "id": "F",
-          "texto": "−2x² + 6x"
+          "texto": "2y³ − y² − 6y + 2"
         }
       ],
-      "respuesta": "A",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (−3x) por (x − 2) es −3x² + 6x.",
+      "respuesta": "D",
+      "explicacion": "Aplica la propiedad distributiva y reúne los términos semejantes. El producto simplificado es 2y³ − y² − 7y + 2.",
       "puntaje": 1
     },
     {
@@ -8526,35 +8526,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "intermedio",
       "tipo": "seleccion_unica",
-      "enunciado": "Calcula la resta de polinomios: (x³ + 3x² − 2) − (x² − 4x + 2).",
+      "enunciado": "Simplifica la división de polinomios: (6x³y−9x²y² + 3xy) ÷ (3xy).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x³ + 2x² + 4x − 3"
+          "texto": "−3xy + 2x² + 2"
         },
         {
           "id": "B",
-          "texto": "x³ + 2x² + 4x − 5"
+          "texto": "−3xy + 2x²"
         },
         {
           "id": "C",
-          "texto": "x³ + 2x² + 5x − 4"
+          "texto": "−3xy + 2x² − 1"
         },
         {
           "id": "D",
-          "texto": "x³ + 2x² + 3x − 4"
+          "texto": "−2xy + 2x² + 1"
         },
         {
           "id": "E",
-          "texto": "2x³ + 2x² + 4x − 4"
+          "texto": "−3xy + 2x² + 1"
         },
         {
           "id": "F",
-          "texto": "x³ + 2x² + 4x − 4"
+          "texto": "−4xy + 2x² + 1"
         }
       ],
-      "respuesta": "F",
-      "explicacion": "Se cambian los signos de los términos del segundo polinomio y se reducen los términos semejantes: (x³ + 3x² − 2) − (x² − 4x + 2) = x³ + 2x² + 4x − 4.",
+      "respuesta": "E",
+      "explicacion": "Divide cada término del numerador entre el monomio 3xy, simplificando los coeficientes y restando exponentes. El cociente es −3xy + 2x² + 1. Al multiplicarlo por el divisor se recupera el numerador.",
       "puntaje": 1
     },
     {
@@ -8564,35 +8564,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (x + 2) · (x + 3).",
+      "enunciado": "Resta y simplifica: (3x⁷−7x⁶ + x⁵−14)−(x⁴−2x² + 8x).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x² + 5x + 7"
+          "texto": "3x⁷ − 7x⁶ + x⁵ − x⁴ + 2x² − 8x − 13"
         },
         {
           "id": "B",
-          "texto": "x² + 5x + 5"
+          "texto": "3x⁷ − 7x⁶ + x⁵ − x⁴ + 2x² − 8x − 15"
         },
         {
           "id": "C",
-          "texto": "x² + 6x + 6"
+          "texto": "3x⁷ − 7x⁶ + x⁵ − x⁴ + 2x² − 8x + 14"
         },
         {
           "id": "D",
-          "texto": "x² + 4x + 6"
+          "texto": "3x⁷ − 7x⁶ + x⁵ − x⁴ + 2x² − 8x"
         },
         {
           "id": "E",
-          "texto": "x² + 5x + 6"
+          "texto": "3x⁷ − 7x⁶ + x⁵ − x⁴ + 2x² − 7x − 14"
         },
         {
           "id": "F",
-          "texto": "2x² + 5x + 6"
+          "texto": "3x⁷ − 7x⁶ + x⁵ − x⁴ + 2x² − 8x − 14"
         }
       ],
-      "respuesta": "E",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (x + 2) por (x + 3) es x² + 5x + 6.",
+      "respuesta": "F",
+      "explicacion": "Cambia los signos de todos los términos que aparecen dentro de cada paréntesis precedido por un signo menos. Luego reduce términos semejantes y obtienes 3x⁷ − 7x⁶ + x⁵ − x⁴ + 2x² − 8x − 14.",
       "puntaje": 1
     },
     {
@@ -8602,35 +8602,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (2x − 1) · (x + 4).",
+      "enunciado": "Resta y simplifica: (4s¹⁰−5s⁵ + 9)−(s¹⁰ + s⁵−s + 2).",
       "opciones": [
         {
           "id": "A",
-          "texto": "2x² + 7x − 3"
+          "texto": "3s¹⁰ − 6s⁵ + s + 7"
         },
         {
           "id": "B",
-          "texto": "2x² + 7x − 5"
+          "texto": "3s¹⁰ − 6s⁵ + s + 8"
         },
         {
           "id": "C",
-          "texto": "2x² + 8x − 4"
+          "texto": "3s¹⁰ − 6s⁵ + s + 6"
         },
         {
           "id": "D",
-          "texto": "2x² + 7x − 4"
+          "texto": "3s¹⁰ − 6s⁵ + s − 7"
         },
         {
           "id": "E",
-          "texto": "2x² + 6x − 4"
+          "texto": "3s¹⁰ − 6s⁵ + s"
         },
         {
           "id": "F",
-          "texto": "3x² + 7x − 4"
+          "texto": "3s¹⁰ − 6s⁵ + 2s + 7"
         }
       ],
-      "respuesta": "D",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (2x − 1) por (x + 4) es 2x² + 7x − 4.",
+      "respuesta": "A",
+      "explicacion": "Cambia los signos de todos los términos que aparecen dentro de cada paréntesis precedido por un signo menos. Luego reduce términos semejantes y obtienes 3s¹⁰ − 6s⁵ + s + 7.",
       "puntaje": 1
     },
     {
@@ -8640,35 +8640,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (3x + 2) · (x − 2).",
+      "enunciado": "Realiza las operaciones y simplifica: 3 · (t³−4t² + 6t−3) + 5 · (−t³ + 2t²−t + 4).",
       "opciones": [
         {
           "id": "A",
-          "texto": "3x² − 4x − 3"
+          "texto": "−2t³ − 2t² + 13t + 12"
         },
         {
           "id": "B",
-          "texto": "3x² − 4x − 5"
+          "texto": "−2t³ − 2t² + 13t + 11"
         },
         {
           "id": "C",
-          "texto": "3x² − 4x − 4"
+          "texto": "−2t³ − 2t² + 13t + 10"
         },
         {
           "id": "D",
-          "texto": "3x² − 3x − 4"
+          "texto": "−2t³ − 2t² + 13t − 11"
         },
         {
           "id": "E",
-          "texto": "3x² − 5x − 4"
+          "texto": "−2t³ − 2t² + 13t"
         },
         {
           "id": "F",
-          "texto": "4x² − 4x − 4"
+          "texto": "−2t³ − 2t² + 14t + 11"
         }
       ],
-      "respuesta": "C",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (3x + 2) por (x − 2) es 3x² − 4x − 4.",
+      "respuesta": "B",
+      "explicacion": "Desarrolla primero los productos y paréntesis indicados; después suma y resta términos semejantes. El resultado es −2t³ − 2t² + 13t + 11.",
       "puntaje": 1
     },
     {
@@ -8678,35 +8678,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (x − 3) · (x + 5).",
+      "enunciado": "Realiza las operaciones y simplifica: 6 · (2x⁴−3x³ + 4x−8)−4 · (−5x⁴ + 7x³−3x−13).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x² + 2x − 14"
+          "texto": "32x⁴ − 46x³ + 36x + 5"
         },
         {
           "id": "B",
-          "texto": "x² + 2x − 15"
+          "texto": "32x⁴ − 46x³ + 36x + 3"
         },
         {
           "id": "C",
-          "texto": "x² + 2x − 16"
+          "texto": "32x⁴ − 46x³ + 36x + 4"
         },
         {
           "id": "D",
-          "texto": "x² + 3x − 15"
+          "texto": "32x⁴ − 46x³ + 36x − 4"
         },
         {
           "id": "E",
-          "texto": "x² + x − 15"
+          "texto": "32x⁴ − 46x³ + 36x"
         },
         {
           "id": "F",
-          "texto": "2x² + 2x − 15"
+          "texto": "32x⁴ − 46x³ + 37x + 4"
         }
       ],
-      "respuesta": "B",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (x − 3) por (x + 5) es x² + 2x − 15.",
+      "respuesta": "C",
+      "explicacion": "Desarrolla primero los productos y paréntesis indicados; después suma y resta términos semejantes. El resultado es 32x⁴ − 46x³ + 36x + 4.",
       "puntaje": 1
     },
     {
@@ -8716,35 +8716,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (2x + 3) · (2x − 1).",
+      "enunciado": "Multiplica y simplifica: (3v + 2) · (v²−4v).",
       "opciones": [
         {
           "id": "A",
-          "texto": "4x² + 4x − 3"
+          "texto": "3v³ − 10v² − 7v"
         },
         {
           "id": "B",
-          "texto": "4x² + 4x − 2"
+          "texto": "3v³ − 10v² − 9v"
         },
         {
           "id": "C",
-          "texto": "4x² + 4x − 4"
+          "texto": "3v³ − 10v² + 8v"
         },
         {
           "id": "D",
-          "texto": "4x² + 5x − 3"
+          "texto": "3v³ − 10v² − 8v"
         },
         {
           "id": "E",
-          "texto": "4x² + 3x − 3"
+          "texto": "3v³ − 10v²"
         },
         {
           "id": "F",
-          "texto": "5x² + 4x − 3"
+          "texto": "3v³ − 9v² − 8v"
         }
       ],
-      "respuesta": "A",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (2x + 3) por (2x − 1) es 4x² + 4x − 3.",
+      "respuesta": "D",
+      "explicacion": "Aplica la propiedad distributiva y reúne los términos semejantes. El producto simplificado es 3v³ − 10v² − 8v.",
       "puntaje": 1
     },
     {
@@ -8754,35 +8754,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (x − 4) · (x − 2).",
+      "enunciado": "Multiplica y simplifica: (w² + 2w−1) · (w³−w).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x² − 6x + 9"
+          "texto": "w⁵ + 2w⁴ − 2w³ − 2w² + 2w"
         },
         {
           "id": "B",
-          "texto": "x² − 6x + 7"
+          "texto": "w⁵ + 2w⁴ − 2w³ − 2w²"
         },
         {
           "id": "C",
-          "texto": "x² − 5x + 8"
+          "texto": "w⁵ + 2w⁴ − 2w³ − 2w² − w"
         },
         {
           "id": "D",
-          "texto": "x² − 7x + 8"
+          "texto": "w⁵ + 2w⁴ − 2w³ − w² + w"
         },
         {
           "id": "E",
-          "texto": "2x² − 6x + 8"
+          "texto": "w⁵ + 2w⁴ − 2w³ − 2w² + w"
         },
         {
           "id": "F",
-          "texto": "x² − 6x + 8"
+          "texto": "w⁵ + 2w⁴ − 2w³ − 3w² + w"
         }
       ],
-      "respuesta": "F",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (x − 4) por (x − 2) es x² − 6x + 8.",
+      "respuesta": "E",
+      "explicacion": "Aplica la propiedad distributiva y reúne los términos semejantes. El producto simplificado es w⁵ + 2w⁴ − 2w³ − 2w² + w.",
       "puntaje": 1
     },
     {
@@ -8792,35 +8792,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (3x − 1) · (x + 3).",
+      "enunciado": "Multiplica y simplifica: (y²−3y + 2) · (y² + y−4).",
       "opciones": [
         {
           "id": "A",
-          "texto": "3x² + 8x − 2"
+          "texto": "y⁴ − 2y³ − 5y² + 14y − 7"
         },
         {
           "id": "B",
-          "texto": "3x² + 8x − 4"
+          "texto": "y⁴ − 2y³ − 5y² + 14y − 9"
         },
         {
           "id": "C",
-          "texto": "3x² + 9x − 3"
+          "texto": "y⁴ − 2y³ − 5y² + 14y + 8"
         },
         {
           "id": "D",
-          "texto": "3x² + 7x − 3"
+          "texto": "y⁴ − 2y³ − 5y² + 14y"
         },
         {
           "id": "E",
-          "texto": "3x² + 8x − 3"
+          "texto": "y⁴ − 2y³ − 5y² + 15y − 8"
         },
         {
           "id": "F",
-          "texto": "4x² + 8x − 3"
+          "texto": "y⁴ − 2y³ − 5y² + 14y − 8"
         }
       ],
-      "respuesta": "E",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (3x − 1) por (x + 3) es 3x² + 8x − 3.",
+      "respuesta": "F",
+      "explicacion": "Aplica la propiedad distributiva y reúne los términos semejantes. El producto simplificado es y⁴ − 2y³ − 5y² + 14y − 8.",
       "puntaje": 1
     },
     {
@@ -8830,35 +8830,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (x + 1) · (x² + 2x + 3).",
+      "enunciado": "Multiplica y simplifica: (z³−2z + 1) · (2z³ + 3z−4).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x³ + 3x² + 5x + 4"
+          "texto": "2z⁶ − z⁴ − 2z³ − 6z² + 11z − 4"
         },
         {
           "id": "B",
-          "texto": "x³ + 3x² + 5x + 2"
+          "texto": "2z⁶ − z⁴ − 2z³ − 6z² + 11z − 3"
         },
         {
           "id": "C",
-          "texto": "x³ + 3x² + 6x + 3"
+          "texto": "2z⁶ − z⁴ − 2z³ − 6z² + 11z − 5"
         },
         {
           "id": "D",
-          "texto": "x³ + 3x² + 5x + 3"
+          "texto": "2z⁶ − z⁴ − 2z³ − 6z² + 11z + 4"
         },
         {
           "id": "E",
-          "texto": "x³ + 3x² + 4x + 3"
+          "texto": "2z⁶ − z⁴ − 2z³ − 6z² + 11z"
         },
         {
           "id": "F",
-          "texto": "2x³ + 3x² + 5x + 3"
+          "texto": "2z⁶ − z⁴ − 2z³ − 6z² + 12z − 4"
         }
       ],
-      "respuesta": "D",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (x + 1) por (x² + 2x + 3) es x³ + 3x² + 5x + 3.",
+      "respuesta": "A",
+      "explicacion": "Aplica la propiedad distributiva y reúne los términos semejantes. El producto simplificado es 2z⁶ − z⁴ − 2z³ − 6z² + 11z − 4.",
       "puntaje": 1
     },
     {
@@ -8868,35 +8868,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (x − 2) · (x² + 3x + 1).",
+      "enunciado": "Suma y simplifica: (3a⁴−2a²b² + 4b⁴) + (5a⁴ + 3a³b + a²b²−2b⁴).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x³ + x² − 5x − 1"
+          "texto": "3a³b + 8a⁴ + 2b⁴"
         },
         {
           "id": "B",
-          "texto": "x³ + x² − 5x − 3"
+          "texto": "−a²b² + 3a³b + 8a⁴ + 2b⁴"
         },
         {
           "id": "C",
-          "texto": "x³ + x² − 5x − 2"
+          "texto": "−2a²b² + 3a³b + 8a⁴ + 2b⁴"
         },
         {
           "id": "D",
-          "texto": "x³ + x² − 4x − 2"
+          "texto": "a²b² + 3a³b + 8a⁴ + 2b⁴"
         },
         {
           "id": "E",
-          "texto": "x³ + x² − 6x − 2"
+          "texto": "−a²b² + 4a³b + 8a⁴ + 2b⁴"
         },
         {
           "id": "F",
-          "texto": "2x³ + x² − 5x − 2"
+          "texto": "−a²b² + 2a³b + 8a⁴ + 2b⁴"
         }
       ],
-      "respuesta": "C",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (x − 2) por (x² + 3x + 1) es x³ + x² − 5x − 2.",
+      "respuesta": "B",
+      "explicacion": "Suma los coeficientes de los términos semejantes, respetando los exponentes. El resultado es −a²b² + 3a³b + 8a⁴ + 2b⁴.",
       "puntaje": 1
     },
     {
@@ -8906,35 +8906,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Multiplica y simplifica: (2x + 1) · (x² − x + 2).",
+      "enunciado": "Multiplica y simplifica: (3a−2b) · (2a² + ab−b²).",
       "opciones": [
         {
           "id": "A",
-          "texto": "2x³ − x² + 3x + 3"
+          "texto": "−4ab² − a²b + 6a³ + 2b³"
         },
         {
           "id": "B",
-          "texto": "2x³ − x² + 3x + 2"
+          "texto": "−6ab² − a²b + 6a³ + 2b³"
         },
         {
           "id": "C",
-          "texto": "2x³ − x² + 3x + 1"
+          "texto": "−5ab² − a²b + 6a³ + 2b³"
         },
         {
           "id": "D",
-          "texto": "2x³ − x² + 4x + 2"
+          "texto": "5ab² − a²b + 6a³ + 2b³"
         },
         {
           "id": "E",
-          "texto": "2x³ − x² + 2x + 2"
+          "texto": "−a²b + 6a³ + 2b³"
         },
         {
           "id": "F",
-          "texto": "3x³ − x² + 3x + 2"
+          "texto": "−5ab² + 6a³ + 2b³"
         }
       ],
-      "respuesta": "B",
-      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (2x + 1) por (x² − x + 2) es 2x³ − x² + 3x + 2.",
+      "respuesta": "C",
+      "explicacion": "Aplica la propiedad distributiva y reúne los términos semejantes. El producto simplificado es −5ab² − a²b + 6a³ + 2b³.",
       "puntaje": 1
     },
     {
@@ -8944,35 +8944,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Halla el cociente exacto de (x² + 3x + 2) ÷ (x + 1).",
+      "enunciado": "Multiplica y simplifica: (x²−2xy + y²) · (3x−2y).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x + 2"
+          "texto": "8xy² − 8x²y + 3x³ − 2y³"
         },
         {
           "id": "B",
-          "texto": "x + 3"
+          "texto": "6xy² − 8x²y + 3x³ − 2y³"
         },
         {
           "id": "C",
-          "texto": "x + 1"
+          "texto": "−7xy² − 8x²y + 3x³ − 2y³"
         },
         {
           "id": "D",
-          "texto": "2x + 2"
+          "texto": "7xy² − 8x²y + 3x³ − 2y³"
         },
         {
           "id": "E",
-          "texto": "2"
+          "texto": "−8x²y + 3x³ − 2y³"
         },
         {
           "id": "F",
-          "texto": "x² + x + 2"
+          "texto": "7xy² − 7x²y + 3x³ − 2y³"
         }
       ],
-      "respuesta": "A",
-      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (x + 1) · (x + 2) = x² + 3x + 2. El residuo es cero; por eso el cociente es x + 2.",
+      "respuesta": "D",
+      "explicacion": "Aplica la propiedad distributiva y reúne los términos semejantes. El producto simplificado es 7xy² − 8x²y + 3x³ − 2y³.",
       "puntaje": 1
     },
     {
@@ -8982,35 +8982,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Halla el cociente exacto de (2x² + 7x + 3) ÷ (2x + 1).",
+      "enunciado": "Simplifica la división de polinomios: (6s² · (3rs−2rs²)) ÷ (3rs³).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x + 4"
+          "texto": "−4s + 7"
         },
         {
           "id": "B",
-          "texto": "x + 2"
+          "texto": "−4s + 5"
         },
         {
           "id": "C",
-          "texto": "2x + 3"
+          "texto": "−4s − 6"
         },
         {
           "id": "D",
-          "texto": "3"
+          "texto": "−4s"
         },
         {
           "id": "E",
-          "texto": "x² + x + 3"
+          "texto": "−4s + 6"
         },
         {
           "id": "F",
-          "texto": "x + 3"
+          "texto": "−3s + 6"
         }
       ],
-      "respuesta": "F",
-      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (2x + 1) · (x + 3) = 2x² + 7x + 3. El residuo es cero; por eso el cociente es x + 3.",
+      "respuesta": "E",
+      "explicacion": "Divide cada término del numerador entre el monomio 3rs³, simplificando los coeficientes y restando exponentes. El cociente es −4s + 6. Al multiplicarlo por el divisor se recupera el numerador.",
       "puntaje": 1
     },
     {
@@ -9020,35 +9020,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Halla el cociente exacto de (x² − x − 6) ÷ (x − 3).",
+      "enunciado": "Simplifica la división de polinomios: (9p⁴q²−6p²q⁴) ÷ (3p²q²).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x + 3"
+          "texto": "4p² − 2q²"
         },
         {
           "id": "B",
-          "texto": "x + 1"
+          "texto": "2p² − 2q²"
         },
         {
           "id": "C",
-          "texto": "2x + 2"
+          "texto": "−3p² − 2q²"
         },
         {
           "id": "D",
-          "texto": "2"
+          "texto": "−2q²"
         },
         {
           "id": "E",
-          "texto": "x + 2"
+          "texto": "3p² − q²"
         },
         {
           "id": "F",
-          "texto": "x² + x + 2"
+          "texto": "3p² − 2q²"
         }
       ],
-      "respuesta": "E",
-      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (x − 3) · (x + 2) = x² − x − 6. El residuo es cero; por eso el cociente es x + 2.",
+      "respuesta": "F",
+      "explicacion": "Divide cada término del numerador entre el monomio 3p²q², simplificando los coeficientes y restando exponentes. El cociente es 3p² − 2q². Al multiplicarlo por el divisor se recupera el numerador.",
       "puntaje": 1
     },
     {
@@ -9058,35 +9058,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Halla el cociente exacto de (3x² + 8x + 4) ÷ (3x + 2).",
+      "enunciado": "Simplifica la división de polinomios: (4x²y²−(2xy)² + 8x³y³) ÷ (4x²y²).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x + 3"
+          "texto": "2xy"
         },
         {
           "id": "B",
-          "texto": "x + 1"
+          "texto": "3xy"
         },
         {
           "id": "C",
-          "texto": "2x + 2"
+          "texto": "xy"
         },
         {
           "id": "D",
-          "texto": "x + 2"
+          "texto": "−2xy"
         },
         {
           "id": "E",
-          "texto": "2"
+          "texto": "0"
         },
         {
           "id": "F",
-          "texto": "x² + x + 2"
+          "texto": "2xy + 1"
         }
       ],
-      "respuesta": "D",
-      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (3x + 2) · (x + 2) = 3x² + 8x + 4. El residuo es cero; por eso el cociente es x + 2.",
+      "respuesta": "A",
+      "explicacion": "Divide cada término del numerador entre el monomio 4x²y², simplificando los coeficientes y restando exponentes. El cociente es 2xy. Al multiplicarlo por el divisor se recupera el numerador.",
       "puntaje": 1
     },
     {
@@ -9096,35 +9096,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Halla el cociente exacto de (x² − 4) ÷ (x − 2).",
+      "enunciado": "Simplifica la división de polinomios: (12a⁵b³−6a³b³ + 3a³b⁴) ÷ (3a³b³).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x + 3"
+          "texto": "4a² + b − 1"
         },
         {
           "id": "B",
-          "texto": "x + 1"
+          "texto": "4a² + b − 2"
         },
         {
           "id": "C",
-          "texto": "x + 2"
+          "texto": "4a² + b − 3"
         },
         {
           "id": "D",
-          "texto": "2x + 2"
+          "texto": "4a² + b + 2"
         },
         {
           "id": "E",
-          "texto": "2"
+          "texto": "4a² + b"
         },
         {
           "id": "F",
-          "texto": "x² + x + 2"
+          "texto": "5a² + b − 2"
         }
       ],
-      "respuesta": "C",
-      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (x − 2) · (x + 2) = x² − 4. El residuo es cero; por eso el cociente es x + 2.",
+      "respuesta": "B",
+      "explicacion": "Divide cada término del numerador entre el monomio 3a³b³, simplificando los coeficientes y restando exponentes. El cociente es 4a² + b − 2. Al multiplicarlo por el divisor se recupera el numerador.",
       "puntaje": 1
     },
     {
@@ -9134,35 +9134,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Halla el cociente exacto de (2x³ + 4x² − 6x) ÷ (2x).",
+      "enunciado": "Realiza las operaciones y simplifica: (2x² + 3x−1)−((x²−4x + 5)−(3x−2)).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x² + 2x − 2"
+          "texto": "x² + 10x − 7"
         },
         {
           "id": "B",
-          "texto": "x² + 2x − 3"
+          "texto": "x² + 10x − 9"
         },
         {
           "id": "C",
-          "texto": "x² + 2x − 4"
+          "texto": "x² + 10x − 8"
         },
         {
           "id": "D",
-          "texto": "x² + 3x − 3"
+          "texto": "x² + 10x + 8"
         },
         {
           "id": "E",
-          "texto": "x² + x − 3"
+          "texto": "x² + 10x"
         },
         {
           "id": "F",
-          "texto": "2x² + 2x − 3"
+          "texto": "x² + 11x − 8"
         }
       ],
-      "respuesta": "B",
-      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (2x) · (x² + 2x − 3) = 2x³ + 4x² − 6x. El residuo es cero; por eso el cociente es x² + 2x − 3.",
+      "respuesta": "C",
+      "explicacion": "Desarrolla primero los productos y paréntesis indicados; después suma y resta términos semejantes. El resultado es x² + 10x − 8.",
       "puntaje": 1
     },
     {
@@ -9172,35 +9172,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Halla el cociente exacto de (x³ + 2x² + x) ÷ (x).",
+      "enunciado": "Realiza las operaciones y simplifica: 2 · (x³−2x + 1)−(x³ + 3x−4).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x² + 2x + 1"
+          "texto": "x³ − 7x + 7"
         },
         {
           "id": "B",
-          "texto": "x² + 2x + 2"
+          "texto": "x³ − 7x + 5"
         },
         {
           "id": "C",
-          "texto": "x² + 2x"
+          "texto": "x³ − 7x − 6"
         },
         {
           "id": "D",
-          "texto": "x² + 3x + 1"
+          "texto": "x³ − 7x + 6"
         },
         {
           "id": "E",
-          "texto": "x² + x + 1"
+          "texto": "x³ − 7x"
         },
         {
           "id": "F",
-          "texto": "2x² + 2x + 1"
+          "texto": "x³ − 6x + 6"
         }
       ],
-      "respuesta": "A",
-      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (x) · (x² + 2x + 1) = x³ + 2x² + x. El residuo es cero; por eso el cociente es x² + 2x + 1.",
+      "respuesta": "D",
+      "explicacion": "Desarrolla primero los productos y paréntesis indicados; después suma y resta términos semejantes. El resultado es x³ − 7x + 6.",
       "puntaje": 1
     },
     {
@@ -9210,35 +9210,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Simplifica la operación: (2x² − 3x + 4) − (x² + 2x − 1) + (x − 2).",
+      "enunciado": "Realiza las operaciones y simplifica: (x² + 1) · (x²−1)−(x⁴−2x² + 3).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x² − 4x + 4"
+          "texto": "2x² − 3"
         },
         {
           "id": "B",
-          "texto": "x² − 4x + 2"
+          "texto": "2x² − 5"
         },
         {
           "id": "C",
-          "texto": "x² − 3x + 3"
+          "texto": "2x² + 4"
         },
         {
           "id": "D",
-          "texto": "x² − 5x + 3"
+          "texto": "2x²"
         },
         {
           "id": "E",
-          "texto": "2x² − 4x + 3"
+          "texto": "2x² − 4"
         },
         {
           "id": "F",
-          "texto": "x² − 4x + 3"
+          "texto": "3x² − 4"
         }
       ],
-      "respuesta": "F",
-      "explicacion": "Se distribuye el signo menos del segundo polinomio y luego se agrupan los términos semejantes: (2x² − 3x + 4) − (x² + 2x − 1) + (x − 2) = x² − 4x + 3.",
+      "respuesta": "E",
+      "explicacion": "Desarrolla primero los productos y paréntesis indicados; después suma y resta términos semejantes. El resultado es 2x² − 4.",
       "puntaje": 1
     },
     {
@@ -9248,35 +9248,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Simplifica: (x + 2) · (x − 3) + (4x + 1).",
+      "enunciado": "Multiplica y simplifica: (3m²−2mn + n²) · (m + n).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x² + 3x − 4"
+          "texto": "m²n + 3m³ + n³"
         },
         {
           "id": "B",
-          "texto": "x² + 3x − 6"
+          "texto": "−2mn² + m²n + 3m³ + n³"
         },
         {
           "id": "C",
-          "texto": "x² + 4x − 5"
+          "texto": "mn² + m²n + 3m³ + n³"
         },
         {
           "id": "D",
-          "texto": "x² + 2x − 5"
+          "texto": "−mn² + 2m²n + 3m³ + n³"
         },
         {
           "id": "E",
-          "texto": "x² + 3x − 5"
+          "texto": "−mn² + 3m³ + n³"
         },
         {
           "id": "F",
-          "texto": "2x² + 3x − 5"
+          "texto": "−mn² + m²n + 3m³ + n³"
         }
       ],
-      "respuesta": "E",
-      "explicacion": "Primero se multiplican los binomios y después se suman los términos semejantes con el último polinomio. El resultado es x² + 3x − 5.",
+      "respuesta": "F",
+      "explicacion": "Aplica la propiedad distributiva y reúne los términos semejantes. El producto simplificado es −mn² + m²n + 3m³ + n³.",
       "puntaje": 1
     },
     {
@@ -9286,35 +9286,35 @@
       "subtema": "Operaciones de polinomios",
       "dificultad": "avanzado",
       "tipo": "seleccion_unica",
-      "enunciado": "Simplifica: (2x − 1) · (x + 2) − (x² + 2x − 4).",
+      "enunciado": "Realiza las operaciones y simplifica: (2x−3) · (x² + x−2) + (x²−4x + 1).",
       "opciones": [
         {
           "id": "A",
-          "texto": "x² + x + 3"
+          "texto": "2x³ − 11x + 7"
         },
         {
           "id": "B",
-          "texto": "x² + x + 1"
+          "texto": "2x³ − 11x + 8"
         },
         {
           "id": "C",
-          "texto": "x² + 2x + 2"
+          "texto": "2x³ − 11x + 6"
         },
         {
           "id": "D",
-          "texto": "x² + x + 2"
+          "texto": "2x³ − 11x − 7"
         },
         {
           "id": "E",
-          "texto": "x² + 2"
+          "texto": "2x³ − 11x"
         },
         {
           "id": "F",
-          "texto": "2x² + x + 2"
+          "texto": "2x³ − 10x + 7"
         }
       ],
-      "respuesta": "D",
-      "explicacion": "Primero se multiplican los binomios. Luego se resta todo el último polinomio cambiando el signo de cada término: x² + x + 2.",
+      "respuesta": "A",
+      "explicacion": "Desarrolla primero los productos y paréntesis indicados; después suma y resta términos semejantes. El resultado es 2x³ − 11x + 7.",
       "puntaje": 1
     }
   ]
