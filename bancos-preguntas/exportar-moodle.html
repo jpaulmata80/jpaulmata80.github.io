@@ -61,6 +61,26 @@ button.secondary:hover{background:#dce9f1}
 .difficulty label{display:flex;align-items:center;gap:8px;font-weight:500}
 #summary .muted{margin-top:8px}
 .note{font-size:13px;color:#50647a}
+.hidden{display:none!important}
+.category-modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:11px;margin:15px 0}
+.category-choice{border:1px solid #d9e5ee;background:#f9fcfe;border-radius:11px;display:flex;gap:10px;align-items:flex-start;padding:13px;cursor:pointer;margin:0}
+.category-choice input{width:17px;height:17px;margin-top:3px;flex:none;accent-color:#1b638d}
+.category-choice strong{display:block;font-size:14px}
+.category-choice small{display:block;margin-top:5px;font-size:12px;color:#536980;font-weight:400;line-height:1.5}
+.category-choice:has(input:checked){border-color:#2c739c;background:#eaf4fa}
+.parent-field{margin:12px 0}
+.parent-field label{margin-bottom:7px}
+.parent-field input[type=text]{width:100%;padding:11px;border:1px solid #aebfce;border-radius:9px;font:inherit;color:#22364d}
+.category-levels{display:flex;flex-wrap:wrap;gap:16px;margin:12px 0}
+.category-levels label{display:flex;gap:8px;align-items:center;font-weight:500;margin:0}
+.category-preview{border:1px solid #dce6f0;background:#fafcff;border-radius:13px;padding:14px 16px;margin-top:14px}
+.category-preview h3{margin:0 0 10px}
+.category-preview details{padding:9px 0;border-bottom:1px solid #e3eaf1}
+.category-preview summary{cursor:pointer;font-size:13px;font-weight:650}
+.category-preview ul{margin:9px 0 8px 22px;padding:0}
+.category-preview li{font-size:12px;color:#405a74;overflow-wrap:anywhere;margin:6px 0}
+.category-mode-hint{padding:12px;background:#e8f2f9;border:1px solid #c8deed;border-radius:10px;margin-top:12px;font-size:13px;line-height:1.55}
+
 footer{text-align:center;padding:25px;color:#617186;font-size:13px}
 @media(max-width:600px){.card{padding:16px}nav{flex-wrap:wrap}.hero{padding:29px 20px}.flex button{width:100%}.summary-table{font-size:12px}}
 </style>
@@ -90,10 +110,32 @@ footer{text-align:center;padding:25px;color:#617186;font-size:13px}
 </div></div>
 <div><label for="maximum">Máximo de preguntas por asignatura</label><input type="number" id="maximum" min="0" max="100000" step="1" value="0"><p class="note">0 = todas las seleccionadas. Si indicas un límite, se extrae una muestra aleatoria sin repetir preguntas de cada asignatura.</p></div>
 </div>
-<div class="warn small">Las categorías se exportan como Asignatura → Unidad → Tema → Subtema. En Moodle, activa <strong>Obtener categoría desde el archivo</strong> al importar. Este módulo no crea cuestionarios automáticamente ni sustituye la revisión docente.</div>
+<p class="note">El límite de preguntas se aplica por asignatura. La selección aleatoria se realiza al descargar.</p>
 </section>
 <section class="card">
-<h2>4. Validar y descargar</h2>
+<h2>4. Destino y categorías de Moodle</h2>
+<p class="muted small">Elige cómo se organizarán las preguntas al importarlas. Para añadir preguntas a una categoría que ya existe, recomendamos la primera opción.</p>
+<div id="categoryMode" class="category-modes" role="radiogroup" aria-label="Modalidad de categorías">
+<label class="category-choice"><input type="radio" name="categoryMode" value="none" checked><span><strong>Sin categorías en el XML</strong><small>Solo preguntas. Elegirás la categoría de destino directamente en Moodle. Recomendado para cargas incrementales.</small></span></label>
+<label class="category-choice"><input type="radio" name="categoryMode" value="parent"><span><strong>Bajo una categoría padre existente</strong><small>Indica la ruta padre que ya tienes en Moodle y selecciona los nuevos niveles que deseas agregar.</small></span></label>
+<label class="category-choice"><input type="radio" name="categoryMode" value="full"><span><strong>Jerarquía completa</strong><small>Asignatura → Unidad → Tema → Subtema. Adecuado al preparar un banco nuevo.</small></span></label>
+</div>
+<div id="parentModeFields" class="hidden">
+<p class="note">Escribe la ruta <strong>exacta</strong> que ya existe en el curso de Moodle, separando las categorías con <strong>/</strong>. Puedes introducir una ruta diferente por asignatura. No necesitas escribir <code>$course$/top/</code>; se añadirá automáticamente.</p>
+<div id="parentPaths"></div>
+<label>Niveles que se añadirán debajo de esa categoría padre</label>
+<div id="parentLevels" class="category-levels">
+<label><input type="checkbox" id="parentUnit"> Unidad</label>
+<label><input type="checkbox" id="parentTopic" checked> Tema</label>
+<label><input type="checkbox" id="parentSubtopic" checked> Subtema</label>
+</div>
+<p class="note">Desmarca los niveles que ya estén incluidos en tu ruta padre. Si desmarcas todos, las preguntas irán directamente a la categoría padre indicada.</p>
+</div>
+<div id="moodleImportHint" class="category-mode-hint"></div>
+<div id="categoryPreview" class="category-preview" aria-live="polite"></div>
+</section>
+<section class="card">
+<h2>5. Validar y descargar</h2>
 <div id="summary" aria-live="polite">Esperando selección…</div>
 <div id="errors"></div>
 <div class="flex" style="margin-top:16px"><button id="download" type="button" disabled>Descargar Moodle XML</button><span id="exportStatus" class="small muted" role="status"></span></div>
@@ -101,7 +143,8 @@ footer{text-align:center;padding:25px;color:#617186;font-size:13px}
 </section>
 <section class="card">
 <h2>Importación en Moodle</h2>
-<p class="small">En tu curso de Moodle, abre <strong>Banco de preguntas → Importar</strong>, selecciona el formato <strong>Moodle XML</strong>, activa <strong>Obtener categoría desde el archivo</strong> y carga el XML correspondiente a esa asignatura. Si descargaste un ZIP, primero extrae los archivos XML. Después prepara el cuestionario oficial desde el banco de preguntas importado.</p>
+<p id="moodleInstructions" class="small">En el curso Moodle, abre <strong>Banco de preguntas → Importar → Moodle XML</strong>. Las instrucciones específicas aparecerán de acuerdo con la modalidad de categorías elegida arriba.</p>
+<p class="note">El exportador no se conecta a Moodle y no puede verificar si una ruta padre existe. Debes copiarla exactamente. Importar de nuevo las mismas preguntas puede crear duplicados de preguntas, aunque reutilices las categorías.</p>
 </section>
 </main>
 <footer>Exportador integrado · Portal académico · Generación local en tu navegador</footer>
@@ -113,6 +156,7 @@ const catalogList=[];
 const bankCache=new Map();
 const selectedSubjects=new Set();
 const selections=new Map();
+const parentPaths=new Map();
 const loading=new Set();
 let catalogReady=false;
 const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -165,7 +209,7 @@ function topicMap(questions){
 }
 
 function renderTopics(){
- if(!selectedSubjects.size){$("topicSelector").textContent="Selecciona al menos una asignatura.";updatePreview();return}
+ if(!selectedSubjects.size){$("topicSelector").textContent="Selecciona al menos una asignatura.";renderCategoryControls();updatePreview();return}
  $("topicSelector").innerHTML=[...selectedSubjects].map(id=>{
   const subject=getSubject(id),data=bankCache.get(id);
   if(!subject)return "";
@@ -183,6 +227,7 @@ function renderTopics(){
    }).join("")+
   '</div></details>';
  }).join("");
+ renderCategoryControls();
  updatePreview();
 }
 
@@ -246,6 +291,96 @@ function validateQuestion(q,ids){
  return "";
 }
 
+
+function categoryModeValue(){return document.querySelector('input[name="categoryMode"]:checked')?.value||"none"}
+function getCategoryConfig(subject){
+ const mode=categoryModeValue();
+ if(mode==="parent"){
+  return {mode,parentPath:parentPaths.get(subject.id)||"",unit:$("parentUnit").checked,topic:$("parentTopic").checked,subtopic:$("parentSubtopic").checked};
+ }
+ return {mode};
+}
+function readParentParts(raw){
+ const original=String(raw||"").trim();
+ if(!original)return null;
+ const path=original.replace(/^\$course\$\/top\/?/i,"");
+ if(!path||path.startsWith("/")||path.endsWith("/")||path.includes("//"))return null;
+ const parts=path.split("/").map(s=>s.trim());
+ if(parts.some(p=>!p||/[\u0000-\u001F<>]/.test(p)||/^\$[^$]+\$/.test(p)||p==="."||p===".."))return null;
+ return parts;
+}
+function categoryPathFor(subject,q,config={mode:"none"}){
+ const mode=config.mode||"none";
+ if(mode==="none")return null;
+ if(mode==="full")return "$course$/top/"+[subject.nombre,q.unidad||"Sin unidad",q.tema||"Sin tema",q.subtema||"General"].map(categoryPart).join("/");
+ if(mode==="parent"){
+  const parts=readParentParts(config.parentPath);
+  if(!parts)throw Error("La ruta padre de "+subject.nombre+" está vacía o contiene separadores inválidos.");
+  const levels=[];
+  if(config.unit)levels.push(categoryPart(q.unidad||"Sin unidad"));
+  if(config.topic)levels.push(categoryPart(q.tema||"Sin tema"));
+  if(config.subtopic)levels.push(categoryPart(q.subtema||"General"));
+  return "$course$/top/"+[...parts.map(categoryPart),...levels].join("/");
+ }
+ throw Error("Modalidad de categorías desconocida");
+}
+function categoryErrors(reports){
+ if(categoryModeValue()!=="parent")return [];
+ return reports.filter(r=>r.toExport>0&&!readParentParts(parentPaths.get(r.subject.id)||""))
+  .map(r=>"Indica una ruta padre válida para "+r.subject.nombre+".");
+}
+function renderCategoryControls(){
+ const mode=categoryModeValue();
+ $("parentModeFields").classList.toggle("hidden",mode!=="parent");
+ $("parentPaths").innerHTML=[...selectedSubjects].map(id=>{
+  const sub=getSubject(id);
+  if(!sub||!(bankCache.get(id)||[]).length)return "";
+  return '<div class="parent-field"><label for="parent-'+escapeHtml(id)+'">Categoría padre existente de '+escapeHtml(sub.nombre)+'</label>'+
+   '<input id="parent-'+escapeHtml(id)+'" type="text" data-parent-id="'+escapeHtml(id)+'" placeholder="Ej.: Matemática Superior / Geometría analítica" value="'+escapeHtml(parentPaths.get(id)||"")+'" autocomplete="off">'+
+   '<p class="note">Se usará dentro de la categoría superior de este curso de Moodle.</p></div>';
+ }).join("");
+}
+function previewCategoryTree(reports){
+ const mode=categoryModeValue();
+ if(mode==="none"){
+  return '<h3>Vista previa del destino</h3><p class="small"><strong>Sin categorías en el archivo.</strong> Las preguntas irán a la categoría que selecciones en Moodle al importar. Si exportas distintos temas juntos, todos se importarán en esa misma categoría.</p>';
+ }
+ let html='<h3>Vista previa de rutas de categorías</h3>';
+ if(mode==="parent")html+='<p class="note">Las rutas empiezan debajo de la categoría superior del curso y usan la categoría padre existente que has indicado.</p>';
+ if(limitValue()>0)html+='<p class="note">Se muestran las rutas posibles de las preguntas válidas. Una muestra aleatoria puede contener menos rutas.</p>';
+ for(const report of reports){
+  if(!report.valid.length)continue;
+  const config=getCategoryConfig(report.subject);
+  let counts=new Map();
+  try{
+   for(const q of report.valid){
+    const path=categoryPathFor(report.subject,q,config);
+    counts.set(path,(counts.get(path)||0)+1);
+   }
+  }catch(error){
+   html+='<div class="warn small">'+escapeHtml(error.message)+'</div>';continue;
+  }
+  const paths=[...counts].sort((a,b)=>a[0].localeCompare(b[0],"es"));
+  html+='<details open><summary>'+escapeHtml(report.subject.nombre)+' · '+paths.length+' rutas</summary><ul>'+
+   paths.slice(0,60).map(([path,count])=>'<li>'+escapeHtml(path.replace(/^\$course\$\/top\/?/,""))+' <strong>('+count+' preguntas)</strong></li>').join("")+
+   (paths.length>60?'<li>… y '+(paths.length-60)+' rutas más.</li>':"")+
+   '</ul></details>';
+ }
+ return html;
+}
+function updateMoodleInstructions(){
+ const mode=categoryModeValue();
+ const base='En tu curso de Moodle, entra en <strong>Banco de preguntas → Importar → Moodle XML</strong>. ';
+ const text=mode==="none"?
+   'Selecciona la <strong>categoría de destino</strong> y <strong>desmarca «Obtener categoría desde el archivo»</strong>. Todas las preguntas de ese XML irán directamente a la categoría elegida.':
+   mode==="parent"?
+   'Comprueba la ruta padre y <strong>activa «Obtener categoría desde el archivo»</strong>. Moodle utilizará las rutas incluidas en el XML: podrá reutilizar categorías existentes con el mismo nombre y padre o crear las que falten.':
+   '<strong>Activa «Obtener categoría desde el archivo»</strong> para que Moodle procese la jerarquía completa del XML.';
+ const extra=' Si descargaste un ZIP, descomprímelo e importa el XML de cada asignatura en su curso correspondiente.';
+ $("moodleImportHint").innerHTML='<strong>Al importar en Moodle:</strong> '+text;
+ $("moodleInstructions").innerHTML=base+text+extra;
+}
+
 function buildReports(){
  const difficulties=selectedDifficulties(),cap=limitValue(),reports=[];
  for(const id of selectedSubjects){
@@ -283,33 +418,36 @@ function updatePreview(){
   const details=report.flatMap(r=>r.errors.slice(0,5).map(e=>r.subject.nombre+" / "+e.id+": "+e.reason)).slice(0,12);
   messages.push(invalid+" pregunta(s) excluida(s) tras la validación estructural. "+details.join(" | "));
  }
+ const routingIssues=categoryErrors(report);
+ messages.push(...routingIssues);
  if(pending)messages.push("Todavía se están cargando bancos de preguntas.");
  $("errors").innerHTML=messages.length?'<div class="warn small">'+messages.map(escapeHtml).join("<p></p>")+'</div>':"";
- $("download").disabled=pending||invalidLimit||total===0||!selectedDifficulties().size;
+ $("categoryPreview").innerHTML=previewCategoryTree(report);
+ updateMoodleInstructions();
+ $("download").disabled=pending||invalidLimit||total===0||!selectedDifficulties().size||routingIssues.length>0;
  $("download").textContent=report.filter(r=>r.toExport>0).length>1?"Descargar ZIP con XML por asignatura":"Descargar Moodle XML";
 }
 
 function xmlHtml(s){return "<p>"+escapeHtml(s).replace(/\r\n?|\n/g,"<br>")+"</p>"}
-function categoryPath(subject,q){
- return "$course$/top/"+[subject.nombre,q.unidad||"Sin unidad",q.tema||"Sin tema",q.subtema||"General"].map(categoryPart).join("/");
-}
-function createMoodleXML(subject,questions){
+function safeCDATA(text){return String(text).replace(/]]>/g,"]]]]><![CDATA[>")}
+function createMoodleXML(subject,questions,config={mode:"none"}){
  const categories=new Map();
  for(const q of questions){
-  const path=categoryPath(subject,q);
+  const path=categoryPathFor(subject,q,config);
   if(!categories.has(path))categories.set(path,[]);
   categories.get(path).push(q);
  }
  const lines=['<?xml version="1.0" encoding="UTF-8"?>','<quiz>'];
- for(const path of [...categories.keys()].sort((a,b)=>a.localeCompare(b,"es"))){
-  lines.push('  <question type="category"><category><text>'+escapeXml(path)+'</text></category></question>');
+ const orderedPaths=[...categories.keys()].sort((a,b)=>String(a||"").localeCompare(String(b||""),"es"));
+ for(const path of orderedPaths){
+  if(path!==null)lines.push('  <question type="category"><category><text>'+escapeXml(path)+'</text></category></question>');
   for(const q of categories.get(path)){
    const name=q.id+" · "+q.enunciado.slice(0,90);
    const grade=Number(q.puntaje===undefined?1:q.puntaje).toFixed(7);
    lines.push('  <question type="multichoice">');
    lines.push('    <name><text>'+escapeXml(name)+'</text></name>');
-   lines.push('    <questiontext format="html"><text><![CDATA['+xmlHtml(q.enunciado)+']]></text></questiontext>');
-   lines.push('    <generalfeedback format="html"><text><![CDATA['+xmlHtml(q.explicacion)+']]></text></generalfeedback>');
+   lines.push('    <questiontext format="html"><text><![CDATA['+safeCDATA(xmlHtml(q.enunciado))+']]></text></questiontext>');
+   lines.push('    <generalfeedback format="html"><text><![CDATA['+safeCDATA(xmlHtml(q.explicacion))+']]></text></generalfeedback>');
    lines.push('    <defaultgrade>'+grade+'</defaultgrade>');
    lines.push('    <penalty>0.3333333</penalty>');
    lines.push('    <hidden>0</hidden>');
@@ -319,7 +457,7 @@ function createMoodleXML(subject,questions){
    for(const opt of q.opciones){
     const correct=opt.id===q.respuesta;
     lines.push('    <answer fraction="'+(correct?"100":"0")+'" format="html">');
-    lines.push('      <text><![CDATA['+xmlHtml(opt.texto)+']]></text>');
+    lines.push('      <text><![CDATA['+safeCDATA(xmlHtml(opt.texto))+']]></text>');
     lines.push('      <feedback format="html"><text><![CDATA[<p>'+(correct?"Correcto.":"Revisa tu procedimiento.")+'</p>]]></text></feedback>');
     lines.push('    </answer>');
    }
@@ -392,11 +530,11 @@ function zipFiles(files){
 function startDownload(){
  const reports=buildReports().filter(r=>r.toExport>0);
  const cap=limitValue();
- if(cap===null||!reports.length||loading.size){updatePreview();return}
+ if(cap===null||!reports.length||loading.size||!selectedDifficulties().size||categoryErrors(reports).length){updatePreview();return}
  const files=reports.map(r=>{
   const subset=shuffledSubset(r.valid,cap);
   const name=slug(r.subject.id)+"-moodle-"+localDay()+".xml";
-  return {name,content:createMoodleXML(r.subject,subset)};
+  return {name,content:createMoodleXML(r.subject,subset,getCategoryConfig(r.subject))};
  });
  if(files.length===1){
   downloadBlob(new Blob([files[0].content],{type:"application/xml;charset=utf-8"}),files[0].name);
@@ -443,6 +581,14 @@ $("subjects").addEventListener("change",async event=>{
  renderSubjects();renderTopics();
 });
 $("topicSelector").addEventListener("change",onTopicChange);
+$("categoryMode").addEventListener("change",()=>{renderCategoryControls();updatePreview()});
+$("parentPaths").addEventListener("input",event=>{
+ const id=event.target?.dataset?.parentId;
+ if(!id)return;
+ parentPaths.set(id,event.target.value);
+ updatePreview();
+});
+$("parentLevels").addEventListener("change",updatePreview);
 $("difficulties").addEventListener("change",updatePreview);
 $("maximum").addEventListener("input",updatePreview);
 $("allTopics").addEventListener("click",()=>{
