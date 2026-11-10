@@ -8176,6 +8176,1146 @@
       "respuesta": "D",
       "explicacion": "Un polinomio en x admite coeficientes reales y únicamente exponentes enteros no negativos de la variable. El grado es 4 y su coeficiente principal es √3. La presencia de constantes radicales o coeficientes fraccionarios no impide que sea un polinomio.",
       "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Simplifica la suma de polinomios: (2x + 3) + (x + 4).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3x + 8"
+        },
+        {
+          "id": "B",
+          "texto": "3x + 6"
+        },
+        {
+          "id": "C",
+          "texto": "3x + 7"
+        },
+        {
+          "id": "D",
+          "texto": "4x + 7"
+        },
+        {
+          "id": "E",
+          "texto": "2x + 7"
+        },
+        {
+          "id": "F",
+          "texto": "x² + 3x + 7"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se agrupan y suman los coeficientes de términos semejantes: (2x + 3) + (x + 4) = 3x + 7.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Calcula la resta de polinomios: (5x + 2) − (2x − 1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "3x + 3"
+        },
+        {
+          "id": "C",
+          "texto": "3x + 2"
+        },
+        {
+          "id": "D",
+          "texto": "4x + 3"
+        },
+        {
+          "id": "E",
+          "texto": "2x + 3"
+        },
+        {
+          "id": "F",
+          "texto": "x² + 3x + 3"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se cambian los signos de los términos del segundo polinomio y se reducen los términos semejantes: (5x + 2) − (2x − 1) = 3x + 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Simplifica la suma de polinomios: (x² + 2x) + (3x² − x).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4x² + x"
+        },
+        {
+          "id": "B",
+          "texto": "4x² + x + 1"
+        },
+        {
+          "id": "C",
+          "texto": "4x² + x − 1"
+        },
+        {
+          "id": "D",
+          "texto": "4x² + 2x"
+        },
+        {
+          "id": "E",
+          "texto": "4x²"
+        },
+        {
+          "id": "F",
+          "texto": "5x² + x"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se agrupan y suman los coeficientes de términos semejantes: (x² + 2x) + (3x² − x) = 4x² + x.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Calcula la resta de polinomios: (4x² + 1) − (x² − 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3x² + 4"
+        },
+        {
+          "id": "B",
+          "texto": "3x² + 2"
+        },
+        {
+          "id": "C",
+          "texto": "3x² + x + 3"
+        },
+        {
+          "id": "D",
+          "texto": "3x² − x + 3"
+        },
+        {
+          "id": "E",
+          "texto": "4x² + 3"
+        },
+        {
+          "id": "F",
+          "texto": "3x² + 3"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se cambian los signos de los términos del segundo polinomio y se reducen los términos semejantes: (4x² + 1) − (x² − 2) = 3x² + 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Simplifica la suma de polinomios: (3x − 2) + (2x + 5).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "5x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "6x + 3"
+        },
+        {
+          "id": "D",
+          "texto": "4x + 3"
+        },
+        {
+          "id": "E",
+          "texto": "5x + 3"
+        },
+        {
+          "id": "F",
+          "texto": "x² + 5x + 3"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se agrupan y suman los coeficientes de términos semejantes: (3x − 2) + (2x + 5) = 5x + 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Simplifica la suma de polinomios: (3x² + 2x − 1) + (2x² − 5x + 3).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5x² − 3x + 3"
+        },
+        {
+          "id": "B",
+          "texto": "5x² − 3x + 1"
+        },
+        {
+          "id": "C",
+          "texto": "5x² − 2x + 2"
+        },
+        {
+          "id": "D",
+          "texto": "5x² − 3x + 2"
+        },
+        {
+          "id": "E",
+          "texto": "5x² − 4x + 2"
+        },
+        {
+          "id": "F",
+          "texto": "6x² − 3x + 2"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se agrupan y suman los coeficientes de términos semejantes: (3x² + 2x − 1) + (2x² − 5x + 3) = 5x² − 3x + 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Calcula la resta de polinomios: (4x² − x + 2) − (x² + 3x − 1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3x² − 4x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "3x² − 4x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "3x² − 4x + 3"
+        },
+        {
+          "id": "D",
+          "texto": "3x² − 3x + 3"
+        },
+        {
+          "id": "E",
+          "texto": "3x² − 5x + 3"
+        },
+        {
+          "id": "F",
+          "texto": "4x² − 4x + 3"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se cambian los signos de los términos del segundo polinomio y se reducen los términos semejantes: (4x² − x + 2) − (x² + 3x − 1) = 3x² − 4x + 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (2x) · (x + 3).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2x² + 6x + 1"
+        },
+        {
+          "id": "B",
+          "texto": "2x² + 6x"
+        },
+        {
+          "id": "C",
+          "texto": "2x² + 6x − 1"
+        },
+        {
+          "id": "D",
+          "texto": "2x² + 7x"
+        },
+        {
+          "id": "E",
+          "texto": "2x² + 5x"
+        },
+        {
+          "id": "F",
+          "texto": "3x² + 6x"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (2x) por (x + 3) es 2x² + 6x.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (−3x) · (x − 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "−3x² + 6x"
+        },
+        {
+          "id": "B",
+          "texto": "−3x² + 6x + 1"
+        },
+        {
+          "id": "C",
+          "texto": "−3x² + 6x − 1"
+        },
+        {
+          "id": "D",
+          "texto": "−3x² + 7x"
+        },
+        {
+          "id": "E",
+          "texto": "−3x² + 5x"
+        },
+        {
+          "id": "F",
+          "texto": "−2x² + 6x"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (−3x) por (x − 2) es −3x² + 6x.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Calcula la resta de polinomios: (x³ + 3x² − 2) − (x² − 4x + 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x³ + 2x² + 4x − 3"
+        },
+        {
+          "id": "B",
+          "texto": "x³ + 2x² + 4x − 5"
+        },
+        {
+          "id": "C",
+          "texto": "x³ + 2x² + 5x − 4"
+        },
+        {
+          "id": "D",
+          "texto": "x³ + 2x² + 3x − 4"
+        },
+        {
+          "id": "E",
+          "texto": "2x³ + 2x² + 4x − 4"
+        },
+        {
+          "id": "F",
+          "texto": "x³ + 2x² + 4x − 4"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se cambian los signos de los términos del segundo polinomio y se reducen los términos semejantes: (x³ + 3x² − 2) − (x² − 4x + 2) = x³ + 2x² + 4x − 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (x + 2) · (x + 3).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + 5x + 7"
+        },
+        {
+          "id": "B",
+          "texto": "x² + 5x + 5"
+        },
+        {
+          "id": "C",
+          "texto": "x² + 6x + 6"
+        },
+        {
+          "id": "D",
+          "texto": "x² + 4x + 6"
+        },
+        {
+          "id": "E",
+          "texto": "x² + 5x + 6"
+        },
+        {
+          "id": "F",
+          "texto": "2x² + 5x + 6"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (x + 2) por (x + 3) es x² + 5x + 6.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (2x − 1) · (x + 4).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2x² + 7x − 3"
+        },
+        {
+          "id": "B",
+          "texto": "2x² + 7x − 5"
+        },
+        {
+          "id": "C",
+          "texto": "2x² + 8x − 4"
+        },
+        {
+          "id": "D",
+          "texto": "2x² + 7x − 4"
+        },
+        {
+          "id": "E",
+          "texto": "2x² + 6x − 4"
+        },
+        {
+          "id": "F",
+          "texto": "3x² + 7x − 4"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (2x − 1) por (x + 4) es 2x² + 7x − 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (3x + 2) · (x − 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3x² − 4x − 3"
+        },
+        {
+          "id": "B",
+          "texto": "3x² − 4x − 5"
+        },
+        {
+          "id": "C",
+          "texto": "3x² − 4x − 4"
+        },
+        {
+          "id": "D",
+          "texto": "3x² − 3x − 4"
+        },
+        {
+          "id": "E",
+          "texto": "3x² − 5x − 4"
+        },
+        {
+          "id": "F",
+          "texto": "4x² − 4x − 4"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (3x + 2) por (x − 2) es 3x² − 4x − 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (x − 3) · (x + 5).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + 2x − 14"
+        },
+        {
+          "id": "B",
+          "texto": "x² + 2x − 15"
+        },
+        {
+          "id": "C",
+          "texto": "x² + 2x − 16"
+        },
+        {
+          "id": "D",
+          "texto": "x² + 3x − 15"
+        },
+        {
+          "id": "E",
+          "texto": "x² + x − 15"
+        },
+        {
+          "id": "F",
+          "texto": "2x² + 2x − 15"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (x − 3) por (x + 5) es x² + 2x − 15.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (2x + 3) · (2x − 1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4x² + 4x − 3"
+        },
+        {
+          "id": "B",
+          "texto": "4x² + 4x − 2"
+        },
+        {
+          "id": "C",
+          "texto": "4x² + 4x − 4"
+        },
+        {
+          "id": "D",
+          "texto": "4x² + 5x − 3"
+        },
+        {
+          "id": "E",
+          "texto": "4x² + 3x − 3"
+        },
+        {
+          "id": "F",
+          "texto": "5x² + 4x − 3"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (2x + 3) por (2x − 1) es 4x² + 4x − 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-016",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (x − 4) · (x − 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² − 6x + 9"
+        },
+        {
+          "id": "B",
+          "texto": "x² − 6x + 7"
+        },
+        {
+          "id": "C",
+          "texto": "x² − 5x + 8"
+        },
+        {
+          "id": "D",
+          "texto": "x² − 7x + 8"
+        },
+        {
+          "id": "E",
+          "texto": "2x² − 6x + 8"
+        },
+        {
+          "id": "F",
+          "texto": "x² − 6x + 8"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (x − 4) por (x − 2) es x² − 6x + 8.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-017",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (3x − 1) · (x + 3).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "3x² + 8x − 2"
+        },
+        {
+          "id": "B",
+          "texto": "3x² + 8x − 4"
+        },
+        {
+          "id": "C",
+          "texto": "3x² + 9x − 3"
+        },
+        {
+          "id": "D",
+          "texto": "3x² + 7x − 3"
+        },
+        {
+          "id": "E",
+          "texto": "3x² + 8x − 3"
+        },
+        {
+          "id": "F",
+          "texto": "4x² + 8x − 3"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (3x − 1) por (x + 3) es 3x² + 8x − 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-018",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (x + 1) · (x² + 2x + 3).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x³ + 3x² + 5x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "x³ + 3x² + 5x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "x³ + 3x² + 6x + 3"
+        },
+        {
+          "id": "D",
+          "texto": "x³ + 3x² + 5x + 3"
+        },
+        {
+          "id": "E",
+          "texto": "x³ + 3x² + 4x + 3"
+        },
+        {
+          "id": "F",
+          "texto": "2x³ + 3x² + 5x + 3"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (x + 1) por (x² + 2x + 3) es x³ + 3x² + 5x + 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-019",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (x − 2) · (x² + 3x + 1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x³ + x² − 5x − 1"
+        },
+        {
+          "id": "B",
+          "texto": "x³ + x² − 5x − 3"
+        },
+        {
+          "id": "C",
+          "texto": "x³ + x² − 5x − 2"
+        },
+        {
+          "id": "D",
+          "texto": "x³ + x² − 4x − 2"
+        },
+        {
+          "id": "E",
+          "texto": "x³ + x² − 6x − 2"
+        },
+        {
+          "id": "F",
+          "texto": "2x³ + x² − 5x − 2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (x − 2) por (x² + 3x + 1) es x³ + x² − 5x − 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-020",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Multiplica y simplifica: (2x + 1) · (x² − x + 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "2x³ − x² + 3x + 3"
+        },
+        {
+          "id": "B",
+          "texto": "2x³ − x² + 3x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "2x³ − x² + 3x + 1"
+        },
+        {
+          "id": "D",
+          "texto": "2x³ − x² + 4x + 2"
+        },
+        {
+          "id": "E",
+          "texto": "2x³ − x² + 2x + 2"
+        },
+        {
+          "id": "F",
+          "texto": "3x³ − x² + 3x + 2"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se aplica la propiedad distributiva y se suman los términos semejantes. El producto de (2x + 1) por (x² − x + 2) es 2x³ − x² + 3x + 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-021",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla el cociente exacto de (x² + 3x + 2) ÷ (x + 1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x + 2"
+        },
+        {
+          "id": "B",
+          "texto": "x + 3"
+        },
+        {
+          "id": "C",
+          "texto": "x + 1"
+        },
+        {
+          "id": "D",
+          "texto": "2x + 2"
+        },
+        {
+          "id": "E",
+          "texto": "2"
+        },
+        {
+          "id": "F",
+          "texto": "x² + x + 2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (x + 1) · (x + 2) = x² + 3x + 2. El residuo es cero; por eso el cociente es x + 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-022",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla el cociente exacto de (2x² + 7x + 3) ÷ (2x + 1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "2x + 3"
+        },
+        {
+          "id": "D",
+          "texto": "3"
+        },
+        {
+          "id": "E",
+          "texto": "x² + x + 3"
+        },
+        {
+          "id": "F",
+          "texto": "x + 3"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (2x + 1) · (x + 3) = 2x² + 7x + 3. El residuo es cero; por eso el cociente es x + 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-023",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla el cociente exacto de (x² − x − 6) ÷ (x − 3).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x + 3"
+        },
+        {
+          "id": "B",
+          "texto": "x + 1"
+        },
+        {
+          "id": "C",
+          "texto": "2x + 2"
+        },
+        {
+          "id": "D",
+          "texto": "2"
+        },
+        {
+          "id": "E",
+          "texto": "x + 2"
+        },
+        {
+          "id": "F",
+          "texto": "x² + x + 2"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (x − 3) · (x + 2) = x² − x − 6. El residuo es cero; por eso el cociente es x + 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-024",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla el cociente exacto de (3x² + 8x + 4) ÷ (3x + 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x + 3"
+        },
+        {
+          "id": "B",
+          "texto": "x + 1"
+        },
+        {
+          "id": "C",
+          "texto": "2x + 2"
+        },
+        {
+          "id": "D",
+          "texto": "x + 2"
+        },
+        {
+          "id": "E",
+          "texto": "2"
+        },
+        {
+          "id": "F",
+          "texto": "x² + x + 2"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (3x + 2) · (x + 2) = 3x² + 8x + 4. El residuo es cero; por eso el cociente es x + 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-025",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla el cociente exacto de (x² − 4) ÷ (x − 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x + 3"
+        },
+        {
+          "id": "B",
+          "texto": "x + 1"
+        },
+        {
+          "id": "C",
+          "texto": "x + 2"
+        },
+        {
+          "id": "D",
+          "texto": "2x + 2"
+        },
+        {
+          "id": "E",
+          "texto": "2"
+        },
+        {
+          "id": "F",
+          "texto": "x² + x + 2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (x − 2) · (x + 2) = x² − 4. El residuo es cero; por eso el cociente es x + 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-026",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla el cociente exacto de (2x³ + 4x² − 6x) ÷ (2x).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + 2x − 2"
+        },
+        {
+          "id": "B",
+          "texto": "x² + 2x − 3"
+        },
+        {
+          "id": "C",
+          "texto": "x² + 2x − 4"
+        },
+        {
+          "id": "D",
+          "texto": "x² + 3x − 3"
+        },
+        {
+          "id": "E",
+          "texto": "x² + x − 3"
+        },
+        {
+          "id": "F",
+          "texto": "2x² + 2x − 3"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (2x) · (x² + 2x − 3) = 2x³ + 4x² − 6x. El residuo es cero; por eso el cociente es x² + 2x − 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-027",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Halla el cociente exacto de (x³ + 2x² + x) ÷ (x).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + 2x + 1"
+        },
+        {
+          "id": "B",
+          "texto": "x² + 2x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "x² + 2x"
+        },
+        {
+          "id": "D",
+          "texto": "x² + 3x + 1"
+        },
+        {
+          "id": "E",
+          "texto": "x² + x + 1"
+        },
+        {
+          "id": "F",
+          "texto": "2x² + 2x + 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se efectúa la división de polinomios y se verifica multiplicando: (x) · (x² + 2x + 1) = x³ + 2x² + x. El residuo es cero; por eso el cociente es x² + 2x + 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-028",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Simplifica la operación: (2x² − 3x + 4) − (x² + 2x − 1) + (x − 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² − 4x + 4"
+        },
+        {
+          "id": "B",
+          "texto": "x² − 4x + 2"
+        },
+        {
+          "id": "C",
+          "texto": "x² − 3x + 3"
+        },
+        {
+          "id": "D",
+          "texto": "x² − 5x + 3"
+        },
+        {
+          "id": "E",
+          "texto": "2x² − 4x + 3"
+        },
+        {
+          "id": "F",
+          "texto": "x² − 4x + 3"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se distribuye el signo menos del segundo polinomio y luego se agrupan los términos semejantes: (2x² − 3x + 4) − (x² + 2x − 1) + (x − 2) = x² − 4x + 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-029",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Simplifica: (x + 2) · (x − 3) + (4x + 1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + 3x − 4"
+        },
+        {
+          "id": "B",
+          "texto": "x² + 3x − 6"
+        },
+        {
+          "id": "C",
+          "texto": "x² + 4x − 5"
+        },
+        {
+          "id": "D",
+          "texto": "x² + 2x − 5"
+        },
+        {
+          "id": "E",
+          "texto": "x² + 3x − 5"
+        },
+        {
+          "id": "F",
+          "texto": "2x² + 3x − 5"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Primero se multiplican los binomios y después se suman los términos semejantes con el último polinomio. El resultado es x² + 3x − 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-OPE-030",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Operaciones de polinomios",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Simplifica: (2x − 1) · (x + 2) − (x² + 2x − 4).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + x + 3"
+        },
+        {
+          "id": "B",
+          "texto": "x² + x + 1"
+        },
+        {
+          "id": "C",
+          "texto": "x² + 2x + 2"
+        },
+        {
+          "id": "D",
+          "texto": "x² + x + 2"
+        },
+        {
+          "id": "E",
+          "texto": "x² + 2"
+        },
+        {
+          "id": "F",
+          "texto": "2x² + x + 2"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Primero se multiplican los binomios. Luego se resta todo el último polinomio cambiando el signo de cada término: x² + x + 2.",
+      "puntaje": 1
     }
   ]
 }
