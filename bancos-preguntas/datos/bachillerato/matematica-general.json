@@ -7416,6 +7416,766 @@
       "respuesta": "B",
       "explicacion": "Primero se extrae el factor común 2: 16p⁹ + 54q⁶ = 2(8p⁹ + 27q⁶). Se aplica la identidad A³ + B³ = (A + B)(A² − AB + B²), con A = 2p³ y B = 3q². Por tanto, 16p⁹ + 54q⁶ = 2(2p³ + 3q²)(4p⁶ − 6p³q² + 9q⁴). Al multiplicar los factores se recuperan los términos originales.",
       "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Sea P(x) = x² − 4x + 3. ¿Cuál es el valor de P(-3)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6"
+        },
+        {
+          "id": "B",
+          "texto": "18"
+        },
+        {
+          "id": "C",
+          "texto": "24"
+        },
+        {
+          "id": "D",
+          "texto": "-24"
+        },
+        {
+          "id": "E",
+          "texto": "30"
+        },
+        {
+          "id": "F",
+          "texto": "12"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se sustituye x = -3 en la expresión P(x) y se realizan las operaciones respetando potencias, paréntesis y signos. El resultado exacto es P(-3) = 24.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Sea P(x) = 3x² − 7x + 2. ¿Cuál es el valor de P(0)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "0"
+        },
+        {
+          "id": "B",
+          "texto": "3"
+        },
+        {
+          "id": "C",
+          "texto": "-7"
+        },
+        {
+          "id": "D",
+          "texto": "2"
+        },
+        {
+          "id": "E",
+          "texto": "5"
+        },
+        {
+          "id": "F",
+          "texto": "-2"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se sustituye x = 0 en la expresión P(x) y se realizan las operaciones respetando potencias, paréntesis y signos. El resultado exacto es P(0) = 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Sea P(x) = x³ + 2x² − 3x + 1. ¿Cuál es el valor de P(1/2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-1/8"
+        },
+        {
+          "id": "B",
+          "texto": "1/2"
+        },
+        {
+          "id": "C",
+          "texto": "3/8"
+        },
+        {
+          "id": "D",
+          "texto": "-3/8"
+        },
+        {
+          "id": "E",
+          "texto": "1/8"
+        },
+        {
+          "id": "F",
+          "texto": "9/8"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se sustituye x = 1/2 en la expresión P(x) y se realizan las operaciones respetando potencias, paréntesis y signos. El resultado exacto es P(1/2) = 1/8.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el grado y el coeficiente principal de P(x) = 5x⁴ − 2x² + 9.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Grado 2; coeficiente principal -2."
+        },
+        {
+          "id": "B",
+          "texto": "Grado 4; coeficiente principal -2."
+        },
+        {
+          "id": "C",
+          "texto": "Grado 5; coeficiente principal 4."
+        },
+        {
+          "id": "D",
+          "texto": "Grado 0; coeficiente principal 9."
+        },
+        {
+          "id": "E",
+          "texto": "Grado 5; coeficiente principal 5."
+        },
+        {
+          "id": "F",
+          "texto": "Grado 4; coeficiente principal 5."
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "El mayor exponente con coeficiente no nulo es 4, y su coeficiente es 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine si P(x) = √7 + 3x es un polinomio en x. Si lo es, indique su grado y coeficiente principal.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Sí es un polinomio; grado 1; coeficiente principal 3."
+        },
+        {
+          "id": "B",
+          "texto": "No es un polinomio, porque √7 es irracional."
+        },
+        {
+          "id": "C",
+          "texto": "Sí es un polinomio; grado 0; coeficiente principal √7."
+        },
+        {
+          "id": "D",
+          "texto": "Sí es un polinomio; grado 7; coeficiente principal 3."
+        },
+        {
+          "id": "E",
+          "texto": "No es un polinomio, porque contiene una raíz cuadrada."
+        },
+        {
+          "id": "F",
+          "texto": "Sí es un polinomio; grado 1; coeficiente principal √7."
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Un polinomio en x admite coeficientes reales y únicamente exponentes enteros no negativos de la variable. El grado es 1 y su coeficiente principal es 3. La presencia de constantes radicales o coeficientes fraccionarios no impide que sea un polinomio.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Sea P(x) = 2x³ − 3x² + 4x − 7. ¿Cuál es el valor de P(-2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-35"
+        },
+        {
+          "id": "B",
+          "texto": "-43"
+        },
+        {
+          "id": "C",
+          "texto": "-27"
+        },
+        {
+          "id": "D",
+          "texto": "-15"
+        },
+        {
+          "id": "E",
+          "texto": "43"
+        },
+        {
+          "id": "F",
+          "texto": "-37"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se sustituye x = -2 en la expresión P(x) y se realizan las operaciones respetando potencias, paréntesis y signos. El resultado exacto es P(-2) = -43.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Sea P(x) = (x − 2)² + 3(x − 2). ¿Cuál es el valor de P(1/2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "9/4"
+        },
+        {
+          "id": "B",
+          "texto": "-3/4"
+        },
+        {
+          "id": "C",
+          "texto": "-9/4"
+        },
+        {
+          "id": "D",
+          "texto": "-15/4"
+        },
+        {
+          "id": "E",
+          "texto": "-9/2"
+        },
+        {
+          "id": "F",
+          "texto": "3/4"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se sustituye x = 1/2 en la expresión P(x) y se realizan las operaciones respetando potencias, paréntesis y signos. El resultado exacto es P(1/2) = -9/4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine si P(x) = (1/2)x⁴ − 3x² + √2·x − 7 es un polinomio en x. Si lo es, indique su grado y coeficiente principal.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "No es un polinomio, porque √2 multiplica a x."
+        },
+        {
+          "id": "B",
+          "texto": "Sí es un polinomio; grado 2; coeficiente principal -3."
+        },
+        {
+          "id": "C",
+          "texto": "Sí es un polinomio; grado 4; coeficiente principal -7."
+        },
+        {
+          "id": "D",
+          "texto": "Sí es un polinomio; grado 4; coeficiente principal 1/2."
+        },
+        {
+          "id": "E",
+          "texto": "No es un polinomio, porque tiene coeficientes fraccionarios."
+        },
+        {
+          "id": "F",
+          "texto": "Sí es un polinomio; grado 1; coeficiente principal √2."
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Un polinomio en x admite coeficientes reales y únicamente exponentes enteros no negativos de la variable. El grado es 4 y su coeficiente principal es 1/2. La presencia de constantes radicales o coeficientes fraccionarios no impide que sea un polinomio.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine si P(x) = 2x⁵ − 3x⁻¹ + 7 es un polinomio en x. Si lo es, indique su grado y coeficiente principal.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Sí es un polinomio; grado 5; coeficiente principal 2."
+        },
+        {
+          "id": "B",
+          "texto": "Sí es un polinomio; grado 1; coeficiente principal -3."
+        },
+        {
+          "id": "C",
+          "texto": "Sí es un polinomio; grado 5; coeficiente principal -3."
+        },
+        {
+          "id": "D",
+          "texto": "Sí es un polinomio; grado 0; coeficiente principal 7."
+        },
+        {
+          "id": "E",
+          "texto": "No es un polinomio: x⁻¹ tiene exponente negativo."
+        },
+        {
+          "id": "F",
+          "texto": "Sí es un polinomio; grado 6; coeficiente principal 2."
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Un polinomio en x admite coeficientes reales y únicamente exponentes enteros no negativos de la variable. Esta expresión no es polinómica porque x⁻¹ tiene exponente negativo.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el grado y el coeficiente principal de P(x) = 4x³ + 2x⁵ − 7x⁴ + 1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Grado 3; coeficiente principal 4."
+        },
+        {
+          "id": "B",
+          "texto": "Grado 4; coeficiente principal -7."
+        },
+        {
+          "id": "C",
+          "texto": "Grado 5; coeficiente principal 4."
+        },
+        {
+          "id": "D",
+          "texto": "Grado 5; coeficiente principal -7."
+        },
+        {
+          "id": "E",
+          "texto": "Grado 6; coeficiente principal 2."
+        },
+        {
+          "id": "F",
+          "texto": "Grado 5; coeficiente principal 2."
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "El mayor exponente con coeficiente no nulo es 5, y su coeficiente es 2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Sea P(x) = (2x + 1)³. ¿Cuál es el valor de P(-3)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-125"
+        },
+        {
+          "id": "B",
+          "texto": "-25"
+        },
+        {
+          "id": "C",
+          "texto": "125"
+        },
+        {
+          "id": "D",
+          "texto": "-64"
+        },
+        {
+          "id": "E",
+          "texto": "-216"
+        },
+        {
+          "id": "F",
+          "texto": "25"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se sustituye x = -3 en la expresión P(x) y se realizan las operaciones respetando potencias, paréntesis y signos. El resultado exacto es P(-3) = -125.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Sea P(x) = (1/2)x³ − (3/4)x² + 2x − 5/8. ¿Cuál es el valor de P(1/2)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-1/4"
+        },
+        {
+          "id": "B",
+          "texto": "1/4"
+        },
+        {
+          "id": "C",
+          "texto": "1/8"
+        },
+        {
+          "id": "D",
+          "texto": "3/8"
+        },
+        {
+          "id": "E",
+          "texto": "5/8"
+        },
+        {
+          "id": "F",
+          "texto": "-1/8"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se sustituye x = 1/2 en la expresión P(x) y se realizan las operaciones respetando potencias, paréntesis y signos. El resultado exacto es P(1/2) = 1/4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Sea P(x) = x⁵ − 2x³ + x − 1. ¿Cuál es el valor de P(-3)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-297"
+        },
+        {
+          "id": "B",
+          "texto": "-189"
+        },
+        {
+          "id": "C",
+          "texto": "-193"
+        },
+        {
+          "id": "D",
+          "texto": "-190"
+        },
+        {
+          "id": "E",
+          "texto": "193"
+        },
+        {
+          "id": "F",
+          "texto": "-243"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se sustituye x = -3 en la expresión P(x) y se realizan las operaciones respetando potencias, paréntesis y signos. El resultado exacto es P(-3) = -193.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el grado y el coeficiente principal de P(x) = (x² + 3x − 2) − (x² − 5x + 4).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Grado 2; coeficiente principal 1."
+        },
+        {
+          "id": "B",
+          "texto": "Grado 2; coeficiente principal 8."
+        },
+        {
+          "id": "C",
+          "texto": "Grado 1; coeficiente principal 3."
+        },
+        {
+          "id": "D",
+          "texto": "Grado 1; coeficiente principal 8."
+        },
+        {
+          "id": "E",
+          "texto": "Grado 1; coeficiente principal -6."
+        },
+        {
+          "id": "F",
+          "texto": "Grado 0; coeficiente principal -6."
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Al desarrollar y simplificar se obtiene P(x) = 8x − 6. El mayor exponente con coeficiente no nulo es 1, y su coeficiente es 8.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el grado y el coeficiente principal de P(x) = (3x − 1)(2x² + x + 4).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Grado 2; coeficiente principal 6."
+        },
+        {
+          "id": "B",
+          "texto": "Grado 3; coeficiente principal 3."
+        },
+        {
+          "id": "C",
+          "texto": "Grado 3; coeficiente principal 2."
+        },
+        {
+          "id": "D",
+          "texto": "Grado 4; coeficiente principal 6."
+        },
+        {
+          "id": "E",
+          "texto": "Grado 3; coeficiente principal 6."
+        },
+        {
+          "id": "F",
+          "texto": "Grado 1; coeficiente principal 11."
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Al desarrollar y simplificar se obtiene P(x) = 6x³ + x² + 11x − 4. El mayor exponente con coeficiente no nulo es 3, y su coeficiente es 6.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-016",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el grado y el coeficiente principal de P(x) = (x² − 4)(x³ + 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Grado 3; coeficiente principal -4."
+        },
+        {
+          "id": "B",
+          "texto": "Grado 5; coeficiente principal -4."
+        },
+        {
+          "id": "C",
+          "texto": "Grado 4; coeficiente principal 1."
+        },
+        {
+          "id": "D",
+          "texto": "Grado 2; coeficiente principal 2."
+        },
+        {
+          "id": "E",
+          "texto": "Grado 6; coeficiente principal 1."
+        },
+        {
+          "id": "F",
+          "texto": "Grado 5; coeficiente principal 1."
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Al desarrollar y simplificar se obtiene P(x) = x⁵ − 4x³ + 2x² − 8. El mayor exponente con coeficiente no nulo es 5, y su coeficiente es 1.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-017",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el grado y el coeficiente principal de P(x) = x¹⁰⁰ − 4x⁹⁹ + 26x¹⁰¹ − 5.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Grado 101; coeficiente principal 26."
+        },
+        {
+          "id": "B",
+          "texto": "Grado 100; coeficiente principal 1."
+        },
+        {
+          "id": "C",
+          "texto": "Grado 99; coeficiente principal -4."
+        },
+        {
+          "id": "D",
+          "texto": "Grado 101; coeficiente principal 1."
+        },
+        {
+          "id": "E",
+          "texto": "Grado 100; coeficiente principal 26."
+        },
+        {
+          "id": "F",
+          "texto": "Grado 102; coeficiente principal 26."
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El mayor exponente con coeficiente no nulo es 101, y su coeficiente es 26.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-018",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine si P(x) = x³ − x² + x^(1/3) − 7 es un polinomio en x. Si lo es, indique su grado y coeficiente principal.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Sí es un polinomio; grado 3; coeficiente principal 1."
+        },
+        {
+          "id": "B",
+          "texto": "No es un polinomio: x^(1/3) tiene exponente fraccionario."
+        },
+        {
+          "id": "C",
+          "texto": "Sí es un polinomio; grado 1/3; coeficiente principal 1."
+        },
+        {
+          "id": "D",
+          "texto": "Sí es un polinomio; grado 2; coeficiente principal -1."
+        },
+        {
+          "id": "E",
+          "texto": "Sí es un polinomio; grado 3; coeficiente principal -1."
+        },
+        {
+          "id": "F",
+          "texto": "Sí es un polinomio; grado 7; coeficiente principal -7."
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Un polinomio en x admite coeficientes reales y únicamente exponentes enteros no negativos de la variable. Esta expresión no es polinómica porque x^(1/3) tiene exponente fraccionario.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-019",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine si P(x) = 3 + 2x − √7·x³ + (1/2)x⁻¹⁰ es un polinomio en x. Si lo es, indique su grado y coeficiente principal.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "Sí es un polinomio; grado 3; coeficiente principal -√7."
+        },
+        {
+          "id": "B",
+          "texto": "Sí es un polinomio; grado 10; coeficiente principal 1/2."
+        },
+        {
+          "id": "C",
+          "texto": "No es un polinomio: x⁻¹⁰ tiene exponente negativo."
+        },
+        {
+          "id": "D",
+          "texto": "Sí es un polinomio; grado 1; coeficiente principal 2."
+        },
+        {
+          "id": "E",
+          "texto": "Sí es un polinomio; grado 3; coeficiente principal 2."
+        },
+        {
+          "id": "F",
+          "texto": "Sí es un polinomio; grado 0; coeficiente principal 3."
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Un polinomio en x admite coeficientes reales y únicamente exponentes enteros no negativos de la variable. Esta expresión no es polinómica porque x⁻¹⁰ tiene exponente negativo.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-POL-CAR-020",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Polinomios",
+      "subtema": "Características de un polinomio",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine si P(x) = √3·x⁴ − (1/2)x² + 2 es un polinomio en x. Si lo es, indique su grado y coeficiente principal.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "No es un polinomio, porque √3 es irracional."
+        },
+        {
+          "id": "B",
+          "texto": "Sí es un polinomio; grado 2; coeficiente principal -1/2."
+        },
+        {
+          "id": "C",
+          "texto": "Sí es un polinomio; grado 4; coeficiente principal 1/2."
+        },
+        {
+          "id": "D",
+          "texto": "Sí es un polinomio; grado 4; coeficiente principal √3."
+        },
+        {
+          "id": "E",
+          "texto": "Sí es un polinomio; grado 3; coeficiente principal √3."
+        },
+        {
+          "id": "F",
+          "texto": "No es un polinomio, porque contiene una fracción."
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Un polinomio en x admite coeficientes reales y únicamente exponentes enteros no negativos de la variable. El grado es 4 y su coeficiente principal es √3. La presencia de constantes radicales o coeficientes fraccionarios no impide que sea un polinomio.",
+      "puntaje": 1
     }
   ]
 }
