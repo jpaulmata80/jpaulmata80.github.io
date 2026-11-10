@@ -3,7 +3,7 @@
 <title>Banco de Preguntas | Portal académico</title><meta name="description" content="Autoevaluación y generación de prácticas académicas para universidad y bachillerato.">
 <style>
 :root{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:#1d2a40;background:#f4f7fb}*{box-sizing:border-box}
-body{margin:0}header{background:#fff;border-bottom:1px solid #dbe2eb;position:sticky;top:0;z-index:3}nav{max-width:1120px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}nav a{font-size:14px;color:#344b68;text-decoration:none}body.modo-estudiante #navInicio,body.modo-estudiante #navDocente,body.modo-estudiante #navPortal{display:none}nav strong{font-size:15px}
+body{margin:0}header{background:#fff;border-bottom:1px solid #dbe2eb;position:sticky;top:0;z-index:3}nav{max-width:1120px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}nav a{font-size:14px;color:#344b68;text-decoration:none}body.modo-estudiante #navInicio,body.modo-estudiante #navDocente,body.modo-estudiante #navExportar,body.modo-estudiante #navPortal{display:none}nav strong{font-size:15px}
 .hero{background:linear-gradient(120deg,#142946,#234f77);color:white;padding:42px 20px}main{max-width:1080px;margin:auto;padding:24px 20px 60px}.hero>div{max-width:1080px;margin:auto}.hero p{color:#d7e5f7;line-height:1.6}h1{font-size:clamp(1.8rem,4vw,2.7rem);margin:0 0 9px}h2{font-size:1.4rem;margin:0 0 15px}h3{font-size:1.05rem;margin:12px 0}p{line-height:1.6}
 .card{background:#fff;border:1px solid #e1e7ee;border-radius:18px;padding:23px;margin-bottom:20px;box-shadow:0 3px 14px #10264108}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:15px}.choice-card{border:1px solid #dce4ed;padding:22px;border-radius:14px;background:#fafcff}.choice-card h3{margin-top:0}
@@ -30,7 +30,7 @@ label{display:block;font-size:14px;font-weight:650;margin:0 0 7px}input,select{w
 footer{text-align:center;padding:28px;color:#5d6c7e;font-size:13px}.stat{font-variant-numeric:tabular-nums}
 @media(max-width:600px){.card{padding:17px}.hero{padding:30px 20px}nav{flex-wrap:wrap}.flex button{width:100%}}
 </style></head><body>
-<header><nav><strong>Banco de Preguntas Académicos</strong><div class="flex"><a href="#inicio" id="navInicio">Inicio</a><a href="#docente" id="navDocente">Configurar práctica</a><a id="navPortal" href="https://jpaulmata80.github.io/">Portal académico</a></div></nav></header>
+<header><nav><strong>Banco de Preguntas Académicos</strong><div class="flex"><a href="#inicio" id="navInicio">Inicio</a><a href="#docente" id="navDocente">Configurar práctica</a><a href="exportar-moodle.html" id="navExportar">Exportar a Moodle</a><a id="navPortal" href="https://jpaulmata80.github.io/">Portal académico</a></div></nav></header>
 <div class="hero"><div><span class="pill">Plataforma de práctica · Actualización noviembre 2026</span><h1>Bancos de preguntas</h1><p>Universidad y Bachillerato · Configuración docente, prácticas aleatorias y resultados con retroalimentación.</p></div></div>
 <main>
 <section id="inicio">
@@ -38,7 +38,7 @@ footer{text-align:center;padding:28px;color:#5d6c7e;font-size:13px}.stat{font-va
 <div class="card"><h2>¿Cómo funciona?</h2><div class="grid"><div><h3>1. Docente</h3><p>Selecciona asignatura y contenidos, configura cantidad de preguntas, tiempo, horario e intentos.</p></div><div><h3>2. Enlace</h3><p>Genera un enlace con esa configuración y lo comparte con sus estudiantes.</p></div><div><h3>3. Estudiante</h3><p>Abre el enlace, responde preguntas aleatorias y recibe su calificación al finalizar.</p></div></div></div>
 </section>
 <section id="docente" class="hidden">
-<div class="card"><h2>Configuración docente</h2><p class="muted">Este configurador no tiene acceso restringido: está pensado para preparar prácticas voluntarias, no exámenes oficiales. La configuración se incluye en el enlace.</p><p class="success small">Banco piloto seleccionado inicialmente: <strong>Matemática Superior — Ecuación de la Recta</strong>. Puedes cambiar la asignatura en los selectores inferiores.</p>
+<div class="card"><h2>Configuración docente</h2><p class="small">¿Necesitas una evaluación oficial en Moodle? <a href="exportar-moodle.html">Exportar bancos a Moodle XML</a>. Puedes combinar asignaturas, temas y subtemas sin alterar las prácticas.</p><p class="muted">Este configurador no tiene acceso restringido: está pensado para preparar prácticas voluntarias, no exámenes oficiales. La configuración se incluye en el enlace.</p><p class="success small">Banco piloto seleccionado inicialmente: <strong>Matemática Superior — Ecuación de la Recta</strong>. Puedes cambiar la asignatura en los selectores inferiores.</p>
 <form id="formConfig">
 <div class="grid"><div class="field"><label for="institucion">Nivel educativo</label><select id="institucion" required></select></div><div class="field"><label for="asignatura">Asignatura</label><select id="asignatura" required></select></div></div>
 <div class="field"><label for="titulo">Nombre de la práctica</label><input id="titulo" maxlength="90" value="Práctica de Ecuación de la Recta" required></div>
