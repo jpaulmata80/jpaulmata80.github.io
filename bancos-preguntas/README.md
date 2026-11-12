@@ -56,3 +56,13 @@ Desde [Exportar a Moodle](exportar-moodle.html), accesible desde el menú y el c
 Cada pregunta de selección única conserva todas sus alternativas, una fracción de calificación de `100` en la correcta, `0` en las incorrectas y la explicación general. No se alteran los bancos JSON ni se crean automáticamente cuestionarios oficiales.
 
 **Importante:** elegir la misma categoría padre no previene que Moodle pueda incorporar de nuevo preguntas ya importadas; para evitar duplicarlas, exporta solo los contenidos nuevos y verifica su existencia antes de repetir una importación. Las categorías son propias de cada curso y contexto de Moodle, y el exportador no verifica su existencia porque no está conectado a Moodle.
+
+## Enlaces compactos de prácticas (versión 2)
+
+Los enlaces nuevos creados desde **Configurar práctica** usan un parámetro corto `?p=2.…`. En lugar de enviar los nombres completos de todos los subtemas, se codifican con identificadores deterministas. Se conservan la asignatura, el título, la selección exacta de subtemas, el número de preguntas, el tiempo por pregunta, las fechas y el límite de intentos. La apertura resuelve los identificadores utilizando el JSON de la asignatura.
+
+- **No requiere servidor, base de datos ni servicios externos de acortamiento de enlaces.** Es apropiado para compartir por WhatsApp y abrir desde teléfonos móviles.
+- Los enlaces anteriores con el formato Base64 JSON siguen siendo aceptados por `app.html` siempre que estén completos.
+- Si se cambia o elimina el nombre de un tema/subtema en el banco JSON, los enlaces compactos que lo mencionan podrían dejar de funcionar. Añadir nuevas preguntas sin cambiar esos nombres no los invalida.
+- La longitud depende de la cantidad de subtemas y del título. Si un enlace anterior fue truncado por la aplicación desde la que se compartió, se debe generar uno nuevo.
+- El límite de intentos sigue siendo local al navegador, y los enlaces no sirven como mecanismo de seguridad para exámenes oficiales.
