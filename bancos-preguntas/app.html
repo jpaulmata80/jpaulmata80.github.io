@@ -47,7 +47,7 @@ footer{text-align:center;padding:28px;color:#5d6c7e;font-size:13px}.stat{font-va
 <div class="grid"><div class="field"><label for="inicioFecha">Inicio disponible (hora de Ecuador)</label><input id="inicioFecha" type="datetime-local"></div><div class="field"><label for="finFecha">Fin disponible (hora de Ecuador)</label><input id="finFecha" type="datetime-local"></div></div>
 <div class="grid"><div class="field"><label for="intentos">Intentos</label><select id="intentos"><option value="0">Ilimitados</option><option value="1">1 intento por navegador</option><option value="2">2 intentos por navegador</option><option value="3">3 intentos por navegador</option></select></div><div class="field"><label for="feedback">Retroalimentación</label><select id="feedback"><option value="final">Al finalizar</option></select></div></div>
 <div id="estadoBanco" class="small muted" aria-live="polite"></div><div id="msgConfig" aria-live="polite"></div><button type="submit">Generar enlace de práctica</button>
-</form><div id="resultadoLink" class="hidden success"><strong>Enlace generado</strong><p class="small">Cópialo y compártelo con tus estudiantes. Los datos se incluyen en la dirección.</p><input id="link" readonly aria-label="Enlace de práctica"><div class="flex" style="margin-top:10px"><button type="button" id="copiar">Copiar enlace</button><a class="btn" id="probar" href="#">Abrir práctica</a></div></div>
+</form><div id="resultadoLink" class="hidden success"><strong>Enlace generado</strong><p class="small">Copia y comparte este enlace compacto con tus estudiantes. Incluye la configuración de la práctica, sin publicar sus nombres completos de temas y subtemas en la dirección.</p><input id="link" readonly aria-label="Enlace de práctica"><p id="linkInfo" class="small muted" aria-live="polite"></p><div class="flex" style="margin-top:10px"><button type="button" id="copiar">Copiar enlace</button><a class="btn" id="probar" href="#">Abrir práctica</a></div></div>
 </div>
 </section>
 <section id="estudiante" class="hidden">
@@ -78,6 +78,78 @@ function formatDate(ms){return new Intl.DateTimeFormat("es-EC",{timeZone:TZ,date
 function shuffle(a){const out=[...a];for(let i=out.length-1;i>0;i--){let j=crypto.getRandomValues(new Uint32Array(1))[0]%(i+1);[out[i],out[j]]=[out[j],out[i]]}return out}
 function encode(o){const bytes=new TextEncoder().encode(JSON.stringify(o));let s="";for(const x of bytes)s+=String.fromCharCode(x);return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"")}
 function decode(s){if(s.length>12000)throw Error("Enlace demasiado largo");const t=atob(s.replace(/-/g,"+").replace(/_/g,"/"));return JSON.parse(new TextDecoder().decode(Uint8Array.from(t,c=>c.charCodeAt(0))))}
+
+// Link v2: compact, URL-safe and self-contained. Legacy Base64 JSON links still work.
+const SUBJECT_SHORT_CODES={
+ "matematica-general":"g",
+ "matematica-superior":"s",
+ "sistemas-digitales":"d",
+ "programacion-redes":"r",
+ "domotica-inmotica":"i"
+};
+function shortSubject(id){return SUBJECT_SHORT_CODES[id]||("x"+encode(id))}
+function longSubject(code){
+ if(code.startsWith("x")){const id=decode(code.slice(1));if(typeof id!=="string")throw Error("Asignatura del enlace inválida");return id}
+ const id=Object.keys(SUBJECT_SHORT_CODES).find(k=>SUBJECT_SHORT_CODES[k]===code);
+ if(!id)throw Error("Código de asignatura no reconocido");
+ return id;
+}
+function hashTopic(text){
+ let hash=2166136261;
+ for(const byte of new TextEncoder().encode(text)){
+  hash=Math.imul(hash^byte,16777619);
+ }
+ return (hash>>>0).toString(36);
+}
+function shortTimestamp(ms){return ms===null?"_":ms.toString(36)}
+function longTimestamp(token){
+ if(token==="_")return null;
+ if(!/^[0-9a-z]{1,12}$/.test(token))throw Error("Fecha compacta inválida");
+ const time=parseInt(token,36);
+ if(!Number.isSafeInteger(time)||time<0)throw Error("Fecha del enlace inválida");
+ return time;
+}
+function compactSubjectFromParam(param){
+ const fields=String(param).split(".");
+ if(fields.length!==9||fields[0]!=="2")throw Error("Formato compacto no reconocido");
+ return longSubject(fields[1]);
+}
+function encodeCompact(c){
+ const hashed=c.temas.map(hashTopic);
+ if(new Set(hashed).size!==hashed.length)throw Error("Se detectó un conflicto en los códigos de subtemas; no es posible generar este enlace.");
+ return ["2",shortSubject(c.a),encode(c.t),hashed.join("-"),c.n.toString(36),c.s.toString(36),shortTimestamp(c.ini),shortTimestamp(c.fin),c.l.toString(36)].join(".");
+}
+function decodeCompact(param,list){
+ if(typeof param!=="string"||param.length>4000)throw Error("El enlace compacto no es válido o es demasiado largo");
+ const fields=param.split(".");
+ if(fields.length!==9||fields[0]!=="2"||!Array.isArray(list))throw Error("Formato de enlace inválido");
+ const [version,subjectCode,titleToken,topicTokens,countToken,secondsToken,beginToken,endToken,attemptToken]=fields;
+ const subjectId=longSubject(subjectCode);
+ if(!titleToken||!topicTokens||!countToken||!secondsToken||!attemptToken)throw Error("El enlace está incompleto");
+ const names=[...new Set(list.map(q=>q.tema+"::"+(q.subtema||"General")))];
+ const codes=new Map();
+ for(const name of names){
+  const id=hashTopic(name);
+  if(codes.has(id)&&codes.get(id)!==name)throw Error("Hay subtemas con códigos coincidentes en el banco. Solicita un nuevo enlace.");
+  codes.set(id,name);
+ }
+ const inputHashes=topicTokens.split("-");
+ if(inputHashes.some(h=>!/^[0-9a-z]{1,7}$/.test(h))||new Set(inputHashes).size!==inputHashes.length)throw Error("Códigos de temas inválidos");
+ const temas=inputHashes.map(hash=>{
+  const name=codes.get(hash);
+  if(!name)throw Error("El enlace hace referencia a un subtema que ya no existe en el banco");
+  return name;
+ });
+ const readSmall=(value,field)=>{
+  if(!/^[0-9a-z]{1,5}$/.test(value))throw Error(field+" inválido");
+  return parseInt(value,36);
+ };
+ const title=decode(titleToken);
+ if(typeof title!=="string")throw Error("Título del enlace inválido");
+ const c={v:1,a:subjectId,t:title,temas,n:readSmall(countToken,"Cantidad"),s:readSmall(secondsToken,"Tiempo"),ini:longTimestamp(beginToken),fin:longTimestamp(endToken),l:readSmall(attemptToken,"Intentos")};
+ return validateCfg(c);
+}
+
 async function loadBank(asig){const a=getSubject(asig);if(!a)throw Error("Asignatura no válida");const url=new URL(a.archivo,BASE);const response=await fetch(url,{cache:"no-store"});if(!response.ok)throw Error("No se pudo cargar el banco");const j=await response.json();if(!Array.isArray(j.preguntas))throw Error("Formato de banco inválido");return j.preguntas}
 function show(s){for(const id of ["inicio","docente","estudiante"])$(id).classList.toggle("hidden",id!==s);document.body.classList.toggle("modo-estudiante",s==="estudiante");window.scrollTo({top:0,behavior:"instant"})}
 function fillInstituciones(){
@@ -165,12 +237,12 @@ function renderCatalog(){
 function validateCfg(c){if(!c||c.v!==1||!getSubject(c.a)||typeof c.t!=="string"||c.t.length>90||!Array.isArray(c.temas)||!c.temas.length||c.temas.length>50||c.temas.some(x=>typeof x!=="string"||x.length>100)||safeInt(c.n,1,100)===null||safeInt(c.s,15,1800)===null||safeInt(c.l,0,3)===null)throw Error("Configuración inválida");
 if(c.ini!==null&&(!Number.isInteger(c.ini)||c.ini<0))throw Error("Inicio inválido");if(c.fin!==null&&(!Number.isInteger(c.fin)||c.fin<0))throw Error("Cierre inválido");if(c.ini!==null&&c.fin!==null&&c.fin<=c.ini)throw Error("El cierre debe ser posterior a la apertura");return c}
 function matchContent(q,items){return items.includes(q.tema)||items.includes(q.tema+"::"+(q.subtema||"General"))}
-function practiceUrl(c){let u=new URL("app.html",BASE);u.searchParams.set("p",encode(c));return u.href}
+function practiceUrl(c){let u=new URL("app.html",BASE);u.searchParams.set("p",encodeCompact(c));return u.href}
 function submitConfig(e){e.preventDefault();setMsg("msgConfig","");try{
  const temas=[...document.querySelectorAll('input[name="tema"]:checked')].map(x=>x.value);
  const c=validateCfg({v:1,a:$("asignatura").value,t:$("titulo").value.trim(),temas,n:Number($("cantidad").value),s:Number($("segundos").value),ini:utcFromEcuador($("inicioFecha").value),fin:utcFromEcuador($("finFecha").value),l:Number($("intentos").value)});
  const total=banco.filter(q=>matchContent(q,temas)).length;if(total<c.n)throw Error("Hay "+total+" preguntas disponibles para esta selección. Reduce la cantidad o agrega más preguntas al banco.");
- const url=practiceUrl(c);$("link").value=url;$("probar").href=url;$("resultadoLink").classList.remove("hidden");$("resultadoLink").scrollIntoView({behavior:"smooth"});
+ const url=practiceUrl(c);$("link").value=url;$("probar").href=url;$("linkInfo").textContent="Enlace compacto: "+url.length+" caracteres. Mantiene los datos de la práctica sin depender de acortadores externos.";$("resultadoLink").classList.remove("hidden");$("resultadoLink").scrollIntoView({behavior:"smooth"});
 }catch(err){setMsg("msgConfig",err.message,"error")}}
 function countKey(c){return "sbpa_attempt_"+encode(c)}
 function lastKey(c){return "sbpa_last_"+encode(c)}
@@ -232,7 +304,7 @@ function endEarly(){
 }
 
 async function init(){try{const response=await fetch(new URL("datos/catalogo.json",BASE),{cache:"no-store"});if(!response.ok)throw Error("No se pudo cargar el catálogo");catalog=await response.json();renderCatalog();fillInstituciones();$("institucion").addEventListener("change",()=>fillAsignaturas());$("asignatura").addEventListener("change",refreshTemas);$("temas").addEventListener("change",onTopicsChange);$("formConfig").addEventListener("submit",submitConfig);$("copiar").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("link").value);$("copiar").textContent="¡Copiado!"}catch{$("link").select();$("copiar").textContent="Selecciona y copia el enlace"}});$("siguiente").addEventListener("click",advance);$("terminarAhora").addEventListener("click",endEarly);$("comenzar").addEventListener("click",start);$("reintentar").addEventListener("click",()=>{if(!isAvailable().ok)return showEnd("limite");start()});$("volver").addEventListener("click",()=>showEnd("finalizado"));$("revisarUltimo").addEventListener("click",()=>{$("finRepaso").classList.add("hidden");$("resultadoCard").classList.remove("hidden");$("resultadoCard").scrollIntoView({behavior:"smooth"})});$("otroIntento").addEventListener("click",()=>{if(!isAvailable().ok)return showEnd("limite");start()});$("navInicio").addEventListener("click",()=>{if(clock!==null&& !confirm("¿Abandonar este intento?"))return;clearClock();show("inicio")});$("navDocente").addEventListener("click",()=>{if(clock!==null&& !confirm("¿Abandonar este intento?"))return;clearClock();show("docente")});
- const param=new URLSearchParams(location.search).get("p");if(param){cfg=validateCfg(decode(param));banco=await loadBank(cfg.a);try{const item=JSON.parse(localStorage.getItem(lastKey(cfg))||"null");if(item&&Number.isFinite(Number(item.nota))&&Number.isInteger(item.aciertos))lastSummary=item}catch{}show("estudiante");intro();}else if(location.hash==="#docente")show("docente");else show("inicio");
+ const param=new URLSearchParams(location.search).get("p");if(param){if(param.startsWith("2.")){const subject=compactSubjectFromParam(param);banco=await loadBank(subject);cfg=decodeCompact(param,banco);}else{cfg=validateCfg(decode(param));banco=await loadBank(cfg.a);}try{const item=JSON.parse(localStorage.getItem(lastKey(cfg))||"null");if(item&&Number.isFinite(Number(item.nota))&&Number.isInteger(item.aciertos))lastSummary=item}catch{}show("estudiante");intro();}else if(location.hash==="#docente")show("docente");else show("inicio");
  }catch(e){$("asignaturas").innerHTML='<div class="error">Error: '+esc(e.message)+'. Comprueba el enlace o recarga la página.</div>';show("inicio")}}
 init();
 </script></body></html>
