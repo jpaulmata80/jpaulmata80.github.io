@@ -6,9 +6,20 @@ Sitio disponible en https://jpaulmata80.github.io/bancos-preguntas/
 
 - Universidad: Sistemas Digitales, Programación de Redes y Domótica e Inmótica.
 - Bachillerato: Matemática General (Tercero BGU) y Matemática Superior.
-- Bancos actuales: Matemática General (206 preguntas) y Matemática Superior (133 preguntas), con alternativas de longitud variable. Los tres bancos universitarios están disponibles para futuras incorporaciones.
+- Bancos actuales (18 de noviembre de 2026): Matemática General (366 preguntas) y Matemática Superior (133 preguntas), con alternativas de longitud variable. Los tres bancos universitarios están disponibles para futuras incorporaciones.
 - Un banco JSON por asignatura, con preguntas organizadas por unidad, tema y subtema.
 - Alimentación y revisión: consulta [la guía de alimentación](GUIA_ALIMENTACION.md) y [la plantilla JSON](plantillas/pregunta-seleccion-unica.json).
+
+## Panel docente centralizado
+
+El acceso principal del profesor es [Panel docente](panel-docente.html), con accesos a:
+- **Configuración de prácticas** (se mantiene en `app.html#docente`): enlaces compactos, horarios, preguntas aleatorias e intentos por navegador.
+- **Exportación a Moodle** (`exportar-moodle.html`): XML/ZIP con modalidades flexibles de categorías.
+- **Consultas**: búsqueda por pregunta, ID, asignatura, tema, subtema y nivel; los datos se leen de los JSON de las asignaturas.
+- **Previsualización**: enunciado, alternativas de longitud variable, revelado de la respuesta correcta y explicación.
+- **Estado de bancos**: totales por asignatura, temas y subtemas calculados al abrir/recargar la página.
+
+El panel es una interfaz **pública y de solo lectura** en GitHub Pages: no añade autenticación real ni almacena registros de estudiantes. Los resultados oficiales continúan en Moodle y la edición de contenidos se realiza en GitHub.
 
 ## Flujo de uso
 
