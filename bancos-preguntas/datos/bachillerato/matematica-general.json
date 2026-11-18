@@ -10456,6 +10456,1146 @@
       "respuesta": "F",
       "explicacion": "Conjugados: (A + B)(A − B) = A² − B². Aquí A = 5 y B = √(2y), por lo que queda 25 − 2y. Para trabajar en los reales el radicando debe ser no negativo.",
       "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación lineal: 3x + 5 = x + 13.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 5"
+        },
+        {
+          "id": "B",
+          "texto": "x = 4"
+        },
+        {
+          "id": "C",
+          "texto": "x = 3"
+        },
+        {
+          "id": "D",
+          "texto": "x = -4"
+        },
+        {
+          "id": "E",
+          "texto": "x = 6"
+        },
+        {
+          "id": "F",
+          "texto": "x = 2"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 3x + 5 y el segundo x + 13. Al reunir las incógnitas y las constantes: (2)x = 8. Se divide entre 2 y se obtiene x = 4. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina el valor de x en la ecuación: 7x - 9 = 4x + 6.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 6"
+        },
+        {
+          "id": "B",
+          "texto": "x = 4"
+        },
+        {
+          "id": "C",
+          "texto": "x = 5"
+        },
+        {
+          "id": "D",
+          "texto": "x = -5"
+        },
+        {
+          "id": "E",
+          "texto": "x = 7"
+        },
+        {
+          "id": "F",
+          "texto": "x = 3"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 7x - 9 y el segundo 4x + 6. Al reunir las incógnitas y las constantes: (3)x = 15. Se divide entre 3 y se obtiene x = 5. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación 8 - 2x = 3x - 7?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 4"
+        },
+        {
+          "id": "B",
+          "texto": "x = 2"
+        },
+        {
+          "id": "C",
+          "texto": "x = -3"
+        },
+        {
+          "id": "D",
+          "texto": "x = 3"
+        },
+        {
+          "id": "E",
+          "texto": "x = 5"
+        },
+        {
+          "id": "F",
+          "texto": "x = 1"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda -2x + 8 y el segundo 3x - 7. Al reunir las incógnitas y las constantes: (-5)x = -15. Se divide entre -5 y se obtiene x = 3. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación lineal: 5x + 12 = 2x - 3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -4"
+        },
+        {
+          "id": "B",
+          "texto": "x = -6"
+        },
+        {
+          "id": "C",
+          "texto": "x = 5"
+        },
+        {
+          "id": "D",
+          "texto": "x = -3"
+        },
+        {
+          "id": "E",
+          "texto": "x = -5"
+        },
+        {
+          "id": "F",
+          "texto": "x = -7"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 5x + 12 y el segundo 2x - 3. Al reunir las incógnitas y las constantes: (3)x = -15. Se divide entre 3 y se obtiene x = -5. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina el valor de x en la ecuación: 4x - 11 = 6x + 1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -5"
+        },
+        {
+          "id": "B",
+          "texto": "x = -7"
+        },
+        {
+          "id": "C",
+          "texto": "x = 6"
+        },
+        {
+          "id": "D",
+          "texto": "x = -4"
+        },
+        {
+          "id": "E",
+          "texto": "x = -8"
+        },
+        {
+          "id": "F",
+          "texto": "x = -6"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 4x - 11 y el segundo 6x + 1. Al reunir las incógnitas y las constantes: (-2)x = 12. Se divide entre -2 y se obtiene x = -6. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación 2(x + 3) = x + 11?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 5"
+        },
+        {
+          "id": "B",
+          "texto": "x = 6"
+        },
+        {
+          "id": "C",
+          "texto": "x = 4"
+        },
+        {
+          "id": "D",
+          "texto": "x = -5"
+        },
+        {
+          "id": "E",
+          "texto": "x = 7"
+        },
+        {
+          "id": "F",
+          "texto": "x = 3"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 2x + 6 y el segundo x + 11. Al reunir las incógnitas y las constantes: (1)x = 5. Se divide entre 1 y se obtiene x = 5. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación lineal: 4(x - 2) + 3 = 2x + 7.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 7"
+        },
+        {
+          "id": "B",
+          "texto": "x = 6"
+        },
+        {
+          "id": "C",
+          "texto": "x = 5"
+        },
+        {
+          "id": "D",
+          "texto": "x = -6"
+        },
+        {
+          "id": "E",
+          "texto": "x = 8"
+        },
+        {
+          "id": "F",
+          "texto": "x = 4"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 4x - 5 y el segundo 2x + 7. Al reunir las incógnitas y las constantes: (2)x = 12. Se divide entre 2 y se obtiene x = 6. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina el valor de x en la ecuación: 3(x + 1) - 4 = 5x + 7.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -3"
+        },
+        {
+          "id": "B",
+          "texto": "x = -5"
+        },
+        {
+          "id": "C",
+          "texto": "x = -4"
+        },
+        {
+          "id": "D",
+          "texto": "x = 4"
+        },
+        {
+          "id": "E",
+          "texto": "x = -2"
+        },
+        {
+          "id": "F",
+          "texto": "x = -6"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 3x - 1 y el segundo 5x + 7. Al reunir las incógnitas y las constantes: (-2)x = 8. Se divide entre -2 y se obtiene x = -4. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación 5x - (2x + 6) = x + 8?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 8"
+        },
+        {
+          "id": "B",
+          "texto": "x = 6"
+        },
+        {
+          "id": "C",
+          "texto": "x = -7"
+        },
+        {
+          "id": "D",
+          "texto": "x = 7"
+        },
+        {
+          "id": "E",
+          "texto": "x = 9"
+        },
+        {
+          "id": "F",
+          "texto": "x = 5"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 3x - 6 y el segundo x + 8. Al reunir las incógnitas y las constantes: (2)x = 14. Se divide entre 2 y se obtiene x = 7. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación lineal: 2(3x - 1) = 4(x + 2).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 6"
+        },
+        {
+          "id": "B",
+          "texto": "x = 4"
+        },
+        {
+          "id": "C",
+          "texto": "x = -5"
+        },
+        {
+          "id": "D",
+          "texto": "x = 7"
+        },
+        {
+          "id": "E",
+          "texto": "x = 5"
+        },
+        {
+          "id": "F",
+          "texto": "x = 3"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 6x - 2 y el segundo 4x + 8. Al reunir las incógnitas y las constantes: (2)x = 10. Se divide entre 2 y se obtiene x = 5. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina el valor de x en la ecuación: 7 - 2(x - 3) = 3x - 12.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 6"
+        },
+        {
+          "id": "B",
+          "texto": "x = 4"
+        },
+        {
+          "id": "C",
+          "texto": "x = -5"
+        },
+        {
+          "id": "D",
+          "texto": "x = 7"
+        },
+        {
+          "id": "E",
+          "texto": "x = 3"
+        },
+        {
+          "id": "F",
+          "texto": "x = 5"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda -2x + 13 y el segundo 3x - 12. Al reunir las incógnitas y las constantes: (-5)x = -25. Se divide entre -5 y se obtiene x = 5. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación 3(x - 2) + x = 2(x + 5)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 8"
+        },
+        {
+          "id": "B",
+          "texto": "x = 9"
+        },
+        {
+          "id": "C",
+          "texto": "x = 7"
+        },
+        {
+          "id": "D",
+          "texto": "x = -8"
+        },
+        {
+          "id": "E",
+          "texto": "x = 10"
+        },
+        {
+          "id": "F",
+          "texto": "x = 6"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 4x - 6 y el segundo 2x + 10. Al reunir las incógnitas y las constantes: (2)x = 16. Se divide entre 2 y se obtiene x = 8. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación lineal: 6(x + 1) - 4x = 3(x - 2) + 1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 12"
+        },
+        {
+          "id": "B",
+          "texto": "x = 11"
+        },
+        {
+          "id": "C",
+          "texto": "x = 10"
+        },
+        {
+          "id": "D",
+          "texto": "x = -11"
+        },
+        {
+          "id": "E",
+          "texto": "x = 13"
+        },
+        {
+          "id": "F",
+          "texto": "x = 9"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 2x + 6 y el segundo 3x - 5. Al reunir las incógnitas y las constantes: (-1)x = -11. Se divide entre -1 y se obtiene x = 11. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina el valor de x en la ecuación: 2(2x + 3) - 5 = 3x - 8.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -8"
+        },
+        {
+          "id": "B",
+          "texto": "x = -10"
+        },
+        {
+          "id": "C",
+          "texto": "x = -9"
+        },
+        {
+          "id": "D",
+          "texto": "x = 9"
+        },
+        {
+          "id": "E",
+          "texto": "x = -7"
+        },
+        {
+          "id": "F",
+          "texto": "x = -11"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 4x + 1 y el segundo 3x - 8. Al reunir las incógnitas y las constantes: (1)x = -9. Se divide entre 1 y se obtiene x = -9. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación 4(x + 2) - 3(x - 1) = 2x + 1?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 11"
+        },
+        {
+          "id": "B",
+          "texto": "x = 9"
+        },
+        {
+          "id": "C",
+          "texto": "x = -10"
+        },
+        {
+          "id": "D",
+          "texto": "x = 10"
+        },
+        {
+          "id": "E",
+          "texto": "x = 12"
+        },
+        {
+          "id": "F",
+          "texto": "x = 8"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda x + 11 y el segundo 2x + 1. Al reunir las incógnitas y las constantes: (-1)x = -10. Se divide entre -1 y se obtiene x = 10. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-016",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación lineal: (x + 3)/2 = (2x - 1)/3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 12"
+        },
+        {
+          "id": "B",
+          "texto": "x = 10"
+        },
+        {
+          "id": "C",
+          "texto": "x = -11"
+        },
+        {
+          "id": "D",
+          "texto": "x = 13"
+        },
+        {
+          "id": "E",
+          "texto": "x = 11"
+        },
+        {
+          "id": "F",
+          "texto": "x = 9"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 1/2x + 3/2 y el segundo 2/3x - 1/3. Al reunir las incógnitas y las constantes: (-1/6)x = -11/6. Se divide entre -1/6 y se obtiene x = 11. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-017",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina el valor de x en la ecuación: (3x - 2)/4 = (x + 5)/2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 13"
+        },
+        {
+          "id": "B",
+          "texto": "x = 11"
+        },
+        {
+          "id": "C",
+          "texto": "x = -12"
+        },
+        {
+          "id": "D",
+          "texto": "x = 14"
+        },
+        {
+          "id": "E",
+          "texto": "x = 10"
+        },
+        {
+          "id": "F",
+          "texto": "x = 12"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 3/4x - 1/2 y el segundo 1/2x + 5/2. Al reunir las incógnitas y las constantes: (1/4)x = 3. Se divide entre 1/4 y se obtiene x = 12. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-018",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación (2x + 1)/3 + 2 = (x - 2)/2?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -20"
+        },
+        {
+          "id": "B",
+          "texto": "x = -19"
+        },
+        {
+          "id": "C",
+          "texto": "x = -21"
+        },
+        {
+          "id": "D",
+          "texto": "x = 20"
+        },
+        {
+          "id": "E",
+          "texto": "x = -18"
+        },
+        {
+          "id": "F",
+          "texto": "x = -22"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 2/3x + 7/3 y el segundo 1/2x - 1. Al reunir las incógnitas y las constantes: (1/6)x = -10/3. Se divide entre 1/6 y se obtiene x = -20. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-019",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación lineal: (x - 4)/5 + 2 = (2x + 1)/3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 20/7"
+        },
+        {
+          "id": "B",
+          "texto": "x = 13/7"
+        },
+        {
+          "id": "C",
+          "texto": "x = 6/7"
+        },
+        {
+          "id": "D",
+          "texto": "x = -13/7"
+        },
+        {
+          "id": "E",
+          "texto": "x = 27/7"
+        },
+        {
+          "id": "F",
+          "texto": "x = -1/7"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 1/5x + 6/5 y el segundo 2/3x + 1/3. Al reunir las incógnitas y las constantes: (-7/15)x = -13/15. Se divide entre -7/15 y se obtiene x = 13/7. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-020",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina el valor de x en la ecuación: 2(x - 3)/3 = (x + 4)/2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 25"
+        },
+        {
+          "id": "B",
+          "texto": "x = 23"
+        },
+        {
+          "id": "C",
+          "texto": "x = 24"
+        },
+        {
+          "id": "D",
+          "texto": "x = -24"
+        },
+        {
+          "id": "E",
+          "texto": "x = 26"
+        },
+        {
+          "id": "F",
+          "texto": "x = 22"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 2/3x - 2 y el segundo 1/2x + 2. Al reunir las incógnitas y las constantes: (1/6)x = 4. Se divide entre 1/6 y se obtiene x = 24. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-021",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación 3(x + 2)/4 - 1 = (x - 1)/2?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -3"
+        },
+        {
+          "id": "B",
+          "texto": "x = -5"
+        },
+        {
+          "id": "C",
+          "texto": "x = 4"
+        },
+        {
+          "id": "D",
+          "texto": "x = -4"
+        },
+        {
+          "id": "E",
+          "texto": "x = -2"
+        },
+        {
+          "id": "F",
+          "texto": "x = -6"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 3/4x + 1/2 y el segundo 1/2x - 1/2. Al reunir las incógnitas y las constantes: (1/4)x = -1. Se divide entre 1/4 y se obtiene x = -4. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-022",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación lineal: (5x - 1)/6 = (x + 1)/2 + 1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 6"
+        },
+        {
+          "id": "B",
+          "texto": "x = 4"
+        },
+        {
+          "id": "C",
+          "texto": "x = -5"
+        },
+        {
+          "id": "D",
+          "texto": "x = 7"
+        },
+        {
+          "id": "E",
+          "texto": "x = 5"
+        },
+        {
+          "id": "F",
+          "texto": "x = 3"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 5/6x - 1/6 y el segundo 1/2x + 3/2. Al reunir las incógnitas y las constantes: (1/3)x = 5/3. Se divide entre 1/3 y se obtiene x = 5. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-023",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina el valor de x en la ecuación: (x + 5)/3 - (x - 1)/6 = (x + 2)/2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 7/2"
+        },
+        {
+          "id": "B",
+          "texto": "x = 3/2"
+        },
+        {
+          "id": "C",
+          "texto": "x = -5/2"
+        },
+        {
+          "id": "D",
+          "texto": "x = 9/2"
+        },
+        {
+          "id": "E",
+          "texto": "x = 1/2"
+        },
+        {
+          "id": "F",
+          "texto": "x = 5/2"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 1/6x + 11/6 y el segundo 1/2x + 1. Al reunir las incógnitas y las constantes: (-1/3)x = -5/6. Se divide entre -1/3 y se obtiene x = 5/2. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-024",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación (2x - 3)/5 + (x + 2)/2 = (3x + 1)/2?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -1/6"
+        },
+        {
+          "id": "B",
+          "texto": "x = 5/6"
+        },
+        {
+          "id": "C",
+          "texto": "x = -7/6"
+        },
+        {
+          "id": "D",
+          "texto": "x = 1/6"
+        },
+        {
+          "id": "E",
+          "texto": "x = 11/6"
+        },
+        {
+          "id": "F",
+          "texto": "x = -13/6"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 9/10x + 2/5 y el segundo 3/2x + 1/2. Al reunir las incógnitas y las constantes: (-3/5)x = 1/10. Se divide entre -3/5 y se obtiene x = -1/6. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-025",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación lineal: 4 - (x + 2)/3 = (2x - 1)/6.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 25/4"
+        },
+        {
+          "id": "B",
+          "texto": "x = 21/4"
+        },
+        {
+          "id": "C",
+          "texto": "x = 17/4"
+        },
+        {
+          "id": "D",
+          "texto": "x = -21/4"
+        },
+        {
+          "id": "E",
+          "texto": "x = 29/4"
+        },
+        {
+          "id": "F",
+          "texto": "x = 13/4"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda -1/3x + 10/3 y el segundo 1/3x - 1/6. Al reunir las incógnitas y las constantes: (-2/3)x = -7/2. Se divide entre -2/3 y se obtiene x = 21/4. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-026",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina el valor de x en la ecuación: 2(3x - 4) - (x + 2)/2 = 4(x - 1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 13/3"
+        },
+        {
+          "id": "B",
+          "texto": "x = 7/3"
+        },
+        {
+          "id": "C",
+          "texto": "x = 10/3"
+        },
+        {
+          "id": "D",
+          "texto": "x = -10/3"
+        },
+        {
+          "id": "E",
+          "texto": "x = 16/3"
+        },
+        {
+          "id": "F",
+          "texto": "x = 4/3"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 11/2x - 9 y el segundo 4x - 4. Al reunir las incógnitas y las constantes: (3/2)x = 5. Se divide entre 3/2 y se obtiene x = 10/3. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-027",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación (3x + 2)/2 - (x - 4)/3 = x + 5?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 17"
+        },
+        {
+          "id": "B",
+          "texto": "x = 15"
+        },
+        {
+          "id": "C",
+          "texto": "x = -16"
+        },
+        {
+          "id": "D",
+          "texto": "x = 16"
+        },
+        {
+          "id": "E",
+          "texto": "x = 18"
+        },
+        {
+          "id": "F",
+          "texto": "x = 14"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 7/6x + 7/3 y el segundo x + 5. Al reunir las incógnitas y las constantes: (1/6)x = 8/3. Se divide entre 1/6 y se obtiene x = 16. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-028",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación lineal: 5(x - 1)/2 = (3x + 7)/4 + 2x.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -16"
+        },
+        {
+          "id": "B",
+          "texto": "x = -18"
+        },
+        {
+          "id": "C",
+          "texto": "x = 17"
+        },
+        {
+          "id": "D",
+          "texto": "x = -15"
+        },
+        {
+          "id": "E",
+          "texto": "x = -17"
+        },
+        {
+          "id": "F",
+          "texto": "x = -19"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda 5/2x - 5/2 y el segundo 11/4x + 7/4. Al reunir las incógnitas y las constantes: (-1/4)x = 17/4. Se divide entre -1/4 y se obtiene x = -17. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-029",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determina el valor de x en la ecuación: 3 - 2(x - 2)/5 = (x + 1)/10.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 42/5"
+        },
+        {
+          "id": "B",
+          "texto": "x = 32/5"
+        },
+        {
+          "id": "C",
+          "texto": "x = -37/5"
+        },
+        {
+          "id": "D",
+          "texto": "x = 47/5"
+        },
+        {
+          "id": "E",
+          "texto": "x = 27/5"
+        },
+        {
+          "id": "F",
+          "texto": "x = 37/5"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda -2/5x + 19/5 y el segundo 1/10x + 1/10. Al reunir las incógnitas y las constantes: (-1/2)x = -37/10. Se divide entre -1/2 y se obtiene x = 37/5. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AMB-030",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales con incógnitas a ambos lados",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación (x - 1)/2 + (2x + 3)/4 = (4x - 2)/3?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 11/4"
+        },
+        {
+          "id": "B",
+          "texto": "x = 15/4"
+        },
+        {
+          "id": "C",
+          "texto": "x = 7/4"
+        },
+        {
+          "id": "D",
+          "texto": "x = -11/4"
+        },
+        {
+          "id": "E",
+          "texto": "x = 19/4"
+        },
+        {
+          "id": "F",
+          "texto": "x = 3/4"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda x + 1/4 y el segundo 4/3x - 2/3. Al reunir las incógnitas y las constantes: (-1/3)x = -11/12. Se divide entre -1/3 y se obtiene x = 11/4. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
+      "puntaje": 1
     }
   ]
 }
