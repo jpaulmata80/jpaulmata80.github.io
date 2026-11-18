@@ -11596,6 +11596,1146 @@
       "respuesta": "A",
       "explicacion": "Al desarrollar los paréntesis y simplificar, el primer miembro queda x + 1/4 y el segundo 4/3x - 2/3. Al reunir las incógnitas y las constantes: (-1/3)x = -11/12. Se divide entre -1/3 y se obtiene x = 11/4. Al sustituir este valor en los dos miembros, ambos dan el mismo resultado.",
       "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-001",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación eliminando los signos de agrupación: 3(x-2)+4 = 2(x+1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 5"
+        },
+        {
+          "id": "B",
+          "texto": "x = 3"
+        },
+        {
+          "id": "C",
+          "texto": "x = 4"
+        },
+        {
+          "id": "D",
+          "texto": "x = -4"
+        },
+        {
+          "id": "E",
+          "texto": "x = 6"
+        },
+        {
+          "id": "F",
+          "texto": "x = 2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 3x - 2 = 2x + 2. Agrupando las incógnitas: 1x = 4. Al dividir entre 1, resulta x = 4. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-002",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la propiedad distributiva y encuentra x: 2(x+3)-1 = x+8.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 4"
+        },
+        {
+          "id": "B",
+          "texto": "x = 2"
+        },
+        {
+          "id": "C",
+          "texto": "x = -3"
+        },
+        {
+          "id": "D",
+          "texto": "x = 3"
+        },
+        {
+          "id": "E",
+          "texto": "x = 5"
+        },
+        {
+          "id": "F",
+          "texto": "x = 1"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 2x + 5 = x + 8. Agrupando las incógnitas: 1x = 3. Al dividir entre 1, resulta x = 3. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-003",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación con signos de agrupación 4(x-1)+2 = 2(x-4)+2?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -1"
+        },
+        {
+          "id": "B",
+          "texto": "x = -3"
+        },
+        {
+          "id": "C",
+          "texto": "x = 2"
+        },
+        {
+          "id": "D",
+          "texto": "x = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x = -2"
+        },
+        {
+          "id": "F",
+          "texto": "x = -4"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 4x - 2 = 2x - 6. Agrupando las incógnitas: 2x = -4. Al dividir entre 2, resulta x = -2. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-004",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación eliminando los signos de agrupación: 5(x+1)-3 = 3(x+3)+3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 6"
+        },
+        {
+          "id": "B",
+          "texto": "x = 4"
+        },
+        {
+          "id": "C",
+          "texto": "x = -5"
+        },
+        {
+          "id": "D",
+          "texto": "x = 7"
+        },
+        {
+          "id": "E",
+          "texto": "x = 3"
+        },
+        {
+          "id": "F",
+          "texto": "x = 5"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 5x + 2 = 3x + 12. Agrupando las incógnitas: 2x = 10. Al dividir entre 2, resulta x = 5. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-005",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la propiedad distributiva y encuentra x: 2(x-4)+7 = 3(x+1).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -4"
+        },
+        {
+          "id": "B",
+          "texto": "x = -3"
+        },
+        {
+          "id": "C",
+          "texto": "x = -5"
+        },
+        {
+          "id": "D",
+          "texto": "x = 4"
+        },
+        {
+          "id": "E",
+          "texto": "x = -2"
+        },
+        {
+          "id": "F",
+          "texto": "x = -6"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 2x - 1 = 3x + 3. Agrupando las incógnitas: -1x = 4. Al dividir entre -1, resulta x = -4. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-006",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación con signos de agrupación 6(x+1)-2 = 4(x+4)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 7"
+        },
+        {
+          "id": "B",
+          "texto": "x = 6"
+        },
+        {
+          "id": "C",
+          "texto": "x = 5"
+        },
+        {
+          "id": "D",
+          "texto": "x = -6"
+        },
+        {
+          "id": "E",
+          "texto": "x = 8"
+        },
+        {
+          "id": "F",
+          "texto": "x = 4"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 6x + 4 = 4x + 16. Agrupando las incógnitas: 2x = 12. Al dividir entre 2, resulta x = 6. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-007",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación eliminando los signos de agrupación: 3(x+2)-5 = x-1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x = -2"
+        },
+        {
+          "id": "C",
+          "texto": "x = -1"
+        },
+        {
+          "id": "D",
+          "texto": "x = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x = -3"
+        },
+        {
+          "id": "F",
+          "texto": "x = -1/2"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 3x + 1 = x - 1. Agrupando las incógnitas: 2x = -2. Al dividir entre 2, resulta x = -1. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-008",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la propiedad distributiva y encuentra x: 4(x-2)+1 = 2(x+2)+3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 8"
+        },
+        {
+          "id": "B",
+          "texto": "x = 6"
+        },
+        {
+          "id": "C",
+          "texto": "x = -7"
+        },
+        {
+          "id": "D",
+          "texto": "x = 7"
+        },
+        {
+          "id": "E",
+          "texto": "x = 9"
+        },
+        {
+          "id": "F",
+          "texto": "x = 5"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 4x - 7 = 2x + 7. Agrupando las incógnitas: 2x = 14. Al dividir entre 2, resulta x = 7. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-009",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación con signos de agrupación 2(x+5) = 3(x+2)+2?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 3"
+        },
+        {
+          "id": "B",
+          "texto": "x = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x = -2"
+        },
+        {
+          "id": "D",
+          "texto": "x = 4"
+        },
+        {
+          "id": "E",
+          "texto": "x = 2"
+        },
+        {
+          "id": "F",
+          "texto": "x = 0"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 2x + 10 = 3x + 8. Agrupando las incógnitas: -1x = -2. Al dividir entre -1, resulta x = 2. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-010",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación eliminando los signos de agrupación: 5(x-2)+4 = 2(x-3).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 1"
+        },
+        {
+          "id": "B",
+          "texto": "x = -1"
+        },
+        {
+          "id": "C",
+          "texto": "x = 2"
+        },
+        {
+          "id": "D",
+          "texto": "x = -2"
+        },
+        {
+          "id": "E",
+          "texto": "x = 1/2"
+        },
+        {
+          "id": "F",
+          "texto": "x = 0"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 5x - 6 = 2x - 6. Agrupando las incógnitas: 3x = 0. Al dividir entre 3, resulta x = 0. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-011",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la propiedad distributiva y encuentra x: 2[x+3(x-1)] = 3(x+1)+1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 2"
+        },
+        {
+          "id": "B",
+          "texto": "x = 3"
+        },
+        {
+          "id": "C",
+          "texto": "x = 1"
+        },
+        {
+          "id": "D",
+          "texto": "x = -2"
+        },
+        {
+          "id": "E",
+          "texto": "x = 4"
+        },
+        {
+          "id": "F",
+          "texto": "x = 0"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 8x - 6 = 3x + 4. Agrupando las incógnitas: 5x = 10. Al dividir entre 5, resulta x = 2. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-012",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación con signos de agrupación 3[2x-(x+1)]+4 = 2(x+2)+3?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 7"
+        },
+        {
+          "id": "B",
+          "texto": "x = 6"
+        },
+        {
+          "id": "C",
+          "texto": "x = 5"
+        },
+        {
+          "id": "D",
+          "texto": "x = -6"
+        },
+        {
+          "id": "E",
+          "texto": "x = 8"
+        },
+        {
+          "id": "F",
+          "texto": "x = 4"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 3x + 1 = 2x + 7. Agrupando las incógnitas: 1x = 6. Al dividir entre 1, resulta x = 6. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-013",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación eliminando los signos de agrupación: 4-[2(x-3)-x] = 2x+1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 4"
+        },
+        {
+          "id": "B",
+          "texto": "x = 2"
+        },
+        {
+          "id": "C",
+          "texto": "x = 3"
+        },
+        {
+          "id": "D",
+          "texto": "x = -3"
+        },
+        {
+          "id": "E",
+          "texto": "x = 5"
+        },
+        {
+          "id": "F",
+          "texto": "x = 1"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene -x + 10 = 2x + 1. Agrupando las incógnitas: -3x = -9. Al dividir entre -3, resulta x = 3. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-014",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la propiedad distributiva y encuentra x: 5(x-1)-[2(x+3)-4] = 2x+1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 9"
+        },
+        {
+          "id": "B",
+          "texto": "x = 7"
+        },
+        {
+          "id": "C",
+          "texto": "x = -8"
+        },
+        {
+          "id": "D",
+          "texto": "x = 8"
+        },
+        {
+          "id": "E",
+          "texto": "x = 10"
+        },
+        {
+          "id": "F",
+          "texto": "x = 6"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 3x - 7 = 2x + 1. Agrupando las incógnitas: 1x = 8. Al dividir entre 1, resulta x = 8. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-015",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación con signos de agrupación 3(x+4)-[2x-(x-2)] = x+3?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -6"
+        },
+        {
+          "id": "B",
+          "texto": "x = -8"
+        },
+        {
+          "id": "C",
+          "texto": "x = 7"
+        },
+        {
+          "id": "D",
+          "texto": "x = -5"
+        },
+        {
+          "id": "E",
+          "texto": "x = -7"
+        },
+        {
+          "id": "F",
+          "texto": "x = -9"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 2x + 10 = x + 3. Agrupando las incógnitas: 1x = -7. Al dividir entre 1, resulta x = -7. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-016",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación eliminando los signos de agrupación: 3(x-2)-2[x-(x-4)] = x.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 8"
+        },
+        {
+          "id": "B",
+          "texto": "x = 6"
+        },
+        {
+          "id": "C",
+          "texto": "x = -7"
+        },
+        {
+          "id": "D",
+          "texto": "x = 9"
+        },
+        {
+          "id": "E",
+          "texto": "x = 5"
+        },
+        {
+          "id": "F",
+          "texto": "x = 7"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 3x - 14 = x. Agrupando las incógnitas: 2x = 14. Al dividir entre 2, resulta x = 7. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-017",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la propiedad distributiva y encuentra x: 2[3(x-1)-(x+2)] = 3x+1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 11"
+        },
+        {
+          "id": "B",
+          "texto": "x = 12"
+        },
+        {
+          "id": "C",
+          "texto": "x = 10"
+        },
+        {
+          "id": "D",
+          "texto": "x = -11"
+        },
+        {
+          "id": "E",
+          "texto": "x = 13"
+        },
+        {
+          "id": "F",
+          "texto": "x = 9"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 4x - 10 = 3x + 1. Agrupando las incógnitas: 1x = 11. Al dividir entre 1, resulta x = 11. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-018",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación con signos de agrupación 4(x+1)-3[x-(2-x)] = x+7?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 2"
+        },
+        {
+          "id": "B",
+          "texto": "x = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x = -1"
+        },
+        {
+          "id": "E",
+          "texto": "x = 3"
+        },
+        {
+          "id": "F",
+          "texto": "x = 3/2"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene -2x + 10 = x + 7. Agrupando las incógnitas: -3x = -3. Al dividir entre -3, resulta x = 1. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-019",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación eliminando los signos de agrupación: 3[2(x+1)-(x-2)] = 4x+7.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 6"
+        },
+        {
+          "id": "B",
+          "texto": "x = 4"
+        },
+        {
+          "id": "C",
+          "texto": "x = 5"
+        },
+        {
+          "id": "D",
+          "texto": "x = -5"
+        },
+        {
+          "id": "E",
+          "texto": "x = 7"
+        },
+        {
+          "id": "F",
+          "texto": "x = 3"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 3x + 12 = 4x + 7. Agrupando las incógnitas: -1x = -5. Al dividir entre -1, resulta x = 5. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-020",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la propiedad distributiva y encuentra x: 3(x+5)-{3(x-1)-[x+2]} = 2x+5.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 16"
+        },
+        {
+          "id": "B",
+          "texto": "x = 14"
+        },
+        {
+          "id": "C",
+          "texto": "x = -15"
+        },
+        {
+          "id": "D",
+          "texto": "x = 15"
+        },
+        {
+          "id": "E",
+          "texto": "x = 17"
+        },
+        {
+          "id": "F",
+          "texto": "x = 13"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene x + 20 = 2x + 5. Agrupando las incógnitas: -1x = -15. Al dividir entre -1, resulta x = 15. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-021",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación con signos de agrupación 5-[2x-(x+3)] = 2(x+1)?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 3"
+        },
+        {
+          "id": "B",
+          "texto": "x = 1"
+        },
+        {
+          "id": "C",
+          "texto": "x = -2"
+        },
+        {
+          "id": "D",
+          "texto": "x = 4"
+        },
+        {
+          "id": "E",
+          "texto": "x = 2"
+        },
+        {
+          "id": "F",
+          "texto": "x = 0"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene -x + 8 = 2x + 2. Agrupando las incógnitas: -3x = -6. Al dividir entre -3, resulta x = 2. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-022",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación eliminando los signos de agrupación: 4[x-(2x-3)] = 2(5-x).",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 2"
+        },
+        {
+          "id": "B",
+          "texto": "x = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x = -1"
+        },
+        {
+          "id": "D",
+          "texto": "x = 3"
+        },
+        {
+          "id": "E",
+          "texto": "x = 3/2"
+        },
+        {
+          "id": "F",
+          "texto": "x = 1"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene -4x + 12 = -2x + 10. Agrupando las incógnitas: -2x = -2. Al dividir entre -2, resulta x = 1. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-023",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la propiedad distributiva y encuentra x: 2{3(x+1)-[x-2]} = 3x+13.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 3"
+        },
+        {
+          "id": "B",
+          "texto": "x = 4"
+        },
+        {
+          "id": "C",
+          "texto": "x = 2"
+        },
+        {
+          "id": "D",
+          "texto": "x = -3"
+        },
+        {
+          "id": "E",
+          "texto": "x = 5"
+        },
+        {
+          "id": "F",
+          "texto": "x = 1"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 4x + 10 = 3x + 13. Agrupando las incógnitas: 1x = 3. Al dividir entre 1, resulta x = 3. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-024",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación con signos de agrupación 6(x-1)-2[2x-(x+3)] = 3x+4?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 5"
+        },
+        {
+          "id": "B",
+          "texto": "x = 4"
+        },
+        {
+          "id": "C",
+          "texto": "x = 3"
+        },
+        {
+          "id": "D",
+          "texto": "x = -4"
+        },
+        {
+          "id": "E",
+          "texto": "x = 6"
+        },
+        {
+          "id": "F",
+          "texto": "x = 2"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 4x = 3x + 4. Agrupando las incógnitas: 1x = 4. Al dividir entre 1, resulta x = 4. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-025",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación eliminando los signos de agrupación: 3{2x-[x-(x-1)]} = 4x+7.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 6"
+        },
+        {
+          "id": "B",
+          "texto": "x = 4"
+        },
+        {
+          "id": "C",
+          "texto": "x = 5"
+        },
+        {
+          "id": "D",
+          "texto": "x = -5"
+        },
+        {
+          "id": "E",
+          "texto": "x = 7"
+        },
+        {
+          "id": "F",
+          "texto": "x = 3"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 6x - 3 = 4x + 7. Agrupando las incógnitas: 2x = 10. Al dividir entre 2, resulta x = 5. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-026",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la propiedad distributiva y encuentra x: 3{2(x+1)-[x-(x-3)]} = 2[3(x-1)+x]+4.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 1/2"
+        },
+        {
+          "id": "B",
+          "texto": "x = -3/2"
+        },
+        {
+          "id": "C",
+          "texto": "x = 3/2"
+        },
+        {
+          "id": "D",
+          "texto": "x = -1/2"
+        },
+        {
+          "id": "E",
+          "texto": "x = -5/2"
+        },
+        {
+          "id": "F",
+          "texto": "x = 0"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 6x - 3 = 8x - 2. Agrupando las incógnitas: -2x = 1. Al dividir entre -2, resulta x = -1/2. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-027",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación con signos de agrupación 2{3(x-2)-[x-(2-x)]} = 4x-1?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -5/2"
+        },
+        {
+          "id": "B",
+          "texto": "x = -9/2"
+        },
+        {
+          "id": "C",
+          "texto": "x = 7/2"
+        },
+        {
+          "id": "D",
+          "texto": "x = -3/2"
+        },
+        {
+          "id": "E",
+          "texto": "x = -7/2"
+        },
+        {
+          "id": "F",
+          "texto": "x = -11/2"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 2x - 8 = 4x - 1. Agrupando las incógnitas: -2x = 7. Al dividir entre -2, resulta x = -7/2. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-028",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Resuelve la ecuación eliminando los signos de agrupación: 4{2x-[x-(x-2)]}-3(x+1) = 2[x-(3-x)]+1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 7"
+        },
+        {
+          "id": "B",
+          "texto": "x = 5"
+        },
+        {
+          "id": "C",
+          "texto": "x = -6"
+        },
+        {
+          "id": "D",
+          "texto": "x = 8"
+        },
+        {
+          "id": "E",
+          "texto": "x = 4"
+        },
+        {
+          "id": "F",
+          "texto": "x = 6"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 5x - 11 = 4x - 5. Agrupando las incógnitas: 1x = 6. Al dividir entre 1, resulta x = 6. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-029",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Aplica la propiedad distributiva y encuentra x: 2[3(x-2)-{2x-(x+1)}] = 3[x-(2-x)]-2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = -1"
+        },
+        {
+          "id": "B",
+          "texto": "x = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x = -2"
+        },
+        {
+          "id": "D",
+          "texto": "x = 1"
+        },
+        {
+          "id": "E",
+          "texto": "x = -3"
+        },
+        {
+          "id": "F",
+          "texto": "x = -1/2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 4x - 10 = 6x - 8. Agrupando las incógnitas: -2x = 2. Al dividir entre -2, resulta x = -1. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATG-ECU-AGR-030",
+      "unidad": "Unidad 0 · Nivelación",
+      "tema": "Ecuaciones",
+      "subtema": "Ecuaciones lineales signos de agrupación",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es la solución de la ecuación con signos de agrupación 3{2x-[x-(2x-5)]}-2(x+1) = 4x+1?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x = 7"
+        },
+        {
+          "id": "B",
+          "texto": "x = 6"
+        },
+        {
+          "id": "C",
+          "texto": "x = 5"
+        },
+        {
+          "id": "D",
+          "texto": "x = -6"
+        },
+        {
+          "id": "E",
+          "texto": "x = 8"
+        },
+        {
+          "id": "F",
+          "texto": "x = 4"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se aplica la propiedad distributiva para eliminar paréntesis, corchetes y llaves. Tras reducir términos semejantes se obtiene 7x - 17 = 4x + 1. Agrupando las incógnitas: 3x = 18. Al dividir entre 3, resulta x = 6. La comprobación consiste en sustituir este valor en ambos miembros de la ecuación inicial.",
+      "puntaje": 1
     }
   ]
 }
