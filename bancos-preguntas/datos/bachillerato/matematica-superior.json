@@ -6942,6 +6942,1146 @@
       "respuesta": "B",
       "explicacion": "Se sustituyen las coordenadas de P: m = (8 − (3))² + (10 − (-2))² = 169.",
       "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-001",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine la ecuación general de la circunferencia con centro C(2, −1) y radio 3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² − 6x + 2y + 1 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² − 2x + 2y − 7 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² − 4x + 2y − 4 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² − 4x − 5 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² − 4x + 4y − 1 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² − 4x + 2y − 5 = 0"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se desarrolla (x − 2)² + (y + 1)² = 9 y se trasladan los términos a un mismo miembro: x² + y² − 4x + 2y − 4 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-002",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine la ecuación general de la circunferencia con centro C(−3, 2) y radio 4.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² + 4x − 4y − 8 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² + 8x − 4y + 4 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² + 6x − 6y + 2 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² + 6x − 4y − 3 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² + 6x − 2y − 6 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² + 6x − 4y − 4 = 0"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se desarrolla (x + 3)² + (y − 2)² = 16 y se trasladan los términos a un mismo miembro: x² + y² + 6x − 4y − 3 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-003",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el centro de la circunferencia x² + y² − 6x + 4y − 12 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(4, −2)"
+        },
+        {
+          "id": "B",
+          "texto": "(3, −1)"
+        },
+        {
+          "id": "C",
+          "texto": "(−3, −2)"
+        },
+        {
+          "id": "D",
+          "texto": "(3, 2)"
+        },
+        {
+          "id": "E",
+          "texto": "(3, −2)"
+        },
+        {
+          "id": "F",
+          "texto": "(2, −2)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "En x² + y² + Dx + Ey + F = 0, el centro es (−D/2, −E/2) = (3, −2).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-004",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el radio de la circunferencia x² + y² + 4x − 2y − 4 = 0?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4"
+        },
+        {
+          "id": "B",
+          "texto": "2"
+        },
+        {
+          "id": "C",
+          "texto": "5"
+        },
+        {
+          "id": "D",
+          "texto": "1"
+        },
+        {
+          "id": "E",
+          "texto": "6"
+        },
+        {
+          "id": "F",
+          "texto": "3"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "El radio satisface r² = (D/2)² + (E/2)² − F = 9. Así, r = 3.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-005",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "En x² + y² + Dx + Ey + F = 0, el centro es C(1, 1) y el radio es 2. Determine F.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-2"
+        },
+        {
+          "id": "B",
+          "texto": "-1"
+        },
+        {
+          "id": "C",
+          "texto": "-3"
+        },
+        {
+          "id": "D",
+          "texto": "0"
+        },
+        {
+          "id": "E",
+          "texto": "-4"
+        },
+        {
+          "id": "F",
+          "texto": "2"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El término independiente cumple F = h² + k² − r² = 1 + 1 − 4 = -2.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-006",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Exprese en forma general la circunferencia (x − 4)² + (y + 2)² = 25.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² − 10x + 4y + 4 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² − 8x + 4y − 5 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² − 6x + 4y − 12 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² − 8x + 2y − 8 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² − 8x + 6y = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² − 8x + 4y − 6 = 0"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al expandir ambos cuadrados y ordenar los términos se obtiene x² + y² − 8x + 4y − 5 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-007",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Exprese en forma general la circunferencia (x + 1)² + (y + 3)² = 16.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² + 6y − 7 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² + 4x + 6y − 3 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² + 2x + 6y − 6 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² + 2x + 4y − 11 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² + 2x + 8y + 1 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² + 2x + 6y − 7 = 0"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Al expandir ambos cuadrados y ordenar los términos se obtiene x² + y² + 2x + 6y − 6 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-008",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Exprese en forma general la circunferencia x² + (y − 5)² = 9.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² − 2x − 10y + 17 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² + 2x − 10y + 17 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² − 12y + 27 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² − 10y + 16 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² − 8y + 7 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² − 10y + 15 = 0"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Al expandir ambos cuadrados y ordenar los términos se obtiene x² + y² − 10y + 16 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-009",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el centro de la circunferencia x² + y² + 8x + 6y = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(−3, −3)"
+        },
+        {
+          "id": "B",
+          "texto": "(−4, −2)"
+        },
+        {
+          "id": "C",
+          "texto": "(4, −3)"
+        },
+        {
+          "id": "D",
+          "texto": "(−4, 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(−4, −3)"
+        },
+        {
+          "id": "F",
+          "texto": "(−5, −3)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "En x² + y² + Dx + Ey + F = 0, el centro es (−D/2, −E/2) = (−4, −3).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-010",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el centro de la circunferencia x² + y² − 2x − 10y + 10 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(2, 5)"
+        },
+        {
+          "id": "B",
+          "texto": "(1, 6)"
+        },
+        {
+          "id": "C",
+          "texto": "(−1, 5)"
+        },
+        {
+          "id": "D",
+          "texto": "(1, −5)"
+        },
+        {
+          "id": "E",
+          "texto": "(0, 5)"
+        },
+        {
+          "id": "F",
+          "texto": "(1, 5)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "En x² + y² + Dx + Ey + F = 0, el centro es (−D/2, −E/2) = (1, 5).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-011",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el radio de la circunferencia x² + y² − 8x + 6y = 0?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5"
+        },
+        {
+          "id": "B",
+          "texto": "6"
+        },
+        {
+          "id": "C",
+          "texto": "4"
+        },
+        {
+          "id": "D",
+          "texto": "7"
+        },
+        {
+          "id": "E",
+          "texto": "3"
+        },
+        {
+          "id": "F",
+          "texto": "8"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El radio satisface r² = (D/2)² + (E/2)² − F = 25. Así, r = 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-012",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el radio de la circunferencia x² + y² + 10x + 2y + 1 = 0?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6"
+        },
+        {
+          "id": "B",
+          "texto": "5"
+        },
+        {
+          "id": "C",
+          "texto": "4"
+        },
+        {
+          "id": "D",
+          "texto": "7"
+        },
+        {
+          "id": "E",
+          "texto": "3"
+        },
+        {
+          "id": "F",
+          "texto": "8"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "El radio satisface r² = (D/2)² + (E/2)² − F = 25. Así, r = 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-013",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(2, 3) pasa por P(5, 7). Determine su ecuación general.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² − 6x − 6y − 7 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² − 2x − 6y − 15 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² − 4x − 6y − 12 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² − 4x − 8y − 5 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² − 4x − 4y − 17 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² − 4x − 6y − 13 = 0"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "El radio al cuadrado es (5 − (2))² + (7 − (3))² = 25. La forma general es x² + y² − 4x − 6y − 12 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-014",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(−2, 1) pasa por P(1, 5). Determine su ecuación general.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² + 2x − 2y − 23 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² + 6x − 2y − 15 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² + 4x − 4y − 17 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² + 4x − 2y − 20 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² + 4x − 21 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² + 4x − 2y − 21 = 0"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "El radio al cuadrado es (1 − (-2))² + (5 − (1))² = 25. La forma general es x² + y² + 4x − 2y − 20 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-015",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "En x² + y² + Dx + Ey + F = 0, el centro es C(2, −3) y el radio es 5. Determine F.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-11"
+        },
+        {
+          "id": "B",
+          "texto": "-13"
+        },
+        {
+          "id": "C",
+          "texto": "-10"
+        },
+        {
+          "id": "D",
+          "texto": "-14"
+        },
+        {
+          "id": "E",
+          "texto": "-12"
+        },
+        {
+          "id": "F",
+          "texto": "12"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "El término independiente cumple F = h² + k² − r² = 4 + 9 − 25 = -12.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-016",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia x² + y² + Dx + 2y − 11 = 0 tiene centro C(−4, −1). Determine D.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "9"
+        },
+        {
+          "id": "B",
+          "texto": "7"
+        },
+        {
+          "id": "C",
+          "texto": "10"
+        },
+        {
+          "id": "D",
+          "texto": "6"
+        },
+        {
+          "id": "E",
+          "texto": "-8"
+        },
+        {
+          "id": "F",
+          "texto": "8"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "La primera coordenada del centro es h = −D/2, por lo que D = −2h = −2(-4) = 8.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-017",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia x² + y² − 6x + Ey + 11 = 0 tiene centro C(3, 5). Determine E.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-10"
+        },
+        {
+          "id": "B",
+          "texto": "-9"
+        },
+        {
+          "id": "C",
+          "texto": "-11"
+        },
+        {
+          "id": "D",
+          "texto": "-8"
+        },
+        {
+          "id": "E",
+          "texto": "-12"
+        },
+        {
+          "id": "F",
+          "texto": "10"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Como k = −E/2, despejamos E = −2k = −2(5) = -10.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-018",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál de los siguientes puntos pertenece a la circunferencia x² + y² − 4x + 2y − 20 = 0?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(5, −3)"
+        },
+        {
+          "id": "B",
+          "texto": "(5, 3)"
+        },
+        {
+          "id": "C",
+          "texto": "(3, 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(−1, 4)"
+        },
+        {
+          "id": "E",
+          "texto": "(2, 5)"
+        },
+        {
+          "id": "F",
+          "texto": "(0, 0)"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al sustituir P(5, 3) en la ecuación general, la expresión x² + y² + Dx + Ey + F resulta 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-019",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "A(0, 0) y B(6, 8) son extremos de un diámetro. Determine la ecuación general de la circunferencia.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² − 8x − 8y + 7 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² − 4x − 8y − 5 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² − 6x − 8y = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² − 6x − 10y + 9 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² − 6x − 6y − 7 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² − 6x − 8y − 1 = 0"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "El centro es el punto medio C(3, 4) y r² = AB²/4 = 25. Se obtiene x² + y² − 6x − 8y = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-020",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(1, −2) es tangente a x = 3. Determine su ecuación general.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² − 4x + 4y + 4 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² + 4y = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² − 2x + 2y − 2 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² − 2x + 4y + 1 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² − 2x + 6y + 6 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² − 2x + 4y = 0"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "El radio es la distancia horizontal |1 − 3| = 2. Su ecuación general es x² + y² − 2x + 4y + 1 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-021",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia x² + y² − 6x − 8y = 0 corta el eje X en el origen y en otro punto. ¿Cuál es la coordenada x positiva del segundo punto?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "7"
+        },
+        {
+          "id": "B",
+          "texto": "5"
+        },
+        {
+          "id": "C",
+          "texto": "8"
+        },
+        {
+          "id": "D",
+          "texto": "4"
+        },
+        {
+          "id": "E",
+          "texto": "6"
+        },
+        {
+          "id": "F",
+          "texto": "-6"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Al poner y = 0 queda x² − 6x = 0. Se factoriza x(x − 6) = 0 y se toma el corte distinto del origen: x = 6.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-022",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el radio de 2x² + 2y² − 8x + 12y − 24 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6"
+        },
+        {
+          "id": "B",
+          "texto": "4"
+        },
+        {
+          "id": "C",
+          "texto": "7"
+        },
+        {
+          "id": "D",
+          "texto": "3"
+        },
+        {
+          "id": "E",
+          "texto": "8"
+        },
+        {
+          "id": "F",
+          "texto": "5"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se divide toda la ecuación entre 2 y se obtiene x² + y² − 4x + 6y − 12 = 0. De allí r² = 25 y r = 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-023",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el diámetro de la circunferencia x² + y² + 6x − 4y − 3 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8"
+        },
+        {
+          "id": "B",
+          "texto": "9"
+        },
+        {
+          "id": "C",
+          "texto": "7"
+        },
+        {
+          "id": "D",
+          "texto": "10"
+        },
+        {
+          "id": "E",
+          "texto": "6"
+        },
+        {
+          "id": "F",
+          "texto": "11"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Al completar cuadrados, r² = 16 y r = 4. Por tanto, el diámetro es 8.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-024",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Exprese en forma general la circunferencia (x − 2)² + (y + 3)² = 16.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² − 6x + 6y + 2 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² − 4x + 6y − 3 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² − 2x + 6y − 6 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² − 4x + 4y − 8 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² − 4x + 8y + 4 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² − 4x + 6y − 4 = 0"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al expandir ambos cuadrados y ordenar los términos se obtiene x² + y² − 4x + 6y − 3 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-025",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia con centro C(1, −2) pasa por P(4, 2). Determine F en su ecuación general x² + y² + Dx + Ey + F = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-19"
+        },
+        {
+          "id": "B",
+          "texto": "-21"
+        },
+        {
+          "id": "C",
+          "texto": "-20"
+        },
+        {
+          "id": "D",
+          "texto": "-18"
+        },
+        {
+          "id": "E",
+          "texto": "-22"
+        },
+        {
+          "id": "F",
+          "texto": "20"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "La distancia al cuadrado es r² = 25. Luego F = h² + k² − r² = 1 + 4 − 25 = -20.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-026",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "A(−1, 2) y B(5, 10) son extremos de un diámetro. Determine la ecuación general de la circunferencia.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² − 6x − 12y + 20 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² − 2x − 12y + 12 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² − 4x − 14y + 28 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² − 4x − 12y + 15 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² − 4x − 10y + 4 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² − 4x − 12y + 14 = 0"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "El centro es el punto medio C(2, 6) y r² = AB²/4 = 25. Se obtiene x² + y² − 4x − 12y + 15 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-027",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El radio de x² + y² − 8x + 6y + c = 0 es 5. Determine c.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "1"
+        },
+        {
+          "id": "B",
+          "texto": "-1"
+        },
+        {
+          "id": "C",
+          "texto": "2"
+        },
+        {
+          "id": "D",
+          "texto": "-2"
+        },
+        {
+          "id": "E",
+          "texto": "0"
+        },
+        {
+          "id": "F",
+          "texto": "3"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "El centro es C(4, −3). Como r² = h² + k² − c, resulta c = 16 + 9 − 25 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-028",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia con centro C(−2, 3) es tangente a y = -1. Determine su ecuación general.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² + 2x − 6y − 6 = 0"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² + 6x − 6y + 2 = 0"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² + 4x − 8y + 4 = 0"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² + 4x − 4y − 8 = 0"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² + 4x − 6y − 4 = 0"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² + 4x − 6y − 3 = 0"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "El radio es la distancia vertical |3 − -1| = 4. Su ecuación es x² + y² + 4x − 6y − 3 = 0.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-029",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia x² + y² + Dx − 6y = 0 tiene radio 5 y centro a la izquierda del eje Y. Determine D.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8"
+        },
+        {
+          "id": "B",
+          "texto": "9"
+        },
+        {
+          "id": "C",
+          "texto": "7"
+        },
+        {
+          "id": "D",
+          "texto": "10"
+        },
+        {
+          "id": "E",
+          "texto": "6"
+        },
+        {
+          "id": "F",
+          "texto": "-8"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Se sabe que k = 3 y r² = h² + k². Así h² = 16. Como el centro está a la izquierda, h = -4 y D = −2h = 8.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-GEN-030",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación General de la circunferencia",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia 2x² + 2y² + 8x − 12y + m = 0 tiene radio 5. Determine m.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-23"
+        },
+        {
+          "id": "B",
+          "texto": "-24"
+        },
+        {
+          "id": "C",
+          "texto": "-25"
+        },
+        {
+          "id": "D",
+          "texto": "-22"
+        },
+        {
+          "id": "E",
+          "texto": "-26"
+        },
+        {
+          "id": "F",
+          "texto": "24"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Dividiendo por 2 y usando F = h² + k² − r² = -12 en la ecuación normalizada, se obtiene m = 2(-12) = -24.",
+      "puntaje": 1
     }
   ]
 }
