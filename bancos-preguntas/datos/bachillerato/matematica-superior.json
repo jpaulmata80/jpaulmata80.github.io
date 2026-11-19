@@ -5802,6 +5802,1146 @@
       "respuesta": "D",
       "explicacion": "La intersección de las dos rectas es P(3, 5). Entonces r² = 9 + 25 = 34 y x² + y² = 34.",
       "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-001",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine la ecuación ordinaria de la circunferencia con centro C(2, −3) y radio 4.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 2)² + (y + 3)² = 16"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 2)² + (y − 3)² = 16"
+        },
+        {
+          "id": "C",
+          "texto": "(x − 2)² + (y + 3)² = 16"
+        },
+        {
+          "id": "D",
+          "texto": "(x − 2)² + (y + 3)² = 17"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 2)² + (y + 3)² = 15"
+        },
+        {
+          "id": "F",
+          "texto": "(x − 3)² + (y + 3)² = 16"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "En (x − h)² + (y − k)² = r², se reemplaza C(2, −3) y r = 4. Así, (x − 2)² + (y + 3)² = 16.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-002",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine la ecuación ordinaria de la circunferencia con centro C(−4, 1) y radio 3.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x − 4)² + (y − 1)² = 9"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 4)² + (y + 1)² = 9"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 4)² + (y − 1)² = 10"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 4)² + (y − 1)² = 9"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 4)² + (y − 1)² = 8"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 3)² + (y − 1)² = 9"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "En (x − h)² + (y − k)² = r², se reemplaza C(−4, 1) y r = 3. Así, (x + 4)² + (y − 1)² = 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-003",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el centro de la circunferencia (x + 5)² + (y − 2)² = 25?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(5, 2)"
+        },
+        {
+          "id": "B",
+          "texto": "(−5, −2)"
+        },
+        {
+          "id": "C",
+          "texto": "(5, −2)"
+        },
+        {
+          "id": "D",
+          "texto": "(−4, 2)"
+        },
+        {
+          "id": "E",
+          "texto": "(−5, 2)"
+        },
+        {
+          "id": "F",
+          "texto": "(−5, 3)"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "En la forma ordinaria, los términos (x − h)² y (y − k)² identifican directamente el centro C(−5, 2).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-004",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el radio de la circunferencia (x − 1)² + (y + 4)² = 49.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8"
+        },
+        {
+          "id": "B",
+          "texto": "6"
+        },
+        {
+          "id": "C",
+          "texto": "9"
+        },
+        {
+          "id": "D",
+          "texto": "5"
+        },
+        {
+          "id": "E",
+          "texto": "10"
+        },
+        {
+          "id": "F",
+          "texto": "7"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "La expresión a la derecha equivale a r² = 49; el radio positivo es r = √49 = 7.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-005",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia tiene centro C(3, 2) y diámetro 10. ¿Cuál es su ecuación ordinaria?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x − 3)² + (y − 2)² = 25"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 3)² + (y − 2)² = 25"
+        },
+        {
+          "id": "C",
+          "texto": "(x − 3)² + (y + 2)² = 25"
+        },
+        {
+          "id": "D",
+          "texto": "(x − 3)² + (y − 2)² = 26"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 3)² + (y − 2)² = 24"
+        },
+        {
+          "id": "F",
+          "texto": "(x − 4)² + (y − 2)² = 25"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El radio es r = 10/2 = 5 y r² = 25. La ecuación es (x − 3)² + (y − 2)² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-006",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(2, −2) pasa por P(6, 1). Determine su ecuación ordinaria.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 2)² + (y + 2)² = 25"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 2)² + (y + 2)² = 25"
+        },
+        {
+          "id": "C",
+          "texto": "(x − 2)² + (y − 2)² = 25"
+        },
+        {
+          "id": "D",
+          "texto": "(x − 2)² + (y + 2)² = 26"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 2)² + (y + 2)² = 24"
+        },
+        {
+          "id": "F",
+          "texto": "(x − 3)² + (y + 2)² = 25"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "El radio al cuadrado es r² = (6 − (2))² + (1 − (-2))² = 25. Por ello, (x − 2)² + (y + 2)² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-007",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(−3, 4) pasa por P(1, 1). Determine su ecuación ordinaria.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x − 3)² + (y − 4)² = 25"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 3)² + (y + 4)² = 25"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 3)² + (y − 4)² = 25"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 3)² + (y − 4)² = 26"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 3)² + (y − 4)² = 24"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 2)² + (y − 4)² = 25"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "El radio al cuadrado es r² = (1 − (-3))² + (1 − (4))² = 25. Por ello, (x + 3)² + (y − 4)² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-008",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(4, −1) pasa por P(4, 5). Determine su ecuación ordinaria.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 4)² + (y + 1)² = 36"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 4)² + (y − 1)² = 36"
+        },
+        {
+          "id": "C",
+          "texto": "(x − 4)² + (y + 1)² = 37"
+        },
+        {
+          "id": "D",
+          "texto": "(x − 4)² + (y + 1)² = 36"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 4)² + (y + 1)² = 35"
+        },
+        {
+          "id": "F",
+          "texto": "(x − 5)² + (y + 1)² = 36"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "El radio al cuadrado es r² = (4 − (4))² + (5 − (-1))² = 36. Por ello, (x − 4)² + (y + 1)² = 36.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-009",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(−2, −3) pasa por P(3, 9). Determine su ecuación ordinaria.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x − 2)² + (y + 3)² = 169"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 2)² + (y − 3)² = 169"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 2)² + (y + 3)² = 170"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 2)² + (y + 3)² = 168"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 2)² + (y + 3)² = 169"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 1)² + (y + 3)² = 169"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "El radio al cuadrado es r² = (3 − (-2))² + (9 − (-3))² = 169. Por ello, (x + 2)² + (y + 3)² = 169.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-010",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(1, 5) pasa por P(−2, 1). Determine su ecuación ordinaria.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 1)² + (y − 5)² = 25"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 1)² + (y + 5)² = 25"
+        },
+        {
+          "id": "C",
+          "texto": "(x − 1)² + (y − 5)² = 26"
+        },
+        {
+          "id": "D",
+          "texto": "(x − 1)² + (y − 5)² = 24"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 2)² + (y − 5)² = 25"
+        },
+        {
+          "id": "F",
+          "texto": "(x − 1)² + (y − 5)² = 25"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "El radio al cuadrado es r² = (-2 − (1))² + (1 − (5))² = 25. Por ello, (x − 1)² + (y − 5)² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-011",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el centro de la circunferencia (x − 4)² + (y + 3)² = 36?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(4, −3)"
+        },
+        {
+          "id": "B",
+          "texto": "(−4, −3)"
+        },
+        {
+          "id": "C",
+          "texto": "(4, 3)"
+        },
+        {
+          "id": "D",
+          "texto": "(−4, 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(5, −3)"
+        },
+        {
+          "id": "F",
+          "texto": "(4, −2)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En la forma ordinaria, los términos (x − h)² y (y − k)² identifican directamente el centro C(4, −3).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-012",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Convierta a forma ordinaria la ecuación x² + y² + 6x − 4y − 12 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x − 3)² + (y − 2)² = 25"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 3)² + (y − 2)² = 25"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 3)² + (y + 2)² = 25"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 3)² + (y − 2)² = 26"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 3)² + (y − 2)² = 24"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 2)² + (y − 2)² = 25"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al completar cuadrados se obtiene el centro C(−3, 2) y r² = (-3)² + (2)² − (-12) = 25. Así, (x + 3)² + (y − 2)² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-013",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el radio de la circunferencia x² + y² − 8x + 2y + 1 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5"
+        },
+        {
+          "id": "B",
+          "texto": "3"
+        },
+        {
+          "id": "C",
+          "texto": "4"
+        },
+        {
+          "id": "D",
+          "texto": "6"
+        },
+        {
+          "id": "E",
+          "texto": "2"
+        },
+        {
+          "id": "F",
+          "texto": "7"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Completando cuadrados, r² = (4)² + (-1)² − (1) = 16. Por tanto r = 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-014",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el centro de la circunferencia (x − 1)² + (y + 6)² = 36?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(−1, −6)"
+        },
+        {
+          "id": "B",
+          "texto": "(1, 6)"
+        },
+        {
+          "id": "C",
+          "texto": "(−1, 6)"
+        },
+        {
+          "id": "D",
+          "texto": "(1, −6)"
+        },
+        {
+          "id": "E",
+          "texto": "(2, −6)"
+        },
+        {
+          "id": "F",
+          "texto": "(1, −5)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "En la forma ordinaria, los términos (x − h)² y (y − k)² identifican directamente el centro C(1, −6).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-015",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia (x − 2)² + (y + 1)² = m pasa por P(7, −1). Determine m.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "26"
+        },
+        {
+          "id": "B",
+          "texto": "24"
+        },
+        {
+          "id": "C",
+          "texto": "27"
+        },
+        {
+          "id": "D",
+          "texto": "23"
+        },
+        {
+          "id": "E",
+          "texto": "25"
+        },
+        {
+          "id": "F",
+          "texto": "28"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Se sustituyen las coordenadas de P: m = (7 − (2))² + (-1 − (-1))² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-016",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia con centro C(1, 2) pasa por P(7, 10). ¿Cuánto mide su radio?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "11"
+        },
+        {
+          "id": "B",
+          "texto": "9"
+        },
+        {
+          "id": "C",
+          "texto": "12"
+        },
+        {
+          "id": "D",
+          "texto": "8"
+        },
+        {
+          "id": "E",
+          "texto": "13"
+        },
+        {
+          "id": "F",
+          "texto": "10"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "La distancia entre C y P es r = √[(7 − (1))² + (10 − (2))²] = √100 = 10.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-017",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia tiene centro C(−3, −2) y diámetro 14. ¿Cuál es su ecuación ordinaria?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 3)² + (y + 2)² = 49"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 3)² + (y + 2)² = 49"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 3)² + (y − 2)² = 49"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 3)² + (y + 2)² = 50"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 3)² + (y + 2)² = 48"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 2)² + (y + 2)² = 49"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El radio es r = 14/2 = 7 y r² = 49. La ecuación es (x + 3)² + (y + 2)² = 49.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-018",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "El círculo con centro C(2, 3) tiene área 16π. Determine la ecuación ordinaria de su circunferencia.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 2)² + (y − 3)² = 16"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 2)² + (y − 3)² = 16"
+        },
+        {
+          "id": "C",
+          "texto": "(x − 2)² + (y + 3)² = 16"
+        },
+        {
+          "id": "D",
+          "texto": "(x − 2)² + (y − 3)² = 17"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 2)² + (y − 3)² = 15"
+        },
+        {
+          "id": "F",
+          "texto": "(x − 3)² + (y − 3)² = 16"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "A = πr² = 16π implica r² = 16. Con C(2, 3) la ecuación es (x − 2)² + (y − 3)² = 16.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-019",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(−1, 4) tiene longitud 12π. ¿Cuál es su ecuación ordinaria?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x − 1)² + (y − 4)² = 36"
+        },
+        {
+          "id": "B",
+          "texto": "(x + 1)² + (y + 4)² = 36"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 1)² + (y − 4)² = 36"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 1)² + (y − 4)² = 37"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 1)² + (y − 4)² = 35"
+        },
+        {
+          "id": "F",
+          "texto": "x² + (y − 4)² = 36"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Por L = 2πr, resulta r = 6 y r² = 36. Por tanto, (x + 1)² + (y − 4)² = 36.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-020",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál de los siguientes puntos pertenece a la circunferencia (x − 2)² + (y + 1)² = 25?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(4, 3)"
+        },
+        {
+          "id": "B",
+          "texto": "(7, 0)"
+        },
+        {
+          "id": "C",
+          "texto": "(1, 1)"
+        },
+        {
+          "id": "D",
+          "texto": "(5, 3)"
+        },
+        {
+          "id": "E",
+          "texto": "(2, 5)"
+        },
+        {
+          "id": "F",
+          "texto": "(−2, −3)"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Un punto pertenece si (x − h)² + (y − k)² = 25. Para P(5, 3) se verifica (5 − (2))² + (3 − (-1))² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-021",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "En la circunferencia (x − 3)² + (y − 1)² = 25, P tiene x = 6. Determine y si y > 1.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6"
+        },
+        {
+          "id": "B",
+          "texto": "4"
+        },
+        {
+          "id": "C",
+          "texto": "7"
+        },
+        {
+          "id": "D",
+          "texto": "3"
+        },
+        {
+          "id": "E",
+          "texto": "5"
+        },
+        {
+          "id": "F",
+          "texto": "-5"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Al sustituir x = 6 se obtiene (y − (1))² = 16. Por tanto y = 1 ± 4; como y > 1, se elige y = 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-022",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "En (x + 2)² + (y − 3)² = 100, un punto tiene y = 11. Determine x si x > -2.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "5"
+        },
+        {
+          "id": "B",
+          "texto": "3"
+        },
+        {
+          "id": "C",
+          "texto": "6"
+        },
+        {
+          "id": "D",
+          "texto": "2"
+        },
+        {
+          "id": "E",
+          "texto": "-4"
+        },
+        {
+          "id": "F",
+          "texto": "4"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Al sustituir y = 11, (x − (-2))² = 36. Entonces x = -2 ± 6; como x > -2, x = 4.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-023",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia (x − 1)² + (y − 2)² = 9 se traslada 4 unidades a la izquierda y 5 unidades hacia arriba. ¿Cuál es su nueva ecuación?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 3)² + (y − 7)² = 9"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 3)² + (y − 7)² = 9"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 3)² + (y + 7)² = 9"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 3)² + (y − 7)² = 10"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 3)² + (y − 7)² = 8"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 2)² + (y − 7)² = 9"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El centro original C(1, 2) se desplaza (-4, 5) y pasa a C'(−3, 7). Como el radio no cambia, (x + 3)² + (y − 7)² = 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-024",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(0, −4) pasa por P(3, 0). Determine su ecuación ordinaria.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + (y − 4)² = 25"
+        },
+        {
+          "id": "B",
+          "texto": "x² + (y + 4)² = 25"
+        },
+        {
+          "id": "C",
+          "texto": "x² + (y + 4)² = 26"
+        },
+        {
+          "id": "D",
+          "texto": "x² + (y + 4)² = 24"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 1)² + (y + 4)² = 25"
+        },
+        {
+          "id": "F",
+          "texto": "x² + (y + 3)² = 25"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "El radio al cuadrado es r² = (3 − (0))² + (0 − (-4))² = 25. Por ello, x² + (y + 4)² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-025",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia con centro C(5, −2) es tangente a la recta x = 2. Determine su ecuación ordinaria.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 5)² + (y + 2)² = 9"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 5)² + (y − 2)² = 9"
+        },
+        {
+          "id": "C",
+          "texto": "(x − 5)² + (y + 2)² = 9"
+        },
+        {
+          "id": "D",
+          "texto": "(x − 5)² + (y + 2)² = 10"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 5)² + (y + 2)² = 8"
+        },
+        {
+          "id": "F",
+          "texto": "(x − 6)² + (y + 2)² = 9"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "El radio es la distancia del centro a x = 2: r = |5 − 2| = 3. Luego, (x − 5)² + (y + 2)² = 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-026",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Convierta a forma ordinaria la ecuación x² + y² − 8x + 6y − 11 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 4)² + (y + 3)² = 36"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 4)² + (y − 3)² = 36"
+        },
+        {
+          "id": "C",
+          "texto": "(x − 4)² + (y + 3)² = 37"
+        },
+        {
+          "id": "D",
+          "texto": "(x − 4)² + (y + 3)² = 36"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 4)² + (y + 3)² = 35"
+        },
+        {
+          "id": "F",
+          "texto": "(x − 5)² + (y + 3)² = 36"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Al completar cuadrados se obtiene el centro C(4, −3) y r² = (4)² + (-3)² − (-11) = 36. Así, (x − 4)² + (y + 3)² = 36.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-027",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Los extremos de un diámetro son A(1, 2) y B(7, 10). Determine la ecuación ordinaria de la circunferencia.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 4)² + (y − 6)² = 25"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 4)² + (y + 6)² = 25"
+        },
+        {
+          "id": "C",
+          "texto": "(x − 4)² + (y − 6)² = 26"
+        },
+        {
+          "id": "D",
+          "texto": "(x − 4)² + (y − 6)² = 24"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 4)² + (y − 6)² = 25"
+        },
+        {
+          "id": "F",
+          "texto": "(x − 5)² + (y − 6)² = 25"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "El centro es el punto medio C(4, 6). Como el diámetro al cuadrado es 100, r² = 25. Por tanto (x − 4)² + (y − 6)² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-028",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El centro de la circunferencia es la intersección de x = 3 con y = 1x + 1, y pasa por P(3, 9). Determine su ecuación ordinaria.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 3)² + (y − 4)² = 25"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 3)² + (y + 4)² = 25"
+        },
+        {
+          "id": "C",
+          "texto": "(x − 3)² + (y − 4)² = 26"
+        },
+        {
+          "id": "D",
+          "texto": "(x − 3)² + (y − 4)² = 24"
+        },
+        {
+          "id": "E",
+          "texto": "(x − 4)² + (y − 4)² = 25"
+        },
+        {
+          "id": "F",
+          "texto": "(x − 3)² + (y − 4)² = 25"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "La intersección es C(3, 4). Con P(3, 9) se calcula r² = (3 − 3)² + (9 − 4)² = 25. Así, (x − 3)² + (y − 4)² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-029",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro C(−2, −1) es tangente a la recta y = 3. Determine su ecuación ordinaria.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(x + 2)² + (y + 1)² = 16"
+        },
+        {
+          "id": "B",
+          "texto": "(x − 2)² + (y + 1)² = 16"
+        },
+        {
+          "id": "C",
+          "texto": "(x + 2)² + (y − 1)² = 16"
+        },
+        {
+          "id": "D",
+          "texto": "(x + 2)² + (y + 1)² = 17"
+        },
+        {
+          "id": "E",
+          "texto": "(x + 2)² + (y + 1)² = 15"
+        },
+        {
+          "id": "F",
+          "texto": "(x + 1)² + (y + 1)² = 16"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El radio es la distancia vertical r = |-1 − 3| = 4. Así, (x + 2)² + (y + 1)² = 16.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORD-030",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación Ordinaria de la circunferencia con centro C(h, k)",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia (x − 3)² + (y + 2)² = m pasa por P(8, 10). Determine m.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "170"
+        },
+        {
+          "id": "B",
+          "texto": "169"
+        },
+        {
+          "id": "C",
+          "texto": "168"
+        },
+        {
+          "id": "D",
+          "texto": "171"
+        },
+        {
+          "id": "E",
+          "texto": "167"
+        },
+        {
+          "id": "F",
+          "texto": "172"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se sustituyen las coordenadas de P: m = (8 − (3))² + (10 − (-2))² = 169.",
+      "puntaje": 1
     }
   ]
 }
