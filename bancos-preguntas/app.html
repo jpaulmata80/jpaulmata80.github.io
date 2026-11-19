@@ -234,11 +234,23 @@ function onTopicsChange(event){
 function renderCatalog(){
  $("asignaturas").innerHTML=catalog.instituciones.map(i=>'<div class="choice-card"><span class="pill">'+esc(i.nombre)+'</span><h3>'+esc(i.institucion)+'</h3>'+i.asignaturas.map(a=>'<p style="margin:10px 0">• '+esc(a.nombre)+(["matematica-general","matematica-superior"].includes(a.id)?' <span class="pill">Banco piloto</span>':'')+'</p>').join("")+'</div>').join("");
 }
-function validateCfg(c){if(!c||c.v!==1||!getSubject(c.a)||typeof c.t!=="string"||c.t.length>90||!Array.isArray(c.temas)||!c.temas.length||c.temas.length>50||c.temas.some(x=>typeof x!=="string"||x.length>100)||safeInt(c.n,1,100)===null||safeInt(c.s,15,1800)===null||safeInt(c.l,0,3)===null)throw Error("Configuración inválida");
-if(c.ini!==null&&(!Number.isInteger(c.ini)||c.ini<0))throw Error("Inicio inválido");if(c.fin!==null&&(!Number.isInteger(c.fin)||c.fin<0))throw Error("Cierre inválido");if(c.ini!==null&&c.fin!==null&&c.fin<=c.ini)throw Error("El cierre debe ser posterior a la apertura");return c}
+function validateCfg(c){
+ if(!c||c.v!==1||!getSubject(c.a))throw Error("Selecciona una asignatura válida.");
+ if(typeof c.t!=="string"||!c.t.trim()||c.t.length>90)throw Error("Escribe un nombre de práctica de 1 a 90 caracteres.");
+ if(!Array.isArray(c.temas)||c.temas.length<1)throw Error("Selecciona al menos un subtema para la práctica.");
+ if(c.temas.length>50)throw Error("Puedes seleccionar un máximo de 50 subtemas por práctica.");
+ if(c.temas.some(x=>typeof x!=="string"||!x.trim()||x.length>300))throw Error("Uno de los nombres de los subtemas no es válido. Revisa los contenidos seleccionados.");
+ if(safeInt(c.n,1,100)===null)throw Error("El número de preguntas debe estar entre 1 y 100.");
+ if(safeInt(c.s,15,1800)===null)throw Error("El tiempo por pregunta debe estar entre 15 y 1800 segundos.");
+ if(safeInt(c.l,0,3)===null)throw Error("Selecciona una cantidad válida de intentos.");
+ if(c.ini!==null&&(!Number.isInteger(c.ini)||c.ini<0))throw Error("La fecha de inicio no es válida.");
+ if(c.fin!==null&&(!Number.isInteger(c.fin)||c.fin<0))throw Error("La fecha de cierre no es válida.");
+ if(c.ini!==null&&c.fin!==null&&c.fin<=c.ini)throw Error("La fecha de cierre debe ser posterior al inicio.");
+ return c;
+}
 function matchContent(q,items){return items.includes(q.tema)||items.includes(q.tema+"::"+(q.subtema||"General"))}
 function practiceUrl(c){let u=new URL("app.html",BASE);u.searchParams.set("p",encodeCompact(c));return u.href}
-function submitConfig(e){e.preventDefault();setMsg("msgConfig","");try{
+function submitConfig(e){e.preventDefault();setMsg("msgConfig","");$("resultadoLink").classList.add("hidden");try{
  const temas=[...document.querySelectorAll('input[name="tema"]:checked')].map(x=>x.value);
  const c=validateCfg({v:1,a:$("asignatura").value,t:$("titulo").value.trim(),temas,n:Number($("cantidad").value),s:Number($("segundos").value),ini:utcFromEcuador($("inicioFecha").value),fin:utcFromEcuador($("finFecha").value),l:Number($("intentos").value)});
  const total=banco.filter(q=>matchContent(q,temas)).length;if(total<c.n)throw Error("Hay "+total+" preguntas disponibles para esta selección. Reduce la cantidad o agrega más preguntas al banco.");
