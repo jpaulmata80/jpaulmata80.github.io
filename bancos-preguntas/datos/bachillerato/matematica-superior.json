@@ -4662,6 +4662,1146 @@
       "respuesta": "F",
       "explicacion": "Los interceptos son A(a,0) y B(0,b), y su punto medio es (a/2, b/2). De (a/2,b/2) = (3,-2) se obtiene a = 6 y b = -4. Por ello x/6 - y/4 = 1.",
       "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-001",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia tiene centro en O(0, 0) y radio 3. ¿Cuál es su ecuación?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 8"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 10"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 9"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 7"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 11"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 6"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Para una circunferencia con centro en el origen se cumple x² + y² = r². Como r = 3, entonces r² = 9 y la ecuación es x² + y² = 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-002",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el radio de la circunferencia x² + y² = 49?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "6"
+        },
+        {
+          "id": "B",
+          "texto": "7"
+        },
+        {
+          "id": "C",
+          "texto": "8"
+        },
+        {
+          "id": "D",
+          "texto": "5"
+        },
+        {
+          "id": "E",
+          "texto": "9"
+        },
+        {
+          "id": "F",
+          "texto": "4"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "En x² + y² = r², el término de la derecha es el cuadrado del radio. Así, r = √49 = 7.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-003",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Con centro en el origen y diámetro 8 unidades, ¿cuál es la ecuación de la circunferencia?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 16"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 15"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 17"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 14"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 18"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 13"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El radio es la mitad del diámetro: r = 8/2 = 4. Al sustituir en x² + y² = r² se obtiene x² + y² = 16.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-004",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el radio de la circunferencia x² + y² = 25?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4"
+        },
+        {
+          "id": "B",
+          "texto": "6"
+        },
+        {
+          "id": "C",
+          "texto": "3"
+        },
+        {
+          "id": "D",
+          "texto": "7"
+        },
+        {
+          "id": "E",
+          "texto": "2"
+        },
+        {
+          "id": "F",
+          "texto": "5"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "En x² + y² = r², el término de la derecha es el cuadrado del radio. Así, r = √25 = 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-005",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "basico",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia tiene centro en O(0, 0) y radio 7. ¿Cuál es su ecuación?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 48"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 50"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 47"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 51"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 49"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 46"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Para una circunferencia con centro en el origen se cumple x² + y² = r². Como r = 7, entonces r² = 49 y la ecuación es x² + y² = 49.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-006",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia tiene centro en O(0, 0) y pasa por P(3, 4). Determine su ecuación.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 24"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 26"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 23"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 25"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 27"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 22"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Se utiliza x² + y² = r². Como P pertenece a la circunferencia, r² = (3)² + (4)² = 25. Por tanto, x² + y² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-007",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia tiene centro en O(0, 0) y pasa por P(−5, 12). Determine su ecuación.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 168"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 170"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 169"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 167"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 171"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 166"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se utiliza x² + y² = r². Como P pertenece a la circunferencia, r² = (-5)² + (12)² = 169. Por tanto, x² + y² = 169.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-008",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia tiene centro en O(0, 0) y pasa por P(−6, 8). Determine su ecuación.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 99"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 100"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 101"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 98"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 102"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 97"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Se utiliza x² + y² = r². Como P pertenece a la circunferencia, r² = (-6)² + (8)² = 100. Por tanto, x² + y² = 100.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-009",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia con centro O(0, 0) pasa por P(−8, 6). ¿Cuánto mide su radio?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "10"
+        },
+        {
+          "id": "B",
+          "texto": "9"
+        },
+        {
+          "id": "C",
+          "texto": "11"
+        },
+        {
+          "id": "D",
+          "texto": "8"
+        },
+        {
+          "id": "E",
+          "texto": "12"
+        },
+        {
+          "id": "F",
+          "texto": "7"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El radio es la distancia de O a P: r = √[(-8)² + (6)²] = √100 = 10.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-010",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia tiene centro en O(0, 0) y pasa por P(0, −9). Determine su ecuación.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 80"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 82"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 79"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 83"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 78"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 81"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Se utiliza x² + y² = r². Como P pertenece a la circunferencia, r² = (0)² + (-9)² = 81. Por tanto, x² + y² = 81.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-011",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "El área del círculo con centro en el origen es 36π unidades cuadradas. ¿Cuál es la ecuación de su circunferencia?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 35"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 37"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 34"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 38"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 36"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 33"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Como A = πr² = 36π, se tiene r² = 36. Entonces x² + y² = 36.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-012",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "La longitud de una circunferencia con centro en el origen es 14π unidades. ¿Cuál es su ecuación?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 48"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 50"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 47"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 49"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 51"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 46"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Con L = 2πr, se despeja r = 14π/(2π) = 7. Como r² = 49, la ecuación es x² + y² = 49.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-013",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Determine el radio de la circunferencia x² + y² − 121 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "10"
+        },
+        {
+          "id": "B",
+          "texto": "12"
+        },
+        {
+          "id": "C",
+          "texto": "11"
+        },
+        {
+          "id": "D",
+          "texto": "9"
+        },
+        {
+          "id": "E",
+          "texto": "13"
+        },
+        {
+          "id": "F",
+          "texto": "8"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Se pasa el término independiente al segundo miembro: x² + y² = 121. Por ello r = √121 = 11.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-014",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Escriba en forma ordinaria la ecuación x² + y² − 64 = 0.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 63"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 64"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 65"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 62"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 66"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 61"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "Al trasladar −64 al segundo miembro, resulta x² + y² = 64. El centro sigue siendo O(0, 0).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-015",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿En qué punto del semieje positivo X corta la circunferencia x² + y² = 36?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(6, 0)"
+        },
+        {
+          "id": "B",
+          "texto": "(7, 0)"
+        },
+        {
+          "id": "C",
+          "texto": "(5, 0)"
+        },
+        {
+          "id": "D",
+          "texto": "(−6, 1)"
+        },
+        {
+          "id": "E",
+          "texto": "(6, 1)"
+        },
+        {
+          "id": "F",
+          "texto": "(8, 0)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "En el eje X la otra coordenada vale 0. Por ello x² = 36. Tomando el signo solicitado, el punto es (6, 0).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-016",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿En qué punto del semieje negativo Y corta la circunferencia x² + y² = 100?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(1, −10)"
+        },
+        {
+          "id": "B",
+          "texto": "(−1, −10)"
+        },
+        {
+          "id": "C",
+          "texto": "(1, 10)"
+        },
+        {
+          "id": "D",
+          "texto": "(0, −9)"
+        },
+        {
+          "id": "E",
+          "texto": "(0, 0)"
+        },
+        {
+          "id": "F",
+          "texto": "(0, −10)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "En el eje Y la otra coordenada vale 0. Por ello y² = 100. Tomando el signo solicitado, el punto es (0, −10).",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-017",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Si P pertenece a x² + y² = 169 y x = 5, ¿cuál es el valor positivo de y?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "11"
+        },
+        {
+          "id": "B",
+          "texto": "13"
+        },
+        {
+          "id": "C",
+          "texto": "10"
+        },
+        {
+          "id": "D",
+          "texto": "14"
+        },
+        {
+          "id": "E",
+          "texto": "12"
+        },
+        {
+          "id": "F",
+          "texto": "9"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Sustituyendo x = 5 en la ecuación se obtiene y² = 169 − (5)² = 144. Como se pide el valor positivo, y = 12.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-018",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Si P pertenece a x² + y² = 100 y x = 8, ¿cuál es el valor negativo de y?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "-7"
+        },
+        {
+          "id": "B",
+          "texto": "-5"
+        },
+        {
+          "id": "C",
+          "texto": "-8"
+        },
+        {
+          "id": "D",
+          "texto": "-6"
+        },
+        {
+          "id": "E",
+          "texto": "-4"
+        },
+        {
+          "id": "F",
+          "texto": "-9"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "Sustituyendo x = 8 en la ecuación se obtiene y² = 100 − (8)² = 36. Como se pide el valor negativo, y = −6.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-019",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Si P pertenece a x² + y² = 65 y y = 1, ¿cuál es el valor positivo de x?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "7"
+        },
+        {
+          "id": "B",
+          "texto": "9"
+        },
+        {
+          "id": "C",
+          "texto": "8"
+        },
+        {
+          "id": "D",
+          "texto": "6"
+        },
+        {
+          "id": "E",
+          "texto": "10"
+        },
+        {
+          "id": "F",
+          "texto": "5"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "Sustituyendo y = 1 en la ecuación se obtiene x² = 65 − (1)² = 64. Como se pide el valor positivo, x = 8.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-020",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el diámetro de la circunferencia x² + y² = 64?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "15"
+        },
+        {
+          "id": "B",
+          "texto": "16"
+        },
+        {
+          "id": "C",
+          "texto": "17"
+        },
+        {
+          "id": "D",
+          "texto": "14"
+        },
+        {
+          "id": "E",
+          "texto": "18"
+        },
+        {
+          "id": "F",
+          "texto": "13"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "El radio es √64 = 8. El diámetro es 2r = 16.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-021",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál de los siguientes puntos pertenece a la circunferencia x² + y² = 25?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(3, 4)"
+        },
+        {
+          "id": "B",
+          "texto": "(2, 4)"
+        },
+        {
+          "id": "C",
+          "texto": "(5, 1)"
+        },
+        {
+          "id": "D",
+          "texto": "(3, 5)"
+        },
+        {
+          "id": "E",
+          "texto": "(4, 4)"
+        },
+        {
+          "id": "F",
+          "texto": "(−2, 6)"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "Para pertenecer a la circunferencia se debe cumplir x² + y² = 25. En (3, 4) se comprueba que (3)² + (4)² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-022",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál de los siguientes puntos está en el EXTERIOR de la circunferencia x² + y² = 25?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "(0, 0)"
+        },
+        {
+          "id": "B",
+          "texto": "(3, 0)"
+        },
+        {
+          "id": "C",
+          "texto": "(0, 4)"
+        },
+        {
+          "id": "D",
+          "texto": "(1, 2)"
+        },
+        {
+          "id": "E",
+          "texto": "(3, 4)"
+        },
+        {
+          "id": "F",
+          "texto": "(5, 4)"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Un punto es exterior cuando x² + y² > r². Para (5, 4) se obtiene 41 > 25; los demás puntos no cumplen esa condición.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-023",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "El área del círculo con centro en el origen es 81π. ¿Cuál es el radio de su circunferencia?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "8"
+        },
+        {
+          "id": "B",
+          "texto": "10"
+        },
+        {
+          "id": "C",
+          "texto": "7"
+        },
+        {
+          "id": "D",
+          "texto": "11"
+        },
+        {
+          "id": "E",
+          "texto": "9"
+        },
+        {
+          "id": "F",
+          "texto": "6"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Con A = πr² se obtiene r² = 81 y r = √81 = 9.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-024",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro en O(0, 0) es tangente a la recta x = −6. ¿Cuál es su ecuación?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 35"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 37"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 34"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 36"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 38"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 33"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "El radio es la distancia perpendicular desde O a la recta x = −6: r = 6. Por lo tanto, r² = 36 y x² + y² = 36.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-025",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "intermedio",
+      "tipo": "seleccion_unica",
+      "enunciado": "¿Cuál es el área del círculo limitado por x² + y² = 16?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "15π"
+        },
+        {
+          "id": "B",
+          "texto": "17π"
+        },
+        {
+          "id": "C",
+          "texto": "16π"
+        },
+        {
+          "id": "D",
+          "texto": "14π"
+        },
+        {
+          "id": "E",
+          "texto": "18π"
+        },
+        {
+          "id": "F",
+          "texto": "13π"
+        }
+      ],
+      "respuesta": "C",
+      "explicacion": "En x² + y² = 16 se identifica r² = 16. Aplicando A = πr², el área es 16π unidades cuadradas.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-026",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro O(0, 0) corta la recta y = 4 en los puntos (3, 4) y (−3, 4). ¿Cuál es su ecuación?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 24"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 25"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 26"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 23"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 27"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 22"
+        }
+      ],
+      "respuesta": "B",
+      "explicacion": "La distancia desde el origen a cualquiera de los puntos de corte es el radio. Así, r² = 3² + 4² = 25. Luego x² + y² = 25.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-027",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro O(0, 0) pasa por el punto medio de A(−8, 2) y B(2, 4). ¿Cuál es su ecuación?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 18"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 17"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 19"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 16"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 20"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 15"
+        }
+      ],
+      "respuesta": "A",
+      "explicacion": "El punto medio es M(−3, 3). Al pertenecer a la circunferencia, r² = (-3)² + (3)² = 18. Por tanto, x² + y² = 18.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-028",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "La circunferencia x² + y² = k tiene centro en el origen y pasa por P(2, −7). ¿Cuánto vale k?",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "52"
+        },
+        {
+          "id": "B",
+          "texto": "54"
+        },
+        {
+          "id": "C",
+          "texto": "51"
+        },
+        {
+          "id": "D",
+          "texto": "55"
+        },
+        {
+          "id": "E",
+          "texto": "50"
+        },
+        {
+          "id": "F",
+          "texto": "53"
+        }
+      ],
+      "respuesta": "F",
+      "explicacion": "Sustituyendo las coordenadas del punto, k = (2)² + (-7)² = 53.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-029",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "El punto P(k, 4) está en x² + y² = 41. Si k > 0, determine k.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "4"
+        },
+        {
+          "id": "B",
+          "texto": "6"
+        },
+        {
+          "id": "C",
+          "texto": "3"
+        },
+        {
+          "id": "D",
+          "texto": "7"
+        },
+        {
+          "id": "E",
+          "texto": "5"
+        },
+        {
+          "id": "F",
+          "texto": "2"
+        }
+      ],
+      "respuesta": "E",
+      "explicacion": "Al sustituir las coordenadas, k² + 16 = 41, de donde k² = 25. Como k > 0, k = 5.",
+      "puntaje": 1
+    },
+    {
+      "id": "MATS-CIRC-ORG-030",
+      "unidad": "Geometría analítica",
+      "tema": "Ecuación de la Circunferencia",
+      "subtema": "Ecuación de la circunferencia con centro en el Origen",
+      "dificultad": "avanzado",
+      "tipo": "seleccion_unica",
+      "enunciado": "Una circunferencia con centro en el origen pasa por el punto de intersección de x = 3 con y = 2x − 1. Determine su ecuación.",
+      "opciones": [
+        {
+          "id": "A",
+          "texto": "x² + y² = 33"
+        },
+        {
+          "id": "B",
+          "texto": "x² + y² = 35"
+        },
+        {
+          "id": "C",
+          "texto": "x² + y² = 32"
+        },
+        {
+          "id": "D",
+          "texto": "x² + y² = 34"
+        },
+        {
+          "id": "E",
+          "texto": "x² + y² = 36"
+        },
+        {
+          "id": "F",
+          "texto": "x² + y² = 31"
+        }
+      ],
+      "respuesta": "D",
+      "explicacion": "La intersección de las dos rectas es P(3, 5). Entonces r² = 9 + 25 = 34 y x² + y² = 34.",
+      "puntaje": 1
     }
   ]
 }
